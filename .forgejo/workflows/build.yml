@@ -27,6 +27,11 @@ jobs:
       - name: Build
         run: zola build
 
+      - name: Debug
+        run: |
+          mount | grep sites || echo "NOT MOUNTED"
+          ls -la /sites/ || echo "CANNOT LIST /sites"
+
       - name: Deploy
         run: |
           mkdir -p /sites/max.kcfam.us
