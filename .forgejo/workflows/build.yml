@@ -7,9 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: docker
-    container:
-      image: alpine:3.21
+    runs-on: alpine-3.23
     steps:
       - name: Checkout
         uses: actions/checkout@v4
