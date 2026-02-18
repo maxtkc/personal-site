@@ -26,3 +26,9 @@ jobs:
 
       - name: Build
         run: zola build
+
+      - name: Deploy                                                                        │
+        run: |                                                                              │
+          mkdir -p /sites/max.kcfam.us                                                     │
+          rm -rf /sites/max.kcfam.us/*                                                     │
+          cp -r public/. /sites/max.kcfam.us/                                                │
