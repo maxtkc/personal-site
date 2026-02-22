@@ -9,6 +9,9 @@
 // Copy those to your Zola project's static/ directory.
 // ═══════════════════════════════════════════════════════════
 
+// ── Rerender registry — viz shortcodes push init functions here ──
+window.tgtgRerenderFns = [];
+
 // ── Tooltip ──
 const TIP = document.getElementById('tooltip');
 function tip(html, ev) {
@@ -127,16 +130,34 @@ window.tgtgDataPromise = (async () => {
   const yearMin = d3.min(pts, d => d.year);
   const yearMax = d3.max(pts, d => d.year);
 
-  const heroRescues = document.getElementById('hero-rescues');
-  if (heroRescues) heroRescues.textContent = pts.length;
-  const heroYears = document.getElementById('hero-years');
-  if (heroYears) heroYears.textContent = yearMax - yearMin + 1;
+  function updateHeroCounters(p, sm) {
+    const yMin = d3.min(p, d => d.year);
+    const yMax = d3.max(p, d => d.year);
+    const heroRescues = document.getElementById('hero-rescues');
+    if (heroRescues) heroRescues.textContent = p.length;
+    const heroYears = document.getElementById('hero-years');
+    if (heroYears) heroYears.textContent = yMax - yMin + 1;
+    counter('sn-pickups',   p.length);
+    counter('sn-stores',    sm.size);
+    counter('sn-years',     yMax - yMin + 1, 800);
+    counter('sn-countries', new Set(p.map(d => getCountry(d.lon, d.lat))).size);
+    counter('sn-cities',    new Set(p.map(d => getCity(d.lon, d.lat))).size);
+  }
 
-  counter('sn-pickups',   pts.length);
-  counter('sn-stores',    storeMap.size);
-  counter('sn-years',     yearMax - yearMin + 1, 800);
-  counter('sn-countries', new Set(pts.map(p => getCountry(p.lon, p.lat))).size);
-  counter('sn-cities',    new Set(pts.map(p => getCity(p.lon, p.lat))).size);
+  updateHeroCounters(pts, storeMap);
+
+  // ── setData — upload shortcode calls this to replace data and re-render all vizzes ──
+  window.tgtgSetData = function(rawPts) {
+    const newPts = rawPts.slice().sort((a, b) => a.time - b.time);
+    newPts.forEach(p => {
+      p.year    = p.time.getUTCFullYear();
+      p.month   = d3.utcMonth(p.time);
+      p.dateStr = d3.utcFormat('%Y-%m-%d')(p.time);
+    });
+    const newStoreMap = d3.rollup(newPts, v => v.length, d => d.name);
+    updateHeroCounters(newPts, newStoreMap);
+    window.tgtgRerenderFns.forEach(fn => fn({ pts: newPts, storeMap: newStoreMap, worldData, getCountry, getCity }));
+  };
 
   return { pts, storeMap, worldData, getCountry, getCity };
 })();

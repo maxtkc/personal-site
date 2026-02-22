@@ -15,87 +15,93 @@
 
 {% raw %}
 <script>
-window.tgtgDataPromise.then(({ pts }) => {
-  const box    = document.getElementById('radial-container');
-  const inner  = box.closest('.inner');
-  const availW = (inner ? inner.offsetWidth - 32 : 0) || 700;
-  const SIZE   = Math.min(availW, 680);
-  const CX     = SIZE / 2, CY = SIZE / 2;
+(function () {
+  function init({ pts }) {
+    const box    = document.getElementById('radial-container');
+    box.innerHTML = '';
 
-  const years    = d3.range(d3.min(pts, d => d.year), d3.max(pts, d => d.year) + 1);
-  const rInner   = SIZE * 0.09;
-  const rOuter   = SIZE * 0.46;
-  const ringW    = (rOuter - rInner) / years.length;
+    const inner  = box.closest('.inner');
+    const availW = (inner ? inner.offsetWidth - 32 : 0) || 700;
+    const SIZE   = Math.min(availW, 680);
+    const CX     = SIZE / 2, CY = SIZE / 2;
 
-  const cYear = d3.scaleOrdinal()
-    .domain(years)
-    .range(['#22c55e','#38bdf8','#a78bfa','#f472b6','#fb923c','#fbbf24','#86efac']);
+    const years    = d3.range(d3.min(pts, d => d.year), d3.max(pts, d => d.year) + 1);
+    const rInner   = SIZE * 0.09;
+    const rOuter   = SIZE * 0.46;
+    const ringW    = (rOuter - rInner) / years.length;
 
-  const svg = d3.select(box).append('svg').attr('width', SIZE).attr('height', SIZE);
-  svg.append('rect').attr('width', SIZE).attr('height', SIZE).attr('fill', '#080c10');
-  const g = svg.append('g').attr('transform', `translate(${CX},${CY})`);
+    const cYear = d3.scaleOrdinal()
+      .domain(years)
+      .range(['#22c55e','#38bdf8','#a78bfa','#f472b6','#fb923c','#fbbf24','#86efac']);
 
-  years.forEach((yr, i) => {
-    const r = rInner + i * ringW + ringW / 2;
-    g.append('circle').attr('r', r)
-      .attr('fill','none').attr('stroke', '#111820').attr('stroke-width', ringW - 1);
+    const svg = d3.select(box).append('svg').attr('width', SIZE).attr('height', SIZE);
+    svg.append('rect').attr('width', SIZE).attr('height', SIZE).attr('fill', '#080c10');
+    const g = svg.append('g').attr('transform', `translate(${CX},${CY})`);
 
-    g.append('text')
-      .attr('x', 0).attr('y', -(r))
-      .attr('text-anchor','middle').attr('dominant-baseline','auto')
-      .attr('fill', cYear(yr)).attr('fill-opacity', 0.5)
-      .attr('font-size', 10).attr('font-weight', 700)
-      .text(yr);
-  });
+    years.forEach((yr, i) => {
+      const r = rInner + i * ringW + ringW / 2;
+      g.append('circle').attr('r', r)
+        .attr('fill','none').attr('stroke', '#111820').attr('stroke-width', ringW - 1);
 
-  const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-  MONTHS.forEach((m, mi) => {
-    const angle = (mi / 12) * Math.PI * 2 - Math.PI / 2;
-    const cos = Math.cos(angle), sin = Math.sin(angle);
-    g.append('line')
-      .attr('x1', rInner * cos).attr('y1', rInner * sin)
-      .attr('x2', rOuter * cos).attr('y2', rOuter * sin)
-      .attr('stroke', '#111820').attr('stroke-width', 0.5);
-    const lr = rOuter + 18;
-    g.append('text')
-      .attr('x', lr * cos).attr('y', lr * sin)
-      .attr('text-anchor','middle').attr('dominant-baseline','middle')
-      .attr('fill','#2a3a48').attr('font-size', 10)
-      .text(m);
-  });
+      g.append('text')
+        .attr('x', 0).attr('y', -(r))
+        .attr('text-anchor','middle').attr('dominant-baseline','auto')
+        .attr('fill', cYear(yr)).attr('fill-opacity', 0.5)
+        .attr('font-size', 10).attr('font-weight', 700)
+        .text(yr);
+    });
 
-  const MS_PER_DAY = 86_400_000;
-  const doy = d => {
-    const jan1 = Date.UTC(d.getUTCFullYear(), 0, 1);
-    return Math.floor((d - jan1) / MS_PER_DAY);
-  };
-  const isLeap = y => (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0;
+    const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    MONTHS.forEach((m, mi) => {
+      const angle = (mi / 12) * Math.PI * 2 - Math.PI / 2;
+      const cos = Math.cos(angle), sin = Math.sin(angle);
+      g.append('line')
+        .attr('x1', rInner * cos).attr('y1', rInner * sin)
+        .attr('x2', rOuter * cos).attr('y2', rOuter * sin)
+        .attr('stroke', '#111820').attr('stroke-width', 0.5);
+      const lr = rOuter + 18;
+      g.append('text')
+        .attr('x', lr * cos).attr('y', lr * sin)
+        .attr('text-anchor','middle').attr('dominant-baseline','middle')
+        .attr('fill','#2a3a48').attr('font-size', 10)
+        .text(m);
+    });
 
-  pts.forEach(p => {
-    const yi = years.indexOf(p.year);
-    if (yi < 0) return;
-    const days = isLeap(p.year) ? 366 : 365;
-    const angle = (doy(p.time) / days) * Math.PI * 2 - Math.PI / 2;
-    const r = rInner + yi * ringW + ringW / 2;
-    const x = r * Math.cos(angle), y = r * Math.sin(angle);
+    const MS_PER_DAY = 86_400_000;
+    const doy = d => {
+      const jan1 = Date.UTC(d.getUTCFullYear(), 0, 1);
+      return Math.floor((d - jan1) / MS_PER_DAY);
+    };
+    const isLeap = y => (y % 4 === 0 && y % 100 !== 0) || y % 400 === 0;
 
-    g.append('circle')
-      .attr('cx', x).attr('cy', y).attr('r', 3.2)
-      .attr('fill', cYear(p.year))
-      .attr('fill-opacity', 0.85)
-      .attr('stroke', cYear(p.year)).attr('stroke-opacity', 0.25).attr('stroke-width', 4)
-      .on('mouseover', ev => {
-        tip(`<strong>${p.name}</strong><br>${p.time.toLocaleDateString()}`, ev);
-      })
-      .on('mousemove', moveTip)
-      .on('mouseout', hideTip);
-  });
+    pts.forEach(p => {
+      const yi = years.indexOf(p.year);
+      if (yi < 0) return;
+      const days = isLeap(p.year) ? 366 : 365;
+      const angle = (doy(p.time) / days) * Math.PI * 2 - Math.PI / 2;
+      const r = rInner + yi * ringW + ringW / 2;
+      const x = r * Math.cos(angle), y = r * Math.sin(angle);
 
-  g.append('text').attr('text-anchor','middle').attr('y', -8)
-    .attr('fill','#22c55e').attr('font-size',22).attr('font-weight',900).text(pts.length);
-  g.append('text').attr('text-anchor','middle').attr('y', 10)
-    .attr('fill','#2a3a48').attr('font-size',11).text('pickups');
+      g.append('circle')
+        .attr('cx', x).attr('cy', y).attr('r', 3.2)
+        .attr('fill', cYear(p.year))
+        .attr('fill-opacity', 0.85)
+        .attr('stroke', cYear(p.year)).attr('stroke-opacity', 0.25).attr('stroke-width', 4)
+        .on('mouseover', ev => {
+          tip(`<strong>${p.name}</strong><br>${p.time.toLocaleDateString()}`, ev);
+        })
+        .on('mousemove', moveTip)
+        .on('mouseout', hideTip);
+    });
 
-}).catch(err => console.error('Radial viz error:', err));
+    g.append('text').attr('text-anchor','middle').attr('y', -8)
+      .attr('fill','#22c55e').attr('font-size',22).attr('font-weight',900).text(pts.length);
+    g.append('text').attr('text-anchor','middle').attr('y', 10)
+      .attr('fill','#2a3a48').attr('font-size',11).text('pickups');
+  }
+
+  window.tgtgDataPromise.then(init).catch(err => console.error('Radial viz error:', err));
+  (window.tgtgRerenderFns = window.tgtgRerenderFns || []).push(init);
+})();
 </script>
 {% endraw %}

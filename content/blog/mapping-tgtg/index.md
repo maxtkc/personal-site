@@ -278,7 +278,7 @@ the history api. After delivering the examples from the app to an LLM, we
 receive a patched version of [Der Henning's TGTG
 client](https://github.com/Der-Henning/tgtg/blob/main/tgtg_scanner/tgtg/tgtg_client.py).
 
-Then a little bit of scripting and we have...
+Then a little bit of scripting (yeah, for this I used an LLM) and we have...
 
 {{ tgtg_init() }}
 
@@ -291,3 +291,10 @@ Then a little bit of scripting and we have...
 {{ viz_galaxy() }}
 
 {{ viz_radial() }}
+
+## Want to see your own data?
+
+Follow [the instructions here](https://git.kcfam.us/maxtkc/tgtg-wrapped) to get
+your data, then upload the geojson file!
+
+{{ upload_tgtg_data() }}

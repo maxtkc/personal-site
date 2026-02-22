@@ -1,0 +1,102 @@
+<!-- ════════════════════════════════════════════════════════
+     UPLOAD · Replace viz data with your own GeoJSON
+════════════════════════════════════════════════════════ -->
+<style>
+.upload-drop {
+  border: 2px dashed var(--fg-muted-2, #1a2a1a);
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  background: var(--glass-bg, #111820);
+}
+.upload-drop.drag-over {
+  border-color: var(--accent-color, #22c55e);
+  background: color-mix(in srgb, var(--accent-color, #22c55e) 6%, var(--glass-bg, #111820));
+}
+.upload-icon { font-size: 2.5rem; margin-bottom: 0.75rem; color: var(--accent-color, #22c55e); }
+.upload-label { font-size: 1.1rem; font-weight: 700; color: var(--fg-color, #e2e8f0); margin-bottom: 0.5rem; }
+.upload-sub { font-size: 0.88rem; color: var(--fg-muted-4, #4b6070); }
+.upload-msg { font-size: 0.85rem; margin-top: 0.75rem; }
+</style>
+
+<div id="upload-drop" class="upload-drop">
+  <input type="file" id="upload-input" accept=".geojson,application/geo+json" style="display:none">
+  <div class="upload-icon">⬆</div>
+  <div class="upload-label">Drop your GeoJSON file here</div>
+  <div class="upload-sub">or <button id="upload-browse" class="mode-btn" style="vertical-align:baseline">Browse files</button></div>
+  <div id="upload-msg" class="upload-msg" style="display:none"></div>
+</div>
+
+{% raw %}
+<script>
+(function () {
+  const dropZone = document.getElementById('upload-drop');
+  const fileInput = document.getElementById('upload-input');
+  const msgEl     = document.getElementById('upload-msg');
+
+  document.getElementById('upload-browse').onclick = e => { e.stopPropagation(); fileInput.click(); };
+  dropZone.addEventListener('click', () => fileInput.click());
+
+  dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('drag-over'); });
+  dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
+  dropZone.addEventListener('drop', e => {
+    e.preventDefault();
+    dropZone.classList.remove('drag-over');
+    if (e.dataTransfer.files[0]) loadFile(e.dataTransfer.files[0]);
+  });
+  fileInput.addEventListener('change', () => { if (fileInput.files[0]) loadFile(fileInput.files[0]); });
+
+  function showMsg(text, isError) {
+    msgEl.textContent = text;
+    msgEl.style.color = isError ? '#f87171' : 'var(--accent-color, #22c55e)';
+    msgEl.style.display = 'block';
+  }
+
+  function loadFile(file) {
+    showMsg('Loading…', false);
+    const reader = new FileReader();
+    reader.onload = e => {
+      let gj;
+      try { gj = JSON.parse(e.target.result); }
+      catch { showMsg('Invalid JSON — check that this is a valid GeoJSON file.', true); return; }
+      applyGeoJSON(gj, file.name);
+    };
+    reader.readAsText(file);
+  }
+
+  function applyGeoJSON(gj, fileName) {
+    if (!gj || gj.type !== 'FeatureCollection' || !Array.isArray(gj.features)) {
+      showMsg('Not a valid GeoJSON FeatureCollection.', true); return;
+    }
+
+    const rawPts = gj.features
+      .filter(f => f.geometry && f.geometry.type === 'Point')
+      .map(f => ({
+        lon:  f.geometry.coordinates[0],
+        lat:  f.geometry.coordinates[1],
+        name: f.properties.name || 'Unknown',
+        time: new Date(f.properties.time),
+      }))
+      .filter(p => !isNaN(p.time));
+
+    if (!rawPts.length) {
+      showMsg('No valid Point features with a "time" property found.', true); return;
+    }
+
+    function go() {
+      window.tgtgSetData(rawPts);
+      showMsg(`✓ Loaded ${rawPts.length} pickups from ${fileName} — scroll up to explore!`, false);
+      document.getElementById('hero').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    if (window.tgtgSetData) {
+      go();
+    } else {
+      window.tgtgDataPromise.then(go);
+    }
+  }
+})();
+</script>
+{% endraw %}
