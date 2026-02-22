@@ -1,6 +1,6 @@
 +++
 authors = ["Max Katz-Christy"]
-title = "Mapping My Leftover Food Tourism"
+title = "Where have I Too Good To Gone?"
 description = "How to turn eating into a casino game"
 date = 2025-02-18
 # updated = "2025-02-18"

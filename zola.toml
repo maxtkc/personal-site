@@ -150,10 +150,10 @@ show_repo = true
 # i.e. "@/blog/_index.md".
 # See https://www.getzola.org/documentation/content/linking/#internal-links
 links = [
-	{ name = "Links", menu = [
+	# { name = "Links", menu = [
 		{ url = "@/blog/_index.md", name = "Blog" },
-		{ url = "@/projects/_index.md", name = "Projects" },
-	] },
+		# { url = "@/projects/_index.md", name = "Projects" },
+	# ] },
 ]
 
 [extra.footer]
@@ -161,7 +161,7 @@ links = [
 # Same as the nav ones.
 links = [
 	{ url = "@/blog/_index.md", name = "Blog" },
-	{ url = "@/projects/_index.md", name = "Projects" },
+	# { url = "@/projects/_index.md", name = "Projects" },
 ]
 # Social links in the footer.
 # Any URL-encoded SVG can be used as an icon.
