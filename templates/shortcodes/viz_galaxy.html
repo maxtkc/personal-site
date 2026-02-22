@@ -49,9 +49,25 @@
     const rMax   = d3.max(nodes, d => d.count);
     const rScale = d3.scaleSqrt().domain([1, rMax]).range([BUBBLE_R_MIN, BUBBLE_R_MAX]);
 
-    const svg = d3.select(box).append('svg').attr('width', W).attr('height', H);
-    svg.append('rect').attr('width', W).attr('height', H).attr('fill', '#080c10');
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const bgRect = svg.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', H).attr('fill', '#080c10');
     const gNodes = svg.append('g');
+
+    function fitViewBox() {
+      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+      nodes.forEach(d => {
+        const r = rScale(d.count);
+        minX = Math.min(minX, d.x - r);
+        minY = Math.min(minY, d.y - r);
+        maxX = Math.max(maxX, d.x + r);
+        maxY = Math.max(maxY, d.y + r);
+      });
+      const pad = 10;
+      const vx = minX - pad, vy = minY - pad;
+      const vw = maxX - minX + pad * 2, vh = maxY - minY + pad * 2;
+      svg.attr('viewBox', `${vx} ${vy} ${vw} ${vh}`);
+      bgRect.attr('x', vx).attr('y', vy).attr('width', vw).attr('height', vh);
+    }
 
     sim = d3.forceSimulation(nodes)
       .force('charge',    d3.forceManyBody().strength(d => -rScale(d.count) * 2.5))
@@ -59,7 +75,8 @@
       .force('collision', d3.forceCollide().radius(d => rScale(d.count) + 2).strength(0.9))
       .force('x',         d3.forceX(W / 2).strength(0.28))
       .force('y',         d3.forceY(H / 2).strength(0.1))
-      .on('tick', ticked);
+      .on('tick', ticked)
+      .on('end',  fitViewBox);
 
     const circ = gNodes.selectAll('circle')
       .data(nodes).enter().append('circle')
