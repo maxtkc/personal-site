@@ -1,0 +1,198 @@
+/*
+ * TGTG Viz Shortcodes — shared styles
+ *
+ * Adopts Duckquill theme variables (with dark-theme fallbacks for other contexts):
+ *   --accent-color  → accent / highlights
+ *   --bg-color      → page background
+ *   --glass-bg      → card / surface background
+ *   --fg-color      → primary text
+ *   --fg-muted-4    → secondary / muted text
+ *   --fg-muted-2    → borders / dividers
+ *
+ * Copy this file to your Zola project's static/ directory.
+ * Load it via the tgtg_init() shortcode or add to your base template's <head>.
+ */
+
+/* ── VIZ SECTIONS ── */
+#hero, #map, #calendar, #galaxy, #radial {
+  padding: 100px 0 80px;
+  min-height: 100vh;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+
+.inner { width: 100%; max-width: 1100px; padding: 0 2rem; }
+
+.sec-header { margin-bottom: 2rem; }
+.sec-header h2 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--fg-color, #e2e8f0);
+}
+.sec-header h2 span { color: var(--accent-color, #22c55e); }
+.sec-header p { color: var(--fg-muted-4, #4b6070); margin-top: 0.4rem; font-size: 0.95rem; }
+
+/* ── HERO ── */
+#hero {
+  /* Radial glow tinted to the current accent color */
+  background: radial-gradient(
+    ellipse 80% 60% at 50% 40%,
+    color-mix(in srgb, var(--accent-color, #22c55e) 12%, var(--bg-color, #080c10)) 0%,
+    var(--bg-color, #080c10) 70%
+  );
+  text-align: center;
+}
+.hero-title {
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  margin-bottom: 1.2rem;
+}
+.hero-title em { font-style: normal; color: var(--accent-color, #22c55e); }
+.hero-sub {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: var(--fg-muted-4, #4b6070);
+  max-width: 520px;
+  margin: 0 auto 3rem;
+}
+.stats-row {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: 1.25rem;
+}
+.stat {
+  background: var(--glass-bg, #111820);
+  border: 1px solid var(--fg-muted-2, #1a2a1a);
+  border-radius: 14px;
+  padding: 1.5rem 2rem;
+  min-width: 130px;
+}
+.stat-n {
+  display: block;
+  font-size: 2.4rem; font-weight: 900;
+  color: var(--accent-color, #22c55e); letter-spacing: -0.04em;
+}
+.stat-l { font-size: 0.75rem; color: var(--fg-muted-4, #4b6070); text-transform: uppercase; letter-spacing: 0.08em; }
+
+/* ── VIZ CONTAINERS ── */
+.viz-box {
+  background: var(--glass-bg, #111820);
+  border: 1px solid var(--fg-muted-2, #1a2a1a);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* ── MAP VIZ BOX ── */
+#map-leaflet {
+  height: 540px;
+  width: 100%;
+  background: #0a111c;
+}
+
+/* ── TOOLTIP ── */
+#tooltip {
+  position: fixed; z-index: 500; pointer-events: none;
+  background: var(--glass-bg, rgba(10,15,20,0.96));
+  border: 1px solid var(--accent-color, #22c55e);
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  font-size: 0.83rem;
+  max-width: 240px;
+  backdrop-filter: blur(8px);
+  line-height: 1.5;
+  display: none;
+}
+#tooltip strong { color: var(--accent-color, #86efac); }
+
+/* ── LEGEND PILL ── */
+.legend { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem; }
+.legend-item {
+  display: flex; align-items: center; gap: 0.35rem;
+  font-size: 0.78rem; color: var(--fg-muted-4, #4b6070);
+}
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+/* ── CALENDAR specific ── */
+#calendar-scroll { overflow-x: auto; }
+#calendar-scroll svg text { fill: var(--fg-muted-4, #4b6070); font-size: 10px; }
+
+/* ── FADE IN ── */
+.fadein { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.fadein.visible { opacity: 1; transform: none; }
+
+/* ── RANGE SLIDER ROW ── */
+.range-row {
+  display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.75rem;
+}
+.range-row label {
+  color: var(--fg-muted-4, #4b6070); font-size: 0.8rem;
+  min-width: 3.2rem; text-align: right; flex-shrink: 0;
+}
+.range-row input[type=range] {
+  flex: 1; accent-color: var(--accent-color, #22c55e); cursor: pointer;
+}
+.range-val {
+  color: var(--accent-color, #22c55e); font-size: 0.82rem; font-weight: 600;
+  min-width: 9rem;
+}
+.range-count {
+  color: var(--fg-muted-4, #4b6070); font-size: 0.82rem;
+  min-width: 6rem; text-align: right;
+}
+
+/* ── MODE / ZOOM / PLAY BUTTONS ── */
+.btn-group { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; }
+.mode-btn {
+  background: var(--glass-bg, #111820);
+  border: 1px solid var(--fg-muted-2, #1a2a1a);
+  color: var(--fg-muted-4, #4b6070);
+  border-radius: 8px;
+  padding: 0.35rem 1rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.mode-btn:hover { border-color: var(--accent-color, #22c55e); color: var(--accent-color, #22c55e); }
+.mode-btn.active { background: var(--accent-color, #22c55e); border-color: var(--accent-color, #22c55e); color: var(--contrast-color, #000); }
+
+/* ── LEAFLET DARK THEME OVERRIDES ── */
+.leaflet-container { background: #0a111c !important; font-family: inherit; }
+.leaflet-popup-content-wrapper {
+  background: var(--glass-bg, rgba(10,15,20,0.96)) !important;
+  border: 1px solid var(--accent-color, #22c55e) !important;
+  border-radius: 10px !important;
+  color: var(--fg-color, #e2e8f0) !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.6) !important;
+}
+.leaflet-popup-tip { background: var(--glass-bg, rgba(10,15,20,0.96)) !important; }
+.leaflet-popup-content { font-size: 0.83rem !important; line-height: 1.5 !important; margin: 0.7rem 1rem !important; }
+.leaflet-popup-content strong { color: var(--accent-color, #86efac); }
+.leaflet-popup-close-button { color: var(--fg-muted-4, #4b6070) !important; }
+.leaflet-control-zoom a {
+  background: var(--glass-bg, rgba(10,15,20,0.88)) !important;
+  color: var(--fg-muted-4, #4b6070) !important;
+  border-color: var(--fg-muted-2, #1a2a1a) !important;
+}
+.leaflet-control-zoom a:hover { color: var(--accent-color, #22c55e) !important; }
+.leaflet-bar { border-color: var(--fg-muted-2, #1a2a1a) !important; }
+.leaflet-control-attribution {
+  background: var(--glass-bg, rgba(8,12,16,0.7)) !important;
+  color: var(--fg-muted-4, #4b6070) !important;
+}
+.leaflet-control-attribution a { color: var(--accent-color, #22c55e) !important; }
+
+/* ── MAP INFO OVERLAY (Leaflet custom control) ── */
+.map-info-ctrl {
+  background: var(--glass-bg, rgba(8,12,16,0.88));
+  border: 1px solid var(--fg-muted-2, #1a2a1a);
+  border-radius: 10px;
+  padding: 0.6rem 0.9rem;
+  backdrop-filter: blur(8px);
+  pointer-events: none;
+  min-width: 180px;
+}
+.map-info-store { color: var(--fg-color, #e2e8f0); font-size: 0.85rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 240px; }
+.map-info-date  { color: var(--fg-muted-4, #4b6070); font-size: 0.74rem; margin-top: 0.15rem; }
+.map-info-count { color: var(--accent-color, #22c55e); font-size: 0.74rem; }

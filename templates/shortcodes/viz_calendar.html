@@ -1,0 +1,98 @@
+<!-- ════════════════════════════════════════════════════════
+     VIZ 2 · CALENDAR HEATMAP
+════════════════════════════════════════════════════════ -->
+<section id="calendar">
+  <div class="inner fadein">
+    <div class="sec-header">
+      <h2><span>Calendar</span> Heatmap</h2>
+      <p>GitHub-style activity grid — each cell is a day. Brighter green = more pickups. Hover for details.</p>
+    </div>
+    <div class="viz-box" id="calendar-scroll"></div>
+  </div>
+</section>
+
+{% raw %}
+<script>
+window.tgtgDataPromise.then(({ pts }) => {
+  const box  = document.getElementById('calendar-scroll');
+  const CELL = 13, PAD = 2, STEP = CELL + PAD;
+
+  const dayMap = d3.rollup(pts,
+    v => ({ count: v.length, stores: [...new Set(v.map(d => d.name))] }),
+    d => d.dateStr
+  );
+
+  const years = d3.range(d3.min(pts, d => d.year), d3.max(pts, d => d.year) + 1);
+  const maxC  = d3.max(Array.from(dayMap.values()), d => d.count);
+  const cScale = d3.scaleSequential()
+    .domain([0, maxC])
+    .interpolator(d3.interpolateRgb('#111820', '#22c55e'));
+
+  const W = 53 * STEP + 54;
+  const H = years.length * (7 * STEP + 32) + 20;
+  const fmt = d3.utcFormat('%Y-%m-%d');
+
+  const svg = d3.select(box).append('svg').attr('width', W).attr('height', H);
+
+  years.forEach((yr, yi) => {
+    const gy = yi * (7 * STEP + 32) + 24;
+    const g  = svg.append('g').attr('transform', `translate(34,${gy})`);
+
+    g.append('text')
+      .attr('x', -28).attr('y', 3 * STEP + CELL * 0.7)
+      .attr('fill', '#22c55e').attr('font-size', 11).attr('font-weight', 700)
+      .text(yr);
+
+    ['S','M','T','W','T','F','S'].forEach((d, i) => {
+      g.append('text')
+        .attr('x', -6).attr('y', i * STEP + CELL * 0.75)
+        .attr('text-anchor', 'end').attr('fill', '#2a3a48').attr('font-size', 9)
+        .text(d);
+    });
+
+    const startDate = new Date(Date.UTC(yr, 0, 1));
+    const endDate   = new Date(Date.UTC(yr + 1, 0, 1));
+    const allDays   = d3.utcDays(startDate, endDate);
+
+    d3.utcMonths(startDate, endDate).forEach(m => {
+      const wk = d3.utcSunday.count(d3.utcYear(m), m);
+      g.append('text')
+        .attr('x', wk * STEP + CELL / 2).attr('y', -5)
+        .attr('fill', '#2a3a48').attr('font-size', 9)
+        .text(d3.utcFormat('%b')(m));
+    });
+
+    g.selectAll('rect')
+      .data(allDays)
+      .enter().append('rect')
+      .attr('width', CELL).attr('height', CELL).attr('rx', 2)
+      .attr('x', d => d3.utcSunday.count(d3.utcYear(d), d) * STEP)
+      .attr('y', d => d.getUTCDay() * STEP)
+      .attr('fill', d => {
+        const v = dayMap.get(fmt(d));
+        return v ? cScale(v.count) : '#111820';
+      })
+      .attr('stroke', '#080c10').attr('stroke-width', 0.5)
+      .on('mouseover', (ev, d) => {
+        const v = dayMap.get(fmt(d));
+        if (!v) return;
+        tip(`<strong>${d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'})}</strong><br>
+             ${v.count} pickup${v.count>1?'s':''}<br>
+             ${v.stores.slice(0,4).join(', ')}${v.stores.length>4?'…':''}`, ev);
+      })
+      .on('mousemove', moveTip)
+      .on('mouseout', hideTip);
+  });
+
+  // Color scale legend
+  const lg = svg.append('g').attr('transform', `translate(34,${H - 16})`);
+  lg.append('text').attr('fill','#2a3a48').attr('font-size',9).attr('y',-2).text('Less');
+  [0,0.25,0.5,0.75,1].forEach((t, i) => {
+    lg.append('rect').attr('width',CELL).attr('height',CELL).attr('rx',2)
+      .attr('x', 30 + i * (CELL + 2)).attr('fill', cScale(t * maxC));
+  });
+  lg.append('text').attr('fill','#2a3a48').attr('font-size',9).attr('y',-2).attr('x', 30 + 5*(CELL+2) + 4).text('More');
+
+}).catch(err => console.error('Calendar viz error:', err));
+</script>
+{% endraw %}

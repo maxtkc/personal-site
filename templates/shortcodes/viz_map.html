@@ -1,0 +1,483 @@
+<!-- ════════════════════════════════════════════════════════
+     VIZ 1 · PICKUP JOURNEY MAP (Leaflet + CartoDB tiles)
+════════════════════════════════════════════════════════ -->
+<section id="map">
+  <div class="inner fadein">
+    <div class="sec-header">
+      <h2>Pickup <span>Journey</span></h2>
+      <p>Float between every food rescue. Choose your zoom level, hit Play, and watch the world unfold.</p>
+    </div>
+    <!-- Zoom presets -->
+    <div style="display:flex; align-items:center; gap:1rem; margin-bottom:0.75rem; flex-wrap:wrap;">
+      <div class="btn-group" id="map-zoom-btns" style="margin-bottom:0">
+        <button class="mode-btn active" data-zoom="route">Route</button>
+        <button class="mode-btn" data-zoom="world">World</button>
+        <button class="mode-btn" data-zoom="50mi">50 mi</button>
+        <button class="mode-btn" data-zoom="1mi">1 mi</button>
+        <button class="mode-btn" data-zoom="500ft">500 ft</button>
+      </div>
+      <span style="color:var(--muted);font-size:0.78rem;letter-spacing:0.04em;text-transform:uppercase">Zoom level</span>
+      <div class="btn-group" id="map-speed-btns" style="margin-bottom:0;margin-left:0.5rem">
+        <button class="mode-btn active" data-speed="1">1×</button>
+        <button class="mode-btn" data-speed="2">2×</button>
+        <button class="mode-btn" data-speed="4">4×</button>
+        <button class="mode-btn" data-speed="8">8×</button>
+        <button class="mode-btn" data-speed="16">16×</button>
+      </div>
+      <span style="color:var(--muted);font-size:0.78rem;letter-spacing:0.04em;text-transform:uppercase">Speed</span>
+    </div>
+    <!-- Time controls -->
+    <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+      <button id="map-play-btn" class="mode-btn" style="flex-shrink:0;min-width:5.5rem">▶ Play</button>
+      <span class="range-val" id="map-time-label">—</span>
+      <span class="range-count" id="map-count-label"></span>
+    </div>
+    <div id="map-histogram" style="width:100%; cursor:crosshair; user-select:none;"></div>
+    <div class="viz-box">
+      <div id="map-leaflet"></div>
+    </div>
+  </div>
+</section>
+
+{% raw %}
+<script>
+window.tgtgDataPromise.then(({ pts }) => {
+  const sorted = pts.slice().sort((a, b) => a.time - b.time);
+
+  // Year color scale — consistent with other vizs
+  const yearMin = d3.min(sorted, d => d.year);
+  const yearMax = d3.max(sorted, d => d.year);
+  const cYear   = d3.scaleSequential()
+    .domain([yearMin, yearMax])
+    .interpolator(d3.interpolateRgbBasis(['#22c55e','#38bdf8','#a78bfa','#f472b6','#fb923c','#fbbf24']));
+
+  // ── Time helpers ──
+  const firstTime = sorted[0].time.getTime();
+  const lastTime  = sorted[sorted.length - 1].time.getTime();
+  const timeSpan  = lastTime - firstTime;
+
+  // Binary search: last index whose time ≤ t
+  function timeToIdx(t) {
+    let lo = 0, hi = sorted.length - 1, best = 0;
+    while (lo <= hi) {
+      const mid = (lo + hi) >> 1;
+      if (sorted[mid].time.getTime() <= t) { best = mid; lo = mid + 1; }
+      else hi = mid - 1;
+    }
+    return best;
+  }
+
+  // ── Init Leaflet ──
+  const mapDiv = document.getElementById('map-leaflet');
+  const lmap = L.map(mapDiv, {
+    zoomControl: false,
+    preferCanvas: true,
+  });
+  lmap.fitBounds(L.latLngBounds(sorted.map(p => [p.lat, p.lon])), { padding: [28, 28], animate: false });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://carto.com/attributions">CARTO</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    subdomains: 'abcd',
+    maxZoom: 19,
+  }).addTo(lmap);
+
+  L.control.zoom({ position: 'bottomright' }).addTo(lmap);
+
+  // ── Info overlay (custom Leaflet control) ──
+  const InfoCtrl = L.Control.extend({
+    onAdd() {
+      const div = L.DomUtil.create('div', 'map-info-ctrl');
+      div.innerHTML =
+        '<div class="map-info-store" id="map-info-store">—</div>' +
+        '<div class="map-info-date"  id="map-info-date"></div>' +
+        '<div class="map-info-count" id="map-info-count"></div>';
+      return div;
+    }
+  });
+  new InfoCtrl({ position: 'topleft' }).addTo(lmap);
+
+  // ── Pre-compute colors & create markers ──
+  const colors  = sorted.map(pt => cYear(pt.year));
+  const markers = sorted.map((pt, i) => {
+    return L.circleMarker([pt.lat, pt.lon], {
+      radius: 4.5,
+      fillColor: colors[i],
+      color: colors[i],
+      weight: 1,
+      fillOpacity: 0.08,
+      opacity: 0.12,
+    }).addTo(lmap)
+      .bindPopup(
+        `<strong>${pt.name}</strong><br>` +
+        pt.time.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric', year:'numeric' })
+      );
+  });
+
+  // ── Route canvas overlay ──
+  const routeCanvas = document.createElement('canvas');
+  routeCanvas.style.cssText = 'position:absolute;top:0;left:0;pointer-events:none;z-index:500;';
+  mapDiv.appendChild(routeCanvas);
+  let routeCoords = [];
+
+  function resizeRouteCanvas() {
+    routeCanvas.width  = mapDiv.offsetWidth;
+    routeCanvas.height = mapDiv.offsetHeight;
+    routeCanvas.style.width  = mapDiv.offsetWidth  + 'px';
+    routeCanvas.style.height = mapDiv.offsetHeight + 'px';
+  }
+  resizeRouteCanvas();
+
+  function drawRoute() {
+    const ctx = routeCanvas.getContext('2d');
+    ctx.clearRect(0, 0, routeCanvas.width, routeCanvas.height);
+    if (routeCoords.length < 2) return;
+    ctx.beginPath();
+    ctx.strokeStyle = '#22c55e';
+    ctx.lineWidth   = 1.5;
+    ctx.globalAlpha = 0.55;
+    ctx.lineCap     = 'round';
+    ctx.lineJoin    = 'round';
+    const p0 = lmap.latLngToContainerPoint(routeCoords[0]);
+    ctx.moveTo(p0.x, p0.y);
+    for (let i = 1; i < routeCoords.length; i++) {
+      const p = lmap.latLngToContainerPoint(routeCoords[i]);
+      ctx.lineTo(p.x, p.y);
+    }
+    ctx.stroke();
+  }
+
+  lmap.on('move zoom', drawRoute);
+  lmap.on('resize', () => { resizeRouteCanvas(); drawRoute(); });
+
+  // ── State ──
+  let currentIdx  = 0;
+  let playing     = false;
+  let playTimer   = null;
+  let playSpeed   = 1;
+  const BASE_INTERVAL    = 1200;
+  const PAUSE_AFTER      = 500;
+  const STORE_NAME_LIMIT = 40;
+
+  const ZOOM_LEVELS = { world: null, '50mi': 10, '1mi': 14, '500ft': 17 };
+
+  const timeLabel  = document.getElementById('map-time-label');
+  const countLabel = document.getElementById('map-count-label');
+  const playBtn    = document.getElementById('map-play-btn');
+
+  function getZoomKey() {
+    const btn = document.querySelector('#map-zoom-btns .mode-btn.active');
+    return btn ? btn.dataset.zoom : 'world';
+  }
+
+  // ── SVG Histogram ──
+  const histDiv   = document.getElementById('map-histogram');
+  const W         = Math.max(histDiv.offsetWidth, 300);
+  const H         = 64;
+  const BAR_H     = 54;
+  const firstDate = new Date(firstTime);
+  const lastDate  = new Date(lastTime);
+
+  const xScale = d3.scaleTime([firstDate, lastDate], [0, W]).clamp(true);
+
+  const binner = d3.bin()
+    .domain([firstDate, lastDate])
+    .thresholds(d3.timeMonth.range(firstDate, lastDate));
+  const bins = binner(sorted.map(p => p.time));
+
+  const rawCounts   = bins.map(b => b.length);
+  const smoothed    = rawCounts.map((v, i) => {
+    const lo = Math.max(0, i - 1), hi = Math.min(rawCounts.length - 1, i + 1);
+    let s = 0, n = 0;
+    for (let j = lo; j <= hi; j++) { s += rawCounts[j]; n++; }
+    return s / n;
+  });
+  const maxSmoothed = d3.max(smoothed) || 1;
+  const yScale      = d3.scaleLinear([0, maxSmoothed], [0, BAR_H]);
+
+  const binMidTimes = bins.map(b =>
+    b.x0 && b.x1 ? (b.x0.getTime() + b.x1.getTime()) / 2 : firstTime
+  );
+
+  const svg = d3.select('#map-histogram')
+    .append('svg')
+    .attr('width', W)
+    .attr('height', H)
+    .style('display', 'block')
+    .style('max-width', '100%');
+
+  const lineData = bins.map((b, i) => ({ t: new Date(binMidTimes[i]), v: smoothed[i] }));
+
+  const areaGen = d3.area()
+    .x(d => xScale(d.t))
+    .y0(BAR_H)
+    .y1(d => BAR_H - yScale(d.v))
+    .curve(d3.curveCatmullRom.alpha(0.5));
+
+  const lineGen = d3.line()
+    .x(d => xScale(d.t))
+    .y(d => BAR_H - yScale(d.v))
+    .curve(d3.curveCatmullRom.alpha(0.5));
+
+  const defs = svg.append('defs');
+  const clipRect = defs.append('clipPath').attr('id', 'hist-past-clip')
+    .append('rect').attr('x', 0).attr('y', 0).attr('width', 0).attr('height', H);
+
+  svg.append('path').datum(lineData).attr('d', areaGen)
+    .attr('fill', '#22c55e').attr('fill-opacity', 0.10);
+  svg.append('path').datum(lineData).attr('d', lineGen)
+    .attr('fill', 'none').attr('stroke', '#22c55e').attr('stroke-width', 1.5).attr('stroke-opacity', 0.25);
+
+  svg.append('path').datum(lineData).attr('d', areaGen)
+    .attr('fill', '#22c55e').attr('fill-opacity', 0.35)
+    .attr('clip-path', 'url(#hist-past-clip)');
+  svg.append('path').datum(lineData).attr('d', lineGen)
+    .attr('fill', 'none').attr('stroke', '#22c55e').attr('stroke-width', 1.5).attr('stroke-opacity', 0.85)
+    .attr('clip-path', 'url(#hist-past-clip)');
+
+  const playheadLine = svg.append('line')
+    .attr('y1', 0).attr('y2', BAR_H)
+    .attr('stroke', '#ffffff').attr('stroke-width', 1.5).attr('opacity', 0.7)
+    .attr('x1', 0).attr('x2', 0);
+
+  const playheadHandle = svg.append('circle')
+    .attr('r', 5)
+    .attr('cy', BAR_H + 5)
+    .attr('fill', '#ffffff')
+    .attr('stroke', '#1e293b').attr('stroke-width', 1.5)
+    .attr('cx', 0);
+
+  function updatePlayhead(ms) {
+    const px = xScale(new Date(ms));
+    playheadLine.attr('x1', px).attr('x2', px);
+    playheadHandle.attr('cx', px);
+    clipRect.attr('width', px);
+  }
+
+  function svgClientXToTime(clientX) {
+    const svgEl = histDiv.querySelector('svg');
+    const rect  = svgEl ? svgEl.getBoundingClientRect() : histDiv.getBoundingClientRect();
+    const frac  = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+    return firstTime + frac * timeSpan;
+  }
+
+  let dragging = false;
+  const svgNode = svg.node();
+
+  svgNode.addEventListener('pointerdown', e => {
+    dragging = true;
+    svgNode.setPointerCapture(e.pointerId);
+    const t = svgClientXToTime(e.clientX);
+    goTo(timeToIdx(t), false, t);
+    e.preventDefault();
+  });
+  svgNode.addEventListener('pointermove', e => {
+    if (!dragging) return;
+    const t = svgClientXToTime(e.clientX);
+    goTo(timeToIdx(t), false, t);
+  });
+  svgNode.addEventListener('pointerup', () => { dragging = false; });
+
+  // ── Update info overlay and control labels ──
+  function updateInfo(idx) {
+    const pt = sorted[idx];
+    const store = pt.name.length > STORE_NAME_LIMIT ? pt.name.slice(0, STORE_NAME_LIMIT - 1) + '…' : pt.name;
+    document.getElementById('map-info-store').textContent = store;
+    document.getElementById('map-info-date').textContent  =
+      pt.time.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric', year:'numeric' });
+    document.getElementById('map-info-count').textContent = `Pickup #${idx + 1} of ${sorted.length}`;
+
+    timeLabel.textContent  = pt.time.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+    countLabel.textContent = `#${idx + 1} / ${sorted.length}`;
+  }
+
+  function updateMarkers(idx) {
+    markers.forEach((m, i) => {
+      const c = colors[i];
+      if (i < idx) {
+        m.setStyle({ fillOpacity: 0.65, opacity: 0.85, weight: 1,   radius: 5.5, fillColor: c, color: c });
+      } else if (i === idx) {
+        m.setStyle({ fillOpacity: 1,    opacity: 1,    weight: 2.5, radius: 10,  fillColor: c, color: '#ffffff' });
+        m.bringToFront();
+      } else {
+        m.setStyle({ fillOpacity: 0.04, opacity: 0.08, weight: 0.5, radius: 4,   fillColor: c, color: c });
+      }
+    });
+  }
+
+  let lineAnimId = null;
+
+  function setRouteTo(idx, currentTime) {
+    if (lineAnimId) { cancelAnimationFrame(lineAnimId); lineAnimId = null; }
+    routeCoords = sorted.slice(0, idx + 1).map(p => [p.lat, p.lon]);
+    const next = sorted[idx + 1];
+    if (next && currentTime !== undefined) {
+      const t0   = sorted[idx].time.getTime();
+      const t1   = next.time.getTime();
+      const frac = Math.max(0, Math.min(1, (currentTime - t0) / (t1 - t0)));
+      if (frac > 0) {
+        routeCoords.push([
+          sorted[idx].lat + frac * (next.lat - sorted[idx].lat),
+          sorted[idx].lon + frac * (next.lon - sorted[idx].lon),
+        ]);
+      }
+    }
+    drawRoute();
+  }
+
+  function animateRouteExtend(idx, durationMs, onComplete) {
+    if (lineAnimId) { cancelAnimationFrame(lineAnimId); lineAnimId = null; }
+    const base = sorted.slice(0, idx).map(p => [p.lat, p.lon]);
+    const from = sorted[Math.max(0, idx - 1)];
+    const to   = sorted[idx];
+    const t0   = performance.now();
+    function frame(now) {
+      const frac = Math.min(1, (now - t0) / durationMs);
+      routeCoords = [...base, [
+        from.lat + frac * (to.lat - from.lat),
+        from.lon + frac * (to.lon - from.lon),
+      ]];
+      drawRoute();
+      if (frac < 1) {
+        lineAnimId = requestAnimationFrame(frame);
+      } else {
+        lineAnimId = null;
+        if (onComplete) onComplete();
+      }
+    }
+    lineAnimId = requestAnimationFrame(frame);
+  }
+
+  function goTo(idx, animate, currentTime) {
+    if (currentTime === undefined) currentTime = sorted[idx].time.getTime();
+    updateInfo(idx);
+    if (currentTime !== sorted[idx].time.getTime()) {
+      timeLabel.textContent = new Date(currentTime)
+        .toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+    }
+    updatePlayhead(currentTime);
+
+    const zk = getZoomKey();
+    const pt  = sorted[idx];
+
+    if (animate) {
+      animateRouteExtend(idx, BASE_INTERVAL / playSpeed, () => {
+        currentIdx = idx;
+        updateMarkers(idx);
+        if (playing) {
+          playTimer = setTimeout(advance, PAUSE_AFTER / playSpeed);
+        }
+      });
+    } else {
+      currentIdx = idx;
+      setRouteTo(idx, currentTime);
+      updateMarkers(idx);
+    }
+
+    if (zk === 'world') return;
+
+    if (zk === 'route') {
+      const prev = sorted[Math.max(0, idx - 1)];
+      const bounds = L.latLngBounds([[prev.lat, prev.lon], [pt.lat, pt.lon]]);
+      const opts   = { padding: [60, 60], maxZoom: 15 };
+      if (animate) {
+        const dur = (BASE_INTERVAL / playSpeed / 1000) * 0.95;
+        lmap.flyToBounds(bounds, { ...opts, duration: dur });
+      } else {
+        lmap.fitBounds(bounds, { ...opts, animate: false });
+      }
+      return;
+    }
+
+    const zl = ZOOM_LEVELS[zk];
+    if (animate) {
+      const panDur  = (BASE_INTERVAL / playSpeed / 1000) * 0.95;
+      const panEase = Math.min(1, 0.25 + (playSpeed - 1) * 0.08);
+      requestAnimationFrame(() => {
+        lmap.panTo([pt.lat, pt.lon], { animate: true, duration: panDur, easeLinearity: panEase });
+      });
+    } else {
+      lmap.setView([pt.lat, pt.lon], zl, { animate: false });
+    }
+  }
+
+  function fitWorld(animate) {
+    const bounds = L.latLngBounds(sorted.map(p => [p.lat, p.lon]));
+    if (animate) {
+      lmap.flyToBounds(bounds, { padding: [28, 28], duration: 1.0 });
+    } else {
+      lmap.fitBounds(bounds, { padding: [28, 28], animate: false });
+    }
+  }
+
+  document.querySelectorAll('#map-zoom-btns .mode-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#map-zoom-btns .mode-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      if (btn.dataset.zoom === 'world') {
+        fitWorld(true);
+      } else if (btn.dataset.zoom === 'route') {
+        const prev = sorted[Math.max(0, currentIdx - 1)];
+        const curr = sorted[currentIdx];
+        lmap.flyToBounds(
+          L.latLngBounds([[prev.lat, prev.lon], [curr.lat, curr.lon]]),
+          { padding: [60, 60], maxZoom: 15, duration: 0.8 }
+        );
+      } else {
+        const pt = sorted[currentIdx];
+        lmap.flyTo([pt.lat, pt.lon], ZOOM_LEVELS[btn.dataset.zoom], { duration: 0.8 });
+      }
+    });
+  });
+
+  // ── Play / Pause ──
+  function advance() {
+    if (currentIdx >= sorted.length - 1) { stopPlay(); return; }
+    goTo(currentIdx + 1, true);
+  }
+
+  function startPlay() {
+    playing = true;
+    playBtn.textContent = '⏸ Pause';
+    playBtn.classList.add('active');
+    advance();
+  }
+
+  function stopPlay() {
+    playing = false;
+    playBtn.textContent = '▶ Play';
+    playBtn.classList.remove('active');
+    if (playTimer)  { clearTimeout(playTimer); playTimer = null; }
+    if (lineAnimId) { cancelAnimationFrame(lineAnimId); lineAnimId = null; }
+    setRouteTo(currentIdx, undefined);
+    updateMarkers(currentIdx);
+  }
+
+  playBtn.addEventListener('click', () => {
+    if (playing) stopPlay(); else startPlay();
+  });
+
+  document.querySelectorAll('#map-speed-btns .mode-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#map-speed-btns .mode-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      playSpeed = +btn.dataset.speed;
+    });
+  });
+
+  goTo(0, false);
+  fitWorld(false);
+
+  const mapSizeObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        lmap.invalidateSize();
+        if (getZoomKey() === 'world') fitWorld(false);
+      }
+    });
+  }, { threshold: 0.1 });
+  mapSizeObserver.observe(document.getElementById('map'));
+
+}).catch(err => console.error('Map viz error:', err));
+</script>
+{% endraw %}

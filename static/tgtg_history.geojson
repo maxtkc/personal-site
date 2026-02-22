@@ -1,0 +1,6495 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0924011,
+          42.364008
+        ]
+      },
+      "properties": {
+        "name": "Area Four",
+        "item_id": "230230",
+        "time": "2020-11-06T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2020-11-07T03:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2020-11-07T03:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1092314,
+          42.3749462
+        ]
+      },
+      "properties": {
+        "name": "Harvard Market",
+        "item_id": "235420",
+        "time": "2020-11-07T15:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2020-11-11T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2020-11-12T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0818909,
+          42.3643885
+        ]
+      },
+      "properties": {
+        "name": "Aceituna Grill",
+        "item_id": "236290",
+        "time": "2020-11-13T00:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0972531,
+          42.361796
+        ]
+      },
+      "properties": {
+        "name": "Beantown Taqueria",
+        "item_id": "231300",
+        "time": "2020-11-13T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0597,
+          42.357138
+        ]
+      },
+      "properties": {
+        "name": "Shawarma Falafel",
+        "item_id": "235316",
+        "time": "2020-11-14T20:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.057044,
+          42.3620534
+        ]
+      },
+      "properties": {
+        "name": "Red Apple Farm @ Boston Public Market",
+        "item_id": "230540",
+        "time": "2020-11-14T21:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0880876,
+          42.372249
+        ]
+      },
+      "properties": {
+        "name": "Alfredo's Italian Kitchen Cambridge",
+        "item_id": "231463",
+        "time": "2020-11-15T03:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2020-11-16T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1020247,
+          42.3597404
+        ]
+      },
+      "properties": {
+        "name": "Pacific Street Cafe",
+        "item_id": "230752",
+        "time": "2020-11-16T22:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1020247,
+          42.3597404
+        ]
+      },
+      "properties": {
+        "name": "Pacific Street Cafe",
+        "item_id": "230752",
+        "time": "2020-11-18T22:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0818909,
+          42.3643885
+        ]
+      },
+      "properties": {
+        "name": "Aceituna Grill",
+        "item_id": "236290",
+        "time": "2020-11-19T00:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0972531,
+          42.361796
+        ]
+      },
+      "properties": {
+        "name": "Beantown Taqueria",
+        "item_id": "231300",
+        "time": "2020-11-19T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2020-11-23T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1020247,
+          42.3597404
+        ]
+      },
+      "properties": {
+        "name": "Pacific Street Cafe",
+        "item_id": "230752",
+        "time": "2020-11-23T22:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2020-11-30T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1088328,
+          42.3647851
+        ]
+      },
+      "properties": {
+        "name": "Beantown Taqueria Cafe",
+        "item_id": "236122",
+        "time": "2020-12-02T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1200255,
+          42.3897425
+        ]
+      },
+      "properties": {
+        "name": "Newtowne Grille",
+        "item_id": "231893",
+        "time": "2020-12-02T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1230052,
+          42.3967577
+        ]
+      },
+      "properties": {
+        "name": "Mr. Crepe",
+        "item_id": "235484",
+        "time": "2020-12-02T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2020-12-04T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2020-12-09T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2020-12-16T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0972531,
+          42.361796
+        ]
+      },
+      "properties": {
+        "name": "Beantown Taqueria",
+        "item_id": "231300",
+        "time": "2020-12-17T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0924011,
+          42.364008
+        ]
+      },
+      "properties": {
+        "name": "Area Four",
+        "item_id": "230230",
+        "time": "2020-12-17T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.098199,
+          42.373484
+        ]
+      },
+      "properties": {
+        "name": "All Star Sandwich Bar",
+        "item_id": "236974",
+        "time": "2020-12-18T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.113147,
+          42.3737524
+        ]
+      },
+      "properties": {
+        "name": "Broadway Marketplace",
+        "item_id": "236961",
+        "time": "2020-12-19T15:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1257731,
+          42.3938285
+        ]
+      },
+      "properties": {
+        "name": "Pemberton Farms",
+        "item_id": "231456",
+        "time": "2020-12-20T16:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.08344,
+          42.3874654
+        ]
+      },
+      "properties": {
+        "name": "Gauchao Brazilian Cuisine",
+        "item_id": "232092",
+        "time": "2021-01-04T01:45:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2021-01-07T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1308376,
+          42.3508365
+        ]
+      },
+      "properties": {
+        "name": "Ajeen",
+        "item_id": "232194",
+        "time": "2021-01-08T03:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.068077,
+          42.360973
+        ]
+      },
+      "properties": {
+        "name": "Felcaro Pizza",
+        "item_id": "236022",
+        "time": "2021-01-09T02:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0649587,
+          42.352245
+        ]
+      },
+      "properties": {
+        "name": "El Jefe's Taqueria - Boston Common",
+        "item_id": "231552",
+        "time": "2021-01-10T04:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2021-01-14T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2021-01-21T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0787984,
+          42.3499058
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Back Bay",
+        "item_id": "237132",
+        "time": "2021-01-22T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1053834,
+          42.3340669
+        ]
+      },
+      "properties": {
+        "name": "Penguin Pizza",
+        "item_id": "230534",
+        "time": "2021-01-22T02:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.160146,
+          42.3528837
+        ]
+      },
+      "properties": {
+        "name": "Oliveira's Deli Market",
+        "item_id": "232257",
+        "time": "2021-01-24T19:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0972531,
+          42.361796
+        ]
+      },
+      "properties": {
+        "name": "Beantown Taqueria",
+        "item_id": "231300",
+        "time": "2021-01-29T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0972531,
+          42.361796
+        ]
+      },
+      "properties": {
+        "name": "Beantown Taqueria",
+        "item_id": "231300",
+        "time": "2021-01-29T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9457171,
+          42.464234
+        ]
+      },
+      "properties": {
+        "name": "La Fogata Colombiana",
+        "item_id": "237464",
+        "time": "2021-01-30T00:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1221069,
+          42.3428907
+        ]
+      },
+      "properties": {
+        "name": "OTTO",
+        "item_id": "237093",
+        "time": "2021-02-04T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2021-02-04T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0787984,
+          42.3499058
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Back Bay",
+        "item_id": "237132",
+        "time": "2021-02-05T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0787984,
+          42.3499058
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Back Bay",
+        "item_id": "237132",
+        "time": "2021-02-05T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2463821,
+          42.3716923
+        ]
+      },
+      "properties": {
+        "name": "Liam's Market",
+        "item_id": "232736",
+        "time": "2021-02-06T18:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1221069,
+          42.3428907
+        ]
+      },
+      "properties": {
+        "name": "OTTO",
+        "item_id": "237093",
+        "time": "2021-02-07T03:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1268888,
+          42.345451
+        ]
+      },
+      "properties": {
+        "name": "Pizzeria Dante",
+        "item_id": "231091",
+        "time": "2021-02-07T03:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1221069,
+          42.3428907
+        ]
+      },
+      "properties": {
+        "name": "OTTO",
+        "item_id": "237093",
+        "time": "2021-02-10T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1221069,
+          42.3428907
+        ]
+      },
+      "properties": {
+        "name": "OTTO",
+        "item_id": "237093",
+        "time": "2021-02-10T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0787984,
+          42.3499058
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Back Bay",
+        "item_id": "237132",
+        "time": "2021-02-18T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0992106,
+          42.3439371
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Fenway",
+        "item_id": "236831",
+        "time": "2021-02-18T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2021-02-20T03:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1207724,
+          42.3720507
+        ]
+      },
+      "properties": {
+        "name": "Bonchon Cambridge",
+        "item_id": "232114",
+        "time": "2021-02-25T02:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0861871,
+          42.3663958
+        ]
+      },
+      "properties": {
+        "name": "Discovery Cafe",
+        "item_id": "237983",
+        "time": "2021-02-26T17:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2021-02-26T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0980157,
+          42.3669578
+        ]
+      },
+      "properties": {
+        "name": "Columbia Market",
+        "item_id": "238123",
+        "time": "2021-03-11T18:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2021-03-11T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1007291,
+          42.3633039
+        ]
+      },
+      "properties": {
+        "name": "Mariposa Bakery",
+        "item_id": "232231",
+        "time": "2021-03-12T16:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1017365,
+          42.3637641
+        ]
+      },
+      "properties": {
+        "name": "Brookline Lunch",
+        "item_id": "238263",
+        "time": "2021-03-12T19:45:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2021-03-13T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0924011,
+          42.364008
+        ]
+      },
+      "properties": {
+        "name": "Area Four",
+        "item_id": "230230",
+        "time": "2021-03-13T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0980372,
+          42.3732371
+        ]
+      },
+      "properties": {
+        "name": "All Star Pizza Bar",
+        "item_id": "230811",
+        "time": "2021-03-16T00:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1207724,
+          42.3720507
+        ]
+      },
+      "properties": {
+        "name": "Bonchon Cambridge",
+        "item_id": "232114",
+        "time": "2021-03-16T01:45:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0818909,
+          42.3643885
+        ]
+      },
+      "properties": {
+        "name": "Aceituna Grill",
+        "item_id": "236290",
+        "time": "2021-03-16T22:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1017365,
+          42.3637641
+        ]
+      },
+      "properties": {
+        "name": "Brookline Lunch",
+        "item_id": "238263",
+        "time": "2021-03-17T18:45:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0924011,
+          42.364008
+        ]
+      },
+      "properties": {
+        "name": "Area Four",
+        "item_id": "230230",
+        "time": "2021-03-19T18:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0980372,
+          42.3732371
+        ]
+      },
+      "properties": {
+        "name": "All Star Pizza Bar",
+        "item_id": "230811",
+        "time": "2021-03-23T00:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2021-03-25T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2021-03-26T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0980372,
+          42.3732371
+        ]
+      },
+      "properties": {
+        "name": "All Star Pizza Bar",
+        "item_id": "230811",
+        "time": "2021-03-27T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1046073,
+          42.3654136
+        ]
+      },
+      "properties": {
+        "name": "Aleppo Palace",
+        "item_id": "233569",
+        "time": "2021-03-30T02:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0849914,
+          42.3715689
+        ]
+      },
+      "properties": {
+        "name": "Luigi's Variety",
+        "item_id": "238434",
+        "time": "2021-03-30T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2021-03-31T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2021-04-01T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0924011,
+          42.364008
+        ]
+      },
+      "properties": {
+        "name": "Area Four",
+        "item_id": "230230",
+        "time": "2021-04-02T18:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1017365,
+          42.3637641
+        ]
+      },
+      "properties": {
+        "name": "Brookline Lunch",
+        "item_id": "238263",
+        "time": "2021-04-02T18:45:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0924011,
+          42.364008
+        ]
+      },
+      "properties": {
+        "name": "Area Four",
+        "item_id": "230230",
+        "time": "2021-04-03T18:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1207724,
+          42.3720507
+        ]
+      },
+      "properties": {
+        "name": "Bonchon Cambridge",
+        "item_id": "236842",
+        "time": "2021-04-07T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1007291,
+          42.3633039
+        ]
+      },
+      "properties": {
+        "name": "Mariposa Bakery",
+        "item_id": "232231",
+        "time": "2021-04-08T15:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0924011,
+          42.364008
+        ]
+      },
+      "properties": {
+        "name": "Area Four",
+        "item_id": "230230",
+        "time": "2021-04-08T18:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2021-04-13T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2021-04-23T17:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0980372,
+          42.3732371
+        ]
+      },
+      "properties": {
+        "name": "All Star Pizza Bar",
+        "item_id": "230811",
+        "time": "2021-04-24T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1207724,
+          42.3720507
+        ]
+      },
+      "properties": {
+        "name": "Bonchon Cambridge",
+        "item_id": "236842",
+        "time": "2021-04-24T20:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2021-04-27T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1073953,
+          42.3778373
+        ]
+      },
+      "properties": {
+        "name": "Savenors Market",
+        "item_id": "238351",
+        "time": "2021-04-28T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1190656,
+          42.3724187
+        ]
+      },
+      "properties": {
+        "name": "Oggi Gourmet",
+        "item_id": "233967",
+        "time": "2021-04-28T20:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0980372,
+          42.3732371
+        ]
+      },
+      "properties": {
+        "name": "All Star Pizza Bar",
+        "item_id": "230811",
+        "time": "2021-05-01T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1207724,
+          42.3720507
+        ]
+      },
+      "properties": {
+        "name": "Bonchon Cambridge",
+        "item_id": "236842",
+        "time": "2021-05-12T18:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2021-05-14T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0643164,
+          42.3632481
+        ]
+      },
+      "properties": {
+        "name": "West End Market",
+        "item_id": "231230",
+        "time": "2021-05-20T23:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2021-05-25T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1207724,
+          42.3720507
+        ]
+      },
+      "properties": {
+        "name": "Bonchon Cambridge",
+        "item_id": "232114",
+        "time": "2021-05-29T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.08344,
+          42.3874654
+        ]
+      },
+      "properties": {
+        "name": "Gauchao Brazilian Cuisine",
+        "item_id": "232092",
+        "time": "2021-06-03T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0922079,
+          42.3916737
+        ]
+      },
+      "properties": {
+        "name": "Alfredo's Italian Kitchen",
+        "item_id": "237103",
+        "time": "2021-06-03T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0660961,
+          42.3522722
+        ]
+      },
+      "properties": {
+        "name": "Garbanzo",
+        "item_id": "237151",
+        "time": "2021-08-21T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0787984,
+          42.3499058
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Back Bay",
+        "item_id": "237132",
+        "time": "2021-08-22T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0755439,
+          42.3508598
+        ]
+      },
+      "properties": {
+        "name": "Finagle A Bagel ",
+        "item_id": "375356",
+        "time": "2021-08-22T18:45:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.047316,
+          42.3369788
+        ]
+      },
+      "properties": {
+        "name": "OTTO",
+        "item_id": "231612",
+        "time": "2021-08-23T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1257731,
+          42.3938285
+        ]
+      },
+      "properties": {
+        "name": "Pemberton Farms",
+        "item_id": "231456",
+        "time": "2021-08-23T22:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2021-08-28T02:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2021-08-29T02:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0649587,
+          42.352245
+        ]
+      },
+      "properties": {
+        "name": "El Jefe's Taqueria - Boston Common",
+        "item_id": "231552",
+        "time": "2021-09-12T03:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2021-09-19T02:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1042791,
+          42.3653194
+        ]
+      },
+      "properties": {
+        "name": "India Pavilion",
+        "item_id": "375033",
+        "time": "2021-10-22T19:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1207724,
+          42.3720507
+        ]
+      },
+      "properties": {
+        "name": "Bonchon Cambridge",
+        "item_id": "232114",
+        "time": "2021-10-26T18:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0826005,
+          42.3633486
+        ]
+      },
+      "properties": {
+        "name": "Commonwealth",
+        "item_id": "375113",
+        "time": "2021-11-04T18:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1042791,
+          42.3653194
+        ]
+      },
+      "properties": {
+        "name": "India Pavilion",
+        "item_id": "375033",
+        "time": "2021-11-06T19:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1079942,
+          42.4807265
+        ]
+      },
+      "properties": {
+        "name": "DeliWorks & Pizzeria",
+        "item_id": "233010",
+        "time": "2021-12-16T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0775597,
+          42.3672114
+        ]
+      },
+      "properties": {
+        "name": "Laced Quality Kitchen ",
+        "item_id": "232953",
+        "time": "2022-01-18T23:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2022-01-19T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0972531,
+          42.361796
+        ]
+      },
+      "properties": {
+        "name": "Beantown Taqueria",
+        "item_id": "231300",
+        "time": "2022-01-20T19:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2022-01-21T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0775597,
+          42.3672114
+        ]
+      },
+      "properties": {
+        "name": "Laced Quality Kitchen ",
+        "item_id": "232953",
+        "time": "2022-01-21T23:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA - Kendall Square",
+        "item_id": "233442",
+        "time": "2022-01-25T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0799775,
+          42.3863717
+        ]
+      },
+      "properties": {
+        "name": "Taco Loco Mexican Grill",
+        "item_id": "234170",
+        "time": "2022-05-01T02:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0602695,
+          42.349625
+        ]
+      },
+      "properties": {
+        "name": "APM Coffee",
+        "item_id": "235273",
+        "time": "2022-05-21T16:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4037948,
+          41.7882348
+        ]
+      },
+      "properties": {
+        "name": "El T\u00edpico Restaurant",
+        "item_id": "378492",
+        "time": "2022-05-21T21:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0649587,
+          42.352245
+        ]
+      },
+      "properties": {
+        "name": "El Jefe's Taqueria - Boston Common",
+        "item_id": "231552",
+        "time": "2022-06-08T03:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119733,
+          42.3894663
+        ]
+      },
+      "properties": {
+        "name": "Little Bake",
+        "item_id": "515703",
+        "time": "2022-07-30T22:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA",
+        "item_id": "233442",
+        "time": "2022-08-02T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2022-08-02T02:25:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA",
+        "item_id": "233442",
+        "time": "2022-09-25T01:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0923724,
+          42.3661103
+        ]
+      },
+      "properties": {
+        "name": "Kendall Kitchen",
+        "item_id": "230711",
+        "time": "2022-11-01T17:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1007291,
+          42.3633039
+        ]
+      },
+      "properties": {
+        "name": "Mariposa Bakery",
+        "item_id": "232231",
+        "time": "2022-11-17T16:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA",
+        "item_id": "233442",
+        "time": "2022-11-24T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1042791,
+          42.3653194
+        ]
+      },
+      "properties": {
+        "name": "India Pavilion",
+        "item_id": "375033",
+        "time": "2022-11-29T20:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.087818,
+          42.3632638
+        ]
+      },
+      "properties": {
+        "name": "CAVA",
+        "item_id": "233442",
+        "time": "2022-12-29T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2022-12-30T03:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1042791,
+          42.3653194
+        ]
+      },
+      "properties": {
+        "name": "India Pavilion",
+        "item_id": "375033",
+        "time": "2022-12-30T20:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0986561,
+          42.3735991
+        ]
+      },
+      "properties": {
+        "name": "Bom Dough",
+        "item_id": "790699",
+        "time": "2022-12-30T21:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1042791,
+          42.3653194
+        ]
+      },
+      "properties": {
+        "name": "India Pavilion",
+        "item_id": "375033",
+        "time": "2023-01-01T20:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0799578,
+          42.3711355
+        ]
+      },
+      "properties": {
+        "name": "Sweet Touch Cafe",
+        "item_id": "235259",
+        "time": "2023-01-03T17:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1042791,
+          42.3653194
+        ]
+      },
+      "properties": {
+        "name": "India Pavilion",
+        "item_id": "375033",
+        "time": "2023-01-03T20:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0836106,
+          42.3629237
+        ]
+      },
+      "properties": {
+        "name": "DIG",
+        "item_id": "791026",
+        "time": "2023-01-05T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1042791,
+          42.3653194
+        ]
+      },
+      "properties": {
+        "name": "India Pavilion",
+        "item_id": "375033",
+        "time": "2023-01-05T20:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0826157,
+          42.3475384
+        ]
+      },
+      "properties": {
+        "name": "Eataly ",
+        "item_id": "633935",
+        "time": "2023-01-06T15:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0980372,
+          42.3732371
+        ]
+      },
+      "properties": {
+        "name": "All Star Pizza Bar",
+        "item_id": "230811",
+        "time": "2023-01-07T02:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1042791,
+          42.3653194
+        ]
+      },
+      "properties": {
+        "name": "India Pavilion",
+        "item_id": "375033",
+        "time": "2023-01-07T20:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0836106,
+          42.3629237
+        ]
+      },
+      "properties": {
+        "name": "DIG",
+        "item_id": "791026",
+        "time": "2023-01-09T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1034778,
+          42.3658453
+        ]
+      },
+      "properties": {
+        "name": "Donut Villa Diner",
+        "item_id": "375408",
+        "time": "2023-01-09T19:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0754751,
+          42.3720438
+        ]
+      },
+      "properties": {
+        "name": "Cafe Beatrice",
+        "item_id": "236550",
+        "time": "2023-01-09T21:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1042791,
+          42.3653194
+        ]
+      },
+      "properties": {
+        "name": "India Pavilion",
+        "item_id": "375033",
+        "time": "2023-01-11T20:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0836106,
+          42.3629237
+        ]
+      },
+      "properties": {
+        "name": "DIG",
+        "item_id": "791026",
+        "time": "2023-01-12T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0836106,
+          42.3629237
+        ]
+      },
+      "properties": {
+        "name": "DIG",
+        "item_id": "791026",
+        "time": "2023-01-17T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1020247,
+          42.3597404
+        ]
+      },
+      "properties": {
+        "name": "Pacific Street Cafe",
+        "item_id": "230752",
+        "time": "2023-05-22T21:45:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1206818,
+          42.3726508
+        ]
+      },
+      "properties": {
+        "name": "Peet's Coffee",
+        "item_id": "517570",
+        "time": "2023-06-16T20:20:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0836106,
+          42.3629237
+        ]
+      },
+      "properties": {
+        "name": "DIG",
+        "item_id": "791026",
+        "time": "2023-06-17T00:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1207971,
+          42.3943116
+        ]
+      },
+      "properties": {
+        "name": "Davis Square Hand Crafted Donuts & Bagels",
+        "item_id": "941937",
+        "time": "2023-07-08T18:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1257731,
+          42.3938285
+        ]
+      },
+      "properties": {
+        "name": "Pemberton Farms",
+        "item_id": "231456",
+        "time": "2023-07-08T22:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119733,
+          42.3894663
+        ]
+      },
+      "properties": {
+        "name": "Little Bake",
+        "item_id": "515703",
+        "time": "2023-07-08T22:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.119733,
+          42.3894663
+        ]
+      },
+      "properties": {
+        "name": "Little Bake",
+        "item_id": "515703",
+        "time": "2023-07-08T22:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1230052,
+          42.3967577
+        ]
+      },
+      "properties": {
+        "name": "Mr. Crepe",
+        "item_id": "235484",
+        "time": "2023-07-09T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1230052,
+          42.3967577
+        ]
+      },
+      "properties": {
+        "name": "Mr. Crepe",
+        "item_id": "235484",
+        "time": "2023-07-14T01:30:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1257731,
+          42.3938285
+        ]
+      },
+      "properties": {
+        "name": "Pemberton Farms",
+        "item_id": "231456",
+        "time": "2023-07-15T22:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1257731,
+          42.3938285
+        ]
+      },
+      "properties": {
+        "name": "Pemberton Farms",
+        "item_id": "231456",
+        "time": "2023-07-16T22:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9964371,
+          38.8852028
+        ]
+      },
+      "properties": {
+        "name": "Captain Cookie",
+        "item_id": "372328",
+        "time": "2023-07-20T15:00:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0216545,
+          38.8952098
+        ]
+      },
+      "properties": {
+        "name": "Pitango Gelato",
+        "item_id": "943229",
+        "time": "2023-07-25T02:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0840797,
+          42.3626649
+        ]
+      },
+      "properties": {
+        "name": "Shy Bird",
+        "item_id": "235202",
+        "time": "2023-08-02T02:15:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0618501,
+          42.3655618
+        ]
+      },
+      "properties": {
+        "name": "citizenM",
+        "item_id": "794975",
+        "time": "2023-08-12T15:48:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0089362,
+          38.8974864
+        ]
+      },
+      "properties": {
+        "name": "Blue Bottle Coffee",
+        "item_id": "505097",
+        "time": "2024-01-10T21:36:44+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.999545,
+          38.9082592
+        ]
+      },
+      "properties": {
+        "name": "Mexican Fruits ",
+        "item_id": "233890",
+        "time": "2024-01-10T21:55:33+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.02007,
+          38.90104
+        ]
+      },
+      "properties": {
+        "name": "La Colombe Coffee Roasters ",
+        "item_id": "906916",
+        "time": "2024-01-10T22:23:30+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0814374,
+          51.5187516
+        ]
+      },
+      "properties": {
+        "name": "Greggs, London Liverpool Street Station",
+        "item_id": "833301",
+        "time": "2024-06-30T22:30:28+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0976986,
+          51.5218976
+        ]
+      },
+      "properties": {
+        "name": "Charles Artisan Bread   ",
+        "item_id": "19909558728688064",
+        "time": "2024-07-01T08:48:20+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1075039,
+          51.5224201
+        ]
+      },
+      "properties": {
+        "name": "Pret",
+        "item_id": "523781",
+        "time": "2024-07-01T09:15:13+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.099238,
+          51.5127734
+        ]
+      },
+      "properties": {
+        "name": "Leonardo Royal London St Pauls",
+        "item_id": "33837723918367040",
+        "time": "2024-07-01T09:29:23+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3785107,
+          48.8496082
+        ]
+      },
+      "properties": {
+        "name": "Boulangerie Ben Messaoud ",
+        "item_id": "1547320",
+        "time": "2024-07-02T18:49:39+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1163166,
+          46.0298712
+        ]
+      },
+      "properties": {
+        "name": "Edelweiss Market",
+        "item_id": "1606923",
+        "time": "2024-07-08T15:31:17+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4996736,
+          47.3724217
+        ]
+      },
+      "properties": {
+        "name": "Gesundheitszentrum f\u00fcr das Alter Langgr\u00fct",
+        "item_id": "409680",
+        "time": "2024-07-09T12:24:25+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5056973,
+          47.3695445
+        ]
+      },
+      "properties": {
+        "name": "Meskerem",
+        "item_id": "37655059396863040",
+        "time": "2024-07-09T19:35:28+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.201747,
+          45.4817853
+        ]
+      },
+      "properties": {
+        "name": "Deliveroo Hop | Milano",
+        "item_id": "1012161",
+        "time": "2024-07-10T10:38:05+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.397488,
+          47.2653085
+        ]
+      },
+      "properties": {
+        "name": "Ruetz",
+        "item_id": "86529",
+        "time": "2024-07-13T15:08:42+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2045258,
+          51.9918942
+        ]
+      },
+      "properties": {
+        "name": "Warszawa",
+        "item_id": "962790",
+        "time": "2024-07-15T14:13:17+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8276309,
+          52.4393514
+        ]
+      },
+      "properties": {
+        "name": "Zaytoena Restaurant",
+        "item_id": "30669784991007808",
+        "time": "2024-07-17T17:10:47+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8841295,
+          52.4146225
+        ]
+      },
+      "properties": {
+        "name": "De Lekkere Dingen Bakker",
+        "item_id": "8559",
+        "time": "2024-07-18T10:30:48+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4215762,
+          52.5005174
+        ]
+      },
+      "properties": {
+        "name": "Taste of Samarkand",
+        "item_id": "1023296",
+        "time": "2024-07-18T20:00:19+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4190417,
+          52.4983862
+        ]
+      },
+      "properties": {
+        "name": "Leylak B\u00f6rek ve Lahmacun Salonu",
+        "item_id": "1158644",
+        "time": "2024-07-18T20:08:49+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3294455,
+          52.5036739
+        ]
+      },
+      "properties": {
+        "name": "Lindner Hotel ",
+        "item_id": "548126",
+        "time": "2024-07-19T09:40:38+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4252675,
+          52.4810459
+        ]
+      },
+      "properties": {
+        "name": "Tantuni Berlin",
+        "item_id": "37914509055217216",
+        "time": "2024-07-19T19:47:20+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4292235,
+          52.4870122
+        ]
+      },
+      "properties": {
+        "name": "Aldimashqi",
+        "item_id": "928815",
+        "time": "2024-07-19T19:54:39+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3967507,
+          50.0995885
+        ]
+      },
+      "properties": {
+        "name": "Zrno Zrnko",
+        "item_id": "31913118565761760",
+        "time": "2024-07-20T15:46:47+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7380379,
+          51.0489759
+        ]
+      },
+      "properties": {
+        "name": "Starbucks",
+        "item_id": "83934",
+        "time": "2024-07-21T17:47:33+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1749786,
+          47.6460389
+        ]
+      },
+      "properties": {
+        "name": "Restaurant Z.",
+        "item_id": "12916",
+        "time": "2024-07-22T14:15:06+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5057474,
+          47.3955889
+        ]
+      },
+      "properties": {
+        "name": "Terra Verde \u2013 Biologische Lebensmittel und Weine aus Italien",
+        "item_id": "37930877303973248",
+        "time": "2024-07-22T15:25:23+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.54782,
+          47.3784519
+        ]
+      },
+      "properties": {
+        "name": "TINYFISH",
+        "item_id": "249630",
+        "time": "2024-07-22T16:04:33+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3096942,
+          47.0500299
+        ]
+      },
+      "properties": {
+        "name": "Caff\u00e8 Spettacolo",
+        "item_id": "11987",
+        "time": "2024-07-23T17:59:46+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5447351,
+          47.3761236
+        ]
+      },
+      "properties": {
+        "name": "Zurich Swiss Chocolate by Fassbind ***",
+        "item_id": "68455",
+        "time": "2024-07-24T09:00:09+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8544415,
+          45.7695438
+        ]
+      },
+      "properties": {
+        "name": "C\u00f4t\u00e9 Sushi - Lyon",
+        "item_id": "402541",
+        "time": "2024-07-24T20:17:27+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.798885,
+          43.942835
+        ]
+      },
+      "properties": {
+        "name": "Oh Activ Avignon ",
+        "item_id": "27693486170433568",
+        "time": "2024-07-25T13:12:06+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8033725,
+          43.9426843
+        ]
+      },
+      "properties": {
+        "name": "Avignon Grand H\u00f4tel",
+        "item_id": "1063417",
+        "time": "2024-07-25T13:18:19+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.8768088,
+          43.610158
+        ]
+      },
+      "properties": {
+        "name": "Cr\u00e8me de la Cr\u00e8me - Herberie",
+        "item_id": "278391",
+        "time": "2024-07-27T08:01:30+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9739142,
+          43.5457129
+        ]
+      },
+      "properties": {
+        "name": "The Originals Boutique - H\u00f4tel Neptune - Montpellier Sud",
+        "item_id": "817492",
+        "time": "2024-07-27T14:58:26+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7132619,
+          45.1905406
+        ]
+      },
+      "properties": {
+        "name": "Novotel - Grenoble Centre",
+        "item_id": "42744",
+        "time": "2024-08-01T09:17:31+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5389016,
+          47.3790536
+        ]
+      },
+      "properties": {
+        "name": "k kiosk",
+        "item_id": "1006508",
+        "time": "2024-08-02T18:14:24+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3491007,
+          48.2174002
+        ]
+      },
+      "properties": {
+        "name": "Sushi Palace Wien9",
+        "item_id": "1216814",
+        "time": "2024-08-03T09:58:30+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3658045,
+          48.1891971
+        ]
+      },
+      "properties": {
+        "name": "Denns BioMarkt",
+        "item_id": "782264",
+        "time": "2024-08-03T15:50:28+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6462623,
+          52.5881606
+        ]
+      },
+      "properties": {
+        "name": "Biedronka",
+        "item_id": "702397",
+        "time": "2024-08-05T15:28:08+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9828259,
+          53.5650902
+        ]
+      },
+      "properties": {
+        "name": "Cafe Luis",
+        "item_id": "39113420377936640",
+        "time": "2024-08-06T08:08:40+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0056276,
+          59.3248358
+        ]
+      },
+      "properties": {
+        "name": "Lilla Mamsens Bageri",
+        "item_id": "89511",
+        "time": "2024-08-07T12:48:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1340239,
+          59.316025
+        ]
+      },
+      "properties": {
+        "name": "Robin Delselius Bageri",
+        "item_id": "627806",
+        "time": "2024-08-07T16:08:29+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5938583,
+          55.6817438
+        ]
+      },
+      "properties": {
+        "name": "Copenhagen Admiral Hotel",
+        "item_id": "17868742417890784",
+        "time": "2024-08-10T10:02:25+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5341071,
+          55.6780613
+        ]
+      },
+      "properties": {
+        "name": "REINH. van HAUEN",
+        "item_id": "1443",
+        "time": "2024-08-11T15:26:54+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4919765,
+          55.7052967
+        ]
+      },
+      "properties": {
+        "name": "Yaya sushi - K\u00f8benhavn",
+        "item_id": "64609",
+        "time": "2024-08-11T20:02:15+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.558026,
+          55.686169
+        ]
+      },
+      "properties": {
+        "name": "Diamond Slice - Bl\u00e5g\u00e5rdsgade",
+        "item_id": "946530",
+        "time": "2024-08-11T20:17:29+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4581275,
+          51.1843747
+        ]
+      },
+      "properties": {
+        "name": "B\u00e4ckerei Merhaba Firin",
+        "item_id": "1364565",
+        "time": "2024-08-13T11:52:24+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8941071,
+          52.3794189
+        ]
+      },
+      "properties": {
+        "name": "Stadsbakker Jongejans",
+        "item_id": "8532",
+        "time": "2024-08-15T06:01:26+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6168656,
+          54.9755677
+        ]
+      },
+      "properties": {
+        "name": "Goose",
+        "item_id": "637880",
+        "time": "2024-08-15T19:33:49+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.614318,
+          54.972704
+        ]
+      },
+      "properties": {
+        "name": "YO! Sushi",
+        "item_id": "22755",
+        "time": "2024-08-15T21:04:27+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1942452,
+          55.9548581
+        ]
+      },
+      "properties": {
+        "name": "Ibis Styles - St Andrews Square - Edinburgh ",
+        "item_id": "24668",
+        "time": "2024-08-16T09:18:12+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2107314,
+          55.9427209
+        ]
+      },
+      "properties": {
+        "name": "Moxy Edinburgh",
+        "item_id": "21617136240378048",
+        "time": "2024-08-18T09:31:25+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2140024,
+          55.9458037
+        ]
+      },
+      "properties": {
+        "name": "Leonardo Hotel Edinburgh Haymarket",
+        "item_id": "1165769",
+        "time": "2024-08-18T09:51:31+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2053609,
+          55.9459855
+        ]
+      },
+      "properties": {
+        "name": "FreshMex",
+        "item_id": "689023",
+        "time": "2024-08-18T10:16:55+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4630556,
+          53.3780556
+        ]
+      },
+      "properties": {
+        "name": "Upper Crust",
+        "item_id": "589696",
+        "time": "2024-08-19T07:51:24+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4681752,
+          53.3810634
+        ]
+      },
+      "properties": {
+        "name": "Marmadukes Norfolk Row",
+        "item_id": "534172",
+        "time": "2024-08-19T15:13:44+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4707154,
+          53.3833346
+        ]
+      },
+      "properties": {
+        "name": "Sakushi Japanese - Sheffield",
+        "item_id": "1831621",
+        "time": "2024-08-19T15:18:23+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0883123,
+          51.5184198
+        ]
+      },
+      "properties": {
+        "name": "Caff\u00e8 Nero - Moorgate NE",
+        "item_id": "456030",
+        "time": "2024-08-19T18:56:39+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0797526,
+          51.5179121
+        ]
+      },
+      "properties": {
+        "name": "Pret",
+        "item_id": "548387",
+        "time": "2024-08-19T19:22:09+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1018687,
+          51.523026
+        ]
+      },
+      "properties": {
+        "name": "Katsuma - Clerkenwell - Evening",
+        "item_id": "23901",
+        "time": "2024-08-19T19:48:42+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1339896,
+          39.9692105
+        ]
+      },
+      "properties": {
+        "name": "Kismet Bagels ",
+        "item_id": "66378321650664481",
+        "time": "2024-12-19T16:17:54+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1350232,
+          39.9742452
+        ]
+      },
+      "properties": {
+        "name": "Gryphon Cafe ",
+        "item_id": "373995",
+        "time": "2024-12-19T16:28:21+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1322364,
+          39.9815609
+        ]
+      },
+      "properties": {
+        "name": "Forin Cafe",
+        "item_id": "377285",
+        "time": "2024-12-19T16:38:21+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1544013,
+          39.9482671
+        ]
+      },
+      "properties": {
+        "name": "Le Pain Quotidien",
+        "item_id": "379034",
+        "time": "2024-12-19T22:52:22+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1526048,
+          39.9497346
+        ]
+      },
+      "properties": {
+        "name": "Lamberti Pizza & Market",
+        "item_id": "377642",
+        "time": "2024-12-19T22:58:53+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.144761,
+          39.94862
+        ]
+      },
+      "properties": {
+        "name": "Viva Pizzas",
+        "item_id": "375690",
+        "time": "2024-12-20T02:31:11+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1552641,
+          39.9422288
+        ]
+      },
+      "properties": {
+        "name": "The Sweet Life Bakeshop",
+        "item_id": "516080",
+        "time": "2024-12-21T17:34:30+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.158408,
+          42.416692
+        ]
+      },
+      "properties": {
+        "name": "Butternut Bakehouse & Cafe",
+        "item_id": "230386",
+        "time": "2025-03-05T21:33:11+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9947736,
+          40.7456731
+        ]
+      },
+      "properties": {
+        "name": "Chip City",
+        "item_id": "112642927108684129",
+        "time": "2025-04-12T15:40:04+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1139362,
+          42.3610071
+        ]
+      },
+      "properties": {
+        "name": "Whole Foods - MA",
+        "item_id": "70701583589306369",
+        "time": "2025-06-10T01:03:54+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.08344,
+          42.3874654
+        ]
+      },
+      "properties": {
+        "name": "Gauchao Brazilian Cuisine",
+        "item_id": "232092",
+        "time": "2025-06-11T02:32:40+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.08344,
+          42.3874654
+        ]
+      },
+      "properties": {
+        "name": "Gauchao Brazilian Cuisine",
+        "item_id": "232092",
+        "time": "2025-06-16T02:48:36+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0799775,
+          42.3863717
+        ]
+      },
+      "properties": {
+        "name": "Taco Loco Mexican Grill",
+        "item_id": "234170",
+        "time": "2025-06-16T02:55:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0917815,
+          42.3795269
+        ]
+      },
+      "properties": {
+        "name": "NU Kitchen",
+        "item_id": "375837",
+        "time": "2025-06-16T18:08:37+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0663979,
+          42.3756124
+        ]
+      },
+      "properties": {
+        "name": "Whole Foods - MA",
+        "item_id": "70699940395199137",
+        "time": "2025-07-01T00:56:57+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0663979,
+          42.3756124
+        ]
+      },
+      "properties": {
+        "name": "Whole Foods - MA",
+        "item_id": "70701483936500129",
+        "time": "2025-07-01T00:58:16+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9603435,
+          40.6822733
+        ]
+      },
+      "properties": {
+        "name": "Sweetbee Cafe & Bar",
+        "item_id": "909425",
+        "time": "2025-07-05T12:50:23+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9603435,
+          40.6822733
+        ]
+      },
+      "properties": {
+        "name": "Sweetbee Cafe & Bar",
+        "item_id": "909425",
+        "time": "2025-07-05T12:51:11+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9693433,
+          40.6802289
+        ]
+      },
+      "properties": {
+        "name": "Little Bee by Sweetbee",
+        "item_id": "1560521",
+        "time": "2025-07-05T12:59:32+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0123895,
+          40.7056646
+        ]
+      },
+      "properties": {
+        "name": "El Toro Mexican Grill",
+        "item_id": "506615",
+        "time": "2025-07-05T23:29:33+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0869621,
+          42.3807967
+        ]
+      },
+      "properties": {
+        "name": "Oliveira's Steak House",
+        "item_id": "1026841",
+        "time": "2025-07-10T03:08:13+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0151189,
+          40.712002
+        ]
+      },
+      "properties": {
+        "name": "Mah Ze Dahr",
+        "item_id": "791746",
+        "time": "2025-07-27T00:01:02+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9834688,
+          40.7630995
+        ]
+      },
+      "properties": {
+        "name": "Angelina Bakery",
+        "item_id": "508575",
+        "time": "2025-08-02T03:28:54+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9879062,
+          40.7652144
+        ]
+      },
+      "properties": {
+        "name": "Holey Cream",
+        "item_id": "144375503541867969",
+        "time": "2025-08-02T03:43:16+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9917951,
+          40.7591433
+        ]
+      },
+      "properties": {
+        "name": "Champion Pizza - Times Square",
+        "item_id": "121309639344453569",
+        "time": "2025-08-02T03:49:14+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9917951,
+          40.7591433
+        ]
+      },
+      "properties": {
+        "name": "Champion Pizza - Times Square",
+        "item_id": "121309639344453569",
+        "time": "2025-08-02T03:49:22+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9920938,
+          40.759617
+        ]
+      },
+      "properties": {
+        "name": "$1.50 NYC Hand Tossed Pizza",
+        "item_id": "141328220494837665",
+        "time": "2025-08-02T14:01:15+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0869621,
+          42.3807967
+        ]
+      },
+      "properties": {
+        "name": "Oliveira's Steak House",
+        "item_id": "1026841",
+        "time": "2025-08-06T03:11:53+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1196625,
+          42.3880477
+        ]
+      },
+      "properties": {
+        "name": "Caff\u00e8 Nero",
+        "item_id": "1296277",
+        "time": "2025-08-07T21:37:04+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0548191,
+          42.3554073
+        ]
+      },
+      "properties": {
+        "name": "Just Salad",
+        "item_id": "1171845",
+        "time": "2025-08-13T23:27:21+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0596368,
+          42.3643505
+        ]
+      },
+      "properties": {
+        "name": "New York Shawarma Guys",
+        "item_id": "232685",
+        "time": "2025-08-13T23:38:17+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9789915,
+          40.7409664
+        ]
+      },
+      "properties": {
+        "name": "Peppa\u2019s Jerk Chicken",
+        "item_id": "1170616",
+        "time": "2025-09-01T01:31:12+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9928051,
+          40.7206433
+        ]
+      },
+      "properties": {
+        "name": "Gooey on The Inside Cookies",
+        "item_id": "70164001176961985",
+        "time": "2025-09-01T01:52:24+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5335661,
+          55.6800509
+        ]
+      },
+      "properties": {
+        "name": "7-Eleven",
+        "item_id": "28314725751130848",
+        "time": "2025-09-03T07:56:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5479207,
+          55.667904
+        ]
+      },
+      "properties": {
+        "name": "MaMeMi Pizzeria - K\u00f8benhavn V",
+        "item_id": "4982",
+        "time": "2025-09-05T19:44:58+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5011087,
+          55.6848351
+        ]
+      },
+      "properties": {
+        "name": "Teppan House - Frederiksberg",
+        "item_id": "46318995972006592",
+        "time": "2025-09-06T19:52:13+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.584793,
+          55.679167
+        ]
+      },
+      "properties": {
+        "name": "DEJ - Magasin",
+        "item_id": "912530",
+        "time": "2025-09-07T12:26:55+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4925948,
+          55.6693068
+        ]
+      },
+      "properties": {
+        "name": "Bagerdygtigt",
+        "item_id": "845184",
+        "time": "2025-09-09T15:06:14+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5513875,
+          55.6841264
+        ]
+      },
+      "properties": {
+        "name": "Nyu Sakura - Frederiksberg C",
+        "item_id": "2932",
+        "time": "2025-09-10T19:55:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5011087,
+          55.6848351
+        ]
+      },
+      "properties": {
+        "name": "Teppan House - Frederiksberg",
+        "item_id": "46318995972006592",
+        "time": "2025-09-13T19:47:26+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.561251,
+          55.6638243
+        ]
+      },
+      "properties": {
+        "name": "IKEA",
+        "item_id": "17909600097578048",
+        "time": "2025-09-14T17:58:13+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5659784,
+          55.6727291
+        ]
+      },
+      "properties": {
+        "name": "D'let - Det Gr\u00f8nne K\u00f8kken",
+        "item_id": "3937",
+        "time": "2025-09-17T18:10:22+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.991152,
+          55.6079107
+        ]
+      },
+      "properties": {
+        "name": "Holy Greens Saluhallen",
+        "item_id": "96805663329738368",
+        "time": "2025-09-20T14:37:36+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0055449,
+          55.6078691
+        ]
+      },
+      "properties": {
+        "name": "For You Burritos",
+        "item_id": "135634225998142336",
+        "time": "2025-09-20T18:14:55+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5314823,
+          55.6711634
+        ]
+      },
+      "properties": {
+        "name": "Fuji Sushi - Frederiksberg",
+        "item_id": "1015",
+        "time": "2025-09-23T19:36:12+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5613734,
+          55.6619316
+        ]
+      },
+      "properties": {
+        "name": "Viet Restaurant - Fisketorvet",
+        "item_id": "21485554705902752",
+        "time": "2025-09-27T19:18:38+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5613436,
+          55.6803136
+        ]
+      },
+      "properties": {
+        "name": "Restaurant Flammen",
+        "item_id": "50228",
+        "time": "2025-09-27T20:09:14+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.550685,
+          55.668547
+        ]
+      },
+      "properties": {
+        "name": "Bagerdygtigt",
+        "item_id": "850012",
+        "time": "2025-09-28T15:06:32+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5011087,
+          55.6848351
+        ]
+      },
+      "properties": {
+        "name": "Teppan House - Frederiksberg",
+        "item_id": "46318995972006592",
+        "time": "2025-10-07T19:43:24+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.550685,
+          55.668547
+        ]
+      },
+      "properties": {
+        "name": "Bagerdygtigt",
+        "item_id": "850012",
+        "time": "2025-10-08T14:43:40+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0620173,
+          59.3337504
+        ]
+      },
+      "properties": {
+        "name": "Scandic Klara",
+        "item_id": "100518261161391968",
+        "time": "2025-10-20T09:48:33+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5755042,
+          55.6801585
+        ]
+      },
+      "properties": {
+        "name": "Cafe G (brunch) - K\u00f8benhavn K",
+        "item_id": "3897",
+        "time": "2025-10-25T12:01:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8946315,
+          52.3721225
+        ]
+      },
+      "properties": {
+        "name": "Rene's Croissanterie",
+        "item_id": "8469",
+        "time": "2025-11-01T13:24:12+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7769247,
+          51.429657
+        ]
+      },
+      "properties": {
+        "name": "Kamps My Deli",
+        "item_id": "135583978710082720",
+        "time": "2025-11-08T16:01:28+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.371786,
+          50.8460311
+        ]
+      },
+      "properties": {
+        "name": "Courtyard by Marriott",
+        "item_id": "110976821493458912",
+        "time": "2025-11-10T08:51:35+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1195146,
+          52.2008045
+        ]
+      },
+      "properties": {
+        "name": "Pages Coffee House",
+        "item_id": "1498904",
+        "time": "2025-11-10T15:36:19+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1188865,
+          52.205906
+        ]
+      },
+      "properties": {
+        "name": "Dulcis Gelato & Pasticcini",
+        "item_id": "1493869",
+        "time": "2025-11-22T12:43:58+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5513875,
+          55.6841264
+        ]
+      },
+      "properties": {
+        "name": "Nyu Sakura - Frederiksberg C",
+        "item_id": "2932",
+        "time": "2025-11-27T20:51:05+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5011087,
+          55.6848351
+        ]
+      },
+      "properties": {
+        "name": "Teppan House - Frederiksberg",
+        "item_id": "46318995972006592",
+        "time": "2025-12-09T20:53:31+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0099473,
+          53.5566549
+        ]
+      },
+      "properties": {
+        "name": "Erdkorn Bio-Supermarkt",
+        "item_id": "1531557",
+        "time": "2025-12-10T07:17:16+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.839871,
+          48.000286
+        ]
+      },
+      "properties": {
+        "name": "Sevgin B\u00e4ckerei & Konditorei",
+        "item_id": "19843",
+        "time": "2025-12-11T17:50:27+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.842394,
+          47.997901
+        ]
+      },
+      "properties": {
+        "name": "Gardenia Caf\u00e9",
+        "item_id": "137658276309400480",
+        "time": "2025-12-11T19:42:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.550685,
+          55.668547
+        ]
+      },
+      "properties": {
+        "name": "Bagerdygtigt",
+        "item_id": "850012",
+        "time": "2025-12-13T16:11:19+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5328759,
+          55.6797078
+        ]
+      },
+      "properties": {
+        "name": "Scandic Falkoner",
+        "item_id": "4947",
+        "time": "2025-12-14T10:04:50+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2844204,
+          55.6590363
+        ]
+      },
+      "properties": {
+        "name": "IKEA",
+        "item_id": "88356896741784576",
+        "time": "2025-12-14T18:23:48+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0233564,
+          55.6068547
+        ]
+      },
+      "properties": {
+        "name": "Kitchen 961 V\u00e4rnhem",
+        "item_id": "14132486751576064",
+        "time": "2025-12-16T15:14:57+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0076446,
+          53.5529606
+        ]
+      },
+      "properties": {
+        "name": "BackWerk",
+        "item_id": "640180",
+        "time": "2025-12-17T14:09:19+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6636,
+          50.10649
+        ]
+      },
+      "properties": {
+        "name": "Kamps Backstube",
+        "item_id": "961250",
+        "time": "2025-12-17T18:24:46+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6527604,
+          49.5482373
+        ]
+      },
+      "properties": {
+        "name": "REWE Center Markus Mauz",
+        "item_id": "162265763456852768",
+        "time": "2025-12-22T21:06:13+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3722052,
+          50.8617014
+        ]
+      },
+      "properties": {
+        "name": "Carrefour Express ",
+        "item_id": "13533578441228288",
+        "time": "2025-12-29T09:03:30+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3664611,
+          50.8552207
+        ]
+      },
+      "properties": {
+        "name": "Hotel nhow ",
+        "item_id": "664443",
+        "time": "2025-12-29T09:30:17+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4054943,
+          51.2276187
+        ]
+      },
+      "properties": {
+        "name": "Bavet",
+        "item_id": "5402",
+        "time": "2025-12-29T18:53:13+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4143963,
+          51.2195654
+        ]
+      },
+      "properties": {
+        "name": "18 Sushi",
+        "item_id": "58617731754854240",
+        "time": "2025-12-29T19:37:19+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.802369,
+          51.221818
+        ]
+      },
+      "properties": {
+        "name": "Holiday Inn Express",
+        "item_id": "1291058",
+        "time": "2025-12-31T09:20:27+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9586017,
+          50.9432141
+        ]
+      },
+      "properties": {
+        "name": "Slice It",
+        "item_id": "136170183542222656",
+        "time": "2025-12-31T14:22:54+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9576774,
+          50.9427812
+        ]
+      },
+      "properties": {
+        "name": "dean&david",
+        "item_id": "147242760669589760",
+        "time": "2025-12-31T14:30:55+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3853534,
+          52.5017738
+        ]
+      },
+      "properties": {
+        "name": "Holiday Inn Express",
+        "item_id": "1177642",
+        "time": "2026-01-04T10:02:54+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.375371,
+          52.504629
+        ]
+      },
+      "properties": {
+        "name": "Scandic Hotel",
+        "item_id": "20623",
+        "time": "2026-01-05T09:09:52+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.043671,
+          47.8122469
+        ]
+      },
+      "properties": {
+        "name": "Austria Trend Hotel Europa Salzburg",
+        "item_id": "576011",
+        "time": "2026-01-13T10:51:45+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6219498,
+          47.3891218
+        ]
+      },
+      "properties": {
+        "name": "Hotel DIE SONNE",
+        "item_id": "798684",
+        "time": "2026-01-14T19:11:50+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6363941,
+          47.3905331
+        ]
+      },
+      "properties": {
+        "name": "JUFA Alpenhotel",
+        "item_id": "831768",
+        "time": "2026-01-14T19:48:18+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8416406,
+          47.9972806
+        ]
+      },
+      "properties": {
+        "name": "Haferkater",
+        "item_id": "121726519771668416",
+        "time": "2026-01-18T18:37:52+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8414333,
+          47.9973495
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "800098",
+        "time": "2026-01-18T18:57:11+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8537037,
+          47.9852227
+        ]
+      },
+      "properties": {
+        "name": "Omas K\u00fcche ",
+        "item_id": "872840",
+        "time": "2026-01-18T20:13:46+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5253671,
+          47.3734525
+        ]
+      },
+      "properties": {
+        "name": "Thai Hunters Restaurant & Take Away",
+        "item_id": "198201331520772576",
+        "time": "2026-01-19T17:04:31+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5253671,
+          47.3734525
+        ]
+      },
+      "properties": {
+        "name": "Thai Hunters Restaurant & Take Away",
+        "item_id": "198201331520772576",
+        "time": "2026-01-19T17:05:35+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3473685,
+          48.1971698
+        ]
+      },
+      "properties": {
+        "name": "Duran Sandwiches",
+        "item_id": "269573",
+        "time": "2026-01-20T08:44:32+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3499069,
+          48.1985222
+        ]
+      },
+      "properties": {
+        "name": "Dunkin'",
+        "item_id": "170665080070408576",
+        "time": "2026-01-20T08:49:07+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3424179,
+          48.2115123
+        ]
+      },
+      "properties": {
+        "name": "Restaurant Prinz Ferdinand",
+        "item_id": "109572334592611328",
+        "time": "2026-01-21T18:19:53+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3360538,
+          48.210732
+        ]
+      },
+      "properties": {
+        "name": "Halis B\u00f6rek",
+        "item_id": "181681510297998624",
+        "time": "2026-01-21T18:34:35+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.564954,
+          55.6655539
+        ]
+      },
+      "properties": {
+        "name": "Cabinn Copenhagen",
+        "item_id": "28655591067103680",
+        "time": "2026-01-22T17:05:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3326129,
+          60.3893436
+        ]
+      },
+      "properties": {
+        "name": "Narvesen Bergen Storsenter",
+        "item_id": "129188386684473920",
+        "time": "2026-01-27T12:59:30+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3248477,
+          60.3928011
+        ]
+      },
+      "properties": {
+        "name": "Fly Chicken Galleriet",
+        "item_id": "209984",
+        "time": "2026-01-28T21:01:14+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0750212,
+          59.3237909
+        ]
+      },
+      "properties": {
+        "name": "Milla - Kaffe, Br\u00f6d & Sallad",
+        "item_id": "132173996206716256",
+        "time": "2026-01-29T13:51:29+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0446447,
+          59.3330542
+        ]
+      },
+      "properties": {
+        "name": "Holy Greens Kungsholmen",
+        "item_id": "96797078412815968",
+        "time": "2026-01-29T19:47:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0112891,
+          59.3660611
+        ]
+      },
+      "properties": {
+        "name": "Brasserie Sabis",
+        "item_id": "190671890909347040",
+        "time": "2026-01-30T14:07:42+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0710705,
+          59.3238849
+        ]
+      },
+      "properties": {
+        "name": "Mr Churros Gamlastan",
+        "item_id": "101384045913063232",
+        "time": "2026-01-31T11:23:20+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0060857,
+          59.3229559
+        ]
+      },
+      "properties": {
+        "name": "Pesso bageri & cafe",
+        "item_id": "187262797789313120",
+        "time": "2026-02-01T14:28:03+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0585657,
+          59.3300956
+        ]
+      },
+      "properties": {
+        "name": "Ritazza Centralen (centralplan)",
+        "item_id": "720442",
+        "time": "2026-02-01T16:54:33+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0595112,
+          59.3359135
+        ]
+      },
+      "properties": {
+        "name": "Caff\u00e8 Nero - Drottningatan 86",
+        "item_id": "1156085",
+        "time": "2026-02-01T18:55:11+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.072491,
+          59.3345197
+        ]
+      },
+      "properties": {
+        "name": "Eataly Stockholm",
+        "item_id": "486404",
+        "time": "2026-02-06T10:35:26+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0575498,
+          59.3376342
+        ]
+      },
+      "properties": {
+        "name": "Best Western Hotel Bentleys",
+        "item_id": "178766661454003840",
+        "time": "2026-02-06T11:05:03+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8504289,
+          47.9946773
+        ]
+      },
+      "properties": {
+        "name": "NORDSEE",
+        "item_id": "18960",
+        "time": "2026-02-07T18:27:58+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-02-07T19:01:16+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8497739,
+          47.9941343
+        ]
+      },
+      "properties": {
+        "name": "Kabul",
+        "item_id": "155584717378484672",
+        "time": "2026-02-07T20:10:49+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7768379,
+          47.957802
+        ]
+      },
+      "properties": {
+        "name": "Baydar's Dorfl\u00e4dele",
+        "item_id": "995029",
+        "time": "2026-02-09T09:01:02+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8484633,
+          48.0001734
+        ]
+      },
+      "properties": {
+        "name": "Buon Caf\u00e9 & Backshop\u200c",
+        "item_id": "858797",
+        "time": "2026-02-09T16:05:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8536915,
+          47.9990747
+        ]
+      },
+      "properties": {
+        "name": "Caf\u00e9 Gigi",
+        "item_id": "192424443188690688",
+        "time": "2026-02-09T16:13:43+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8484633,
+          48.0001734
+        ]
+      },
+      "properties": {
+        "name": "Buon Caf\u00e9 & Backshop\u200c",
+        "item_id": "858797",
+        "time": "2026-02-11T16:23:19+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-02-11T19:14:05+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8496743,
+          47.9954551
+        ]
+      },
+      "properties": {
+        "name": "Hotel am Rathaus",
+        "item_id": "154750950227082048",
+        "time": "2026-02-12T11:41:47+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8491267,
+          47.9937222
+        ]
+      },
+      "properties": {
+        "name": "Kolben Kaffee Freiburg ",
+        "item_id": "824100",
+        "time": "2026-02-13T15:32:06+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8491267,
+          47.9937222
+        ]
+      },
+      "properties": {
+        "name": "Kolben Kaffee Freiburg ",
+        "item_id": "824100",
+        "time": "2026-02-16T16:04:50+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8488016,
+          47.9948601
+        ]
+      },
+      "properties": {
+        "name": "Caf\u00e9 Journal",
+        "item_id": "22045",
+        "time": "2026-02-16T17:54:59+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8497739,
+          47.9941343
+        ]
+      },
+      "properties": {
+        "name": "Kabul",
+        "item_id": "155584717378484672",
+        "time": "2026-02-16T17:59:31+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8267205,
+          48.0054442
+        ]
+      },
+      "properties": {
+        "name": "Oishii Sushi und Grill",
+        "item_id": "56762",
+        "time": "2026-02-17T21:25:49+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8496743,
+          47.9954551
+        ]
+      },
+      "properties": {
+        "name": "Hotel am Rathaus",
+        "item_id": "154750950227082048",
+        "time": "2026-02-18T11:38:49+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8488016,
+          47.9948601
+        ]
+      },
+      "properties": {
+        "name": "Caf\u00e9 Journal",
+        "item_id": "22045",
+        "time": "2026-02-18T17:57:53+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-02-18T19:32:44+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -71.0924011,
+            42.364008
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.1092314,
+            42.3749462
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0818909,
+            42.3643885
+          ],
+          [
+            -71.0972531,
+            42.361796
+          ],
+          [
+            -71.0597,
+            42.357138
+          ],
+          [
+            -71.057044,
+            42.3620534
+          ],
+          [
+            -71.0880876,
+            42.372249
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.1020247,
+            42.3597404
+          ],
+          [
+            -71.1020247,
+            42.3597404
+          ],
+          [
+            -71.0818909,
+            42.3643885
+          ],
+          [
+            -71.0972531,
+            42.361796
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.1020247,
+            42.3597404
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.1088328,
+            42.3647851
+          ],
+          [
+            -71.1200255,
+            42.3897425
+          ],
+          [
+            -71.1230052,
+            42.3967577
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0972531,
+            42.361796
+          ],
+          [
+            -71.0924011,
+            42.364008
+          ],
+          [
+            -71.098199,
+            42.373484
+          ],
+          [
+            -71.113147,
+            42.3737524
+          ],
+          [
+            -71.1257731,
+            42.3938285
+          ],
+          [
+            -71.08344,
+            42.3874654
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.1308376,
+            42.3508365
+          ],
+          [
+            -71.068077,
+            42.360973
+          ],
+          [
+            -71.0649587,
+            42.352245
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0787984,
+            42.3499058
+          ],
+          [
+            -71.1053834,
+            42.3340669
+          ],
+          [
+            -71.160146,
+            42.3528837
+          ],
+          [
+            -71.0972531,
+            42.361796
+          ],
+          [
+            -71.0972531,
+            42.361796
+          ],
+          [
+            -70.9457171,
+            42.464234
+          ],
+          [
+            -71.1221069,
+            42.3428907
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0787984,
+            42.3499058
+          ],
+          [
+            -71.0787984,
+            42.3499058
+          ],
+          [
+            -71.2463821,
+            42.3716923
+          ],
+          [
+            -71.1221069,
+            42.3428907
+          ],
+          [
+            -71.1268888,
+            42.345451
+          ],
+          [
+            -71.1221069,
+            42.3428907
+          ],
+          [
+            -71.1221069,
+            42.3428907
+          ],
+          [
+            -71.0787984,
+            42.3499058
+          ],
+          [
+            -71.0992106,
+            42.3439371
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.1207724,
+            42.3720507
+          ],
+          [
+            -71.0861871,
+            42.3663958
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0980157,
+            42.3669578
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.1007291,
+            42.3633039
+          ],
+          [
+            -71.1017365,
+            42.3637641
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0924011,
+            42.364008
+          ],
+          [
+            -71.0980372,
+            42.3732371
+          ],
+          [
+            -71.1207724,
+            42.3720507
+          ],
+          [
+            -71.0818909,
+            42.3643885
+          ],
+          [
+            -71.1017365,
+            42.3637641
+          ],
+          [
+            -71.0924011,
+            42.364008
+          ],
+          [
+            -71.0980372,
+            42.3732371
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0980372,
+            42.3732371
+          ],
+          [
+            -71.1046073,
+            42.3654136
+          ],
+          [
+            -71.0849914,
+            42.3715689
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0924011,
+            42.364008
+          ],
+          [
+            -71.1017365,
+            42.3637641
+          ],
+          [
+            -71.0924011,
+            42.364008
+          ],
+          [
+            -71.1207724,
+            42.3720507
+          ],
+          [
+            -71.1007291,
+            42.3633039
+          ],
+          [
+            -71.0924011,
+            42.364008
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0980372,
+            42.3732371
+          ],
+          [
+            -71.1207724,
+            42.3720507
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.1073953,
+            42.3778373
+          ],
+          [
+            -71.1190656,
+            42.3724187
+          ],
+          [
+            -71.0980372,
+            42.3732371
+          ],
+          [
+            -71.1207724,
+            42.3720507
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0643164,
+            42.3632481
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.1207724,
+            42.3720507
+          ],
+          [
+            -71.08344,
+            42.3874654
+          ],
+          [
+            -71.0922079,
+            42.3916737
+          ],
+          [
+            -71.0660961,
+            42.3522722
+          ],
+          [
+            -71.0787984,
+            42.3499058
+          ],
+          [
+            -71.0755439,
+            42.3508598
+          ],
+          [
+            -71.047316,
+            42.3369788
+          ],
+          [
+            -71.1257731,
+            42.3938285
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.0649587,
+            42.352245
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.1042791,
+            42.3653194
+          ],
+          [
+            -71.1207724,
+            42.3720507
+          ],
+          [
+            -71.0826005,
+            42.3633486
+          ],
+          [
+            -71.1042791,
+            42.3653194
+          ],
+          [
+            -71.1079942,
+            42.4807265
+          ],
+          [
+            -71.0775597,
+            42.3672114
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0972531,
+            42.361796
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.0775597,
+            42.3672114
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0799775,
+            42.3863717
+          ],
+          [
+            -71.0602695,
+            42.349625
+          ],
+          [
+            -71.4037948,
+            41.7882348
+          ],
+          [
+            -71.0649587,
+            42.352245
+          ],
+          [
+            -71.119733,
+            42.3894663
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0923724,
+            42.3661103
+          ],
+          [
+            -71.1007291,
+            42.3633039
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.1042791,
+            42.3653194
+          ],
+          [
+            -71.087818,
+            42.3632638
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.1042791,
+            42.3653194
+          ],
+          [
+            -71.0986561,
+            42.3735991
+          ],
+          [
+            -71.1042791,
+            42.3653194
+          ],
+          [
+            -71.0799578,
+            42.3711355
+          ],
+          [
+            -71.1042791,
+            42.3653194
+          ],
+          [
+            -71.0836106,
+            42.3629237
+          ],
+          [
+            -71.1042791,
+            42.3653194
+          ],
+          [
+            -71.0826157,
+            42.3475384
+          ],
+          [
+            -71.0980372,
+            42.3732371
+          ],
+          [
+            -71.1042791,
+            42.3653194
+          ],
+          [
+            -71.0836106,
+            42.3629237
+          ],
+          [
+            -71.1034778,
+            42.3658453
+          ],
+          [
+            -71.0754751,
+            42.3720438
+          ],
+          [
+            -71.1042791,
+            42.3653194
+          ],
+          [
+            -71.0836106,
+            42.3629237
+          ],
+          [
+            -71.0836106,
+            42.3629237
+          ],
+          [
+            -71.1020247,
+            42.3597404
+          ],
+          [
+            -71.1206818,
+            42.3726508
+          ],
+          [
+            -71.0836106,
+            42.3629237
+          ],
+          [
+            -71.1207971,
+            42.3943116
+          ],
+          [
+            -71.1257731,
+            42.3938285
+          ],
+          [
+            -71.119733,
+            42.3894663
+          ],
+          [
+            -71.119733,
+            42.3894663
+          ],
+          [
+            -71.1230052,
+            42.3967577
+          ],
+          [
+            -71.1230052,
+            42.3967577
+          ],
+          [
+            -71.1257731,
+            42.3938285
+          ],
+          [
+            -71.1257731,
+            42.3938285
+          ],
+          [
+            -76.9964371,
+            38.8852028
+          ],
+          [
+            -77.0216545,
+            38.8952098
+          ],
+          [
+            -71.0840797,
+            42.3626649
+          ],
+          [
+            -71.0618501,
+            42.3655618
+          ],
+          [
+            -77.0089362,
+            38.8974864
+          ],
+          [
+            -76.999545,
+            38.9082592
+          ],
+          [
+            -77.02007,
+            38.90104
+          ],
+          [
+            -0.0814374,
+            51.5187516
+          ],
+          [
+            -0.0976986,
+            51.5218976
+          ],
+          [
+            -0.1075039,
+            51.5224201
+          ],
+          [
+            -0.099238,
+            51.5127734
+          ],
+          [
+            2.3785107,
+            48.8496082
+          ],
+          [
+            7.1163166,
+            46.0298712
+          ],
+          [
+            8.4996736,
+            47.3724217
+          ],
+          [
+            8.5056973,
+            47.3695445
+          ],
+          [
+            9.201747,
+            45.4817853
+          ],
+          [
+            11.397488,
+            47.2653085
+          ],
+          [
+            4.2045258,
+            51.9918942
+          ],
+          [
+            4.8276309,
+            52.4393514
+          ],
+          [
+            4.8841295,
+            52.4146225
+          ],
+          [
+            13.4215762,
+            52.5005174
+          ],
+          [
+            13.4190417,
+            52.4983862
+          ],
+          [
+            13.3294455,
+            52.5036739
+          ],
+          [
+            13.4252675,
+            52.4810459
+          ],
+          [
+            13.4292235,
+            52.4870122
+          ],
+          [
+            14.3967507,
+            50.0995885
+          ],
+          [
+            13.7380379,
+            51.0489759
+          ],
+          [
+            9.1749786,
+            47.6460389
+          ],
+          [
+            8.5057474,
+            47.3955889
+          ],
+          [
+            8.54782,
+            47.3784519
+          ],
+          [
+            8.3096942,
+            47.0500299
+          ],
+          [
+            8.5447351,
+            47.3761236
+          ],
+          [
+            4.8544415,
+            45.7695438
+          ],
+          [
+            4.798885,
+            43.942835
+          ],
+          [
+            4.8033725,
+            43.9426843
+          ],
+          [
+            3.8768088,
+            43.610158
+          ],
+          [
+            3.9739142,
+            43.5457129
+          ],
+          [
+            5.7132619,
+            45.1905406
+          ],
+          [
+            8.5389016,
+            47.3790536
+          ],
+          [
+            16.3491007,
+            48.2174002
+          ],
+          [
+            16.3658045,
+            48.1891971
+          ],
+          [
+            14.6462623,
+            52.5881606
+          ],
+          [
+            9.9828259,
+            53.5650902
+          ],
+          [
+            18.0056276,
+            59.3248358
+          ],
+          [
+            18.1340239,
+            59.316025
+          ],
+          [
+            12.5938583,
+            55.6817438
+          ],
+          [
+            12.5341071,
+            55.6780613
+          ],
+          [
+            12.4919765,
+            55.7052967
+          ],
+          [
+            12.558026,
+            55.686169
+          ],
+          [
+            6.4581275,
+            51.1843747
+          ],
+          [
+            4.8941071,
+            52.3794189
+          ],
+          [
+            -1.6168656,
+            54.9755677
+          ],
+          [
+            -1.614318,
+            54.972704
+          ],
+          [
+            -3.1942452,
+            55.9548581
+          ],
+          [
+            -3.2107314,
+            55.9427209
+          ],
+          [
+            -3.2140024,
+            55.9458037
+          ],
+          [
+            -3.2053609,
+            55.9459855
+          ],
+          [
+            -1.4630556,
+            53.3780556
+          ],
+          [
+            -1.4681752,
+            53.3810634
+          ],
+          [
+            -1.4707154,
+            53.3833346
+          ],
+          [
+            -0.0883123,
+            51.5184198
+          ],
+          [
+            -0.0797526,
+            51.5179121
+          ],
+          [
+            -0.1018687,
+            51.523026
+          ],
+          [
+            -75.1339896,
+            39.9692105
+          ],
+          [
+            -75.1350232,
+            39.9742452
+          ],
+          [
+            -75.1322364,
+            39.9815609
+          ],
+          [
+            -75.1544013,
+            39.9482671
+          ],
+          [
+            -75.1526048,
+            39.9497346
+          ],
+          [
+            -75.144761,
+            39.94862
+          ],
+          [
+            -75.1552641,
+            39.9422288
+          ],
+          [
+            -71.158408,
+            42.416692
+          ],
+          [
+            -73.9947736,
+            40.7456731
+          ],
+          [
+            -71.1139362,
+            42.3610071
+          ],
+          [
+            -71.08344,
+            42.3874654
+          ],
+          [
+            -71.08344,
+            42.3874654
+          ],
+          [
+            -71.0799775,
+            42.3863717
+          ],
+          [
+            -71.0917815,
+            42.3795269
+          ],
+          [
+            -71.0663979,
+            42.3756124
+          ],
+          [
+            -71.0663979,
+            42.3756124
+          ],
+          [
+            -73.9603435,
+            40.6822733
+          ],
+          [
+            -73.9603435,
+            40.6822733
+          ],
+          [
+            -73.9693433,
+            40.6802289
+          ],
+          [
+            -74.0123895,
+            40.7056646
+          ],
+          [
+            -71.0869621,
+            42.3807967
+          ],
+          [
+            -74.0151189,
+            40.712002
+          ],
+          [
+            -73.9834688,
+            40.7630995
+          ],
+          [
+            -73.9879062,
+            40.7652144
+          ],
+          [
+            -73.9917951,
+            40.7591433
+          ],
+          [
+            -73.9917951,
+            40.7591433
+          ],
+          [
+            -73.9920938,
+            40.759617
+          ],
+          [
+            -71.0869621,
+            42.3807967
+          ],
+          [
+            -71.1196625,
+            42.3880477
+          ],
+          [
+            -71.0548191,
+            42.3554073
+          ],
+          [
+            -71.0596368,
+            42.3643505
+          ],
+          [
+            -73.9789915,
+            40.7409664
+          ],
+          [
+            -73.9928051,
+            40.7206433
+          ],
+          [
+            12.5335661,
+            55.6800509
+          ],
+          [
+            12.5479207,
+            55.667904
+          ],
+          [
+            12.5011087,
+            55.6848351
+          ],
+          [
+            12.584793,
+            55.679167
+          ],
+          [
+            12.4925948,
+            55.6693068
+          ],
+          [
+            12.5513875,
+            55.6841264
+          ],
+          [
+            12.5011087,
+            55.6848351
+          ],
+          [
+            12.561251,
+            55.6638243
+          ],
+          [
+            12.5659784,
+            55.6727291
+          ],
+          [
+            12.991152,
+            55.6079107
+          ],
+          [
+            13.0055449,
+            55.6078691
+          ],
+          [
+            12.5314823,
+            55.6711634
+          ],
+          [
+            12.5613734,
+            55.6619316
+          ],
+          [
+            12.5613436,
+            55.6803136
+          ],
+          [
+            12.550685,
+            55.668547
+          ],
+          [
+            12.5011087,
+            55.6848351
+          ],
+          [
+            12.550685,
+            55.668547
+          ],
+          [
+            18.0620173,
+            59.3337504
+          ],
+          [
+            12.5755042,
+            55.6801585
+          ],
+          [
+            4.8946315,
+            52.3721225
+          ],
+          [
+            6.7769247,
+            51.429657
+          ],
+          [
+            4.371786,
+            50.8460311
+          ],
+          [
+            0.1195146,
+            52.2008045
+          ],
+          [
+            0.1188865,
+            52.205906
+          ],
+          [
+            12.5513875,
+            55.6841264
+          ],
+          [
+            12.5011087,
+            55.6848351
+          ],
+          [
+            10.0099473,
+            53.5566549
+          ],
+          [
+            7.839871,
+            48.000286
+          ],
+          [
+            7.842394,
+            47.997901
+          ],
+          [
+            12.550685,
+            55.668547
+          ],
+          [
+            12.5328759,
+            55.6797078
+          ],
+          [
+            12.2844204,
+            55.6590363
+          ],
+          [
+            13.0233564,
+            55.6068547
+          ],
+          [
+            10.0076446,
+            53.5529606
+          ],
+          [
+            8.6636,
+            50.10649
+          ],
+          [
+            8.6527604,
+            49.5482373
+          ],
+          [
+            4.3722052,
+            50.8617014
+          ],
+          [
+            4.3664611,
+            50.8552207
+          ],
+          [
+            4.4054943,
+            51.2276187
+          ],
+          [
+            4.4143963,
+            51.2195654
+          ],
+          [
+            6.802369,
+            51.221818
+          ],
+          [
+            6.9586017,
+            50.9432141
+          ],
+          [
+            6.9576774,
+            50.9427812
+          ],
+          [
+            13.3853534,
+            52.5017738
+          ],
+          [
+            13.375371,
+            52.504629
+          ],
+          [
+            13.043671,
+            47.8122469
+          ],
+          [
+            12.6219498,
+            47.3891218
+          ],
+          [
+            12.6363941,
+            47.3905331
+          ],
+          [
+            7.8416406,
+            47.9972806
+          ],
+          [
+            7.8414333,
+            47.9973495
+          ],
+          [
+            7.8537037,
+            47.9852227
+          ],
+          [
+            8.5253671,
+            47.3734525
+          ],
+          [
+            8.5253671,
+            47.3734525
+          ],
+          [
+            16.3473685,
+            48.1971698
+          ],
+          [
+            16.3499069,
+            48.1985222
+          ],
+          [
+            16.3424179,
+            48.2115123
+          ],
+          [
+            16.3360538,
+            48.210732
+          ],
+          [
+            12.564954,
+            55.6655539
+          ],
+          [
+            5.3326129,
+            60.3893436
+          ],
+          [
+            5.3248477,
+            60.3928011
+          ],
+          [
+            18.0750212,
+            59.3237909
+          ],
+          [
+            18.0446447,
+            59.3330542
+          ],
+          [
+            18.0112891,
+            59.3660611
+          ],
+          [
+            18.0710705,
+            59.3238849
+          ],
+          [
+            18.0060857,
+            59.3229559
+          ],
+          [
+            18.0585657,
+            59.3300956
+          ],
+          [
+            18.0595112,
+            59.3359135
+          ],
+          [
+            18.072491,
+            59.3345197
+          ],
+          [
+            18.0575498,
+            59.3376342
+          ],
+          [
+            7.8504289,
+            47.9946773
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8497739,
+            47.9941343
+          ],
+          [
+            7.7768379,
+            47.957802
+          ],
+          [
+            7.8484633,
+            48.0001734
+          ],
+          [
+            7.8536915,
+            47.9990747
+          ],
+          [
+            7.8484633,
+            48.0001734
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8496743,
+            47.9954551
+          ],
+          [
+            7.8491267,
+            47.9937222
+          ],
+          [
+            7.8491267,
+            47.9937222
+          ],
+          [
+            7.8488016,
+            47.9948601
+          ],
+          [
+            7.8497739,
+            47.9941343
+          ],
+          [
+            7.8267205,
+            48.0054442
+          ],
+          [
+            7.8496743,
+            47.9954551
+          ],
+          [
+            7.8488016,
+            47.9948601
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ]
+        ]
+      },
+      "properties": {
+        "name": "TGTG Collection Route"
+      }
+    }
+  ]
+}

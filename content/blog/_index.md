@@ -1,5 +1,5 @@
 +++
-title = "Writings of Duck's Feet"
+title = "Max's Ramblings"
 sort_by = "date"
 template = "article_list.html"
 page_template = "article.html"

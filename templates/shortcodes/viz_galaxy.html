@@ -1,0 +1,148 @@
+<!-- ════════════════════════════════════════════════════════
+     VIZ 3 · STORE GALAXY (force-directed bubbles)
+════════════════════════════════════════════════════════ -->
+<section id="galaxy">
+  <div class="inner fadein">
+    <div class="sec-header">
+      <h2>Store <span>Galaxy</span></h2>
+      <p>Every store you've visited, sized by how many times. Colored by region. Drag nodes around.</p>
+    </div>
+    <div class="btn-group" id="galaxy-mode-btns">
+      <button class="mode-btn active" data-mode="country">Country</button>
+      <button class="mode-btn" data-mode="city">City</button>
+    </div>
+    <div class="legend" id="galaxy-legend"></div>
+    <div class="viz-box" id="galaxy-container"></div>
+  </div>
+</section>
+
+{% raw %}
+<script>
+window.tgtgDataPromise.then(({ pts, storeMap, getCountry, getCity }) => {
+  const box = document.getElementById('galaxy-container');
+  const W   = box.offsetWidth || 960;
+  const H   = Math.round(W * 0.6);
+
+  const BUBBLE_R_MIN     = 5;
+  const BUBBLE_R_MAX     = 42;
+  const LABEL_MIN_VISITS = 4;
+  const LABEL_MAX_CHARS  = 13;
+
+  const PALETTE = [
+    '#22c55e','#38bdf8','#a78bfa','#f472b6','#fb923c',
+    '#fbbf24','#86efac','#67e8f9','#c4b5fd','#fda4af',
+    '#fdba74','#fde68a','#4ade80','#60a5fa','#e879f9',
+  ];
+
+  const nodes = Array.from(storeMap, ([name, count]) => {
+    const p = pts.find(d => d.name === name);
+    return { name, count, lon: p ? p.lon : 0, lat: p ? p.lat : 0 };
+  });
+
+  const rMax   = d3.max(nodes, d => d.count);
+  const rScale = d3.scaleSqrt().domain([1, rMax]).range([BUBBLE_R_MIN, BUBBLE_R_MAX]);
+
+  const svg = d3.select(box).append('svg').attr('width', W).attr('height', H);
+  svg.append('rect').attr('width', W).attr('height', H).attr('fill', '#080c10');
+  const gNodes = svg.append('g');
+
+  const sim = d3.forceSimulation(nodes)
+    .force('charge',    d3.forceManyBody().strength(d => -rScale(d.count) * 2.5))
+    .force('center',    d3.forceCenter(W / 2, H / 2).strength(0.05))
+    .force('collision', d3.forceCollide().radius(d => rScale(d.count) + 2).strength(0.9))
+    .force('x',         d3.forceX(W / 2).strength(0.28))
+    .force('y',         d3.forceY(H / 2).strength(0.1))
+    .on('tick', ticked);
+
+  const circ = gNodes.selectAll('circle')
+    .data(nodes).enter().append('circle')
+    .attr('r', d => rScale(d.count))
+    .attr('fill', '#22c55e25')
+    .attr('stroke', '#22c55e')
+    .attr('stroke-width', 1.5)
+    .attr('cursor', 'pointer')
+    .call(d3.drag()
+      .on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag',  (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+      .on('end',   (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx=null; d.fy=null; })
+    );
+
+  const labels = gNodes.selectAll('text')
+    .data(nodes.filter(d => d.count >= LABEL_MIN_VISITS))
+    .enter().append('text')
+    .attr('text-anchor', 'middle').attr('dominant-baseline', 'middle')
+    .attr('font-size', d => Math.min(rScale(d.count) * 0.38, 12))
+    .attr('fill', '#fff').attr('fill-opacity', 0.85)
+    .attr('pointer-events', 'none')
+    .text(d => d.name.length > LABEL_MAX_CHARS ? d.name.slice(0, LABEL_MAX_CHARS - 1)+'…' : d.name);
+
+  function ticked() {
+    circ.attr('cx', d => d.x).attr('cy', d => d.y);
+    labels.attr('x', d => d.x).attr('y', d => d.y);
+  }
+
+  let colorMap = {};
+
+  function applyMode(mode) {
+    nodes.forEach(n => {
+      n.group = mode === 'country' ? getCountry(n.lon, n.lat) : getCity(n.lon, n.lat);
+    });
+
+    const groupVisits = d3.rollup(nodes, v => d3.sum(v, d => d.count), d => d.group);
+    const sortedGroups = Array.from(groupVisits.keys())
+      .sort((a, b) => groupVisits.get(b) - groupVisits.get(a));
+    const nGroups = sortedGroups.length;
+
+    colorMap = {};
+    sortedGroups.forEach((g, i) => { colorMap[g] = PALETTE[i % PALETTE.length]; });
+
+    const groupX = {};
+    sortedGroups.forEach((g, i) => {
+      groupX[g] = W * (0.1 + 0.8 * (i / Math.max(nGroups - 1, 1)));
+    });
+
+    const groupLabel = {};
+    sortedGroups.forEach(g => { groupLabel[g] = g; });
+
+    circ
+      .attr('fill',   d => (colorMap[d.group] || '#888') + '25')
+      .attr('stroke', d =>  colorMap[d.group] || '#888')
+      .on('mouseover', function(ev, d) {
+        d3.select(this).attr('fill', (colorMap[d.group] || '#888') + '55');
+        tip(`<strong>${d.name}</strong><br>${d.count} visit${d.count > 1 ? 's' : ''}<br>
+             <span style="color:${colorMap[d.group]}">${groupLabel[d.group]}</span>`, ev);
+      })
+      .on('mousemove', moveTip)
+      .on('mouseout', function(ev, d) {
+        d3.select(this).attr('fill', (colorMap[d.group] || '#888') + '25');
+        hideTip();
+      });
+
+    sim.force('x', d3.forceX(d => groupX[d.group] ?? W / 2).strength(0.28));
+    sim.alpha(0.6).restart();
+
+    const legBox = document.getElementById('galaxy-legend');
+    legBox.innerHTML = '';
+    sortedGroups.forEach(g => {
+      legBox.insertAdjacentHTML('beforeend',
+        `<div class="legend-item">
+           <div class="legend-dot" style="background:${colorMap[g]}"></div>
+           ${groupLabel[g]}
+         </div>`);
+    });
+  }
+
+  document.querySelectorAll('#galaxy-mode-btns .mode-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#galaxy-mode-btns .mode-btn')
+        .forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyMode(btn.dataset.mode);
+    });
+  });
+
+  applyMode('country');
+
+}).catch(err => console.error('Galaxy viz error:', err));
+</script>
+{% endraw %}
