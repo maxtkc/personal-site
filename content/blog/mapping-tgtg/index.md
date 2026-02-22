@@ -297,4 +297,8 @@ Then a little bit of scripting (yeah, for this I used an LLM) and we have...
 Follow [the instructions here](https://git.kcfam.us/maxtkc/tgtg-wrapped) to get
 your data, then upload the geojson file!
 
+> [!NOTE]
+> Your data will not leave this website, it will just update the
+> visualizations!
+
 {{ upload_tgtg_data() }}
