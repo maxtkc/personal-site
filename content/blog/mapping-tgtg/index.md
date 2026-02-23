@@ -50,8 +50,6 @@ host = "better.boston"
 user = "maxtkc"
 id = "tbd"
 +++
-# Mapping My Leftover Food Tourism
-
 ## An Addict
 
 **Gambling is very addictive**. I have an addictive personality. I have spent
