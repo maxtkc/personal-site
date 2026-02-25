@@ -129,14 +129,14 @@ tgtg.exceptions.TgtgLoginError: (403, b'{"url":"https://geo.captcha-delivery.com
 
 ![I am not a robot meme](i_am_not_a_robot_3071145.webp#end)
 
-What is 403? Authentication issue.
+What is 403? It's an internet response code for an authentication failure.
 
-> Easy way to identify a dork is answer any question they have by saying 403,
+> Easy way to troll a dork is answer any question they have by saying 403,
 > because they'll both respect you and be pissed at the same time.
 
-You know when a website makes you identify which of the grainy pictures include
-a bus, and you have to decide if a van qualifies as a bus or not, risking your
-qualifications as a real human? That's a
+Have you been to a website that makes you identify which of the grainy pictures
+shows a bus, and you have to decide if the bigish van qualifies as a bus or
+not, risking your qualifications as a real human? That's a
 [CAPTCHA](https://en.wikipedia.org/wiki/CAPTCHA), standing for, and I'm not
 kidding, "Completely Automated Public Turing test to tell Computers and Humans
 Apart"
