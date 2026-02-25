@@ -136,7 +136,7 @@ window.tgtgDataPromise = (async () => {
     const heroRescues = document.getElementById('hero-rescues');
     if (heroRescues) heroRescues.textContent = p.length;
     const heroYears = document.getElementById('hero-years');
-    if (heroYears) heroYears.textContent = yMax - yMin + 1;
+    if (heroYears) heroYears.textContent = Math.floor(d3.max(pts, d => d.year) - d3.min(pts, d => d.year));
     counter('sn-pickups',   p.length);
     counter('sn-stores',    sm.size);
     counter('sn-years',     yMax - yMin + 1, 800);
