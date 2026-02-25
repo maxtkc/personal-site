@@ -43,7 +43,7 @@ favorites.
 
 ![On staten island](tgtg_staten_island.webp)
 
-If it was just for the food alone, I don't know if I would be winning. I spend
+If it were just for the food alone, I don't know if I would be winning. I spend
 lots of time and energy collecting the food. I don't know if there's any
 hunter/gatherer left in our DNA, but I definitely get some sort of rush every
 time I snag a highly rated bag in a new city or when I open up the bag to see
@@ -51,9 +51,9 @@ what I've "saved".
 
 ![In amsterdam](tgtg_amsterdam.webp)
 
-While solo traveling, it gives me a sense of purpose and gives me an excuse to
-explore the city in ways that not many others do. And of course, the off chance
-encounters with other too good to goers is quite interesting.
+While solo traveling, using TGTG gives me a sense of purpose and gives me an
+excuse to explore the city in ways that not many others do. And of course, the
+off chance encounters with other too good to goers is quite interesting.
 
 > I am not gonna be like an influencer and say "Have you ever had an
 > interesting experience picking up a TGTG? Tell me about your craziest
