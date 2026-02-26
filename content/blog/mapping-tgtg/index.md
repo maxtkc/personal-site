@@ -243,7 +243,7 @@ Ok, we've got to be the attacker in this diagram. Lets use
 > *[Phone exits stage right]*
 
 When the app tries to connect securely with TGTG, it uses SSL. SSL puts the `s`
-in `https` (I could write adds for them)
+in `https` (I could write ads for them)
 
 ![Passport example](passport_approved.webp#end)
 
