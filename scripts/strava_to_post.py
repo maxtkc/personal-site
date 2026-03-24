@@ -190,13 +190,21 @@ def ensure_auth(config: dict) -> dict:
 # ---------------------------------------------------------------------------
 
 def api_get(token: str, path: str, params: dict = None) -> dict | list:
-    resp = requests.get(
-        f"{API_BASE}{path}",
-        headers={"Authorization": f"Bearer {token}"},
-        params=params or {},
-    )
+    for attempt in range(5):
+        resp = requests.get(
+            f"{API_BASE}{path}",
+            headers={"Authorization": f"Bearer {token}"},
+            params=params or {},
+        )
+        if resp.status_code == 429:
+            retry_after = int(resp.headers.get("X-RateLimit-Reset", 900))
+            wait = min(retry_after, 900)
+            print(f"  Rate limited. Waiting {wait}s before retrying...")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        return resp.json()
     resp.raise_for_status()
-    return resp.json()
 
 
 def list_activities(token: str, count: int = 20) -> list:
@@ -750,7 +758,7 @@ def main():
                 else:
                     print(f"  Created: {post_file.relative_to(REPO_ROOT)}")
                     created += 1
-                time.sleep(0.3)  # stay under rate limits
+                time.sleep(10)  # stay under rate limits (~3 req/activity, limit is 100/15min)
             except Exception as e:
                 print(f"  ERROR: {e}")
         print(f"\nDone. Created {created}, skipped {skipped} existing.")
