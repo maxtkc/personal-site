@@ -24,6 +24,7 @@
 </script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
+<style>#strava-routes-map .leaflet-tile { border-radius: 0 !important; }</style>
 <div id="strava-routes-map" style="height:500px;width:100%;border-radius:8px;margin:1rem 0 2rem;"></div>
 
 <script>
@@ -72,9 +73,12 @@
 
   function init() {
     var map = L.map('strava-routes-map', { zoomControl: true });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: 'abcd',
+    var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var tileUrl = dark
+      ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'
+      : 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
+    L.tileLayer(tileUrl, {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 19
     }).addTo(map);
 
