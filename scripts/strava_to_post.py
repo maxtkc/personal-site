@@ -489,6 +489,7 @@ def rebuild_routes_geojson() -> None:
         if not coords:
             continue
 
+        extra = fm.get("extra") or {}
         features.append({
             "type": "Feature",
             "geometry": {"type": "LineString", "coordinates": coords},
@@ -498,6 +499,9 @@ def rebuild_routes_geojson() -> None:
                 "date": date,
                 "url": url,
                 "banner_url": banner_url,
+                "distance": extra.get("distance_fmt", ""),
+                "moving_time": extra.get("moving_time_fmt", ""),
+                "elevation": extra.get("elevation_gain_fmt", ""),
             },
         })
 

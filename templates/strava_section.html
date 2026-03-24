@@ -4,13 +4,19 @@
 {%- set date_format = macros_translate::translate(key="date_format", default="%B %d, %Y", language_strings=language_strings) -%}
 {%- set date_locale = macros_translate::translate(key="date_locale", default="en_US", language_strings=language_strings) -%}
 
-{%- set number_of_posts = section.pages | length -%}
+{%- if paginator.pages -%}
+	{%- set number_of_posts = paginator.total_pages -%}
+{%- elif section.pages -%}
+	{%- set number_of_posts = section.pages | length -%}
+{%- else -%}
+	{%- set number_of_posts = 0 -%}
+{%- endif -%}
 
 <h1>{{ section.title }}</h1>
 
 {{ section.content | safe }}
 
-<!-- Routes map — data embedded at build time via section.pages + load_data -->
+<!-- Routes map — loaded client-side from static/strava/routes.geojson -->
 <script>
 (function () {
   function injectLink(href, id) {
@@ -37,41 +43,7 @@
     return 'hsl(' + (h % 360) + ',70%,60%)';
   }
 
-  var routeData = {
-    "type": "FeatureCollection",
-    "features": [
-{% set_global first_route = true %}
-{% for page in section.pages %}
-{%- set route_path = "content/" ~ page.relative_path | replace(from="index.md", to="route.geojson") -%}
-{%- set route = load_data(path=route_path, format="json", required=false) -%}
-{%- if route -%}
-{%- if not first_route -%},{%- endif -%}
-{%- set_global first_route = false -%}
-{%- if page.extra.banner -%}
-{%- set banner_url = page.permalink ~ page.extra.banner -%}
-{%- else -%}
-{%- set banner_url = "" -%}
-{%- endif -%}
-      {
-        "type": "Feature",
-        "geometry": {{ route.features[0].geometry | json_encode() | safe }},
-        "properties": {
-          "name": {{ page.title | json_encode() | safe }},
-          "sport_type": {{ page.taxonomies.tags | default(value=[]) | first | default(value="Activity") | json_encode() | safe }},
-          "url": {{ page.permalink | json_encode() | safe }},
-          "banner_url": {{ banner_url | json_encode() | safe }},
-          "distance": {{ page.extra.distance_fmt | default(value="") | json_encode() | safe }},
-          "moving_time": {{ page.extra.moving_time_fmt | default(value="") | json_encode() | safe }},
-          "elevation": {{ page.extra.elevation_gain_fmt | default(value="") | json_encode() | safe }}
-        }
-      }
-{%- endif -%}
-{% endfor %}
-
-    ]
-  };
-
-  function init() {
+  function init(routeData) {
     var map = L.map('strava-routes-map', { zoomControl: true });
     var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     var tileUrl = dark
@@ -126,10 +98,16 @@
     }
   }
 
+  function loadAndInit() {
+    fetch('/strava/routes.geojson')
+      .then(function (r) { return r.json(); })
+      .then(init);
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
+    document.addEventListener('DOMContentLoaded', loadAndInit);
   } else {
-    init();
+    loadAndInit();
   }
 })();
 </script>
@@ -150,5 +128,51 @@
 </p>
 
 {% include "partials/articles.html" %}
+
+{%- if paginator.pages -%}
+	<nav id="paginator">
+		{%- if paginator.first != current_url -%}
+			<a id="paginator-first" href="{{ paginator.first }}" title="{{ macros_translate::translate(key='first', default='First', language_strings=language_strings) }}">
+				<i class="icon"></i>
+			</a>
+		{% else %}
+			<span id="paginator-first" title="{{ macros_translate::translate(key='first', default='First', language_strings=language_strings) }}">
+				<i class="icon"></i>
+			</span>
+		{%- endif -%}
+
+		{%- if paginator.previous -%}
+			<a id="paginator-previous" href="{{ paginator.previous }}" title="{{ macros_translate::translate(key='previous', default='Previous', language_strings=language_strings) }}">
+				<i class="icon"></i>
+			</a>
+		{% else %}
+			<span id="paginator-previous" title="{{ macros_translate::translate(key='previous', default='Previous', language_strings=language_strings) }}">
+				<i class="icon"></i>
+			</span>
+		{%- endif -%}
+
+		<span id="paginator-counter">{{ paginator.current_index }}/{{ paginator.number_pagers }}</span>
+
+		{%- if paginator.next -%}
+			<a id="paginator-next" href="{{ paginator.next }}" title="{{ macros_translate::translate(key='next', default='Next', language_strings=language_strings) }}">
+				<i class="icon"></i>
+			</a>
+		{%- else -%}
+			<span id="paginator-next" title="{{ macros_translate::translate(key='next', default='Next', language_strings=language_strings) }}">
+				<i class="icon"></i>
+			</span>
+		{%- endif -%}
+
+		{%- if paginator.last != current_url -%}
+			<a id="paginator-last" href="{{ paginator.last }}" title="{{ macros_translate::translate(key='last', default='Last', language_strings=language_strings) }}">
+				<i class="icon"></i>
+			</a>
+		{% else %}
+			<span id="paginator-last" title="{{ macros_translate::translate(key='last', default='Last', language_strings=language_strings) }}">
+				<i class="icon"></i>
+			</span>
+		{%- endif -%}
+	</nav>
+{%- endif -%}
 
 {% endblock content %}
