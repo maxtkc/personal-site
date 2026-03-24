@@ -1,4 +1,5 @@
 public/
 .sass-cache/
+static/processed_images/
 .playwright-mcp/
 scripts/.strava_config.json

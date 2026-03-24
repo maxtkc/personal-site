@@ -416,6 +416,11 @@ def fmt_elevation(meters: float, use_miles: bool) -> str:
     return f"{meters:.0f} m"
 
 
+def toml_escape(s: str) -> str:
+    """Escape a string for use inside a TOML basic string (double-quoted)."""
+    return s.replace("\\", "\\\\").replace('"', '\\"')
+
+
 def slugify(text: str) -> str:
     text = text.lower()
     text = re.sub(r"[^\w\s-]", "", text)
@@ -533,22 +538,22 @@ def build_post(activity: dict, draft: bool, use_miles: bool, photo_items: list =
 
     # --- Front matter ---
     lines = ["+++"]
-    lines.append(f'title = "{name}"')
-    lines.append(f'description = "{sport_type} — {date_str}"')
+    lines.append(f'title = "{toml_escape(name)}"')
+    lines.append(f'description = "{toml_escape(sport_type)} — {date_str}"')
     lines.append(f"date = {date_str}")
     lines.append('authors = ["Max Katz-Christy"]')
     if draft:
         lines.append("draft = true")
     lines.append("")
     lines.append("[taxonomies]")
-    lines.append(f'tags = ["{sport_type}"]')
+    lines.append(f'tags = ["{toml_escape(sport_type)}"]')
     lines.append("")
     lines.append("[extra]")
-    lines.append(f'banner = "{banner_filename}"')
+    lines.append(f'banner = "{toml_escape(banner_filename)}"')
     lines.append(f"strava_id = {activity_id}")
-    lines.append(f'distance_fmt = "{distance_fmt}"')
-    lines.append(f'moving_time_fmt = "{moving_time_fmt}"')
-    lines.append(f'elevation_gain_fmt = "{elevation_gain_fmt}"')
+    lines.append(f'distance_fmt = "{toml_escape(distance_fmt)}"')
+    lines.append(f'moving_time_fmt = "{toml_escape(moving_time_fmt)}"')
+    lines.append(f'elevation_gain_fmt = "{toml_escape(elevation_gain_fmt)}"')
     lines.append("+++")
     lines.append("")
 
