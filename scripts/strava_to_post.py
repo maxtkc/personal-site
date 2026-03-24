@@ -747,7 +747,14 @@ def main():
         print(f"\nFound {len(summaries)} activities total. Creating posts (skipping existing)...\n")
         created, skipped = 0, 0
         for i, summary in enumerate(summaries, 1):
-            print(f"[{i}/{len(summaries)}] {summary.get('start_date_local', '')[:10]} — {summary.get('name', '')}")
+            date_str = summary.get("start_date_local", "")[:10]
+            name = summary.get("name", "activity")
+            print(f"[{i}/{len(summaries)}] {date_str} — {name}")
+            slug = f"{date_str}-{slugify(name)}"
+            if (CONTENT_DIR / slug).exists():
+                print("  Skipped (already exists).")
+                skipped += 1
+                continue
             print(f"  Fetching full details...")
             try:
                 activity = get_activity(token, summary["id"])
