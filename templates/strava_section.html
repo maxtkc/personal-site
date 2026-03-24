@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block content %}
+{%- set date_format = macros_translate::translate(key="date_format", default="%B %d, %Y", language_strings=language_strings) -%}
+{%- set date_locale = macros_translate::translate(key="date_locale", default="en_US", language_strings=language_strings) -%}
+
+{%- set number_of_posts = section.pages | length -%}
+
+<h1>{{ section.title }}</h1>
+
+{{ section.content | safe }}
+
+<!-- Routes map — data embedded at build time via section.pages + load_data -->
+<script>
+(function () {
+  function injectLink(href, id) {
+    if (document.getElementById(id)) return;
+    var link = document.createElement('link');
+    link.rel = 'stylesheet'; link.href = href; link.id = id;
+    document.head.appendChild(link);
+  }
+  injectLink('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', 'strava-leaflet-css');
+})();
+</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+<div id="strava-routes-map" style="height:500px;width:100%;border-radius:8px;margin:1rem 0 2rem;"></div>
+
+<script>
+(function () {
+  function sportColor(sportType) {
+    var h = 5381;
+    for (var i = 0; i < sportType.length; i++) {
+      h = ((h << 5) + h + sportType.charCodeAt(i)) & 0x7FFFFFFF;
+    }
+    return 'hsl(' + (h % 360) + ',70%,60%)';
+  }
+
+  var routeData = {
+    "type": "FeatureCollection",
+    "features": [
+{% set_global first_route = true %}
+{% for page in section.pages %}
+{%- set route_path = "content/" ~ page.relative_path | replace(from="index.md", to="route.geojson") -%}
+{%- set route = load_data(path=route_path, format="json", required=false) -%}
+{%- if route -%}
+{%- if not first_route -%},{%- endif -%}
+{%- set_global first_route = false -%}
+{%- if page.extra.banner -%}
+{%- set banner_url = page.permalink ~ page.extra.banner -%}
+{%- else -%}
+{%- set banner_url = "" -%}
+{%- endif -%}
+      {
+        "type": "Feature",
+        "geometry": {{ route.features[0].geometry | json_encode() | safe }},
+        "properties": {
+          "name": {{ page.title | json_encode() | safe }},
+          "sport_type": {{ page.taxonomies.tags | default(value=[]) | first | default(value="Activity") | json_encode() | safe }},
+          "url": {{ page.permalink | json_encode() | safe }},
+          "banner_url": {{ banner_url | json_encode() | safe }},
+          "distance": {{ page.extra.distance_fmt | default(value="") | json_encode() | safe }},
+          "moving_time": {{ page.extra.moving_time_fmt | default(value="") | json_encode() | safe }},
+          "elevation": {{ page.extra.elevation_gain_fmt | default(value="") | json_encode() | safe }}
+        }
+      }
+{%- endif -%}
+{% endfor %}
+
+    ]
+  };
+
+  function init() {
+    var map = L.map('strava-routes-map', { zoomControl: true });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+
+    var allLayers = L.featureGroup();
+
+    L.geoJSON(routeData, {
+      style: function (feature) {
+        return {
+          color: sportColor(feature.properties.sport_type || ''),
+          weight: 3,
+          opacity: 0.85
+        };
+      },
+      onEachFeature: function (feature, layer) {
+        var p = feature.properties;
+
+        var html = '<div style="line-height:1.4">';
+        if (p.banner_url) {
+          html += '<img src="' + p.banner_url + '" alt="" style="width:220px;height:130px;object-fit:cover;display:block;border-radius:4px 4px 0 0;">';
+        }
+        html += '<div style="padding:6px 10px">';
+        html += '<div style="font-weight:bold;margin-bottom:4px">' + p.name + '</div>';
+        if (p.distance || p.moving_time || p.elevation) {
+          html += '<div style="font-size:0.8em;opacity:0.85">';
+          if (p.distance)    html += p.distance + '&emsp;';
+          if (p.moving_time) html += p.moving_time + '&emsp;';
+          if (p.elevation)   html += '&#8599;&thinsp;' + p.elevation;
+          html += '</div>';
+        }
+        html += '</div></div>';
+
+        layer.bindTooltip(html, { sticky: true, opacity: 1 });
+        layer.on('mouseover', function () { this.setStyle({ weight: 5 }); });
+        layer.on('mouseout',  function () { this.setStyle({ weight: 3 }); });
+        layer.on('click',     function () { window.location.href = p.url; });
+
+        allLayers.addLayer(layer);
+      }
+    }).addTo(map);
+
+    if (allLayers.getLayers().length > 0) {
+      map.fitBounds(allLayers.getBounds(), { padding: [20, 20] });
+    } else {
+      map.setView([20, 0], 2);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+<p>
+	<small>
+		{%- if config.taxonomies | length > 0 -%}
+		    {%- for taxon in config.taxonomies -%}
+			    {%- set taxon_name = taxon.name -%}
+			    <a href="{{- get_url(path='$TAXON', lang=lang) | replace(from="$TAXON", to=taxon.name) | lower -}}">
+					{{ macros_translate::translate(key='filter_by_taxon', default='Filter by $TAXON', language_strings=language_strings) | replace(from="$TAXON", to=taxon.name) }}
+			    </a>
+			    <br />
+			{%- endfor %}
+		{%- endif %}
+		{{ macros_translate::translate(key='posts', number=number_of_posts, default='$NUMBER posts in total', language_strings=language_strings) }}
+	</small>
+</p>
+
+{% include "partials/articles.html" %}
+
+{% endblock content %}

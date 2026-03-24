@@ -1,3 +1,4 @@
 public/
 .sass-cache/
 .playwright-mcp/
+scripts/.strava_config.json

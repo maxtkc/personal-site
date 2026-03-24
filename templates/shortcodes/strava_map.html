@@ -1,0 +1,42 @@
+<script>
+(function () {
+  function injectLink(href, id) {
+    if (document.getElementById(id)) return;
+    var link = document.createElement('link');
+    link.rel = 'stylesheet'; link.href = href; link.id = id;
+    document.head.appendChild(link);
+  }
+  injectLink('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', 'strava-leaflet-css');
+})();
+</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+
+<div id="strava-map" style="height:400px;width:100%;border-radius:8px;margin:1rem 0;"></div>
+
+<script>
+(function () {
+  function init() {
+    var map = L.map('strava-map', { zoomControl: true });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+
+    fetch('./route.geojson')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        var routeLayer = L.geoJSON(data, {
+          style: { color: '#22c55e', weight: 3, opacity: 0.9 }
+        }).addTo(map);
+        map.fitBounds(routeLayer.getBounds(), { padding: [20, 20] });
+      });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>

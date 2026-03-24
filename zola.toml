@@ -152,6 +152,7 @@ show_repo = true
 links = [
 	# { name = "Links", menu = [
 		{ url = "@/blog/_index.md", name = "Blog" },
+		{ url = "@/strava/_index.md", name = "Strava" },
 		# { url = "@/projects/_index.md", name = "Projects" },
 	# ] },
 ]
@@ -161,6 +162,7 @@ links = [
 # Same as the nav ones.
 links = [
 	{ url = "@/blog/_index.md", name = "Blog" },
+	{ url = "@/strava/_index.md", name = "Strava" },
 	# { url = "@/projects/_index.md", name = "Projects" },
 ]
 # Social links in the footer.
