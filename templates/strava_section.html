@@ -30,7 +30,10 @@
 </script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
-<style>#strava-routes-map .leaflet-tile { border-radius: 0 !important; }</style>
+<style>
+  #strava-routes-map .leaflet-tile { border-radius: 0 !important; }
+  #strava-routes-map .leaflet-overlay-pane svg path { transition: stroke-width var(--transition-longer); }
+</style>
 <div id="strava-routes-map" style="height:500px;width:100%;border-radius:8px;margin:1rem 0 2rem;"></div>
 
 <script>
@@ -41,6 +44,24 @@
       h = ((h << 5) + h + sportType.charCodeAt(i)) & 0x7FFFFFFF;
     }
     return 'hsl(' + (h % 360) + ',70%,60%)';
+  }
+
+  function buildTooltip(p) {
+    var html = '<div style="line-height:1.4">';
+    if (p.banner_url) {
+      html += '<img src="' + p.banner_url + '" alt="" style="width:220px;height:130px;object-fit:cover;display:block;border-radius:4px 4px 0 0;">';
+    }
+    html += '<div style="padding:6px 10px">';
+    html += '<div style="font-weight:bold;margin-bottom:4px">' + p.name + '</div>';
+    if (p.distance || p.moving_time || p.elevation) {
+      html += '<div style="font-size:0.8em;opacity:0.85">';
+      if (p.distance)    html += p.distance + '&emsp;';
+      if (p.moving_time) html += p.moving_time + '&emsp;';
+      if (p.elevation)   html += '&#8599;&thinsp;' + p.elevation;
+      html += '</div>';
+    }
+    html += '</div></div>';
+    return html;
   }
 
   function init(routeData) {
@@ -55,39 +76,45 @@
     }).addTo(map);
 
     var allLayers = L.featureGroup();
+    var realLayers = {};
 
+    // Visible route layer
     L.geoJSON(routeData, {
       style: function (feature) {
         return {
           color: sportColor(feature.properties.sport_type || ''),
           weight: 3,
-          opacity: 0.85
+          opacity: 0.85,
+          interactive: false
         };
       },
       onEachFeature: function (feature, layer) {
-        var p = feature.properties;
-
-        var html = '<div style="line-height:1.4">';
-        if (p.banner_url) {
-          html += '<img src="' + p.banner_url + '" alt="" style="width:220px;height:130px;object-fit:cover;display:block;border-radius:4px 4px 0 0;">';
-        }
-        html += '<div style="padding:6px 10px">';
-        html += '<div style="font-weight:bold;margin-bottom:4px">' + p.name + '</div>';
-        if (p.distance || p.moving_time || p.elevation) {
-          html += '<div style="font-size:0.8em;opacity:0.85">';
-          if (p.distance)    html += p.distance + '&emsp;';
-          if (p.moving_time) html += p.moving_time + '&emsp;';
-          if (p.elevation)   html += '&#8599;&thinsp;' + p.elevation;
-          html += '</div>';
-        }
-        html += '</div></div>';
-
-        layer.bindTooltip(html, { sticky: true, opacity: 1 });
-        layer.on('mouseover', function () { this.setStyle({ weight: 5 }); });
-        layer.on('mouseout',  function () { this.setStyle({ weight: 3 }); });
-        layer.on('click',     function () { window.location.href = p.url; });
-
+        var key = feature.properties.name;
+        realLayers[key] = layer;
         allLayers.addLayer(layer);
+      }
+    }).addTo(map);
+
+    // Wide invisible ghost layer for lenient hit detection
+    L.geoJSON(routeData, {
+      style: function () {
+        return { weight: 20, opacity: 0, fillOpacity: 0 };
+      },
+      onEachFeature: function (feature, ghost) {
+        var p = feature.properties;
+        var key = p.name;
+
+        ghost.bindTooltip(buildTooltip(p), { sticky: true, opacity: 1 });
+
+        ghost.on('mouseover', function () {
+          var real = realLayers[key];
+          if (real && real._path) real._path.style.strokeWidth = '6px';
+        });
+        ghost.on('mouseout', function () {
+          var real = realLayers[key];
+          if (real && real._path) real._path.style.strokeWidth = '';
+        });
+        ghost.on('click', function () { window.location.href = p.url; });
       }
     }).addTo(map);
 

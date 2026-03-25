@@ -473,12 +473,14 @@ def rebuild_routes_geojson() -> None:
             continue
 
         slug = activity_dir.name
+        # Zola strips YYYY-MM-DD- date prefixes from directory slugs
+        url_slug = re.sub(r'^\d{4}-\d{2}-\d{2}-', '', slug)
         name = fm.get("title", slug)
         date = str(fm.get("date", ""))
         sport_type = ((fm.get("taxonomies") or {}).get("tags") or ["Activity"])[0]
         banner = (fm.get("extra") or {}).get("banner", "")
-        banner_url = f"/strava/{slug}/{banner}" if banner else ""
-        url = f"/strava/{slug}/"
+        banner_url = f"/strava/{url_slug}/{banner}" if banner else ""
+        url = f"/strava/{url_slug}/"
 
         coords = None
         for feature in route_data.get("features", []):
