@@ -436,6 +436,35 @@ def slugify(text: str) -> str:
     return text.strip("-")
 
 
+def effective_url_slug(directory: Path) -> str:
+    """Return the URL slug Zola will use for a post directory.
+
+    Checks front matter for an explicit ``slug`` field first; falls back to
+    stripping the leading YYYY-MM-DD- date prefix from the directory name.
+    """
+    index_md = directory / "index.md"
+    if index_md.exists():
+        fm = parse_front_matter(index_md)
+        if fm.get("slug"):
+            return fm["slug"]
+    return re.sub(r"^\d{4}-\d{2}-\d{2}-", "", directory.name)
+
+
+def unique_url_slug(base: str, exclude_dir: Path = None) -> str:
+    """Return a collision-free URL slug, appending -2, -3, … as needed."""
+    existing = set()
+    if CONTENT_DIR.exists():
+        for d in CONTENT_DIR.iterdir():
+            if d.is_dir() and d != exclude_dir:
+                existing.add(effective_url_slug(d))
+    if base not in existing:
+        return base
+    n = 2
+    while f"{base}-{n}" in existing:
+        n += 1
+    return f"{base}-{n}"
+
+
 # ---------------------------------------------------------------------------
 # Routes GeoJSON helpers
 # ---------------------------------------------------------------------------
@@ -472,10 +501,8 @@ def rebuild_routes_geojson() -> None:
         if not fm:
             continue
 
-        slug = activity_dir.name
-        # Zola strips YYYY-MM-DD- date prefixes from directory slugs
-        url_slug = re.sub(r'^\d{4}-\d{2}-\d{2}-', '', slug)
-        name = fm.get("title", slug)
+        url_slug = effective_url_slug(activity_dir)
+        name = fm.get("title", activity_dir.name)
         date = str(fm.get("date", ""))
         sport_type = ((fm.get("taxonomies") or {}).get("tags") or ["Activity"])[0]
         banner = (fm.get("extra") or {}).get("banner", "")
@@ -520,7 +547,7 @@ def rebuild_routes_geojson() -> None:
 # Post generation
 # ---------------------------------------------------------------------------
 
-def build_post(activity: dict, draft: bool, use_miles: bool, photo_items: list = None, has_route: bool = False, banner_filename: str = "") -> str:
+def build_post(activity: dict, draft: bool, use_miles: bool, photo_items: list = None, has_route: bool = False, banner_filename: str = "", slug_override: str = "") -> str:
     sport_type = activity.get("sport_type") or activity.get("type", "Activity")
     name = activity.get("name", "Untitled Activity")
     description = (activity.get("description") or "").strip()
@@ -555,6 +582,8 @@ def build_post(activity: dict, draft: bool, use_miles: bool, photo_items: list =
     lines.append(f'title = "{toml_escape(name)}"')
     lines.append(f'description = "{toml_escape(sport_type)} — {date_str}"')
     lines.append(f"date = {date_str}")
+    if slug_override:
+        lines.append(f'slug = "{toml_escape(slug_override)}"')
     lines.append('authors = ["Max Katz-Christy"]')
     if draft:
         lines.append("draft = true")
@@ -664,6 +693,13 @@ def create_post(activity: dict, draft: bool, use_miles: bool, token: str, dl_pho
     else:
         post_dir.mkdir(parents=True)
 
+    # Detect URL slug collisions (Zola strips the date prefix).
+    base_url_slug = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", slug)
+    final_url_slug = unique_url_slug(base_url_slug, exclude_dir=post_dir)
+    slug_override = final_url_slug if final_url_slug != base_url_slug else ""
+    if slug_override:
+        print(f"  Slug collision detected — using slug '{slug_override}'")
+
     activity_id = activity.get("id")
 
     # Download route
@@ -695,7 +731,7 @@ def create_post(activity: dict, draft: bool, use_miles: bool, token: str, dl_pho
                     if url:
                         photo_items.append(url)
 
-    content = build_post(activity, draft, use_miles, photo_items, has_route, banner_filename)
+    content = build_post(activity, draft, use_miles, photo_items, has_route, banner_filename, slug_override)
     post_file = post_dir / "index.md"
     post_file.write_text(content, encoding="utf-8")
 
