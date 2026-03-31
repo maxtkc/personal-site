@@ -139,7 +139,7 @@ window.tgtgDataPromise = (async () => {
     if (heroYears) heroYears.textContent = Math.floor(d3.max(pts, d => d.year) - d3.min(pts, d => d.year));
     counter('sn-pickups',   p.length);
     counter('sn-stores',    sm.size);
-    counter('sn-years',     yMax - yMin + 1, 800);
+    counter('sn-years',     yMax - yMin, 800);
     counter('sn-countries', new Set(p.map(d => getCountry(d.lon, d.lat))).size);
     counter('sn-cities',    new Set(p.map(d => getCity(d.lon, d.lat))).size);
   }
