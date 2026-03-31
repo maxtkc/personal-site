@@ -5119,6 +5119,756 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8498361,
+          47.9941725
+        ]
+      },
+      "properties": {
+        "name": "Fischstand Markthalle",
+        "item_id": "86306419066461984",
+        "time": "2026-02-19T14:49:03+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8541639,
+          47.9974735
+        ]
+      },
+      "properties": {
+        "name": "Backstube im Karlsbau",
+        "item_id": "1039637",
+        "time": "2026-02-20T14:54:23+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-02-20T15:04:46+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8482454,
+          47.9849158
+        ]
+      },
+      "properties": {
+        "name": "St. Ferment Kombucha",
+        "item_id": "961127",
+        "time": "2026-02-21T12:30:25+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8498361,
+          47.9941725
+        ]
+      },
+      "properties": {
+        "name": "Fischstand Markthalle",
+        "item_id": "86306419066461984",
+        "time": "2026-02-23T15:23:17+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-02-23T15:27:09+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3255314,
+          47.7487862
+        ]
+      },
+      "properties": {
+        "name": "Croust'y Pain - 39 Avenue Arstide Briand",
+        "item_id": "1015250",
+        "time": "2026-02-23T18:57:45+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8432593,
+          47.9976808
+        ]
+      },
+      "properties": {
+        "name": "Fili Caf\u00e9 ",
+        "item_id": "829324",
+        "time": "2026-02-24T14:55:39+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8267205,
+          48.0054442
+        ]
+      },
+      "properties": {
+        "name": "Oishii Sushi und Grill",
+        "item_id": "56767",
+        "time": "2026-02-27T13:42:29+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8482454,
+          47.9849158
+        ]
+      },
+      "properties": {
+        "name": "St. Ferment Kombucha",
+        "item_id": "864412",
+        "time": "2026-02-28T10:28:26+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8482454,
+          47.9849158
+        ]
+      },
+      "properties": {
+        "name": "St. Ferment Kombucha",
+        "item_id": "961127",
+        "time": "2026-02-28T10:28:34+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8491267,
+          47.9937222
+        ]
+      },
+      "properties": {
+        "name": "Kolben Kaffee Freiburg ",
+        "item_id": "824100",
+        "time": "2026-02-28T14:24:10+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-02-28T20:25:54+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-03-02T15:39:03+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8491267,
+          47.9937222
+        ]
+      },
+      "properties": {
+        "name": "Kolben Kaffee Freiburg ",
+        "item_id": "824100",
+        "time": "2026-03-02T15:42:04+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8529823,
+          47.9959259
+        ]
+      },
+      "properties": {
+        "name": "Walter und Conny Schwaab Obstbau",
+        "item_id": "208928404492922112",
+        "time": "2026-03-03T11:58:31+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8541639,
+          47.9974735
+        ]
+      },
+      "properties": {
+        "name": "Backstube im Karlsbau",
+        "item_id": "1039637",
+        "time": "2026-03-03T14:46:08+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-03-04T17:12:50+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-03-05T15:49:37+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8491267,
+          47.9937222
+        ]
+      },
+      "properties": {
+        "name": "Kolben Kaffee Freiburg ",
+        "item_id": "824100",
+        "time": "2026-03-06T16:01:10+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8360545,
+          47.9848709
+        ]
+      },
+      "properties": {
+        "name": "Little Marrakesh",
+        "item_id": "218828122264380320",
+        "time": "2026-03-07T19:17:20+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8360545,
+          47.9848709
+        ]
+      },
+      "properties": {
+        "name": "Little Marrakesh",
+        "item_id": "214523658954212832",
+        "time": "2026-03-08T12:00:20+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8491267,
+          47.9937222
+        ]
+      },
+      "properties": {
+        "name": "Kolben Kaffee Freiburg ",
+        "item_id": "824100",
+        "time": "2026-03-08T15:10:26+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8488016,
+          47.9948601
+        ]
+      },
+      "properties": {
+        "name": "Caf\u00e9 Journal",
+        "item_id": "22045",
+        "time": "2026-03-08T17:43:48+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8484919,
+          47.9943825
+        ]
+      },
+      "properties": {
+        "name": "mamahe",
+        "item_id": "846302",
+        "time": "2026-03-09T13:52:51+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-03-09T15:42:58+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-03-10T19:22:37+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8491267,
+          47.9937222
+        ]
+      },
+      "properties": {
+        "name": "Kolben Kaffee Freiburg ",
+        "item_id": "824080",
+        "time": "2026-03-11T15:15:51+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-03-11T15:18:59+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4106786,
+          47.2624908
+        ]
+      },
+      "properties": {
+        "name": "Ruetz",
+        "item_id": "86454",
+        "time": "2026-03-14T17:40:24+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3958425,
+          47.2668233
+        ]
+      },
+      "properties": {
+        "name": "Tingting Asiamarkt Innsbruck",
+        "item_id": "131612637229425280",
+        "time": "2026-03-14T17:57:14+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.401525,
+          47.266209
+        ]
+      },
+      "properties": {
+        "name": "Sushi SEN",
+        "item_id": "172179965996643008",
+        "time": "2026-03-14T20:46:38+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8475252,
+          47.9953959
+        ]
+      },
+      "properties": {
+        "name": "Caf\u00e9 Schmidt",
+        "item_id": "19844",
+        "time": "2026-03-18T16:48:08+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-03-18T17:23:53+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8498361,
+          47.9941725
+        ]
+      },
+      "properties": {
+        "name": "Badische Bar in der Markthalle",
+        "item_id": "59996107978676960",
+        "time": "2026-03-18T17:31:13+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3518755,
+          48.8717172
+        ]
+      },
+      "properties": {
+        "name": "Avesta - Cuisine Traditionnelle Kurde",
+        "item_id": "1573252",
+        "time": "2026-03-20T22:11:13+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2958993,
+          48.864884
+        ]
+      },
+      "properties": {
+        "name": "Traiteur cuisine Tib\u00e9taine- Pr\u00e9sident Wilson",
+        "item_id": "1251184",
+        "time": "2026-03-21T12:27:51+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3150179,
+          48.8385634
+        ]
+      },
+      "properties": {
+        "name": "Novotel - Paris Gare Montparnasse",
+        "item_id": "311421",
+        "time": "2026-03-21T13:54:56+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3526138,
+          48.8257654
+        ]
+      },
+      "properties": {
+        "name": "Ibis - Paris Italie Tolbiac",
+        "item_id": "66011",
+        "time": "2026-03-22T11:24:46+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3160908,
+          48.8746376
+        ]
+      },
+      "properties": {
+        "name": "Meurette - Mirosmenil",
+        "item_id": "80588610039347552",
+        "time": "2026-03-22T21:44:13+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3258506,
+          48.8753072
+        ]
+      },
+      "properties": {
+        "name": "Timhotel - Op\u00e9ra Madeleine",
+        "item_id": "639573",
+        "time": "2026-03-23T10:54:21+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3271456,
+          48.8807606
+        ]
+      },
+      "properties": {
+        "name": "Loyal Caf\u00e9-Cantine - Amsterdam",
+        "item_id": "25542",
+        "time": "2026-03-23T14:21:03+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3512933,
+          48.8751241
+        ]
+      },
+      "properties": {
+        "name": "Dawan",
+        "item_id": "170127010815302208",
+        "time": "2026-03-23T16:04:55+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-03-24T15:47:44+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-03-26T15:50:09+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8427705,
+          47.9940303
+        ]
+      },
+      "properties": {
+        "name": "CASTANEA CAF\u00c9",
+        "item_id": "225527423090202880",
+        "time": "2026-03-27T16:56:16+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2037165,
+          45.4834401
+        ]
+      },
+      "properties": {
+        "name": "iH Hotels Milano Centrale",
+        "item_id": "115581054736049920",
+        "time": "2026-03-28T11:29:55+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2514044,
+          43.7667492
+        ]
+      },
+      "properties": {
+        "name": "Mancuso Gelati Italiani 1920 | Via de' Gucciardini",
+        "item_id": "714109",
+        "time": "2026-03-28T15:00:36+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.197857,
+          45.4839774
+        ]
+      },
+      "properties": {
+        "name": "Erbert | Pirelli",
+        "item_id": "173638044603633408",
+        "time": "2026-03-31T17:24:50+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1992633,
+          45.4824623
+        ]
+      },
+      "properties": {
+        "name": "Lune Storte - Restaurant & Caf\u00e8",
+        "item_id": "172742874497846400",
+        "time": "2026-03-31T17:29:03+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -6484,6 +7234,206 @@
           [
             7.8448649,
             47.9958139
+          ],
+          [
+            7.8498361,
+            47.9941725
+          ],
+          [
+            7.8541639,
+            47.9974735
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8482454,
+            47.9849158
+          ],
+          [
+            7.8498361,
+            47.9941725
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.3255314,
+            47.7487862
+          ],
+          [
+            7.8432593,
+            47.9976808
+          ],
+          [
+            7.8267205,
+            48.0054442
+          ],
+          [
+            7.8482454,
+            47.9849158
+          ],
+          [
+            7.8482454,
+            47.9849158
+          ],
+          [
+            7.8491267,
+            47.9937222
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8491267,
+            47.9937222
+          ],
+          [
+            7.8529823,
+            47.9959259
+          ],
+          [
+            7.8541639,
+            47.9974735
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8491267,
+            47.9937222
+          ],
+          [
+            7.8360545,
+            47.9848709
+          ],
+          [
+            7.8360545,
+            47.9848709
+          ],
+          [
+            7.8491267,
+            47.9937222
+          ],
+          [
+            7.8488016,
+            47.9948601
+          ],
+          [
+            7.8484919,
+            47.9943825
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8491267,
+            47.9937222
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            11.4106786,
+            47.2624908
+          ],
+          [
+            11.3958425,
+            47.2668233
+          ],
+          [
+            11.401525,
+            47.266209
+          ],
+          [
+            7.8475252,
+            47.9953959
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8498361,
+            47.9941725
+          ],
+          [
+            2.3518755,
+            48.8717172
+          ],
+          [
+            2.2958993,
+            48.864884
+          ],
+          [
+            2.3150179,
+            48.8385634
+          ],
+          [
+            2.3526138,
+            48.8257654
+          ],
+          [
+            2.3160908,
+            48.8746376
+          ],
+          [
+            2.3258506,
+            48.8753072
+          ],
+          [
+            2.3271456,
+            48.8807606
+          ],
+          [
+            2.3512933,
+            48.8751241
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8427705,
+            47.9940303
+          ],
+          [
+            9.2037165,
+            45.4834401
+          ],
+          [
+            11.2514044,
+            43.7667492
+          ],
+          [
+            9.197857,
+            45.4839774
+          ],
+          [
+            9.1992633,
+            45.4824623
           ]
         ]
       },
