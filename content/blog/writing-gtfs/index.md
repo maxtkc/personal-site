@@ -8,7 +8,7 @@ updated = "2026-04-04"
 tags = ["GTFS", "Data"]
 [extra]
 katex = true
-banner = "sunset_grand_manan.jpg"
+banner = "sunset_grand_manan.webp"
 toc = true
 toc_inline = true
 toc_ordered = true
@@ -136,7 +136,7 @@ wonderful vacation in New Brunswick.
 
 <figure>
 
-  ![bike_on_cc.jpg](bike_on_cc.jpg)
+  ![bike_on_cc.webp](bike_on_cc.webp)
   <figcaption>My bike on top of the wheelchair lift on the prior Concord Coach bus</figcaption>
 </figure>
 
@@ -149,7 +149,7 @@ wonderful vacation in New Brunswick.
 
 <figure>
 
-  ![west_bus_inside](west_bus_inside.jpg)
+  ![west_bus_inside](west_bus_inside.webp)
   <figcaption>West's Coastal Connection, a spectacular photo from the inside of the shortbus</figcaption>
 </figure>
 
@@ -157,31 +157,31 @@ wonderful vacation in New Brunswick.
 
 <figure>
 
-  ![bike_and_tent](bike_and_tent.jpg)
+  ![bike_and_tent](bike_and_tent.webp)
   <figcaption>Camping on some little island in Canada</figcaption>
 </figure>
 
 <figure>
 
-  ![bike_on_ferry](bike_on_ferry.jpg)
+  ![bike_on_ferry](bike_on_ferry.webp)
   <figcaption>Lots of the little ferries in Canada are free for bikes</figcaption>
 </figure>
 
 <figure>
 
-  ![me_and_mo_at_cabin](me_and_mo_at_cabin.jpg)
+  ![me_and_mo_at_cabin](me_and_mo_at_cabin.webp)
   <figcaption>Glamping!</figcaption>
 </figure>
 
 <figure>
 
-  ![dad_grand_manan](dad_grand_manan.jpg)
+  ![dad_grand_manan](dad_grand_manan.webp)
   <figcaption>The tree doesn't grow too far from the apple...</figcaption>
 </figure>
 
 <figure>
 
-  ![me_and_mo_biking](me_and_mo_biking.jpg)
+  ![me_and_mo_biking](me_and_mo_biking.webp)
   <figcaption>This is what you end up on when you ask me for a nice route with paved roads</figcaption>
 </figure>
 
@@ -274,7 +274,7 @@ download it, providing updated schedules to travelers. This is how you can
 navigate from Boston to the border of Canada you see the bespoke agencies like
 west bus: <https://maps.app.goo.gl/RnuhJyURxH4MM9H98>
 
-![boston_to_whiting_google_maps.png](boston_to_whiting_google_maps.png)
+![boston_to_whiting_google_maps.webp](boston_to_whiting_google_maps.webp)
 
 For West Bus, I wrote this crappy script to generate their feed:
 <https://github.com/west-bus-service/single-page-site/blob/main/scripts/gen_gtfs.py>
@@ -326,7 +326,7 @@ together" emails.
 The process with Google starting in December 2024 managed to take less than one
 year. In September 2025, West Bus went live on Google!
 
-![transitpartners_west_bus.png](transitpartners_west_bus.png)
+![transitpartners_west_bus.webp](transitpartners_west_bus.webp)
 
 I should note that it also works on the other mapping services. However, they,
 including Apple, do not have an independent submission process. They use these
@@ -363,7 +363,7 @@ Despite these advantages in our process, we submitted to Google in September
 
 ### Next Steps: Absolutely laying waste to my sleep schedule
 
-![sleeping.jpg](sleeping.jpg)
+![sleeping.webp](sleeping.webp)
 
 As much as I like building GTFS feeds, it gets old after a bit. Plus, I'm not
 going to know the exact location where the buses are supposed to stop nearly as
@@ -423,7 +423,7 @@ standard schedule to maintain their feed with.
 
 ### This is all cool, but what if the bus is always running late?
 
-![little_italian_bus.JPG](little_italian_bus.JPG)
+![little_italian_bus.webp](little_italian_bus.webp)
 
 No, buses are never late! Late is simply a social construct, anyways. It's all
 just based on expectations. You just gotta chill out, dude.
@@ -454,7 +454,7 @@ However, if I had just known the correct stop location and that the bus was
 running late, I would have just done a little more tourism, relaxed, and caught
 my bus when it came.
 
-![gmaps_gtfs_rt.jpg](gmaps_gtfs_rt.jpg)
+![gmaps_gtfs_rt.webp](gmaps_gtfs_rt.webp)
 
 There is a second part to GTFS that I haven't yet discussed. When you have a
 delay, construction, or some realtime event, you might have to deviate from
