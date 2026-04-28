@@ -19,6 +19,8 @@ id = "tbd"
 +++
 ### A plan
 
+<!-- thx for review! -->
+
 A few years back, I sent this itinerary to my sister and dad, who I would be
 joining a couple days later:
 
