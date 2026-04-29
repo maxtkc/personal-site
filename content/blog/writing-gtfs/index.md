@@ -21,7 +21,7 @@ id = "tbd"
 
 <!-- thx for review! -->
 
-A few years back, I sent this itinerary to my sister and dad, who I would be
+A few years back, I sent this itinerary to my sibling and dad, who I would be
 joining a couple days later:
 
 > Concord Coach
