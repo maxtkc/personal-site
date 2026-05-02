@@ -10,6 +10,7 @@ Usage:
   python scripts/strava_to_post.py --all                  # all activities since beginning
   python scripts/strava_to_post.py --all --draft          # all as drafts
   python scripts/strava_to_post.py --rebuild-only         # rebuild static/strava/routes.geojson from existing content
+  python scripts/strava_to_post.py --new                  # picker showing only activities not yet posted
 """
 
 import argparse
@@ -481,6 +482,24 @@ def parse_front_matter(index_md: Path) -> dict:
         return {}
 
 
+def existing_strava_ids() -> set[int]:
+    """Return the set of Strava activity IDs already saved as posts."""
+    ids = set()
+    if not CONTENT_DIR.exists():
+        return ids
+    for activity_dir in CONTENT_DIR.iterdir():
+        if not activity_dir.is_dir():
+            continue
+        index_md = activity_dir / "index.md"
+        if not index_md.exists():
+            continue
+        fm = parse_front_matter(index_md)
+        strava_id = (fm.get("extra") or {}).get("strava_id")
+        if strava_id:
+            ids.add(int(strava_id))
+    return ids
+
+
 def rebuild_routes_geojson() -> None:
     """Rebuild static/strava/routes.geojson from all content/strava/*/route.geojson files."""
     features = []
@@ -758,6 +777,8 @@ def main():
                         help="Fetch and create posts for all activities since the beginning (skips existing)")
     parser.add_argument("--rebuild-only", action="store_true",
                         help="Rebuild static/strava/routes.geojson from existing content, then exit")
+    parser.add_argument("--new", action="store_true",
+                        help="Only show activities that have not yet been added as posts")
     args = parser.parse_args()
 
     if args.rebuild_only:
@@ -824,6 +845,13 @@ def main():
         if not summaries:
             print("No activities found.")
             sys.exit(1)
+        if args.new:
+            known_ids = existing_strava_ids()
+            summaries = [a for a in summaries if a.get("id") not in known_ids]
+            if not summaries:
+                print("All recent activities already have posts.")
+                sys.exit(0)
+            print(f"Showing {len(summaries)} new (not-yet-posted) activities.")
         selected = interactive_picker(summaries)
         for summary in selected:
             print(f"\nFetching full details for: {summary['name']}...")
