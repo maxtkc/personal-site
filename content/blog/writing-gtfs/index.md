@@ -17,9 +17,7 @@ host = "better.boston"
 user = "maxtkc"
 id = "tbd"
 +++
-### A plan
-
-<!-- thx for review! -->
+### A too-secret bus itinerary
 
 A few years back, I sent this itinerary to my sibling and dad, who I would be
 joining a couple days later:
@@ -78,7 +76,7 @@ joining a couple days later:
 > - 23.4 mi
 > - Either take ME 172 (Right) to St George or take Mascarene Road (Left, maybe
 >   nicer)
-> - Regarless, you'll end up on ME 172/Fundy Bay Drive
+> - Regardless, you'll end up on ME 172/Fundy Bay Drive
 > - Turn Left on L'Etete Road After the Irving Gas Station
 > - Quickly turn Right on Main Street
 > - Quickly turn right on the NB trail after Simpson Court
@@ -119,9 +117,10 @@ joining a couple days later:
 I know, I should start a trip planning agency with these incredible design
 skills 😬.
 
-Finding out that West Bus even existed was a very difficult task. Since the
-time of writing, the state of Maine has improved their list of services on this
-page: <https://www.maine.gov/dot/programs-services/transit/public-transit>
+You may not realize that finding out that West Bus even existed was a very
+difficult task. Since the time of writing, the state of Maine improved their
+list of services on this page:
+<https://www.maine.gov/dot/programs-services/transit/public-transit>
 
 If you've memorized your Maine region numbers and the name of every town
 inhabited by at least ten beavers, you will have no trouble finding your
@@ -132,7 +131,7 @@ Every other time I wanted to find their website, I would try to find it on
 Google, but that would only provide me some old PDF from the state of Maine
 that had outdated information.
 
-Even when you finally find it, West Bus’s website doesn’t exactly inspire
+Even when one finally found it, West Bus’s website didn’t exactly inspire
 confidence or provide important information easily. So, we were mildly
 surprised and very relieved when the bus actually showed up in Bangor. After
 paying cash for a paper ticket for us and our bikes, the bus did take us the
@@ -190,11 +189,17 @@ New Brunswick, Canada.
   <figcaption>This is what you end up on when you ask me for a nice route with paved roads</figcaption>
 </figure>
 
-### My intervention
+### Mission 1: An intervention
 
-I know how to build websites, I can fix this. I threw something together (this
-was pre-llms) and emailed it to them:
+I know how to build basic websites, so I can fix this. I threw something
+together (this was pre-GenAI) and emailed it to them:
 <https://maxtkc.github.io/wests-bus-sample/>
+
+> [!NOTE]
+> What do I mean by pre-GenAI? Generative AI is what is done by ChatGPT and
+> other similar tools. Is it truly intelligent? Not sure. There’s a few people
+> who I am fairly certain are human but lack intelligence, so maybe it’s not a
+> great metric to be using. I hate buzzwords.
 
 For 1 year, I received no response. The following summer, my parents took the
 bus from Canada, and I sent them on a special mission to figure out who was in
@@ -256,7 +261,7 @@ bus maine”. Booya. This was done by registering them with Google, proving
 ownership, and then improving the performance of the page as well as other web
 “best practices” for which Google gives you brownie points.
 
-### Mission Deux: a forwarded email from MaineDOT
+### Mission 2: a forwarded email from MaineDOT
 
 > "We are in need of help with this email and attachment. We have [no] idea
 > what most of it means or how to do. Would you be able to look it over and let
@@ -284,12 +289,13 @@ Bus: <https://maps.app.goo.gl/RnuhJyURxH4MM9H98>
 For West Bus, I wrote this crappy script to generate their feed:
 <https://github.com/west-bus-service/single-page-site/blob/main/scripts/gen_gtfs.py>
 
-It was before AI, so there are no comments in the code, sorry. However, it
-works. A GTFS feed (it just means file you can get on the internet) is simply a
-zip file. When you expand it, you'll see a bunch of `.txt` (text) files. If you
-look at any of these, you'll notice that every single file is really just a
-`csv`, which can be loaded in Excel! If you want to dig around deeper, you can
-check out "the bible" of GTFS:
+It was before GenAI, so there are no comments in the code. Sorry. 
+
+However, it works. A GTFS feed (it just means file you can get on the internet)
+is simply a zip file. When you expand it, you'll see a bunch of `.txt` (text)
+files. If you look at any of these, you'll notice that every single file is
+really just a `csv`, which can be loaded in Excel! If you want to dig around
+deeper, you can check out "the bible" of GTFS:
 <https://gtfs.org/documentation/schedule/reference/> showing exactly how every
 file should be formatted. You can also download the MBTA's GTFS from their
 website and add lots of service along your favorite route exactly to your needs
@@ -301,12 +307,12 @@ directly from South Station to Maine. They just forgot to include the optional
 yet coveted `shapes.txt` file. I sent them a feed too, but they have been
 ghosting me.
 
-Now, once you write the file, all you've got to do is submit it to Google and
+Now, once one writes the file, all you've got to do is submit it to Google and
 then, voila, right?
 
 Nope.
 
-### Mission Tree: Google QA
+### Mission 3: Google QA
 
 >[!NOTE]
 > QA = Quality Assurance
@@ -320,7 +326,7 @@ Yeah. Well, if I'm being honest, I had no clue exactly where they stopped. The
 website refers to some quite... Maine places: "Swamp Yankee BBQ" (permanently
 closed) and "Elmer’s Discount".
 
-You start off by submitting a Google form, with your interest in the program.
+One starts off by submitting a Google form, with your interest in the program.
 Next, you need to verify that you are the owner or approved by the owner to
 submit the schedule. Then, you go back in forth for many months where they take
 a long time to give you feedback, and then you take a while to respond because
@@ -331,14 +337,15 @@ bytes below the 15 GB maximum and evade the impending doom of the "you will not
 be able to send or receive emails in 3 days if you do not get your shit
 together" emails.
 
-The process with Google starting in December 2024 managed to take less than one
-year. In September 2025, West Bus went live on Google!
+The process with Google, which started in December 2024, managed to take less
+than one year. In September 2025, West Bus went live on Google!
 
 ![transitpartners_west_bus.webp](transitpartners_west_bus.webp)
 
 I should note that it also works on the other mapping services. However, they,
-including Apple, do not have an independent submission process. They use lists to which you sumbit a url to, and honestly I have no clue if they do
-any vetting at all.
+including Apple, do not have an independent submission process. They use lists
+to which you submit a url, and honestly I have no clue if they do any vetting
+at all.
 
 ### A Regulah: Round Zwei
 
@@ -348,7 +355,7 @@ any vetting at all.
 > town and knew I might know a way to get them on the map:
 > <https://publictransportation.columbiacountyny.com/>
 
-I'm like a digital minuteman. This is my call to action. The British are
+I'm like a digital Minuteman. This is my call to action. The British are
 coming, the British are coming! The FTA is asking for a GTFS feed, the FTA is
 asking for a GTFS feed! I've got my musket and my whisky and I'm on my way to
 the town square to write some code for another rural transit service that feels
@@ -378,7 +385,7 @@ I have yet to find a good GTFS visualizer that is easy to install and gives you
 a good picture of what the heck is going on.
 
 Despite these advantages in our process, we submitted to Google in September
-2025 and only managed to publish it March 2026.
+2025 and only managed to publish it in March 2026.
 
 ### Next Steps: Absolutely laying waste to my sleep schedule
 
@@ -386,7 +393,7 @@ Despite these advantages in our process, we submitted to Google in September
 
 As much as I like building GTFS feeds, it gets old after a bit. Plus, I'm not
 going to know the exact location where the buses are supposed to stop nearly as
-well as the agency themselves. They should be using a tool.
+well as the bus agencies themselves. They should be using a tool.
 
 Here is the list of existing tools for making GTFS feeds:
 <https://gtfs.org/resources/producing-data/>
@@ -403,11 +410,12 @@ disappointing.
 > place in sailboat races. Apparently, this qualifies me to work as a computer
 > scientist now 🤯
 
-Anywho, I bet you can see where this is going. The product of many hours of late night
-work has resulted in this quickly evolving tool: <https://edit.gtfs.zone/>
+Anywho, I bet you can see where this is going. The product of my many hours of
+late night work has resulted in this quickly evolving tool:
+<https://edit.gtfs.zone/>
 
 The tool is a fully static web app, meaning that it stores no data on a server
-and is running entirely in your browser. This has many advantages. There is no
+and runs entirely in a browser. This has many advantages. There is no
 login/security to worry about. It's very reliable, because to reset it in the
 worst case, all you have to do is clear the storage in your browser. It also
 doesn't rely on anything to be installed on your computer to run. It even sort
@@ -421,25 +429,25 @@ agency with a standard schedule to maintain their own feed.
 > Feel free to skip this section, it's a bit rambling
 
 I would like to discuss my use of AI to build the tool. This was my first foray
-into developing with LLMs. Until the summer of 2025, I hadn't really touched an
-LLM. I thought they were stupid and I was doing fine without them. However, I
-think that was because I hadn't yet tried the right tools. This project was my
-introduction to using Claude Code. The project is perfectly positioned to be
-worked on by Claude Code as a static web app. I can let it stomp around in the
-code all over the place and as long as my manual tests succeed, then Claude has
-done its work correctly. It's fully contained, so it can easily get a clear
-picture of what is going on and write code.
+into developing with GenAI. Until the summer of 2025, I hadn't really touched a
+GenAI tool. I thought they were stupid and I was doing fine without them.
+However, I think that was because I hadn't yet tried the right tools. This
+project was my introduction to using Claude Code. The project is perfectly
+positioned to be worked on by Claude Code as a static web app. I can let it
+stomp around in the code all over the place and as long as my manual tests
+succeed, then Claude has done its work correctly. It's fully contained, so it
+can easily get a clear picture of what is going on and write code.
 
 This does not mean that I am able to sit back and press play. I still have to
 be very involved in deciding what tools to use and higher level design
-decisions. It's like a super speedy but sometimes stupid developer. Context
-management is also very important. If you give it too much to do at once, by
-the end it will slow down and get all confused and start doing silly things.
-The great part about all of this is that it encourages me to implement many of
-the best programming practices. Sometimes when doing a solo project, it is easy
-to let yourself skip the high level planning because it's all laid out in your
-head. But here I can't do that, because I have someone else reading (and writing)
-my code.
+decisions. Claude Code acts like a super speedy but sometimes stupid developer.
+Context management is also very important. If you give it too much to do at
+once, by the end it will slow down and get all confused and start doing silly
+things. The great part about all of this is that it encourages me to implement
+many of the best programming practices. Sometimes when doing a solo project, it
+is easy to let oneself skip the high level planning because it's all laid out
+in your head. But here I can't do that, because I have someone else reading
+(and writing) my code.
 
 I should also discuss the fact that I pay $20 a month to a company that is
 spending lots of money to use tons of electricity and water for cooling at data
@@ -448,16 +456,16 @@ confident in it: the inference (coming up with answers to my stupid questions)
 does not actually use that much electricity relative to the training (building
 new models). The improvement from training is becoming less and less
 significant. Soon, there will be less incentive to train more and just to run
-inference on existing models. Not the best excuse so, maybe I'll change my
-usage in the future.
+inference on existing models. I realize it’s not the best excuse, so maybe I'll
+change my usage in the future.
 
-All my writing (besides documentation) is AI free, because I enjoy the process.
-Editing is done by my mother. Thank you mom! My father sometimes looks at it
-and then quickly starts telling me about the latest piece of electronics from
-the 1800s he's reverse engineered into something that can be accomplished by
-even the dumbest of phones. My cat doesn't even try, he's too busy terrorizing
-the animals in the neighborhood and then befriending all the humans so he can't
-face justice for his actions. Corrupt little bugger.
+All my writing (besides documentation) is GenAI free, because I enjoy the
+process. Editing is done by my mother. Thank you mom! My father sometimes looks
+at it and then quickly starts telling me about the latest piece of electronics
+from the 1800s he's reverse engineered into something that can be accomplished
+by even the dumbest of phones. My cat doesn't even try; he's too busy
+terrorizing the animals in the neighborhood and then befriending all the humans
+so he won't face justice for his actions. Corrupt little bugger.
 
 ### Further strides: This is all cool, but what if the bus is running late?
 
@@ -495,15 +503,15 @@ and caught my bus when it came.
 
 ![gmaps_gtfs_rt.webp](gmaps_gtfs_rt.webp)
 
-There is a second part to GTFS that I haven't yet discussed. When a transit
-agency has a delay, construction, or some realtime event, they might have to
-deviate from their scheduled/static GTFS. This is where GTFS realtime comes in.
-If you look on Google Maps, you know that a transit agency supports GTFS
-realtime if an upcoming trip reads "on time/x mins delayed" instead of
-"scheduled". I will discuss this more in the future, but you can demo/test the
-tool I am building for GTFS realtime here: <https://gtfs.zone/realtime-setup/>
-and read more about the system behind it here:
-<https://git.kcfam.us/gtfs.zone/deploy-gtfs-rt/>
+This all points up the fact that there is a second part to GTFS that I haven't
+yet discussed. When a transit agency has a delay due to, construction, or some
+realtime event, they might have to deviate from their scheduled/static GTFS.
+This is where GTFS realtime comes in. If you look on Google Maps, you know that
+a transit agency supports GTFS realtime if an upcoming trip reads "on time/x
+mins delayed" instead of "scheduled". I will discuss this more in the future,
+but you can demo/test the tool I am building for GTFS realtime here:
+<https://gtfs.zone/realtime-setup/> and read more about the system behind it
+here: <https://git.kcfam.us/gtfs.zone/deploy-gtfs-rt/>
 
 ### What can you do?
 
