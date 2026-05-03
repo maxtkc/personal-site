@@ -3,7 +3,7 @@ authors = ["Max Katz-Christy"]
 title = "How I became a freelance rural bus Google Mapsifier"
 description = "How a bike tour to Canada led me to building software for some bus services in the boonies"
 date = 2026-04-03
-updated = "2026-04-04"
+updated = "2026-05-02"
 [taxonomies]
 tags = ["GTFS", "Data"]
 [extra]
