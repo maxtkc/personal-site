@@ -12,21 +12,18 @@
 
 <div id="tooltip"></div>
 
+{% include "partials/leaflet_deps.html" %}
+
 <script>
-// Inject stylesheets into <head> to avoid body placement issues and prevent double-loading
+// Inject tgtg-viz stylesheet into <head> to avoid body placement issues.
 (function () {
-  function injectLink(href, id) {
-    if (document.getElementById(id)) return;
-    var link = document.createElement('link');
-    link.rel = 'stylesheet'; link.href = href; link.id = id;
-    document.head.appendChild(link);
-  }
-  injectLink('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', 'tgtg-leaflet-css');
-  injectLink('/tgtg-viz.css', 'tgtg-viz-css');
+  if (document.getElementById('tgtg-viz-css')) return;
+  var link = document.createElement('link');
+  link.rel = 'stylesheet'; link.href = '/tgtg-viz.css'; link.id = 'tgtg-viz-css';
+  document.head.appendChild(link);
 })();
 </script>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
 <script src="/tgtg-viz-init.js"></script>

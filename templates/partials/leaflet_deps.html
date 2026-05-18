@@ -1,0 +1,13 @@
+<script>
+(function () {
+  function injectLink(href, id) {
+    if (document.getElementById(id)) return;
+    var link = document.createElement('link');
+    link.rel = 'stylesheet'; link.href = href; link.id = id;
+    document.head.appendChild(link);
+  }
+  injectLink('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', 'leaflet-css');
+  injectLink('/leaflet-fix.css', 'leaflet-fix-css');
+})();
+</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>

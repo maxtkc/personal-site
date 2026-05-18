@@ -17,18 +17,7 @@
 {{ section.content | safe }}
 
 <!-- Routes map — loaded client-side from static/strava/routes.geojson -->
-<script>
-(function () {
-  function injectLink(href, id) {
-    if (document.getElementById(id)) return;
-    var link = document.createElement('link');
-    link.rel = 'stylesheet'; link.href = href; link.id = id;
-    document.head.appendChild(link);
-  }
-  injectLink('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', 'strava-leaflet-css');
-})();
-</script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+{% include "partials/leaflet_deps.html" %}
 
 <style>
   #strava-routes-map .leaflet-tile { border-radius: 0 !important; }

@@ -1,0 +1,19 @@
+/* Counteract Duckquill's global `img, video { margin: 1rem auto; ... }` on
+   Leaflet tile <img>s. Without this, every tile is shifted 16px down by margin
+   and Leaflet adds another 18px transform on .leaflet-tile-container to
+   compensate, producing a 34px drift of tiles below the overlay pane. */
+.leaflet-container img,
+.leaflet-container video {
+  margin: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  max-width: none !important;
+  transition: none !important;
+  cursor: inherit !important;
+}
+.leaflet-container img:hover {
+  transform: none !important;
+  box-shadow: none !important;
+  position: absolute !important;
+}
