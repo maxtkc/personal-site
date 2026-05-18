@@ -38,6 +38,8 @@ Also a badminton bar?
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/m4S1rSmasm60oHD6KlUnb8yDuj976q1IpWdquMpHk8s-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/YbRcrxMduSjzKZVNjvSi06MYGs5rMv23_rLGYE-Pik8-1536x2048.jpg)

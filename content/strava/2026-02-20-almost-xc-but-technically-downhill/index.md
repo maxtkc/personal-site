@@ -38,6 +38,8 @@ A little shorter than Nashoba Valley. Local slopes are fun!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/AdqS3GIuY-L7Xx1gaFEP9JMNte_Ib5X_Ixvm2oO9rTY-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/d88YrmI4e04CekSUNF5thM3EvR4E0w3H_O-5pCi-1DE-2048x1536.jpg)

@@ -41,6 +41,8 @@ Met some fun folks on the train back too!! Then got myself some niiice tgtg
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/cZntJ7uDaV6W_WCw9EEbdFj-ZmT72HvAPtd-liy0H9g-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/OurdiOms1Ta9CBhwdd9p9aNcLxV5u-8Vh1NfySCCysY-2048x1536.jpg)

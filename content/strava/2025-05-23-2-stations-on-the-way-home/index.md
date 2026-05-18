@@ -39,4 +39,6 @@ Lmk if anyone wants to do a blue bike station lap around fresh pond. Boston was 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Yld-zFX3K23M2FP9TL2HsF5tMuBVlomMQ0I3rx9EVuo-1536x2048.jpg)

@@ -41,6 +41,8 @@ And yeah. I got the departure time wrong for a commuter rail train. And I work f
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/zsliZqJN44jGmobIq7LcnQXd5OZl_l1HkWOHMhuTGIc-2048x1365.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/RorSBv29LEq8pgmaJ_t2Bks-PjU5RMMiqSLWpFSdVx0-2048x1365.jpg)

@@ -40,6 +40,8 @@ Showed Nina the industrial way to the Schraffts Building
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/BcirBkoiLvCF0w4VBpBuFpi65YEGJy4ja1rYU_SemC8-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/bZU31ZVR-RdP7nVbHvrIxZFghm7aw94nEg3OJ6AMIO4-1536x2048.jpg)

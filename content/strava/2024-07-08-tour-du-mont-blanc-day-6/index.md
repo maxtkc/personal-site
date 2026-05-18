@@ -39,6 +39,8 @@ Part of my last day hiking with Julius and his mom. Pictures are from many of th
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/6LlLQ9byU2Na3iyZfcIgrOIvyCLNO0073mdmb6mKVcc-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/uLbBdsMRbnxIm53B_DvRfH5-CTkyBNAGjPmNzAuD5Hk-1536x2048.jpg)

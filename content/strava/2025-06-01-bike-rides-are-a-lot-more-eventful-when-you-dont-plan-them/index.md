@@ -47,6 +47,8 @@ I also met Vincent on the train out, an architect turned pro cyclist (technicall
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/DrFzgcnAM4rPSuzenkLjPOvHPDh2Bf3Ei3zd46VnVgc-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/gadZut5-INZqevN56uujJqarVdZrDJutymK0Ni3SvcU-2048x1536.jpg)

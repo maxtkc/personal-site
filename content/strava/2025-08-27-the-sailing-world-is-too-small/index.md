@@ -40,6 +40,8 @@ Come play euchre tomorrow!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/KCNULh18SfstFeIYVqEn2K82dhqmFu36vJS0cSQzQh4-1365x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Bb4fky7A3rQJN4HmB9CZfCWwTOnvZiN00dGA5PueXhU-1536x2048.jpg)

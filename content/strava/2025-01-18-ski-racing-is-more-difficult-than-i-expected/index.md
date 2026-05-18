@@ -39,6 +39,8 @@ is it worth it to play it safe and be the last person to the slowest person to c
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/QUtoaVwiLcHZei8ZQqH0BMKM2gUvG-PpridzuLmJFYA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qoimjZ5Ql5pVLaBhgHwU-DtwabKFQvKD1c6tAod7sdk-2048x1536.jpg)

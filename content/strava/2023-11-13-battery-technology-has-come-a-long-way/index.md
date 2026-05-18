@@ -40,6 +40,8 @@ Found a ridge in the greater Atlanta pancake
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/lIGoIzOs0xrmaCvfaj-X_FX50WNpKwiWqZvG8MfZWfs-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/0ExCDfmaGQRLXLC3p22vW4E9iXup_9aWP_zmSNCW8dQ-2048x1536.jpg)

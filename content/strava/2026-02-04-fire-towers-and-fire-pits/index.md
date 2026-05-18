@@ -39,6 +39,8 @@ Plus one big ball of fire just peeking above the horizon
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qAF_3vWPlo7X_z3uANa727FOoyCSs4RfX6LZAy1vIMA-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/xNU22gyCiFunpdoa6icXdq3pUZ0CJ5cLvFfLC4h43JM-2048x1536.jpg)

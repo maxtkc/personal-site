@@ -46,6 +46,8 @@ I finally met a Danish too good to go sniper 👨‍💻!! He was getting 3 Ikea
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/czVDJuHd-Z8J9PXXa8qe0AZI1uN79TqJYFqxyuanjY8-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_xnfmv9AXJHMoQV8Uvw4ZjSAbBISkHNkiHOjEJ0-RdQ-2048x1536.jpg)

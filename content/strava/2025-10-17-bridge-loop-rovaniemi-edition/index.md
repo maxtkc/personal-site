@@ -39,6 +39,8 @@ It's crazy how you can go to any city and we've got the same vehicles, the same 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/x_NDPANsHVsHQMeQjY7h3tZO1_YW8-rzmfC7E_wDn_E-2048x1368.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/MjSxP2D-5ZmQJNGZF6CDKoIAiUJbOY75GPSVxZE38FY-2048x1368.jpg)

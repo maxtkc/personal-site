@@ -42,6 +42,8 @@ Got stopped by a Swedish "blasting in progress" sign and had to turn around. Now
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Eonx_o0rqK_GvosE6WSEJ8jRPb-wmDgyRXiF9EGgsiQ-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/gE5bk2-SQ9lda66p5Qf33zVyjAoGLeBAYJ4I4Nk5RvY-2048x1536.jpg)

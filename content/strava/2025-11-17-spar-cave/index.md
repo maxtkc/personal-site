@@ -39,6 +39,8 @@ A very nice touristy cave. There were super steep slopes that looked like they'd
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/pTG3WV6On4IE891L-z1IL9sRKsisH_vmeldhom7Zno4-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/0vaI0dB1uoeD_wEHv-9szbvO51aQ0mAaIigmC__waRM-2048x1363.jpg)

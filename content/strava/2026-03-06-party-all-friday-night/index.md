@@ -45,6 +45,8 @@ Listened to Educated from head to tail, as well as half of careless people. It's
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/N9dbunxZHPH_q7T61j4jFrbKAnuOf6uOTM04yhaKAPQ-1152x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/EQ56n1U3qILSDxlruCv21gZXZdBP4IpF1TYDvIVF3UU-2048x1363.jpg)

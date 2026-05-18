@@ -39,6 +39,8 @@ Mostly the mega skate but 2 park laps with Maela Whitcomb when she finally woke 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ESWte2OWFbJBsGkSLC2GPKMGnjiaxtsy0sAR4YSc64M-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/O31IoHSWFlmpv5AklBCTfBAggWugUyg5I0gKg7FN2U0-2048x1536.jpg)

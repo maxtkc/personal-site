@@ -39,6 +39,8 @@ Felix Knollmann you gotta try Inline Skating w me soon. I think it's gonna be yo
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/CMI1Hkpc1ueqMXjn9hZTY-9cgZOv3H-7aU1yP6Gtdq8-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/TrNzFDPexcSQMKC2jrlAxJDHf95I_JpIGdAF5eO7648-1536x2048.jpg)

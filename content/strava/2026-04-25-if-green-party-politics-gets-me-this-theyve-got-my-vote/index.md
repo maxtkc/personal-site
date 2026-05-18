@@ -45,6 +45,8 @@ Anyways, I've got an egg shaped bruise on my shin where I was hit by a rock. Fro
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Pb1L8z5r7w-eCUBs_dupBwH8-aFki83sW35WNLQl2kQ-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/paLdMgvUgVbOH_Ps99cCb4egomai6Yu5axgKK2tiadU-2048x1536.jpg)

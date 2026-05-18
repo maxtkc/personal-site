@@ -39,6 +39,8 @@ It was incredibly pleasant and I ran into lots of fun people!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9LumiAXqYRURiD5XewA3fIO9NPcRX2nG-5ovCrS_yF8-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/eBVA7nxpa43ZrXSyn4BSfmqmAKPrmjqcE_OT-Vp3G04-1536x2048.jpg)

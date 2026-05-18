@@ -39,6 +39,8 @@ arboretum, blue hills, gravel trails, 2 for 1 beantown, all great ways to avoid 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qYCl3ivoEJdDuS8Ga4f4AIOtRxxJvViNV-6yQEKktWA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/T2-lEtjebyWwS8lLE_H7UkN_NFQ_-6MwEfWQkcycvIg-2048x1536.jpg)

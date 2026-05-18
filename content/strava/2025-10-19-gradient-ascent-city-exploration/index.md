@@ -44,6 +44,8 @@ Some included pictures will be from Tempere where I did a similar hill climb but
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/4BjEnPCOv7PGqf7nTfrucc9kHobnZBEqaPBJWVtDsJE-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/f7PXXKL3VlET5Z_YxoWhOq_GXx_xE7s-luyzAmWOUHs-2048x1363.jpg)

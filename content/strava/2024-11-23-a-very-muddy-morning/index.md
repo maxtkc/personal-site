@@ -39,6 +39,8 @@ with Seamus Joyce-Johnson and Joy Ma (soon)
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qeajT7yS8tPdhfZRMpBsyAM83FIYEYDCtCmfvDNPriE-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/AOSYAt_XRwiXlr1RFgdq61gHdzyDFwBpVD0KVLT7lI8-2048x1536.jpg)

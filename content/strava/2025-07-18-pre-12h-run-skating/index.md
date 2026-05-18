@@ -45,6 +45,8 @@ Bonus shots of my new movie setup. Suggest a movie and a night to watch and we'l
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/48Cz2eCLxqP_yrPFcoHHdBwP8v2u5RHHyS2H8Zs8eA4-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qxL1hoE7JVOp2xP1alvIoFhuMyntqya9ipHE_i7eEEE-2048x1536.jpg)

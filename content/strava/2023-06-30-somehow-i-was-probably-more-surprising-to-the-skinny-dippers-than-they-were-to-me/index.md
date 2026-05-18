@@ -38,4 +38,6 @@ Wanted to make some progress towards the promised land. Tried to take a road tha
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/OUzx1ZhfHOhhCRnqbNTiHoIj3Y7brS4hStAJn-PbNWo-2048x1152.jpg)

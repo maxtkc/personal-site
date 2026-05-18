@@ -49,6 +49,8 @@ Note that the last few pictures are from yesterday evening in Freiburg, not from
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/rDzx52-YUTqvn259MAMqmMNiL9OGtfHFeUWFk6UJJzI-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/clXBoBYCGQXIwDiVpknnoKMQojFs45oR5rAbdvcQlzc-2048x1363.jpg)

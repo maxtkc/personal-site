@@ -41,6 +41,8 @@ Apparently I don't follow Nick...
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/nlKaL5ZXG2s-0aGQ5LvfiTZ7LeRf3q7CkRHlQWfIoTg-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/tLZZtLrLDPxK9Em4PBA3IhzzAQhykrc9U7BNxfFldf8-2048x1536.jpg)

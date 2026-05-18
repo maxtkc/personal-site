@@ -38,6 +38,8 @@ It was 2:30pm and I was feeling like I should get out and do something. I had no
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/R9oE0zq1JyhFrfCKj7u7yEw-GKbDxigp_CHlhqdo99Y-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/DmRJ1sQRQXNFynVCsv9SMrPecRBkrQe1KICLOGqws08-2048x1536.jpg)

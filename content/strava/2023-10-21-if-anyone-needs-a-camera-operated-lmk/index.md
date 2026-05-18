@@ -40,6 +40,8 @@ Today I became a camera operator. This is a job that doesn't require significant
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kDVzDnoqYNBC6bYoc8CCXCrSvPo1rLseM1jxldWNO3w-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/r_CFHqODdBVX7zNmEzhJIhfKB4WnsYRosXu5HYwQvRY-2048x1536.jpg)

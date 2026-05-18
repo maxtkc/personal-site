@@ -38,6 +38,8 @@ My second Kleinanzeigen purchase. So excited. None of these pics are from the ri
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/bH83knrBAbiTqXIIFT5ajml8lW94txsE4Qio5DHVB3g-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/gjzRSl4STHN8-6_PLupt6HLG2diwQ5JAFDwcJFFyubM-2048x1363.jpg)

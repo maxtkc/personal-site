@@ -39,4 +39,6 @@ Met the parents, and the grandparents. Big day. I'm gonna sleep well on my fligh
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/MCVRkR-V_b0uOyY__wjwzlX4qos1vHdTp6WdFqxo45s-2048x1536.jpg)

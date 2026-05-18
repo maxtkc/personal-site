@@ -39,6 +39,8 @@ There's something pretty about trains and trucks and big industrial buildings in
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/knJwHJchGfDRaTwn84QR-uNEl8SC1QZNV-Wx24meyhw-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/EFGwG0FY5DieOEUawwO6_xBDzmSfzOaPcpZn6JkuwlY-2048x1536.jpg)

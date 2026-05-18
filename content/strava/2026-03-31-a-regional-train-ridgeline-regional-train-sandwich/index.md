@@ -45,6 +45,8 @@ A crowd of kids boarded the train on their way into the city. I wonder what it m
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/t7UEjraqh5-yqlcCpkIvjkiiNphWQGxIpZhbTBOpjAQ-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_L85i4-xY8L9dyWEqJBVx0A1CKO2c_7iAmEbZQk-yFA-2048x1364.jpg)

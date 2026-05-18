@@ -42,6 +42,8 @@ Took our sweet time. Maybe a little too sweet... Missed the welcome center by a 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Qu9BixpTgBvKc8fCudax-dgcGGmKZUT2f7dUNeLm898-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/I487UfHM-TD5qqSO_29upjzKx4H39W2NiImZtgKMe44-2048x1536.jpg)

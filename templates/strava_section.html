@@ -34,6 +34,24 @@
   #strava-routes-map .leaflet-tile { border-radius: 0 !important; }
   #strava-routes-map .leaflet-overlay-pane svg path { transition: stroke-width var(--transition-longer); }
 
+  #strava-routes-map.loading::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 500;
+    background: linear-gradient(110deg,
+      rgba(127,127,127,0.08) 25%,
+      rgba(127,127,127,0.22) 50%,
+      rgba(127,127,127,0.08) 75%);
+    background-size: 200% 100%;
+    animation: strava-map-shimmer 1.3s linear infinite;
+    pointer-events: none;
+  }
+  @keyframes strava-map-shimmer {
+    0%   { background-position: 100% 0; }
+    100% { background-position: -100% 0; }
+  }
+
   #strava-hover-panel {
     position: absolute;
     bottom: 24px;
@@ -67,7 +85,7 @@
   #strava-hover-panel-stats { font-size: 0.78rem; opacity: 0.8; }
 </style>
 <div style="position:relative;height:500px;width:100%;border-radius:8px;margin:1rem 0 2rem;overflow:hidden;">
-  <div id="strava-routes-map" style="height:100%;width:100%;"></div>
+  <div id="strava-routes-map" class="loading" style="height:100%;width:100%;"></div>
   <div id="strava-hover-panel">
     <img id="strava-hover-panel-img" src="" alt="" style="display:none;">
     <div id="strava-hover-panel-body">
@@ -94,8 +112,15 @@
 
   function showPanel(p) {
     if (p.banner_url) {
-      panelImg.src = p.banner_url;
+      // Hide until the new image is decoded to avoid flashing the previous route's photo.
+      panelImg.style.visibility = 'hidden';
       panelImg.style.display = 'block';
+      if (panelImg.src !== p.banner_url) {
+        panelImg.onload = function () { panelImg.style.visibility = 'visible'; };
+        panelImg.src = p.banner_url;
+      } else {
+        panelImg.style.visibility = 'visible';
+      }
     } else {
       panelImg.style.display = 'none';
     }
@@ -113,7 +138,10 @@
   }
 
   function init(routeData) {
-    var map = L.map('strava-routes-map', { zoomControl: true });
+    document.getElementById('strava-routes-map').classList.remove('loading');
+    // preferCanvas avoids the SVG-precision drift that offsets routes at low zoom
+    // when many long paths share one transform, and is faster with this many features.
+    var map = L.map('strava-routes-map', { zoomControl: true, preferCanvas: true });
     var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     var tileUrl = dark
       ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'
@@ -154,12 +182,12 @@
 
         ghost.on('mouseover', function () {
           var real = realLayers[key];
-          if (real && real._path) real._path.style.strokeWidth = '6px';
+          if (real) real.setStyle({ weight: 6 });
           showPanel(p);
         });
         ghost.on('mouseout', function () {
           var real = realLayers[key];
-          if (real && real._path) real._path.style.strokeWidth = '';
+          if (real) real.setStyle({ weight: 3 });
           hidePanel();
         });
         ghost.on('click', function () { window.location.href = p.url; });
@@ -171,6 +199,15 @@
     } else {
       map.setView([20, 0], 2);
     }
+
+    // Warm the browser cache for hover thumbnails so the panel image appears instantly.
+    var preloadIdle = window.requestIdleCallback || function (cb) { return setTimeout(cb, 0); };
+    preloadIdle(function () {
+      (routeData.features || []).forEach(function (f) {
+        var u = f.properties && f.properties.banner_url;
+        if (u) (new Image()).src = u;
+      });
+    });
   }
 
   function loadAndInit() {

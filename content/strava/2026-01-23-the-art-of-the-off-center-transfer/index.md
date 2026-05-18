@@ -43,6 +43,8 @@ Last night I happened to be in Copenhagen at the same time as Katherine Jankowsk
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/xSi1NfDFKC2NuVIN1740a8lV1B_A7ykIFWJCjE10N2Q-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ZxGs20utk5_neohMoSGuh-A3NgtRSH5A8pxgZiOPvKg-2048x1536.jpg)

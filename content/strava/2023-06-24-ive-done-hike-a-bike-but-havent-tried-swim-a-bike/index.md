@@ -40,6 +40,8 @@ I think I pushed too hard in the beginning and my legs got real cramped for the 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/AeYHFiLolgKEoOBUknyH3Dn6F1Xi569tCqp8NnSv1-E-1152x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/bn1vGF2rGDhiTAZmu_oM1Yjsm51TUmEIFWwJfHJpiP0-1152x2048.jpg)

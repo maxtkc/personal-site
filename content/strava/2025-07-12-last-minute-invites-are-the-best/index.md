@@ -41,6 +41,8 @@ Feeling very sleepy 😴
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/5UDqkjGE7GYCOJbUZbw0QNSY5NZeVLPWuDsZVuOSFJs-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/rzX8VIzVfteVBUfpNSFMfDhaYrYrRdVIM-DJrq0MW3E-2048x1536.jpg)

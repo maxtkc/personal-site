@@ -38,6 +38,8 @@ Open fire pits are really challenging. I biked to this open cabin in the woods. 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/1pz-EwzN4Gl8_q06vaUPwP1v2qoO6YXP3xIQl4d4r4w-2048x1368.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/j_pcMj0037dH2J-e0qOIgBxO6l7FGph-ZZHsO53-wUo-2048x1368.jpg)

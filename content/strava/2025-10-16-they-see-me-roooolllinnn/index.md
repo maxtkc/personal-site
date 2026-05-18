@@ -38,6 +38,8 @@ Riding the velomobile! Pretty cool, would be fun in Denmark with all the wind an
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/POVRxXXCWSTr4Zb-Uycosx19vJUgm68O_HGKO9-bd6A-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/SFNw8sLZggupf0COo2T3IPYJKF_DzcUJ68Ig7e5dsYE-2048x1368.jpg)

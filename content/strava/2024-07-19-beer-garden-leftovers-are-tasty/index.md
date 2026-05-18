@@ -35,6 +35,8 @@ elevation_gain_fmt = "1 m"
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/3NXKlyAs9ZZBST6gGhvBl7eKF4-4nM6JZbdI6JtPAdo-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/mVT3hMmXtXuN3mZkie9LSqkPU45yBvcc14fpCHY4xPY-2048x1536.jpg)

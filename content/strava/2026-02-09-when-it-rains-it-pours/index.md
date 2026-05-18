@@ -41,6 +41,8 @@ This was all following getting my work permit so I can work tomorrow!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9YCqasE21ZWYY-Z6qRaf7ggPN7T77kzdNxLLfBt_WNM-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/4V6qmfkd_BIUuMtOeXOEuW_IqauptiUyTQOyrIGN5Jw-1536x2048.jpg)

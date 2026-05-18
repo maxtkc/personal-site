@@ -41,6 +41,8 @@ Headed home! Got a lift from Jackson Moore-Otto and his mom to one of the pretti
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sJb5nYrE5VcvL-qCkaddANkDPdWn1LSKoLT3HlUi3ic-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/oe-MUfgLK8cZXp9D3pq4RxLS3vV-ZTqRPG4QBpwEKhM-1536x2048.jpg)

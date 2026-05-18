@@ -41,6 +41,8 @@ You can really do a beer garden here. Like you can actually have beer in a garde
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/QAG7ZZIiF7hnrEOL4cY2MnImnLDNXSxcSL90i3QC8H8-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/zTpGWtdViCafJNuMDIFzKMvLzgHd8sOOQ4HHW3f0a5s-2048x1536.jpg)

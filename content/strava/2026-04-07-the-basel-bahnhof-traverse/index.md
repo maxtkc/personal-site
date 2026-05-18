@@ -51,6 +51,8 @@ As a general overview, I took lil trains through Switzerland and then across Fra
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/R7mV-_1DJ2gGrsqWXmfHRNeBkoAGRNzRlv5cuvFkpm0-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/6RBMALt6E7XYDVQekIGX2bpj6H48hB80-kynPXCEVBY-2048x1363.jpg)

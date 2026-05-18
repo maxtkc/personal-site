@@ -48,6 +48,8 @@ Had to make sure I hit all of the things any good route has:
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HBKbAJp0HUBojjGcj4gosGdYabM_teWyp4q0MtAYEaE-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ACHcfctilfIRnWZ9BpC29MuUfWDOpYEm2QsVpi53nNk-1536x2048.jpg)

@@ -40,6 +40,8 @@ I'm still working on my .5 selfies. Also last night was cool with the moon, and 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/fwDHs6GeBYr5bzFeBfxA8y1Hl0pm3FTP6B1FmkreKOA-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/C1G2Bvn74YHHq4XXGGKPBYrQgmQE1_-A6Ge_vMa97Rw-2048x1536.jpg)

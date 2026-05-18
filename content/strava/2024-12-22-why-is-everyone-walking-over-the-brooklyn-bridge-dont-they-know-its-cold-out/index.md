@@ -38,6 +38,8 @@ also the ferry man selling tickets has such a low key operation
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/uJelngJe0EO_I3Hf5W0x-4JuHglLiqgRhuA0iigbLYk-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7MX1xOSaXaygq1BFQnJ04KFkf9hweP30ynKJ_FK6C20-1536x2048.jpg)

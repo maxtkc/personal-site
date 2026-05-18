@@ -42,6 +42,8 @@ I'm tired... And it's raining. Just made a tinder profile to find a place to sle
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/v-4KErE1G2T3XRRyrBB1dCJE_GnwhgOJ1C1oEsyqskk-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/jWrsVUBJ3me6tW2Xngki5zKDPxYwpZs_xEp_D6sNSVM-2048x1536.jpg)

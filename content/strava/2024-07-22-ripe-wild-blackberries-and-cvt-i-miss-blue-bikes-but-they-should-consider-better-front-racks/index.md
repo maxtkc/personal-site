@@ -36,6 +36,8 @@ elevation_gain_fmt = "278 m"
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/oc7stNnUeaIe8pV3LBaMllv8sAC0ld6lgXwHTRL0U9A-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HZWNN3UwlXIp5GFbVdYn0Q4KpyySDpp4LZNBeE3iUYs-2048x1536.jpg)

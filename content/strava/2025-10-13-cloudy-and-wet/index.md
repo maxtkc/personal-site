@@ -38,6 +38,8 @@ It's very pretty here, but I might come back again when it's less cloudy and wet
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/jL0X93fwu8bzASOP2P9WlzzTBcxkBI1xo_2X7VZ4F08-2048x1368.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/P86riQzP36EC801JbjPiBgXbzOw8jWVIAevBKh9smNM-2048x1368.jpg)

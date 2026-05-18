@@ -39,6 +39,8 @@ Deployed a sensor at a fish farm! Not a terrible spot for a work trip... Had som
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/nfHs7kJnIUSvMw9Kf5fFqs10x1my_Yoz0rKwx5ZemEs-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/njYPNbdo7HZryDKxQbuEWPc1iK3hF3x6MTrhohEIx1c-2048x1363.jpg)

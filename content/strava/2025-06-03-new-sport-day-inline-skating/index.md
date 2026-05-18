@@ -41,6 +41,8 @@ Super cool people and the group skating forced me to figure out how to go fast a
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/-bVQ_8JlWJb-_PNPvbxcLv4Y9OeJAwrTS1hv-g-bgKA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XA7khz-w_cU5yC_xhj0T9r1uEgIEyjAi9HNchcPGMxY-2048x1536.jpg)

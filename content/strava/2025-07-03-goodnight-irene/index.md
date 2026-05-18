@@ -43,6 +43,8 @@ Also, NYC parks are pretty damn nice. Prospect Park is fantastic and I think I c
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/BOgi8Rt0n8_EeXvNgj1wTbJpDuKrM2wZ3aWwRQsoZNI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/GGHLnnzBdIWI6l9ExbGj9nHyYCrwuVhKZyLzvvh0zic-2048x1536.jpg)

@@ -42,6 +42,8 @@ PS: Enjoyed taco Tuesday with some fellow runners after, all who had migrated do
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Yy4l0tXAEO9u1UQM5NWreWe4NMYeD7eoeIutfAAKlDk-2048x1152.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/AXolJCKYIVy4F12l94LNSB42ASXjZOChLNqo528Flk4-1152x2048.jpg)

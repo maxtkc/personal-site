@@ -46,6 +46,8 @@ Met the other Melissa Stok brother! Two brothers and a set of grandparents down,
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/a1YNXsJ1klafTdC2hHLqU7iDEqUzj9Ho8khGgWa8QGY-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sY8Ec-wAfBGAY2ElpwpYuW0KW8SFga4sQrq5HQMkBJY-2048x1536.jpg)

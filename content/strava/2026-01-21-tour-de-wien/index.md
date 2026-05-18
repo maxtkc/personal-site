@@ -39,6 +39,8 @@ Thanks Pascal for the tour! And Sarah Schaumann for the connection!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/A_cgBLQNu4kAqfzCC6V2itJCA5QjABEnmRfCcpAPKaM-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/l4RKwpsYHTeKxkEEE8tPIXHMBWOVt2L-8HPcOVo5-Og-2048x1536.jpg)

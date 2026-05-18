@@ -60,6 +60,8 @@ My bus drivers glasses just broke... Should I be worried?
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/GLMl3UdR1v45LvHVOh45MdUEUiRk2lkFjLatDYQHuDw-2048x1152.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/6tiNNwtda-9xCCNdJs9dLU7eNXYfwvQ-BdRb1rBZaYk-2048x1152.jpg)

@@ -38,6 +38,8 @@ Beautiful day! Only crashed a few times 🚂
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/resjiUYCQrHAovPnGqMbpcv_lQR7Myfsf-amecVXa6k-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/FVEr5fOlBx7G_WCfjaO0yhRKksiJ_AMLEvV78XyF10U-2048x1536.jpg)

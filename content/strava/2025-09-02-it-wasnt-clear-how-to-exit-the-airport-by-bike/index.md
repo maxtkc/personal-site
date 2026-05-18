@@ -38,6 +38,8 @@ They did have many train options, and at every uphill I questioned my decision
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/5UKomqqF4FmoDYpjmtpNVLOOXFXQvd5Lm9wAT4y6yug-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/1DnwWfasmaAGaEk4OFN-T8A9X1mtL3shee82A8wuJ_E-1536x2048.jpg)

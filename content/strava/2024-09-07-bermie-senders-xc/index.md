@@ -39,4 +39,6 @@ We got the big cooler
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/jWSlsDzRmTQTypbxzhDPqRr4w0TD6_dhalp_Kgb9Bmo-1536x2048.jpg)

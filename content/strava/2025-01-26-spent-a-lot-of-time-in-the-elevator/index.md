@@ -39,4 +39,6 @@ Green building challenge, 37 times up, 2 times down
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/jq_LMJinIXPVuieGsMdkGiNPrrRovbIVigcZ5oy74F0-1536x2048.jpg)

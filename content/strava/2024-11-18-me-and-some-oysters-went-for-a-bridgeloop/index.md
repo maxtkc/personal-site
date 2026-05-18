@@ -40,4 +40,6 @@ that was so tough
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/0f-dovwXSCzLYteOHj-Vo1lFu2ckVz1Fg2vR0v_4yKY-2048x1536.jpg)

@@ -41,6 +41,8 @@ Despite all of the confusion, I enjoyed a beautiful full moon night.
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/k6f96A60LoSYE_oEIKEQ90Pe_rlZvjo_917wP0juQQI-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/d9wmK7kx1liILkPxqs4CuIOCr-40g91kbgNYlNA5l_g-2048x1363.jpg)

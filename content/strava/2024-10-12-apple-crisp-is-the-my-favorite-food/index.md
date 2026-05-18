@@ -39,4 +39,6 @@ i never know how to answer that question, but i think this is it
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ZkSu864OGrwEE9o5MAHBf7VmtJhFr_ws7XTDm6GqeCQ-1536x2048.jpg)

@@ -39,6 +39,8 @@ If you stay after at NTC long enough, you get to hear exciting poop stories
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sSALAl52iWr-WAo6GZ4VTCU5sfLjPXb5daeOmwKDiVk-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7TinItBWas9IhgIIRePitV0qH-W71RGiZtki5WAAvY0-1536x2048.jpg)

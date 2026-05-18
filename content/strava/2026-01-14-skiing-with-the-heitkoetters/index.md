@@ -39,6 +39,8 @@ Sans Julius
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/P6UMOC3YZZIOXY6ZUQS_3kcBmPdmmfH-e8eEbOyY1HU-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/03_0By4rTHiIUsl0pIbUvd6x6vhsCdKx0hTAYo5dtvI-2048x1536.jpg)

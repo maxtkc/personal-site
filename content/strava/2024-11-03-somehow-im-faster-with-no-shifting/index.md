@@ -41,6 +41,8 @@ i don't have any pics of my race so here is nick
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/EckO3Lk0-lC4MnZgX444l7APvzuJijqduZYQI_9zlnE-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/FPf9dim-SE7lubZmGcsJu9Go2ieoSRKYJmnD-fjv-zc-2048x1536.jpg)

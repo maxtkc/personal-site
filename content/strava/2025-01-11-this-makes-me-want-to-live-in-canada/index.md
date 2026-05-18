@@ -39,6 +39,8 @@ I played hockey with the Canadians. They're good, super cool park
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/8uTbREjsOjsDiQLCd0-wYVAbAgEgLvhe6nauzmlsX_Q-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/yNs9kcsRuZqf9l-Er8H6b2bdPnVZKXZI349oF0I5UlU-2048x1536.jpg)

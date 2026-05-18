@@ -39,6 +39,8 @@ I feel like northeastern is everywhere. Thank you Parmajon Christie for teaching
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/wNhJWwv6nHsYEyl5rB_ZU_a__Rq2aheQm7vGsCm-9zU-2048x1365.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Dqb2T2G0e4b2act0mdQAd201xa907UP6_Y18qjNNAWg-2048x1365.jpg)

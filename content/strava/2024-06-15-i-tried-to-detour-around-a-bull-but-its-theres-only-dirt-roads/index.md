@@ -38,6 +38,8 @@ I think my being there was stopping him from mooving
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/c_rPDZqz4Wca0vRuQeMEPW9U3Bde0l-qgGXH1REmf9g-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/L5pjwJNi_HDC16fmF1erQKuSYuRndjJ6BAVJlVePnj0-2048x1536.jpg)

@@ -40,6 +40,8 @@ also, silhouettes are fun
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/DHBLV6Yiqtr6mwGB3bGjbEYzh57MO-VVrwei_c_1I3U-2048x1365.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/JgooQzdsF8cKJWPuX945S7HvHTyu8nV2KxxZFeZJJLQ-2048x1365.jpg)

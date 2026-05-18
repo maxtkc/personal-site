@@ -39,6 +39,8 @@ A bit shorter distance and time than Mainely Stopped to Boston a few years ago, 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2Uw7SOYL9orGFBh9kR5sSyvBzH-KL-iZdoqhN8q9WCg-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/8Vv3by8Xyv7O_E9mg_73xGT_PXitsyYdLwNSaFWvIWM-2048x1536.jpg)

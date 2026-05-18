@@ -40,6 +40,8 @@ Couldn't stay away from Jens Christian Ytre-Arne for more then 12h
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qlaH_Dn3tvAf9eXOlaUwDrpbUVT1Z5cs7j0hx_m-sEY-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2Ik1MJoM_BcKpSvO1xp_UieV_0ykNURGyQek9WBHUqw-1536x2048.jpg)

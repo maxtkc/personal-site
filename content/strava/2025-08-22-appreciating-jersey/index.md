@@ -43,6 +43,8 @@ I still don't know how I feel about Jersey as a whole, but in every place there'
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7Y9gDlLRYSu6bPvdGhn0Et_CMdPSEXyr5Bp12-AjNIY-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/eoiDmcwL3ruOwxenNfTkAQuvRn6JtzhVKBeihx7Kozs-1536x2048.jpg)

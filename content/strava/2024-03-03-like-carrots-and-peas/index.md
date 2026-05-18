@@ -40,6 +40,8 @@ Had fun exploring parks and interviewing people with Carl! Thanks Seth Massey fo
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/lFHLVT9w9sjoYgPBovFWbqdeO1XjBbh4qjIBdTCIEfE-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/1k2PSoZx6Hthza-TOR_fb0BMEjejTCBVzBSTW2O-R0g-2048x1536.jpg)

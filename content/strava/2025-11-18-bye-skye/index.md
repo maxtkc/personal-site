@@ -39,6 +39,8 @@ Hello Scotrail two car DMU! Cool train, great views, and very friendly dogs.
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ZxYQcHmyv6foGcROhAZ-813mV_Hr4i483R8JZ98YBCk-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qodL4d6Ud7rMCIngfPk3fwEKYdZb1fX5Po5Oj13ySiI-2048x1363.jpg)

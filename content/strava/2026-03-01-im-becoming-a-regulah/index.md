@@ -40,6 +40,8 @@ At the lavender run club. Also the local trolley club and at the kombucha spot.
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/-fPD8rBbplozQ8kz6q-HZqbVTgwqcaMKIvKffSOceGM-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/TlwDMgQb6UVGSnc_4EUZlEMUEX_J7TrTbrtcpyPQxYk-2048x1536.jpg)

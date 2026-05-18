@@ -40,6 +40,8 @@ Every tgtg could be my last in CPH 😓 but I'm trying not to think about it. Jo
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/oebbi35NGun7j0VPYVk-6cONZO_ONbv6UN-Bytqw6go-2048x1535.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/eWQ02Y1XGYdpE7rtTUwwi6070Da2sA7t5u-cgwDbhIY-1535x2048.jpg)

@@ -44,6 +44,8 @@ Thanks for clicking on my clickbaitiest title yet 😀
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/g4-75mVL_X2HSiI0gn9PTF2lhJp0NzM2SHO94Hm2etI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/5iSGgbrZCZdHy8Vz1l2cTiglFZkbOPnJhSp_eWnnYWA-2048x1536.jpg)

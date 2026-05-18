@@ -42,6 +42,8 @@ Wasn't gonna drink but ended up sitting between three people who worked at brewe
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Ol_OxixqhQ6yJh_3cPISA2lXhTRJCPbOVlk8M8vE_uU-2048x1361.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/TSIHz5jxU2DPX7MQxKq4uzfbu3pSsb8xZxUIWFgoMpE-2048x1536.jpg)

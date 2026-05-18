@@ -40,6 +40,8 @@ And we forgot one headlamp in the car 😬
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/JxO0Pxa4kmYtQSLPzAZpgnhklJXyadKYoH8bQy_9Jm4-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Yv4rw02X8pKVr4yz3tBQFqAv_VR9zGOlH9twTy0gKfU-2048x1536.jpg)

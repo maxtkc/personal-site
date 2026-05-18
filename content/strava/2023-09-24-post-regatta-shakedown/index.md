@@ -40,6 +40,8 @@ Best way to recover from a DFL'd race. Did a multimodal run, using the orange li
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/jMmlKFQwvB0i4DRnPE9tUbbkYGf8p5ZIKn28ItJo8ag-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/QgOPInf39CFz8F6F9Ym4aqo92UW57VjhBq0v_CDXkYQ-1536x2048.jpg)

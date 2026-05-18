@@ -40,6 +40,8 @@ Part of a stadium and Summit Ave, too. I spent the whole time running away from 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/-9jgJLDUZkzXtrZOexwQo9TwsxxY5SWbhTJ-wgGupAM-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/DCFGd2RJn1nEBdndq7J5neoU2f27Q4Xdd3qW51pTY6w-2048x1536.jpg)

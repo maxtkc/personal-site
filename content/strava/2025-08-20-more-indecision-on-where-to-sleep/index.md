@@ -42,6 +42,8 @@ And another flat tire
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/YEuKvJrPDiQZz9kroE35Z_FkynYJqzLzO-U0EukWwaA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9Q_aZE6RjVjicl5EkNXrnXYwDvs9J2ZdY_Ckz0M7SPk-1536x2048.jpg)

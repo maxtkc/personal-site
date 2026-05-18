@@ -40,6 +40,8 @@ Skate skiing with Seth Massey ! Took the night train and arrived this morning. N
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/tlXZFeeVUv5H2SBF9M5OYEq_-JXXjJGHqA_78k4EuXg-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ywUqvp5vlk3KzaVXE-3xIBvrdtR19DXMDo-ownWIvtE-2048x1536.jpg)

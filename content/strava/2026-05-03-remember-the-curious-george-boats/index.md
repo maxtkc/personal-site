@@ -41,6 +41,8 @@ Even Flixbus has a rear rack. Pretty sick. MTB and regular versions
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/lT36kCJzETb_SsV_usSsS8k6y52dS8cy4grUBEkO98k-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/P3XTUTjjivaY4_DEDNWtvhx2Syje-udVao54Km0iue0-1536x2048.jpg)

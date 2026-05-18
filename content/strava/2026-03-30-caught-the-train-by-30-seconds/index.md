@@ -47,6 +47,8 @@ I need to get better at cutting photos, but enjoy the last few days of pics 🙃
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Da_we86qm-AkTTiae96VGH2d7qkLYxa_WehD_a5G2Fg-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/CG47fW2Bh0mjFt68QsoZnnwh09pTm4hwa6obPf7YD9U-2048x1365.jpg)

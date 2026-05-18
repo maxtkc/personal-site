@@ -39,6 +39,8 @@ Idk how it happened. Running? Road biking? Getting up early for long rides? I've
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/KECHIkhc4E0Q0uuk3Q3Y0TClQ65QMwT7hZ1Ru8jAxqk-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/SlUYqGDt8uGacNCLmPtHH9QNT3SAEd3bqXVt4HQH6BE-2048x1536.jpg)

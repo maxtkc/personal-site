@@ -37,6 +37,8 @@ Apparently you're not supposed to take pictures while sailing. That's stupid
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/WNsWpWFcVPFjRqGwYqTmtN-bRlfeEpo50ie3XhAZ2BM-1152x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qzWL6No-AhWKU-nMu5Hn21osOC2T72A4HmwUmSy7SSw-2048x1536.jpg)

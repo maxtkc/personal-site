@@ -39,6 +39,8 @@ My dad is very into doja cat
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/OQbVEmPJvpvmB2ly81uIJm8Hp4SUn0BmRNhu6btCMiA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/tmbRBtx7HqiZujzOKryI26ZYwcoTpYz_u1qNYVLncCU-2048x1536.jpg)

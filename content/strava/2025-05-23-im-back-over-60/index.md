@@ -40,6 +40,8 @@ They added more stations to the network so I've got lots of work to do. 45 stati
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/OAHPdM2Un7kqKNKz6a_QgqFObW-9tlSU7fwuop09m2E-974x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Z48okjPCD-SxMXtoP4x9UtwPebajLPYOPoiWfPWgkP4-2048x1536.jpg)

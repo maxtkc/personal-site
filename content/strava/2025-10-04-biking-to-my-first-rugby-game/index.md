@@ -38,6 +38,8 @@ Very rainy, very cold. And some shots from the electronics showcase aka cheeseco
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Fd5u3KT_a0j-PpD5lsHxamzJgGEBKcpGg-B-9bCakn4-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/MvhsyglP7Tp4YBbvO-N_9QYI5RrnAHW65B69vBYbj08-2048x1536.jpg)

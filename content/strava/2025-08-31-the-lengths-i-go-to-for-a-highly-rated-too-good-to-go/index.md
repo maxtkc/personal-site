@@ -40,6 +40,8 @@ Also picked up a banana and some blueberries and downed them between miles 9 and
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/6_833VQEfb7Z4M8pgB9vyO6ihNvV1a5sxfpmxSEi4lE-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/z825qRwfO-1NwoIiQV6XMudqPCA8AOfYD6Dtb-t7Zu8-2048x1536.jpg)

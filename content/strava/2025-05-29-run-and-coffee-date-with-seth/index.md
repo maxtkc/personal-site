@@ -42,6 +42,8 @@ Also my first Nemo spotting ("the AAA for bicycles")
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/5_NFttFlcZHuYKIVtL2Fz8_epEErNTHKMmAgHfTdzCo-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qmYxCaUA_sXiaVUiNi2-xFBpWatxJXvegxTRNu4XtLc-1536x2048.jpg)

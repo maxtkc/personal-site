@@ -39,6 +39,8 @@ https://streetwarp.com/result/06f1b037/
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/1hV0f2TvB4PpepB8927_A4V5b0qRWV3BFMeUC2j9L_8-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/6VMly-23VvCUZSDl7dneanm_CdYaC5zS1CsoQV9-anM-1152x2048.jpg)

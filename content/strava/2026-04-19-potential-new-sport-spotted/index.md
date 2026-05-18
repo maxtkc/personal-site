@@ -50,6 +50,8 @@ More book suggestions always welcome!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Y6T1aq2bEbhedV4JSTXvAQ1P4NF7Yh_40_JiBkKVNw8-2048x1360.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/X7J0P4XDIN5u-Q23k7r9G0Ack0AM4N7F40p9EyMSqts-2048x1361.jpg)

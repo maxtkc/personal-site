@@ -41,6 +41,8 @@ Now... Off to my too good to go
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/oe9owSjRW1qlGtsRznBAEtWr-BGEwO3wTk5KxHU3qWo-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/nO6krRJSP07lPSHSbzp78Hoq0gRJ8sS3MTSDxMmDIyc-2048x1536.jpg)

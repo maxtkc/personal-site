@@ -40,6 +40,8 @@ No bananas but tons of wild blueberries! Coincidentally saw 3 friendly faces doi
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/xeLe8OkctQvsI9d4_ZeHmyZtBipx3lrUPlB42WOlPVo-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/apXz-Xu0NaksrmJDPH2-L_CJtrCg727v7x9SURTKtXw-2048x1536.jpg)

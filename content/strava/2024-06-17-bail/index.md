@@ -41,6 +41,8 @@ I went at 10 to mail my pocket knives home to the post office. At 10:40 I talked
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/-ZVnFT12RfVJHSPA54V654rzntKysjlUl348RbzNuKc-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HHZxID59-giHV7bVh1R24PcJd07MuN1vU6FzkjyGcIY-2048x1536.jpg)

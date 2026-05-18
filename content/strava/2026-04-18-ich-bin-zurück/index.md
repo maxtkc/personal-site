@@ -38,6 +38,8 @@ Bought some Kleinanzeigen skates! Fit great, a very well spent 10 euros. Got sup
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/OKhz0yBR9XkA-rbVx0hmin2eSemrR0i50iywKsPQFcw-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/93PgbtL8knokzuo0OcZ3OJ5b4H6MwKJX1UBA_1fhTBY-2048x1536.jpg)

@@ -41,6 +41,8 @@ I'm about to pick up my second swedish too good to go now (falafel in between wa
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/EJTzdwtGcBmrxLqpM6IDh9KtpB247x8CIYwzD2tbx6Y-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Pgu_kKcIAnRRxLl6-6__QjAhS8e-FPTMWonJkFntdvE-1536x2048.jpg)

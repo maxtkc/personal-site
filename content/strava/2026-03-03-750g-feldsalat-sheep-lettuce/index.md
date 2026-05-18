@@ -42,6 +42,8 @@ Oh yeah and I went on the long group run! Everyone is named Florian here. A Flor
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/gW53o2itZnH90F-DnHQMccUZE9jwPmWT5Wttb1SYfAM-1152x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/nurcMG0hT0U8_9brOICfvKLaRSPSaAPf-SIxqSqnKjI-1152x2048.jpg)

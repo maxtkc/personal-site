@@ -47,6 +47,8 @@ Then tonight, I went up a big hill with my tgtg and took some pics
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/fm9vEtJ4iEu5AhPXfWz8q_an72Pk3Rg3EkSL3Pt12hk-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/k7pxZ4IzGT9-ORh7-dD8UZpW6Te0pKjEZkXj2cw7Xq8-2048x1363.jpg)

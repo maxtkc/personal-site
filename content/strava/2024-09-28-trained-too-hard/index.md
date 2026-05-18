@@ -39,6 +39,8 @@ Well, I prerode the course right before my race without leaving enough time to h
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XHNwhHHnvE73GETT1nSJHU0svcIsCWwa9arCV9IGUxI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/DZQX3EggivYXzttAdTNFSIOyl1m8eGL5cWifxTAj2Ik-2048x1536.jpg)

@@ -38,6 +38,8 @@ Nursing two low tires, didn't find a pump along the way. Still rode fine.
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7GJLI20hKjG9mScvv5n2LMd9_tOJa9crloUCVtKQtdM-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/maorDY6xPXV7iYBUje_nfMRZMZCdtd7IMZrlYaKVgHk-2048x1363.jpg)

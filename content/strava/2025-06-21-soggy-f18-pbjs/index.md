@@ -39,6 +39,8 @@ With Julius!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qljRFD7k6pHe_Phg97N70U4oQe7OYWtqPpUqgd59sj0-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/X2YxhF-ahYwqnAnephp4v7aoyB8wRQvqaD1bGRvBHvc-1536x2048.jpg)

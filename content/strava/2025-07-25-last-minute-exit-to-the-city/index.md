@@ -38,6 +38,8 @@ I was on my way from the fire fighting academy to Baltimore to go take a boat up
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/cIyAd0VPRQW8a4jnOMSVNiDCAzoyi0DGexZNzaf3Nvw-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/wbytCuWYLuMMDtYbqSttVDxbv7FVk__mwOCXjQbBKho-2048x1536.jpg)

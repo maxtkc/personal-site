@@ -41,6 +41,8 @@ Super cool that I can be on top of Rosskopf from my house in less than an hour a
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/QaTMcqi0m9WiUt6o8NWMvYa9gF8mzCTlQdyR9-llRMg-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7YHItPgH-YROP2uK1g_uRlC4q5R009dL8GizjGYiCSo-2048x1363.jpg)

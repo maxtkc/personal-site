@@ -42,6 +42,8 @@ I need to sleep more. I'm claiming that as the reason that yesterday I made some
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/0gM55qQOcytvYGrc6tUcnhfZ_bKPs4t04wPLgeEIj-E-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HXUXNuPi1GQfb6PCPa_fOAb7pDH--NIgf9eirFkxqic-1536x2048.jpg)

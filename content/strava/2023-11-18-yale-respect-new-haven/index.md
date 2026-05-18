@@ -45,6 +45,8 @@ A few things I'm a big fan of:
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7qgsdXXA941KolEjQXe7_WeTfQApdQ0sSrqDEOlm3wU-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/uA67ev_w8zR-ThbrXyv1CLlrw7RDizbvHKWRkyLwR4U-1536x2048.jpg)

@@ -41,4 +41,6 @@ Also, hi Daniel Klahn ...  I see you there, lurking in the shadows. Just knowing
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/PzsxGPpBcnkhxa8HbYEbYupHOAwxwmcpV2uuEKOXCfw-2048x1536.jpg)

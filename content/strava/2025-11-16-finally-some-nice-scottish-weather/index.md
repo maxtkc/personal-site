@@ -39,6 +39,8 @@ Paired with some fine Hawaiian footwear. Wouldn't want to get my allbirds wet ag
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/TRdDy-UlejHMVim1bU6r2dbukxRu9cofnk2F9RDjMC8-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/xCoE0_x6okCKWgduLCgoEHeLFg6_6Po_3gRfrIPlXAs-2048x1363.jpg)

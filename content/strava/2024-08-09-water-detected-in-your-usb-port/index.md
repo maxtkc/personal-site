@@ -38,6 +38,8 @@ Gothenburg has a rain water management issue. So does my phone 😥. It blocks m
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/PRq7W0mnKsJiUWYK-fNB4wxZ9I-cw13sthetpTC_5XI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/RyXq0l-2A7NhzZBsBughWbGwuRMyhe5hBUUy2bQdIzo-2048x1536.jpg)

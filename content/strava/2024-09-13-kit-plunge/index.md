@@ -37,6 +37,8 @@ Gotta wash the kit sometime... Not that I really wear it. Feeling faaast on the 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/fXikTxBN9TbAsBgGCPDXErFEblQRW8yMmt31ADkCjmc-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/aQ1tZk5rTv68RkXNbRKvDCUJIXPdgHxlceJAk3WSc8A-2048x1536.jpg)

@@ -41,6 +41,8 @@ Got a free danish hot dog at a street festival after a free beer after a run. Me
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/R_AYpJSTJr7i1ZvwjSUlfNqW-YbVlxuA34o7jkHsPDs-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/UeWE4maF7Tp6q297khNMM59jrzqnrB7vP5tP-gVRVgg-1152x2048.jpg)

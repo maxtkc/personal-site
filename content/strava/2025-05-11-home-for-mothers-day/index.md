@@ -39,4 +39,6 @@ Time to do some gardening
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/hMZJo3D1qDlY611Lhi3Y228-_zCTIbMGxoqIFAe3-KE-2048x1536.jpg)

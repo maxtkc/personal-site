@@ -39,6 +39,8 @@ Leading for a Mass Bike ride again, this time on the Brompton!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/o_K0FnXxTGefT-tB3ZWb7yO5k-2U2icWGrjuEvaMXKU-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/z4AXGENKs5E6rRnNEWtzrD5lLIGUJgYlbFXvusYqLkI-2048x1536.jpg)

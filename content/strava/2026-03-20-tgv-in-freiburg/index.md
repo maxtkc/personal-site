@@ -40,6 +40,8 @@ I've always steered away from Paris because it's a bit touristy, but holy smokes
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/CaG_g_H3Q0blLi00X-aQsPc7YPQPpNnGwH8-cDizD1I-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/OIfuVbl_G_uZTwWJ4tbjTXNZUV0m-spa9n_Dki0AUrg-2048x1363.jpg)

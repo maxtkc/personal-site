@@ -36,3 +36,8 @@ Which was fixed by more stressful non recorded backpack NYC rain running
 {{ strava_map() }}
 
 [View on Strava](https://www.strava.com/activities/14158502048)
+
+## Photos
+
+![Activity photo](banner.jpg)
+

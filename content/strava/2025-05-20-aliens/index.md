@@ -42,6 +42,8 @@ Stadium made the laps around the pump track kinda exhausting, but a good follow 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/RbpgZln5Uxh1RE2AO08bknQTm24A9Xkln1bC6fxERpw-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/k0bnezGkCHsR8DcMV61W_gS9LKk3fe8uW6r2GPXZkg8-2048x1536.jpg)

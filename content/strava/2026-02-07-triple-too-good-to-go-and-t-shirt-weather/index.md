@@ -40,6 +40,8 @@ Landing back in my new home after babysitting my air fryer on 6 or so trains bet
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/t59uYAErNtKhNL13ynQ8uFHE7667iGX5VTX20QFNJOI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/4tMnoxPb3uuhmfp7Ci-6gW6NTRvxd2ZV2Ya1xw-r0Ac-2048x1536.jpg)

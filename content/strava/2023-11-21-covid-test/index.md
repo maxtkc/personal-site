@@ -39,4 +39,6 @@ Negative. Happy Thanksgiving!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XmmB-OoQZ38f5QvgyrAv7qzt4l756WSeXbYhD6ONd2A-1391x2048.jpg)

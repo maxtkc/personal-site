@@ -37,6 +37,8 @@ Taking turtle to coach at bc
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/cNx0_ourpXjkYxyLtjnQuZQD1O5ZEQtuBepvNLb4rfw-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/PlemGf1zh_nFJh6UhAkCMmWKTQCPo98yybWhagZfgao-2048x1536.jpg)

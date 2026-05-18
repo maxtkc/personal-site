@@ -41,6 +41,8 @@ also ski polo? how would it work?
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/u8SpGNOJxJY067WxUvdtYDVppTfTn9ZErV0_pggJ1wo-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/4LEehA_KuP5Qs9CIohzk9_AZM50ndf0smPTsGqceyeY-1536x2048.jpg)

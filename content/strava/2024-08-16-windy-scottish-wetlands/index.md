@@ -42,6 +42,8 @@ Also in Scotland, apparently you can drink stream water as long as you can't sme
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/bwEWnpTfEldgEBGTNR2P9_JKwPdq-eMlHa-WY789Hfk-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/72UCP2KjBKmZSUI2hgxZBXiL2Jxt4C3hvHxO3hpbUqc-2048x1536.jpg)

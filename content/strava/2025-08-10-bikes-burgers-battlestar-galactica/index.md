@@ -39,6 +39,8 @@ Spent a whole 6 hours apart from Julius (2am to 8am). The Brompton is nicely fix
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/VDfGMlb9oCjOLF3siN-O-SAj1GverF0KEV5kiA4d0MY-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/KzUx_fZP3KA62navRuM0BHUS1o7GnS0OdrDc5IWX2vs-1536x2048.jpg)

@@ -52,6 +52,8 @@ There may be some bad people in this world, but the vast majority are amazing pe
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/zg7gHRziOVQeYny494y7HyK6SIUSTCaNbQm3_78mA_4-2048x1368.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/a9BbUjUSOyLWT62M5RPLwu_nBWM07Goz-fCI8UI-zSc-2048x1536.jpg)

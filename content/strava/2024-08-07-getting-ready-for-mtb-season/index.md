@@ -38,6 +38,8 @@ Also met a Brompton buddy on the train and had camp stove breakfast with him
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/rZRmu3_ZR7Y9xKFSqQvcyKesW6Lg52pZ-GXdIHH_DaA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/nFfMYgJkN9xyzvTA7WUD3SRx18MfCkzgjs2NrzxN9io-2048x1536.jpg)

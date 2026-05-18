@@ -44,6 +44,8 @@ I've been thinking it would be fun to build a Strava + Pixelfed integration... B
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/xWfXpNB2iL1_MoyAppJw1Cg5nU765FDLtttepunDmKw-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/BNlzZebJsUw-i8Gf2-q7YDHDao5HzJvD4IB-U8QGpEw-1536x2048.jpg)

@@ -41,6 +41,8 @@ Also hitchhiking in France is great. Gonna try couch surfing tonight and blabla 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/uKuS4CU1SMw58idKMAS5kVABf9GyD-s6OBL3UUzBA-8-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Cr3qhJdNyBug7BNylnJ758P-J__vpXb1G1cGTnrkJXQ-2048x1536.jpg)

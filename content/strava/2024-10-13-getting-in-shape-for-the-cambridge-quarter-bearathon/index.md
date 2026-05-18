@@ -40,6 +40,8 @@ the night before the Cambridge half marathon, we will running through Kendall sq
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/BhABUN1Kg_Cm0qboLZmjMyapTjUyClgITrwHQN_tNDI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/bJi8I1pcARecwTrgAJyiPvmptmQcBO--sy5rON2kKj8-2048x1536.jpg)

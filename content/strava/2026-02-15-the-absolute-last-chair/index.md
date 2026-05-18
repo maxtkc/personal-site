@@ -43,6 +43,8 @@ Also had a huge amount of proper Swiss Raclette last night. Fun weekend!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XntxKPT2I28Uu-9r8Qf7CpxPVEwTaVYSAz3oBogKSXI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/1rzQ4tB53yHtNxWTdvpgzgVp22sUAk-AW0NFHwSKa-E-2048x1536.jpg)

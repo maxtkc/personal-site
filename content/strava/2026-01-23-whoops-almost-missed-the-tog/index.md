@@ -39,6 +39,8 @@ Had to hustle back, and then the train I was gonna take to my big train was runn
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/szHq8mu8xcWrfx_C2EwWhrjXfJWBk-pfc7u-j4eDdT4-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/WqxorFWpDEz8qIpVT9p1Lb2EyzSVR94yPySBt7Eei8k-2048x1536.jpg)

@@ -45,6 +45,8 @@ Oh yeah, and I went skiing today. Absolutely stellar conditions. Learned to ski 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qzxi7Pu-LgNRDRQqDw_G5ReMukck6DmB_Qdgkv3EPPw-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/zxZD-OkCMaMNGdG9qh_8Z3y7wZTC7zyX54GBg9rg2RA-2048x1536.jpg)

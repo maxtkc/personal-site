@@ -42,6 +42,8 @@ Such a cool event. I have a lot to learn.
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/BE4o9yqgXI-quRpfmjp9lH_k0oRaGNM8-5isVxZrv7k-1549x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/P77yEZR_0r8RySjPsP3S4Qtj9pLh4jhZkYgAr6dUalU-2048x1536.jpg)

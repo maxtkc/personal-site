@@ -39,6 +39,8 @@ People will do a lot to get a picture in front of a big pointy rock
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/s5_pL8Q83Fx_f_smzkA2D2zk_etHwuXwmZjMAte6rTE-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/65PF39Vogm6jwDwfgVUEg6xRDTdAy4kC3bYApOqNI8g-2048x1363.jpg)

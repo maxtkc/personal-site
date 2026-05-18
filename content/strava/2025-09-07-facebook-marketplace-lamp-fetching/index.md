@@ -42,4 +42,6 @@ I wonder how long these croissants will be good for... I might have just finishe
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/zkj-eGUbLeO8wf5NfQHXLt62KN_XPkDxrYcgpZ3NveY-1536x2048.jpg)

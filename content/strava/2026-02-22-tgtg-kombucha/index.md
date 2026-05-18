@@ -39,4 +39,6 @@ I think this will become a staple for me. Also look I went shopping!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/lBqTET_BoQ9VKcWUWD5Uy4k1SH5o8OWUTB8-N_Ve9-0-1536x2048.jpg)

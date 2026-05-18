@@ -40,6 +40,8 @@ Anybody know what it is?
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9HCrq5T1atxC9xncCqsmnJGpPdyzXjx87zoG_xbhZyw-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/s7BB6NxXAHYCAl-Zm9F7TF9a_YVmQYCsJTp_N0WpCQE-1536x2048.jpg)

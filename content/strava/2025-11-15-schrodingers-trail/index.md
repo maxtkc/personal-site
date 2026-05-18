@@ -37,6 +37,8 @@ I'm curious who made this trail. This trail, courtesy of open street maps, did n
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kQirPfYAxf-xvg9ergoncByZ-sqh5MnJnkLXUmcyO3o-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7BoOSbwTXtg5L1a4mvOFf6kLd0eANXlUzjhN7SSWm7c-2048x1363.jpg)

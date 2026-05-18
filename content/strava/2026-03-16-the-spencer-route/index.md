@@ -41,4 +41,6 @@ So many things here feel the same as every other big European city... You have t
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/UCdkLaaCR-5CK7LbtLoE9Wkd0l-KlUVmS4qgLXHDQV8-2048x1536.jpg)

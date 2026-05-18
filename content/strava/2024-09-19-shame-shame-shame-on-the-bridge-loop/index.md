@@ -42,6 +42,8 @@ Also... MTB coming up soon!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/w-pkUdFIYB9IFQO_g95UKLNJzo4IKV5HuGpB5sur7YY-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/jCyPy6MI6vgP--TIAGZrVWpdWymH4FhnT4jo_FWS9hk-1536x2048.jpg)

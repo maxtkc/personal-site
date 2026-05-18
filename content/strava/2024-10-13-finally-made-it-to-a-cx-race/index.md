@@ -39,6 +39,8 @@ So many turns
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9yAB_CKQy0F1mzt4qrcI3x-4nXvFyHx3gxHNICXMQ-M-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sOSh8YyHtlk94M8UBIHuRfSkt8qHO81ZN_SspNBgcGg-2048x1536.jpg)

@@ -42,6 +42,8 @@ Why doesn't Strava have a foldy option? It's a whole different experience...
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sb6RUeT1GOfZN-nkMOiYUKCch3u-_dUYiyFi9njFQWk-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/vXQfNJD1uGZxodJmz5zBL8vI41ovOnFf40rrIamfEak-2048x1536.jpg)

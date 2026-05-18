@@ -40,6 +40,8 @@ Got pizza, croissants, and some heinous pictures of Justin J and Maela Whitcomb
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/QQotle-mCMe1PWACFMXP2R8gGu4LPJUPUSK1NiwnjII-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/je83Pbl7BCc9UAyAOJE2GlSYr24alNMrvJlRNWf_r2A-2048x1536.jpg)

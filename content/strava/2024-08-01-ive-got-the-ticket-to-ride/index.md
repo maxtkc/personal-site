@@ -39,4 +39,6 @@ On all the regional and long distance trains in Europe. Would be cool if they wo
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XlOA2TpOVKKk9D_y-06Fu7ixUeTv3SjOkQPEB4_7I_k-1536x2048.jpg)

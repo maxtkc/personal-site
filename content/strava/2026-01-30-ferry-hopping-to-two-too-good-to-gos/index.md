@@ -39,6 +39,8 @@ Yeah Katherine Jankowski may have left it running on the trolley...
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/JIXt-49PNTsiReLr57QsM411hn0z9GsYcfWM0FbbMNc-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kzLg0LGwf0t5XuViDfwBmYvIRPG7tOkrK88JUobQm68-1536x2048.jpg)

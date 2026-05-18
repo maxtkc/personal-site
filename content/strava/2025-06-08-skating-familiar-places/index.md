@@ -42,6 +42,8 @@ Also Garmin gritty score is funny
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/aijrDsGPgJ5lKUZlwUnSILo10eb7Lyiv1RbOaYj3bvQ-2048x1680.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7OUZsPHHh6w6SbHV_qPs0WczTCTkcPRalCZV8Z-O7Cs-1064x2048.jpg)

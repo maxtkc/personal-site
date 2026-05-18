@@ -38,6 +38,8 @@ not too bad, I'm curious how it compares to train
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9RaL8sXrRYpHOabwcTE-Y95AvESJ4faXBhl_sM4UNh4-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/6mTRWSjgcrriSbZw-dd3UmntAs7dgc4cY-_Jqd3PEwQ-1536x2048.jpg)

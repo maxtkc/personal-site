@@ -39,6 +39,8 @@ https://www.urbandirt.org/routes/connecting-the-dots
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_nxKeTwnUyrgHQkCpDvjjLf9q2ZbwuJwvUBo3n-Psck-2048x1152.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/PiqDYm1-trugdkVO4cvi5YQqtztIOTkKC0It2qeu2v0-2048x1536.jpg)

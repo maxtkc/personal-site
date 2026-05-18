@@ -53,6 +53,8 @@ Also, is that a robotic golf cart? How does he control where it goes? Does it au
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/UM-6FWbU-H6I2AeMWTBQsVBa53kLN0qLzIrazCIjXEM-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_4DVDKs26vGYUaTIUuJbZRNWzuE0HRiefWiWqdhKX1I-2048x1363.jpg)

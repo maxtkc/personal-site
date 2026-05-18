@@ -41,6 +41,8 @@ Photo creds Cami and Nick Arango
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/5XdDQfPGU2atUSQzStzKlJpIBgNqR82gjg0CRUnO_xI-2048x1365.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/gpnTcGxHdAy-j7-XnECBInUEWQAklfhbb2gg5E8Fiok-2048x1365.jpg)

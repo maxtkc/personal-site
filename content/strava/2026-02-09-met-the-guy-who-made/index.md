@@ -40,6 +40,8 @@ Ryzen run club. We did some interesting stuff at the beginning, but it was very 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Febx1SkaayzB6r1wauMjas7fJ-xj3lctK5JGFrG_BsM-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/OoRt0iDHZxUHOAmOioLApuWXpUQf_Dns5zTSST_ojz4-1152x2048.jpg)

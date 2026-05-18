@@ -38,6 +38,8 @@ With Jens Christian Ytre-Arne! Getting the full tour of the mountains north of S
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/B1S5wZDvY7i8GbZ4z-ZZt9fVdab1QXaQVha7KtQSVGc-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/x8bgZKoPt4SMjJ1JP6faG5xSfsDR2tNO_ldfmq020_A-2048x1536.jpg)

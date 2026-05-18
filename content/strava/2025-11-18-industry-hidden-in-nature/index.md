@@ -39,6 +39,8 @@ It's so easy to pretend it's not there. Generally, they keep away from the super
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/L-x5rLovcKnDiPzZpy6RgxLNYa7ZM65ae8T76kix-mw-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/IQN5pqSkXci8pXdsP5YhKqryfBxZEV8KjnzkvCR_KfE-2048x1363.jpg)

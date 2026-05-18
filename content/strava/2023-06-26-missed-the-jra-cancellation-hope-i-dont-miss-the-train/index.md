@@ -42,6 +42,8 @@ https://www.urbandirt.org/routes/hella-north
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HsDnk1SmP1gHXiTefdmt1xCareWydpnJAmIKqCNNTPs-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qmKSy-5huNk76jUE7L_CWnhQha35yHpV91jA_0a67mo-2048x1152.jpg)

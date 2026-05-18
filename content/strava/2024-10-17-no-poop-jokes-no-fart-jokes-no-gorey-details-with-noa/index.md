@@ -40,4 +40,6 @@ It was a tough crowd early in the morning at the fells
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/LKoK_BB2pcD8tfRhzFE9tsq0j8zSWokFicOeytw01HU-1536x2048.jpg)

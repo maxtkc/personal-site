@@ -46,6 +46,8 @@ Today I was picking up some too good to go kombucha at a local brewery and on my
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/KvTiWlI0b-aRBsQg9xSMdb1tRDGxWxP_4RYK3NpB-hc-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/5Tl38JehF9wR6SARNOxozqx4H-fLz6-_343V0y6yZws-2048x1536.jpg)

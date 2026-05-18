@@ -40,6 +40,8 @@ Also some fun bromton pics and a sam cannon
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/eAvfXMMdTb241oiTAW4u6E8qXVQ5Yj8JOwxga_xv0MA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/hievPNQHdYIFgeKohCD9otoCJW_rjKcRlFmLwZzHgE8-2048x1536.jpg)

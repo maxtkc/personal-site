@@ -39,6 +39,8 @@ had fun on the maile ride. Apparently she didn't start it though...
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Gkzai9SsEwwlV7aFCIfPKvXGS5x-HNhNrluGevvO1zE-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kNw1gdAWQZsPE4yoX1bigw7j56rQiK8HZdiMHAbyCpI-2048x1536.jpg)

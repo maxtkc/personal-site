@@ -39,6 +39,8 @@ Exploring Cardiff! Went skating and for a nice walk on the beach with Enyala and
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/SKVfyToO0rB9XpBkvk1OTQphQXSCZ7lGYqWmTLxD1U0-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/D_KwD30BaOI5NlRixqeUf2iPTSq-9GV3CuPVfQjw6us-2048x1363.jpg)

@@ -38,6 +38,8 @@ Up to start of vtxl, down to a slight detour
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/0qb1oswNbhph4IhE35F0fQQF6e_cxSk92V7YWAafenA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/OmGUO7TIzIM39TerT4N3HeBVIfX_TTnsOY8_KIjB0yQ-2048x1152.jpg)

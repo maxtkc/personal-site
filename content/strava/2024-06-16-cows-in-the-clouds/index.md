@@ -41,6 +41,8 @@ PS: Hiked from bus stop to bus stop. On the way back, bus stopped for a bullfigh
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/6yepwWDJyBlPXgZ_4ZKwB6JVCwtk3CeZxT914XGW-I4-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/T0YW_f1lFcqd1DwDHzZ8AXzCMLccYdjRXMpvz8ZktsA-2048x1536.jpg)

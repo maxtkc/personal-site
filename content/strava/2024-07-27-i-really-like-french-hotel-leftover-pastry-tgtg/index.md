@@ -39,6 +39,8 @@ The bikeshare in Montpellier is strange. The bikes are not the best but they hav
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/gX6LX3qvp-ibixU5CkIibrtYYsA6GplFqWRaoO8RGd0-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HwFx4HwMx82i18twoeJ3W5nywy8qpXzWb5xoylliOJ4-1536x2048.jpg)

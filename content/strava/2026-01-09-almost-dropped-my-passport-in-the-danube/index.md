@@ -43,6 +43,8 @@ Bis später und gute Nacht!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/rc5PJuH1lQu8HPvcFZSZvtiUiAdIjiulsVwH4rWKlvI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kBmt5efBoJ12lQ6ksVRB8eW3ZCfe8M6c6G-DllZAO70-1536x2048.jpg)

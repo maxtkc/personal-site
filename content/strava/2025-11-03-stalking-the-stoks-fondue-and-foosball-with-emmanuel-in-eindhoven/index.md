@@ -43,6 +43,8 @@ Included pics of the train before, game night with Donny, and whatever other pic
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/38298AqqR_CwGv0hlIi9pNHZmmdODYUAwpgjybEP98Y-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/vmrmoTuiRwPgsKEi7VOkHVo0bpZGmYmTtUU95Mbttv8-2048x1363.jpg)

@@ -38,6 +38,8 @@ Not as fast as the NS IC which Seamus Joyce-Johnson was on. Had a fun time at th
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/N6VUE0HNvuwOf8ZqhJTx1tca8cpkQlbHQKk0gFRn3Rw-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/jPrtcYwNRPxfp47o9UtXnzDeFkwoAjxB65wdGAMM5tk-2048x1363.jpg)

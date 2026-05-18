@@ -40,6 +40,8 @@ Longest skate yet. I wanna go further
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/G448dTYZMpRd1d088n4NlSAWP3nFocRKSiFcAVVylt0-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Gey3NWGtvtrM6D5Kc9yNFkFeFF7slGU3Vg3awVeG-pw-2048x1536.jpg)

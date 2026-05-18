@@ -39,6 +39,8 @@ Some people are crazy, but I bet the ride down was fun
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/FUWnaTbYsFc2J-1-uQROgu6pE6iS7R24pYNuzdqRfws-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/gsUOCtxEfctOc2TmqbZ41gAISWvcoRbbEwPfyt_TbeM-2048x1536.jpg)

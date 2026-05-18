@@ -41,6 +41,8 @@ Soon I will be free
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/oj37-GhBMGhcPzB3_DAeXq_gJ8eZM30m9hx8XdTcbtI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/dNy_c-Q0cuyC68NlN-IszDrWfOZEnPeccr23AHpDx5w-1536x2048.jpg)

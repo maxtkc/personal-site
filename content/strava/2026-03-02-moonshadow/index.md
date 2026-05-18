@@ -48,6 +48,8 @@ Regarding the run, to balance things out, it was very nice! I'm really liking th
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Ymj0QUfTwJq1kUUzaw_Kku7kYPXy7JO-vXtGX2I9Tik-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/vtoL-keUpWyY2IGUJ16DdErx5XsAOWN81szMky0OjMQ-2048x1536.jpg)

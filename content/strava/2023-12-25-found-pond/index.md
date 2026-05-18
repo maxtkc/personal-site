@@ -39,6 +39,8 @@ It's under the ice
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/clqVdkom9IZN7-JHPrvjwBLCW9iclpqwlzEPl2sSzvg-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/pACW2Tn5lnQl71k64lIjzZYBaQJbnkVZfcOCABVSW9A-2048x1536.jpg)

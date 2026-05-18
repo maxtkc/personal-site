@@ -40,6 +40,8 @@ MRC run club fast paced discussion with a microeconomist who does research about
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/pq9KqYxhkDAjh9Q7QmSc4SNoovaaB7poPuwReq_HBU8-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sKuI5OzXNq1YaMNypjISNJECyIMZkZfjm711yzkQYoo-2048x1536.jpg)

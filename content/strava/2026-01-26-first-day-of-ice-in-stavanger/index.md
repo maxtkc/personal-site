@@ -35,3 +35,8 @@ Very lucky timing! Jens Christian Ytre-Arne found me some skates and we enjoyed 
 {{ strava_map() }}
 
 [View on Strava](https://www.strava.com/activities/17185965055)
+
+## Photos
+
+![Activity photo](banner.jpg)
+

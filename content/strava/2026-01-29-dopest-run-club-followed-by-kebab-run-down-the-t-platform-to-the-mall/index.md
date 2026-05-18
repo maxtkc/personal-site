@@ -41,6 +41,8 @@ Also a pretty solid tgtg in the mix... And guess where I'm headed now 😎
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ZeeT7LkuHX0A3IEBuDvohuBpwfLgLEUHbTOM7du--ws-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Kds6C2AtO2nFaHPmFpaBQatB1DqtuJ4mfIFMOBUEkwo-1536x2048.jpg)

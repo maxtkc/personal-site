@@ -40,6 +40,8 @@ PS: my foot still hurts. Maybe I ran a little toooo far
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/AVuG2bnkY3WNgwbfwZRAG-7OGu01YYD769PtUw-Mx_8-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qjW56UMnLdVbb8UvM8t-PcLYzb0ZYPgmV26MGKIsUvQ-2048x1536.jpg)

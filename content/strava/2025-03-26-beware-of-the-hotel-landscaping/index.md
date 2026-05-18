@@ -39,6 +39,8 @@ It's never the things you expect
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sDq9vB8XVLb1iVi_OrLvMy1GWMbvO--WhEB7VNuf6Ro-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/-QRkXV60duG5xmeR2jdu2d-khMqQzfU53JHoAnpVGu4-2048x1536.jpg)

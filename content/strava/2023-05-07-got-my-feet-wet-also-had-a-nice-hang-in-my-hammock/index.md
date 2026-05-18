@@ -39,4 +39,6 @@ https://www.urbandirt.org/routes/wet-feet
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2zh9WdNcWEzQsyScAenr1r6RYVJbAOV1oUIyRHL_TfM-2048x1536.jpg)

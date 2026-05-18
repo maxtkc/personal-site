@@ -39,6 +39,8 @@ https://www.urbandirt.org/routes/light-northern-dirt
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HVX_q2iMDvfTO5FSMwtBBf2vaQwDvLDX5dZVzwaclHc-2048x1152.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/dFFWn99gX_qa1KvLa_uSJCdUzkHQwaTpz1yqvSqp41E-2048x1536.jpg)

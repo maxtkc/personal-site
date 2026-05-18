@@ -38,6 +38,8 @@ My bad, Julius. I told you I'd do my best. I had them for a while. Every time I 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XyFCPN4P8DlWGozDZaMlaLqYLPB1M_N-xbmyGHZiAII-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/g8i0BTbMMNAd6BaTvAv_2v4kHkYRRgZRSoZxNqQiG8g-2048x1536.jpg)

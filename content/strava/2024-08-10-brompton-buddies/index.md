@@ -38,6 +38,8 @@ Ferry wasn't running because of the wind. Got to the camp site at like 10. I'm i
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Dj7S9Z3URHdybKd06nvqvKrjb-KL3zFc5bWNKXLN_SY-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/K_3XJGNnJhlA9EjMwCa4NK_y8TUou1LTo3vRWYc_90s-1536x2048.jpg)

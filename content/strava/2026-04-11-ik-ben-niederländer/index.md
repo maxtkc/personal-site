@@ -41,6 +41,8 @@ The following day (when I'm writing this) we met up to watch the marathon. They 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/VtFPpAFXykUpIs1ouhHojI0fnCZMTdGpD98dNkWBRLQ-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/wPf39O4wUj8vyUeXSSmSnLZ2u0O-aEzQER053RoAGXc-2048x1366.jpg)

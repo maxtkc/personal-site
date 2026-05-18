@@ -39,6 +39,8 @@ did two runs on the bunny hill on a snowboard. very fun, had some great coaching
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/LKaVk4GosHkSZomCN5kDnh0NUdUkoVSLh2kP5x5o7o8-1400x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/408WXst24DnNZ707pmfIl4jbohkZaOOk10QtVTu8dOI-1634x2048.jpg)

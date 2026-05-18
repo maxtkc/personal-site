@@ -40,6 +40,8 @@ Back to NTC, past my original home, my temporary spot in Central, and finally my
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/bhJs5dh27CQ1wOi8rfzZY7_t7bp1IvAl3YICXkb0wnI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9GTT6tApSd6Zk9-jSAgT32oqtgM2wHe0AuGRupmfT8s-2048x1536.jpg)

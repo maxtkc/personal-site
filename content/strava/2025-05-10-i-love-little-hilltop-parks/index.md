@@ -42,6 +42,8 @@ Also, I haven't sent it to you yet, come on Thursday to the pump track! https://
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2n-OLyQouPTqj5qI0JTgsIAKYc5XwysTUEtzVZx9hIg-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XlGq_m-gDO8vd6e3BXdU5VuCdcUs7Voe6MvwZ6U21ho-2048x1536.jpg)

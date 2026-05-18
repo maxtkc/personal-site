@@ -39,6 +39,8 @@ I guess it's a weekly activity? Also a 24ft truck with bikes on the back and an 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Kf0tcCnNPFA9GRrc73PAaieWj4h4Nwga9lcGwogO4pA-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_Rt3ya0jxJOmCmsvztQv5OtfE_NLrAiuwK7hgscIDNA-2048x1536.jpg)

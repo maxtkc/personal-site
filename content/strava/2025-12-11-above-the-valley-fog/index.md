@@ -39,6 +39,8 @@ This is gonna make for a pretty nice back yard. If the farmer up north wouldn't 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/k__61Lj3-UMt5Ecsr_-D77DBCyDVJnveDO0UCCc6Lcg-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Ny3cXz1lvJosC0uKiOal8uNLOMJOhLiqVeEdp-sw2Us-2048x1363.jpg)

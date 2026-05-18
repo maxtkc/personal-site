@@ -39,6 +39,8 @@ https://www.urbandirt.org/routes/stony-blues
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/4S3NU3yLSFFGP_dNfjYMGIBewNEJyVrLH1R4oH4aQlg-2048x1152.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2-DEbEB556AmweYhQinwlXuVPMBjHyYfiXIR-UIBYWE-2048x1152.jpg)

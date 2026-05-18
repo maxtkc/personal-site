@@ -36,3 +36,8 @@ And stopping to watch the oilers
 {{ strava_map() }}
 
 [View on Strava](https://www.strava.com/activities/14783114751)
+
+## Photos
+
+![Activity photo](banner.jpg)
+

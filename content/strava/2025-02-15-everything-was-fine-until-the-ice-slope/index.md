@@ -38,6 +38,8 @@ i should have brought microspikes so i could push the ebike and trailer loaded w
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/M4EebZAnk7rnG_vCFaVzgsBCxgQoq5p3nSsZxsYvzKM-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/LrI-n-qP9ijdu7OE5aSTNGSR52aRivLyOrF9q2kXQKs-2048x1536.jpg)

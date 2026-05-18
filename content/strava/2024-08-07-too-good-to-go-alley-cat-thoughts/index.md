@@ -38,6 +38,8 @@ This ride is a tgtg to tgtg. What if you had to find a bread item, a vegetable, 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/h8YE4eixaH-7PbcqV4f0ZX8rGmlHEAQHf_SQuOBitP8-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/upEXlIOMx7E_S1qSlPl4Y9hoW0qrFlS5M_sSgy_TPok-2048x1536.jpg)

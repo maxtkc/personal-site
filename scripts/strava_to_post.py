@@ -27,6 +27,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlencode, urlparse
 
 import requests
+from PIL import Image
 
 # ---------------------------------------------------------------------------
 # Paths
@@ -52,6 +53,67 @@ PACE_SPORT_TYPES = {
     "Run", "TrailRun", "VirtualRun", "Walk", "Hike",
     "BackcountrySkiing", "NordicSki",
 }
+
+# Routes-map output tuning
+THUMB_WIDTH = 480           # px — hover panel renders at 240px, 480 covers 2x density
+THUMB_QUALITY = 80
+SIMPLIFY_TOLERANCE = 0.00003  # degrees, ~3m at mid-latitudes
+COORD_PRECISION = 5           # decimal places (~1m)
+
+
+def _perp_distance(pt, a, b):
+    """Perpendicular distance from pt to the line through a and b (or to a if a==b)."""
+    x, y = pt
+    x1, y1 = a
+    x2, y2 = b
+    dx, dy = x2 - x1, y2 - y1
+    if dx == 0 and dy == 0:
+        return ((x - x1) ** 2 + (y - y1) ** 2) ** 0.5
+    return abs(dy * x - dx * y + x2 * y1 - y2 * x1) / (dx * dx + dy * dy) ** 0.5
+
+
+def simplify_dp(coords: list, tolerance: float) -> list:
+    """Douglas-Peucker simplification. Iterative to avoid recursion limits on long tracks."""
+    n = len(coords)
+    if n < 3:
+        return coords[:]
+    keep = [False] * n
+    keep[0] = keep[-1] = True
+    stack = [(0, n - 1)]
+    while stack:
+        start, end = stack.pop()
+        if end - start < 2:
+            continue
+        max_d, idx = 0.0, start
+        a, b = coords[start], coords[end]
+        for i in range(start + 1, end):
+            d = _perp_distance(coords[i], a, b)
+            if d > max_d:
+                max_d, idx = d, i
+        if max_d > tolerance:
+            keep[idx] = True
+            stack.append((start, idx))
+            stack.append((idx, end))
+    return [coords[i] for i in range(n) if keep[i]]
+
+
+def round_coords(coords: list, precision: int = COORD_PRECISION) -> list:
+    return [[round(c[0], precision), round(c[1], precision)] for c in coords]
+
+
+def make_thumb(banner_path: Path, thumb_path: Path) -> bool:
+    """Generate a ~480px-wide JPEG thumbnail from banner_path. Returns True on success."""
+    try:
+        with Image.open(banner_path) as im:
+            im = im.convert("RGB")
+            if im.width > THUMB_WIDTH:
+                ratio = THUMB_WIDTH / im.width
+                im = im.resize((THUMB_WIDTH, max(1, int(im.height * ratio))), Image.LANCZOS)
+            im.save(thumb_path, "JPEG", quality=THUMB_QUALITY, optimize=True)
+        return True
+    except Exception as e:
+        print(f"  Could not generate thumb for {banner_path.name}: {e}")
+        return False
 
 # ---------------------------------------------------------------------------
 # Config helpers
@@ -300,7 +362,9 @@ def download_banner(photos: list, post_dir: Path) -> str:
     print("  Downloading banner (feature photo)...")
     resp = requests.get(url)
     resp.raise_for_status()
-    (post_dir / "banner.jpg").write_bytes(resp.content)
+    banner_path = post_dir / "banner.jpg"
+    banner_path.write_bytes(resp.content)
+    make_thumb(banner_path, post_dir / "banner_thumb.jpg")
     return "banner.jpg"
 
 
@@ -525,7 +589,17 @@ def rebuild_routes_geojson() -> None:
         date = str(fm.get("date", ""))
         sport_type = ((fm.get("taxonomies") or {}).get("tags") or ["Activity"])[0]
         banner = (fm.get("extra") or {}).get("banner", "")
-        banner_url = f"/strava/{url_slug}/{banner}" if banner else ""
+
+        banner_url = ""
+        if banner:
+            banner_path = activity_dir / banner
+            thumb_path = activity_dir / "banner_thumb.jpg"
+            if banner_path.exists() and not thumb_path.exists():
+                make_thumb(banner_path, thumb_path)
+            if thumb_path.exists():
+                banner_url = f"/strava/{url_slug}/banner_thumb.jpg"
+            else:
+                banner_url = f"/strava/{url_slug}/{banner}"
         url = f"/strava/{url_slug}/"
 
         coords = None
@@ -536,6 +610,8 @@ def rebuild_routes_geojson() -> None:
                 break
         if not coords:
             continue
+
+        coords = round_coords(simplify_dp(coords, SIMPLIFY_TOLERANCE))
 
         extra = fm.get("extra") or {}
         features.append({
@@ -749,6 +825,8 @@ def create_post(activity: dict, draft: bool, use_miles: bool, token: str, dl_pho
                     url = urls.get("5000") or urls.get("600") or urls.get("100")
                     if url:
                         photo_items.append(url)
+            if banner_filename:
+                photo_items = [banner_filename] + photo_items
 
     content = build_post(activity, draft, use_miles, photo_items, has_route, banner_filename, slug_override)
     post_file = post_dir / "index.md"

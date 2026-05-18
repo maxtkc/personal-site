@@ -39,6 +39,8 @@ Thorns, bushwhacking, thornwhacking, mud, swamps, butt sliding on rocks, leaves,
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/hRga3VVygIx6QGX8XE6IRqaj1nZu2jb3ahrtmpkqSlI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/OTqWrQSShApEk-Kz-3VXWes7trXVQ5E5S10GDYnZyqg-2048x1536.jpg)

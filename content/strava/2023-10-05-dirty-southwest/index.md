@@ -39,6 +39,8 @@ I've still got the MITOC rental bike and so I took on a "hard" rated urbandirt r
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Twug_jIacf70qMFhNHitokD6JupmNdoDxusCoc5PXH0-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/jU1GoPrD_0R3poZzSBGGyarFZ7XX0KDc4uv3dX8ccWo-1536x2048.jpg)

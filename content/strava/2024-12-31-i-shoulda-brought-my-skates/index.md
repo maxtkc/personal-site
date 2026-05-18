@@ -43,6 +43,8 @@ Springfield is very interesting! home of the dr seuss museum, candlepin bowling 
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2Fr3GfR04wGfTtLwmhCNqdd5_n0M43-q5BtCIAGFU9M-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ZLE4puh518b5yUl1mXVTosfeGjJX3kzzZssv1DVrHiU-2048x1536.jpg)

@@ -47,6 +47,8 @@ Visit the US embassy this morning. Pretty cool. Strange to see a USPS office her
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ltQ_pII9XG0IOeZF8jcl13VsQOyRk7_g_BGQKLLAdiA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Z4xXt4fLnuoVJjB1cIGzbZe4Im_rxlMh2Gq7t031j4Y-2048x1536.jpg)

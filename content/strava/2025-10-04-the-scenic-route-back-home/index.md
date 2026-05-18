@@ -41,4 +41,6 @@ Thanks Dahlia Dry for the route!
 
 ## Photos
 
+![Activity photo](banner.jpg)
+
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/LukMzcQn45OjDOzHFuTROzqFg4LnH0YRN2LMEhEH6Bg-1152x2048.jpg)
