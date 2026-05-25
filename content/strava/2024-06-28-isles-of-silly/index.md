@@ -41,8 +41,6 @@ Sorry to those I've already made this joke to
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/KXxhwqjwZlRI2nL07sNl_wf7MzCLzZvqjZEnJJJlUrY-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Muv16_rXTldE09Lzsipc_fsQ4qUz1ka34_Ve_WwhUVQ-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Agn4jHrv0OKnkdwHbPzn3rFNPNz0pqT5Q1Jk9HmcuaM-1536x2048.jpg)

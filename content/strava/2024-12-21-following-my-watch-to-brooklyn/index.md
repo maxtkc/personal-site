@@ -40,4 +40,3 @@ to see the nyc cousins! Many of whom are apparently getting married
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/LTvmlPVXG3GAD7MihMkOn0qAXDRBWrrG1_5pgnM1x_M-2048x1536.jpg)

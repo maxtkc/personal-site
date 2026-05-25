@@ -41,4 +41,3 @@ Garmin navigation! my phone died. i was able to boot it back up to get a bluebik
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/U44KV3aR_yZuSaG44SlFBrGYG5JVUHISRcje_23nMIQ-2048x1536.jpg)

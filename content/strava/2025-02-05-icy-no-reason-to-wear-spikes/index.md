@@ -42,6 +42,4 @@ mitoc ice run!
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/8RHBvW1hoQJy2XYwAajzbygQEW9owc1nUI5tWHh3fKg-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/aMXO21HlUeb2ru3ufeah_bd457UHSBUeeBKkwv9IrLU-2048x1536.jpg)

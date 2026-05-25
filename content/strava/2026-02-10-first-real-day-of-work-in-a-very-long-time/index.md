@@ -42,8 +42,6 @@ It's gonna take me a bit to get used to this. I got some skis!! Guess where I'm 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/pGEUmRk9j9m5UnLDVonRAmNWxwYAlny3jiaFH3uD16c-1152x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/TmWgksDIJOvsv_JLoRkgGd8ea9uuYh7ufvrFxw8MG2o-1347x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_rC1TJJ4L1rVzE4c1PsJB5tzFBdv2bkxowclKuTDqks-1536x2048.jpg)

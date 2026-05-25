@@ -41,8 +41,6 @@ Run clubs are a great way to find new sports haha. Also looking up random shit a
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/00ZPcLtE5UQC8H8A5lFADY50DCTQe-jvfRSWktjXviQ-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HjB9p3OJEnRuzjoEKiuJuMWh0SooMyObtmAn0zlWZng-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HrS_Bz4yA8QIPiTKe9sCeHMzDV7e8cAzmqIwxUA5YZc-1354x2048.jpg)

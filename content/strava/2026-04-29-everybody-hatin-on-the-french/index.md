@@ -46,8 +46,6 @@ This sunset spot is just a few minutes walk from my flat. Come visit!
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/05gqt1-RMJvRmtdpLGsVavZtmafwxtrGAu2vaSCW8lA-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/SQSPOBiSmOqrfJvDLU2lrNZwgpmVbade5bPyix_h4Mo-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/j70uzivwzMpSizrHnFk5RI6PTti__eRTjoH_qpnHgfA-2048x1363.jpg)

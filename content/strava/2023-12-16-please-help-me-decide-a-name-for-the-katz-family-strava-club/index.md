@@ -59,8 +59,6 @@ Katztastrophies
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Zsv6lBJ7TR-7NY1XnsPOBpadp-mQLTJwCa3SEZy0-68-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/yY3efT_Nvd9b6AFULoI3AfEXcpiXuusCQEahIzzyPs4-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/D5-DXJ6Xv6eSrajJmCzNfumlWifnpgG_w_eNdxTvTBs-2048x1536.jpg)

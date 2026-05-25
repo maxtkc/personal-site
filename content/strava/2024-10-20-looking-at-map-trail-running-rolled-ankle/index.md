@@ -41,6 +41,4 @@ orienteering is awesome and i want to do more!
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/LRiByTuVc-GXiECZGJCmDAQbOL_vcnDPIrEWZbcSPAs-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/obL0Ui4g8wpdhiQVP8WX3Bi9StEs1tXRPEstOQnzPyQ-1536x2048.jpg)

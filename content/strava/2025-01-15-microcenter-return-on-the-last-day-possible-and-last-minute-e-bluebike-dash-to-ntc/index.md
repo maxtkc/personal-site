@@ -40,4 +40,3 @@ this is the best way to get to the fells, i might actually make it to ntc more n
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kVMuCpL7540nLJ3dEbgF3q7ftRWg5PSjoFBPzFbnm9c-2048x1536.jpg)

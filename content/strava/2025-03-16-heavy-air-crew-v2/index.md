@@ -41,8 +41,6 @@ Got in a race this time!
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kmz7zPQV9R3436lvjE3Eh3IGnns-NQAGTi525tc8g5w-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/aPOM0-K6rVeE463DheveurwqVZ-n58chWidpCTUP75k-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Cjm1vo9gGhzCoSUFEaiz6mBvqMYv4IIMqBFvyozZ40Y-1536x2048.jpg)

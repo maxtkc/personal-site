@@ -41,8 +41,6 @@ Also like 5 cats, but they just froze
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/C4GOcGQb_F70Hgn3pmw8c_tNhejwm0UdtlvfwK8HOd0-2048x1152.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ed4AWcNBtGs8aIP_wP0V8Ck71WPQZxPUOkBbtsNSKpQ-2048x1152.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/YnfPoB-uWdFgMd7H5ccmyqXRUYsBZZUuN2BBaEj_fD8-2048x1152.jpg)

@@ -40,8 +40,6 @@ They need more bike share stations. It's surprising well used given the limited 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/3jNQcyMMAwomQln2i86-oEPNREfnd4eUAIXaR_ttJ0A-2048x1363.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/QfJGuPD1d5U7VE5OMPOieXsqLwHPfF-xdS5JfCbqrY0-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/T26aUQ-JDVcbwIwCXz1ik8fWEkq8RBz90RLUEafT8R0-2048x1363.jpg)

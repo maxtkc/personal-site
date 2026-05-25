@@ -42,8 +42,6 @@ Ran into a couple I met in Switzerland who's daughter happens to know Abby Feyre
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sAANYZmRTEEh3ybBAoBtsOgqqhoYP-2Cy3ZvcVPW7qM-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/pOz7xxBD40Qp12Y8n8JLA32zae7_ixITqhgz6UczmSo-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/s8U3ACqXwnDpgXAaKcq7wjLRZL_mf8Ozh44zlZRgcYw-1536x2048.jpg)

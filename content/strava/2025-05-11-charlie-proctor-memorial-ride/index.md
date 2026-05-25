@@ -41,6 +41,4 @@ And a sneaky Max Hessinger spotting. First time volunteering as a ride leader fo
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/CyB8csaBBHxXy53jO2QqAtfzR7MZ7zZXhkrF37FLUq8-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/mUJ-mXNtFHFs3IaTlAA1OldC_pK3Pw-SwBYsohU5oUQ-1536x2048.jpg)

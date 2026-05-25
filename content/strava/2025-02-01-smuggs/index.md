@@ -41,8 +41,6 @@ Dropped some lift spaghetti to julius
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/5mOEaZEjp0a9HT6HZAQh1nf-A1uP710eKP0L5fWmf-Y-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9O4ccfYiYKV0B70Mhi0ehejNJGHtnL5MlVJrVBQQ9QY-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/gf7GkgNTiLey_QrL4QHaF3n-qqT3hlEelos1H3_HH9k-1152x2048.jpg)

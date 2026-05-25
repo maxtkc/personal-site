@@ -42,8 +42,6 @@ i learned to pitch a softball today. very exciting. if anyone has any sports i s
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/LOP4ZUeLVpIHIWM0jQANogNkm2PdqsuIgUO5M8wNMsM-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/fKBQex5gP7sjnyKCqlJlxwKd2_qf7EM0NpZq9DNRZKo-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/BGHla0S4qDqZkX3_7OXyqBMdixKuEbqr4-agz3WrSGw-2048x1536.jpg)

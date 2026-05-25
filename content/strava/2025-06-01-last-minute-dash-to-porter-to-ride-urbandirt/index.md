@@ -42,6 +42,4 @@ Also, I moved back home. It's been 6 years since I've been back
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2FY7CCT8ewZes_OZVMbru3JXCiZkyVmHwszyDJPngqQ-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/h8pEjHZTCS2FxWaDLWI09H8puxkG_CGsStnKg_QIIns-2048x1536.jpg)

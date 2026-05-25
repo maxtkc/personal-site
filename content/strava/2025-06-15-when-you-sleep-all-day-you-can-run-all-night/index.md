@@ -41,8 +41,6 @@ Got more cheers than I think I've ever gotten running from people at the West De
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XncFNnxkScvQJteliOOaaqzo1nX35qxXnRu_57rRmo0-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/4M6PC3Q-kaMTKhjE5OoPogI4WpPI-Zi8cdtc7oP2Uuk-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/-WWDkSBPG4xDCn7auAl9spOFkBH52bQvSbj68dAwlfk-1536x2048.jpg)

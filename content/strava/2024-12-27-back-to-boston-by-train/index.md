@@ -42,8 +42,6 @@ also, silhouettes are fun
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/DHBLV6Yiqtr6mwGB3bGjbEYzh57MO-VVrwei_c_1I3U-2048x1365.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/JgooQzdsF8cKJWPuX945S7HvHTyu8nV2KxxZFeZJJLQ-2048x1365.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/wp31YZJXgBz2-hILglEdf63kdmshp0F3n73bb8QwgKs-2048x1365.jpg)

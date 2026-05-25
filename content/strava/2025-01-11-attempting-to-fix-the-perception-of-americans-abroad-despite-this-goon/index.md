@@ -41,8 +41,6 @@ I picked up lots of dropped items for people, held doors, etc, leading to many a
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/fyOu6mpidNceyBD2Fr8Ts6arJhFnThqUA0nXZYCND4o-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9iY1jMCOU-ov_Go4ZCg6aJ0mzaNwwrKU4WPAm_79NJ0-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/1tLLdDdWX1sUq9fsxljDrWNzgHNiGQDxhmlTSRiJxDM-2048x1536.jpg)

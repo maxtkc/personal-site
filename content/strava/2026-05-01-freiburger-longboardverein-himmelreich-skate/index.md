@@ -42,8 +42,6 @@ Why doesn't Strava have a longboard option?
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XtQ6dnH9tWhKkyPUNizzaSv9vxau2QhmoHCevWrj3YM-2048x1363.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/VwnvZDEAr9PZJNY-ezG_Fg2YzTRHWAM7bUn3PLyMLwY-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/mihYNRjlYtadidZsirpPnc9RQgrMuuMRE0tumYM9RDM-2048x1364.jpg)

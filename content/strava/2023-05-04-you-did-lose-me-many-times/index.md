@@ -42,8 +42,6 @@ You also underestimated the number of dismounts... (5 < what felt like at least 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/B9-skc1-1FjPGQdVTgrfigjgdIrMOijHDYCVVTpnqso-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/agxBcxxnhi6JVHxEaLIZei1G_py0Ffjh0RL5Nd3pO1U-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/o8uAZXwPmjjMelncGTBaYovpVOWbt5gC7zcaZY0-kIA-2048x1536.jpg)

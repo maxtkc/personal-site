@@ -46,8 +46,6 @@ Annnddd... I bought a nice old steel Roadbike! Downtube shifting, tri bars, 25c 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/p2FrKTdjNkUSNquXpmpYwD-L5A3yu-3BLYFttXOfIPs-2048x1363.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/dJGmyeF6F-nEh7DiJhaRWRu-n-CmRP-WOwF-78h8MzE-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/JhZDiLzT0LwxoC1D901Muz7zjXCu_HbK4M08dijzyxQ-2048x1363.jpg)

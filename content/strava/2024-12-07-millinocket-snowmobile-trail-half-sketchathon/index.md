@@ -41,8 +41,6 @@ I'm an idiot and forgot to hit submit on my registration. Absolutely beautiful t
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/yQ1WA4ZmhYhfZzZ1ZZlT80u-MTzGNCn0xg37fjGL_QQ-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/8fJMBAbHZrwJx8I7xKKWfR6Zvfy4x4SkKsWHkbRIgpI-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kFtJgeIfZUsjUPFxODGojMNXqwduQRYCBxbiHg5HZy4-2048x1536.jpg)

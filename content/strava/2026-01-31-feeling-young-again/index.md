@@ -42,8 +42,6 @@ Ran with three older men to a cafe. Then got some tgtg churros. Not a bad mornin
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/IW7NgqwiS6C44w5hmc7czwjThE2JE_kOjEONLh8iRPQ-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/rLj5IBU2nrGslNx2g7cU7iy6-GeBHf5wvbMNkH98irU-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sqk9FQZyMZ8HEDrwSQ5YxWvnT362VfLqMpQYDL6X6eE-2048x1536.jpg)

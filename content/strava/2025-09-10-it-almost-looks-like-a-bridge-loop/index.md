@@ -46,8 +46,6 @@ I joined a frisbee club! I also did my laundry! They have machines that auto add
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/wwIBmNZ14psDnioXcym_px7veyMGI7QgGr5mMpDGJEc-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/KzjLC7WxYW8FnvVbuZLttnkY-3NqJQVSZP_lPRT6E64-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qZ7Xt1ForFpcXhOqTer3OXP90F5C3VUe1kgwMgEIWMc-1536x2048.jpg)

@@ -42,8 +42,6 @@ Wasn't the easiest tgtg to fetch, but I passed a spot I remember swimming at a y
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/NMsUipRFIgCRjtji58b2Z-4odQyg_KnhRjdTWjwvZ7E-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/t2C0eOE9U0heMHR1a-0bZnc4MUFxIZYCecxvNwxxgL4-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/p0bfcVIVaNLBtMEqjr8ellcDHUzegrp0JuyvpBaJaeE-1536x2048.jpg)

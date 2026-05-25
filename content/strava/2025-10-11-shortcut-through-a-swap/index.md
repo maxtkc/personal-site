@@ -42,8 +42,6 @@ My camera setup was very fun so I took tons of pictures. Boy do I look goofy. Ah
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9U2WJC9VPy2Z9eNtZqhcf_VV6G0J-7B7YoO21X1D4xc-2048x1368.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/xfNAGrhvHpFVR7PW02RAU0zsOZSr14w0XKZM1dr2J5Q-2048x1368.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/KUj1XAn8Tn6aXYdVdjW7JnHJ0n2-zH6UL9MacuWHboc-2048x1368.jpg)

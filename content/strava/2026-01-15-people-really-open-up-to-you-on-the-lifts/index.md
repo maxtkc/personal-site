@@ -42,8 +42,6 @@ more closed off...
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ANpJIUilcOz1mFSsByO3tyPV-KpbNyXaLoFymFmt0y8-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/T63Z62ghIfRXuu5Cmt6VvQGE3x3dRK5JUTHHZo8jvxs-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/K-kbmi8AnQ054AvPCyJ9nLiL6s0p2Xsz6Miedq6uoXY-2003x2048.jpg)

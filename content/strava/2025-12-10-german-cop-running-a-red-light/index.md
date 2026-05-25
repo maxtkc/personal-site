@@ -47,8 +47,6 @@ On my way to visit my new job in Freiburg!
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/mUKPklJoQ193x7bir_hvgQQDCVtTFKtOokF-MIDBexo-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/0i05p9-fDhoPzsc4ka3NlQCTjX_aFi8GOJZsvlaXlpk-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/pMt9aU3lD8eKlmJzPtU1rZBK5VeGUWcG2rl29He3jW0-1152x2048.jpg)

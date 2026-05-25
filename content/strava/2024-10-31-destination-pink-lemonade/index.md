@@ -39,6 +39,4 @@ there were many Waldo's, and even another one on a blue bike
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/SRe_2fvPrtVFjhxlV73VgUhYQ3kJHc65ye3lrTkWT20-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_ntndRgO_W7HZS76XTXkS5OkTAr2IAKeVSkjsT2ddnA-1536x2048.jpg)

@@ -48,8 +48,6 @@ The trail is fun though. It's not monotonous, surprisingly. I'll get more pictur
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/J7KAK9Zn1zCYVj7XXx0Wuc2EntQZ75LgI7qNVij7r-U-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/u9NgkcxG4VWTxsyWh5ElWqT7Ya7tf8ueW6v2CJCNcG8-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/3Po6oViqy99GIv_0RCiFBbIUv7petLwst8N6xflbOPo-2048x1536.jpg)

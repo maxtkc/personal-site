@@ -43,8 +43,6 @@ Regarding units of measurement, I am onboard with metric for length and weight. 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/EpNe__4zwzja0o3qVkJq_immaoyTA60S-hXo3G5Z8SQ-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/CuCaJ-_b10P3EESw2pY1H7ek69g01AbwN0-i4aWogjw-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/o_qdqqxyASK-JjHq2qBQlaRwsmsyaYoR9RFW0G3gBlU-2048x1363.jpg)

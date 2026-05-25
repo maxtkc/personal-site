@@ -41,4 +41,3 @@ We couldn't figure out why the heart is sideways... Maybe there's some hidden li
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Bh9FtBMh5YfdmZVqsO4FvLy7VLaLpsJSzUg2GeBBpsM-2048x1536.jpg)

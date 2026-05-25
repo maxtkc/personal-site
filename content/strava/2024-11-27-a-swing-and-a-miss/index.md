@@ -41,8 +41,6 @@ whoopsies. tried to do a triple century with little planning and much stupidity 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kykFND0TCEWHRkFlbwy1JIntZjyeVRBw5NMOvyz4qI0-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/uTuk2htCVr7_1VcIfsN81HbsLniMqXlhGQuU_vPrNCU-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/j7Z4gaPCcBfXUtN0ndG9luD0PjCNZ8Kl5Ty_Vs2BG5k-2048x1536.jpg)

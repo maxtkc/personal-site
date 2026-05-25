@@ -40,8 +40,6 @@ Seth Massey and I saved some Columbians from near certain death
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_7NlrLtXNANlYX62IMeM0y6U0LRtY_ZB4GOOSzZKwTQ-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_yXw8Dtd80wWFbuzAQAPnEaABt0Wyu5iInxM_6IxvRA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/opetqbOewmrDTgN0qhaPVeTB9-UH4bxmBPJISACTFK4-2048x1536.jpg)

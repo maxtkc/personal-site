@@ -46,6 +46,4 @@ I did find the road in the end, it's a pretty straight shot once I'm on it, but 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7CaeKrAo5WqKP9hteuzT6RGquDXcIv6g381SE1fQvzA-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/lN0T_4uNx2TNE1eIegbmlCM1ygmD29ujs1ODm2C6qMY-2048x1536.jpg)

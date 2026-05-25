@@ -52,6 +52,4 @@ Ok the rest was all good. The second one worked, about to go to sleep now.
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/l14NOA8PDZH5EWr_gm1zKUE5Wekx2rR3owIwJTwlevA-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/V2_KdjrXz8TfLWRg09gTE_bSdRYNNK8sp7jB_sHKuw0-1536x2048.jpg)

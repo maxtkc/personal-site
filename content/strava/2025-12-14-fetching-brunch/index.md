@@ -42,6 +42,4 @@ It's so strange they call the oversized reflecting pools here "the lakes"
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/BrviDwWNbyhxAxgZMZvXB8fJbc27A94D-UFQkQAODEw-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/iIvsKsdQ7bqmZqr9Du_H94SRLgnU3GkgTuiTEa0CZVo-1536x2048.jpg)

@@ -43,6 +43,4 @@ Managed to get through this run despite a large bruise from yesterday. It's no l
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Ny-xCmkLDk1BCJpK8fZIqwXlCXjT0lvvTC4wUGsUdCs-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/MGf1ZwCf_b4IoJfmfUcB6DxGYrLsvxiBvueSRP8ckpg-2048x1358.jpg)

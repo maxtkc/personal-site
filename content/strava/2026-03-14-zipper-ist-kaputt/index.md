@@ -45,8 +45,6 @@ We ended up missing our connection in Vienna which made for a tough short night 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/xn-eMtoflSECnJXjn_aam5ldEuxPkbbckvPqqK-SbdE-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/NV64hhGfbBp4tlzpclcq2RUSxNUpihAg4JQNJ4XE4Js-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/0ReB4V3DA_TI_YbKq1E2poIcCMOQewNZX6HOrzz_bdw-2048x1536.jpg)

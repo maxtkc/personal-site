@@ -43,8 +43,6 @@ also ski polo? how would it work?
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/u8SpGNOJxJY067WxUvdtYDVppTfTn9ZErV0_pggJ1wo-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/4LEehA_KuP5Qs9CIohzk9_AZM50ndf0smPTsGqceyeY-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/gzjq-DGCLo-HwLRNWZAZ5WMLsV1YijkCemc0f1YQYgc-1536x2048.jpg)

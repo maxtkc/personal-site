@@ -42,4 +42,3 @@ First day at Keolis
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/YCBDHdXHtBqyKlkTMwszSK3Uh-RXyPEzeDFzREGoMbE-2048x1536.jpg)

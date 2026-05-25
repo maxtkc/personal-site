@@ -41,8 +41,6 @@ Got tons of recs for where to go. This is the ultimate solo city tourism hack
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/wOccdVllDPJ5BPZg7OZBVOIEc05bqxecvSx-uekc1a0-2048x1363.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/CRVNS2b-z35385iieKXdNEJf1drBu8BsNKjuary0RJY-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/IcVrjPe2YDg3M6TArYFEmw-fU1ZqQxgyLM4KRHMI6AI-2048x1363.jpg)

@@ -39,6 +39,4 @@ elevation_gain_fmt = "10 m"
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qK2UK4LFJxyU9lpn48p6Nv3asYZFOSuzVn1cR64VJCo-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/9nmbuVOsy-WyCb2-46a3seSXNXQwnF3CPwbdl7efAIk-2048x1536.jpg)

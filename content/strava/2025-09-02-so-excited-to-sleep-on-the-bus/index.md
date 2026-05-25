@@ -44,4 +44,3 @@ PS: the Strava AI is shitting on my speed without accounting for the picture whe
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/RI5LSMV_n3RMCWpfEaXqGOAFo2AcYTCddhf9mfmlmAQ-2048x1492.jpg)

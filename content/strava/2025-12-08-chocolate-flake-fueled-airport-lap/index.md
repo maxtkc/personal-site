@@ -43,8 +43,6 @@ I'll miss this place
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/NfRsPxC0UqKxujE2yaghCM4NWNx74DQ4vr08RfDm6vE-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kIh2txbLpFsIsJhAmeKHCT0I8iLBq2BHuPkV0ALdKCI-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/LcKYreJMXzls9Zb-WGy9WKfxpjj3RckuQzJojt-T23A-1536x2048.jpg)

@@ -41,8 +41,6 @@ Maybe a bit more Instagram focused than I would have liked, felt a little out of
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/e-fy4MasZYk7u3Xf4DVScUlhZRNTv0GXBHbckhTJQwY-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Zd-pcRWLZWs0tDFDnuqiyPPtIh46WBy6MoPJjzRZblE-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/zKHOSHb6vaX2eHfTvdQYLiVQbSLX6O0f-5-biC088tI-1536x2048.jpg)

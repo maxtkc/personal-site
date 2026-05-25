@@ -41,8 +41,6 @@ After a very close and then blowout Australian Football League championship this
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/cNLUL7Wz0rXEERj8dz4tE85k3aS_qinE4EbMEaTe_wk-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/4qKdxfNaE2mujQA3cX3TPvrFMUjg2_MTn-aG0_ujX0o-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/-CreR-O5FR7DGrnxspEnTPcMGEH5XQ6AvlWFKPwgFA8-2048x1536.jpg)

@@ -43,8 +43,6 @@ I wish I could have gotten a picture of me taking a Keolis meeting on my phone w
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/j_08ZKb5A-_X1PWDThOSfFIiN14Afjdq3nNc9f9Cy4w-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/6MpPbYb0fsAVNg62Hc1lURfxwt0uQaSrt0V8DHsXPM0-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/67bb-l4qmhWamkD7rkksqZT5-j3futYtimoHcYYD-fo-2048x1536.jpg)

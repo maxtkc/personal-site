@@ -45,8 +45,6 @@ Kiruna is a very interesting town. Mining x Tourism
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2tZVW7CTkECUPrGUt8uUO9izQCmPNWfJK7TX3Xqyk7U-2048x1368.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/82sth2GB0zJGQOwgwTUtVMRRiFgJFxEucOct87OpXOY-2048x1368.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/J4Q3niBQtX_puLhatX3SXb-NhPOYraqSGfWxHgBjD-M-2048x1368.jpg)

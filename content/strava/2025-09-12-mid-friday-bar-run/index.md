@@ -46,8 +46,6 @@ Also check out my TGTG sushi haul 🚄
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/vytaylK6G0tvwE6USg90FtCw3Rz2bAxCoe-12wOnJyE-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Ubk3BNZG8RcqZ7gJTCJ8deK8pKfI3ou6jmp9i-NcmW8-2048x1152.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/M3iwLDIg3SErQet__fTJpNKRn4ze_a9-sQC4gFYxS28-1536x2048.jpg)

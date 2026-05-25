@@ -40,8 +40,6 @@ Very organized skate, but family friendly. There were a bunch of guys going arou
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/XgUKjaoJAnTf2pfVphVDs2tJ1sQLZCpqMDQCbvjU1aE-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7ElXHbXEe3tIzQWHMiSLRQz_rkqEPvgjFuWRlZPvG4Y-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/56lbyFiVWL5GarPY52FkY-YjpsQhzTZXAuRqWJ729nA-1536x2048.jpg)

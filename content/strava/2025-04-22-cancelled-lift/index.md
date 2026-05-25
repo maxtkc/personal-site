@@ -42,8 +42,6 @@ Put the marathon running in perspective lol they are very fast
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/4nWMkKpw1BrvFd1Rvt6e6godesDqp9N8zR6T0-lvTCA-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/EdhGVAR5AYFP7B2-vwoGznWWlOU1lK1b15yTtP7KbkY-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/so_MR3iRMKmHAk-kwdWnrTIYz4zyFupZesrlrxlF32k-2048x1536.jpg)

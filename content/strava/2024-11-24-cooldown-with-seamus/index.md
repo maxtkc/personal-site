@@ -40,8 +40,6 @@ who knew trolleys could turn that tight? also my dad has a fun new scooter
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/FTK3DmRtt4m0optyxwXztH_Vvb__Z5CEcl5h42rpgdw-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/AWEAzZmRkLUIzmCE-iRmEVx96ESjkSj18DdRHOgRc88-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/5HEaL_PAJnB0x9cyvbD-ub-Oeh8gDnf3RHSTc423feM-2048x1536.jpg)

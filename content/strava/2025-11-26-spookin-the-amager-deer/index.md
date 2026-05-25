@@ -41,8 +41,6 @@ Unusual to see the water so still, but very pretty. The deer were a bit confused
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/zuP0CRnB8IQWaPzH_QBap7Xb-TGSqqIPa_-zsUlFGew-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Dpw2rJzz_MKoJ3vzKuj24SEA_5O00kIKdqhSjypY6m8-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/zsvO63Ht0x8lekZArUoV9TO0a57D8UKvOT7qyPuNW04-2048x1535.jpg)

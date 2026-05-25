@@ -42,6 +42,4 @@ I'm looking forward to being in hostels and on trains! While a little bit less e
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ZHERNzpJ8ziLEy77g_lOyJjNcPvdFLz2hwofVqoMMYs-2048x1368.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/C-WGapwsYdWSTNvUXel1Y8xzRYQZTHeAYE_HeNFKxs4-1536x2048.jpg)

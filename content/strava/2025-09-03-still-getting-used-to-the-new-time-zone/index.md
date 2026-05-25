@@ -40,8 +40,6 @@ Moved into my new place! Took a fantastic nap after spending two nights in trans
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/WD2aHleYvPTNrtcBe_9NLDEgGXOiNSZYisLa8lDeVvs-1152x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/1yWP7JIX0PVuygtd0SNIummmaupMB-7uUzbMKIa6iYY-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/cHfmARwY6j5Zglo2V5fP36uqqrRY2l40-g4Ean4Wz4o-2048x1536.jpg)

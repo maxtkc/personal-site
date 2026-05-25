@@ -44,6 +44,4 @@ Plus a look at my home theatre conversion! Projector is back out... Only took li
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/wCCRuFTaEYuykOvVIUxKyVyKEfQkGyj2MtXkB2DMhkY-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/xTOIp-5lrKe-LW_6_wNnXfSGU1FfzQl-nx9SJgnUj1Q-2048x1536.jpg)

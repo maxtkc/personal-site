@@ -41,8 +41,6 @@ Haha you got suckered by another of my clickbait titles. I did "The Challenge" a
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/z6X51sOJJK22Pkpy8Fr3XTwWcWPvJUoKkODiiDU1JNg-1152x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/98kxHI-1-7x9LeF49dbwewoeuPfkDIRJBcGzdsAL83s-1152x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/kivperUUfntLP39PJPvRRKDQ7xkauiRcAQ9pquOubko-1807x2048.jpg)

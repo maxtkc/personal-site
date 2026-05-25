@@ -44,8 +44,6 @@ Also rip Norwegian Nutella.
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/KseQDhK0QL8CKpZMK_kgh9quT5gziPkMwu2DX0zpM5I-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/LJlI9m4whzT2fro-T49DI7ZLFY1e36weExp-3xJ5qRw-1152x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/R-D8zhoEpbGwMKwzSWRm_wVQEVH_1HkL04DE7gGb4Is-1152x2048.jpg)

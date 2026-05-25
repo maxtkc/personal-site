@@ -44,8 +44,6 @@ Maybe someday Boston will adjust their pass to be more accessible. It encourages
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/k82oxplvdMbDMu_Bp4GhfcYMCjWBQ65VIzD1K5aSMNM-2048x1364.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/h61d3aTqWAUxoMU49uZ3IreGZnM8iW2dTv8GWqndEyc-2048x1364.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/VZ9r8VWxJ4LBywNyMirQNQkETU0mm2dV6qxhmj2Euik-2048x1363.jpg)

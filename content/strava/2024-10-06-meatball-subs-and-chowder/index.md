@@ -39,8 +39,6 @@ And some match racing too
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/tD6tHq6xxqacxQ3fkTDdnJM7uFsWhkQ-AxHS_1FjDwY-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/E0LSnmA8kJGsUnq37o0YvyRzzCOKGqA0grgKAj0c_XA-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/zH7JukCE36D3BifNEkV2NnjSRU7H1B_XeQWerSEtKGI-2048x1536.jpg)

@@ -44,6 +44,4 @@ Maybe dumb to use my new bike as the car fetching vehicle, but flying down a gra
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/luDu3yJO1fFUzS66lXF8yxVHuM7_EVq40rZfgO4jI98-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/QrhHYtceHW0t7mvYlZTUhyTKp5B_CV6Bj062olTJxPo-2048x1536.jpg)

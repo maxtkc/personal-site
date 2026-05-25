@@ -41,6 +41,4 @@ Apparently they throw bunker raves 🎉
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/p455k7tWdy_rPUyJlVCZjmgzmIxMg-FiDe3L4sB6mKE-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/MHKN-oeNyIL09OfG4URH8svm8ch4OgyE0wWKPCurVrs-2048x1536.jpg)

@@ -44,8 +44,6 @@ scroll all the way to the end for a Bernie meme
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ND7cCjyHsDU61qet6yY6IXjm-KIIm9skRxkigO5VI3s-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/f0295HeS6bOa5b9BgCo8F1unrmf-8pbn0kiNm9ZtClw-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/3YQe-wuOir125bXbJpKn_dJeraeE-il2TBG1MhyeMCM-2048x1536.jpg)

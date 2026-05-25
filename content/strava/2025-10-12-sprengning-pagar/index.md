@@ -47,8 +47,6 @@ So I'm posting photos here from the train trip up, which was 5h late, providing 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/sIj9uv6AIbdALd4HiWjVGfPOYqpHpdqASSvnBvwzAgA-2048x1363.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Qu5YEoSlmM2kb7S5HK_rXmmgXKVQHA8rK7w7OS8qZzY-976x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/U-jSm6AZH4mh-oHtgiLRERbTYB327tGa5hNT3DE3djk-2048x1363.jpg)

@@ -40,4 +40,3 @@ Very glad I made it!
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/iJotjOS25rYQsj1mmdmJ7JHC09G7u0nKywgqiBuzwBE-1536x2048.jpg)

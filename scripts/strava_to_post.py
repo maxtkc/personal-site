@@ -350,22 +350,22 @@ def get_activity_photos(token: str, activity_id: int) -> list:
         return []
 
 
-def download_banner(photos: list, post_dir: Path) -> str:
-    """Download the default/feature photo as banner.jpg. Returns 'banner.jpg' or ''."""
+def download_banner(photos: list, post_dir: Path) -> tuple[str, object]:
+    """Download the default/feature photo as banner.jpg. Returns (filename, primary_photo) or ('', None)."""
     primary = next((p for p in photos if p.get("default_photo")), photos[0] if photos else None)
     if not primary:
-        return ""
+        return "", None
     urls = primary.get("urls") or {}
     url = urls.get("5000") or urls.get("600") or urls.get("100")
     if not url:
-        return ""
+        return "", None
     print("  Downloading banner (feature photo)...")
     resp = requests.get(url)
     resp.raise_for_status()
     banner_path = post_dir / "banner.jpg"
     banner_path.write_bytes(resp.content)
     make_thumb(banner_path, post_dir / "banner_thumb.jpg")
-    return "banner.jpg"
+    return "banner.jpg", primary
 
 
 def download_photos(photos: list, post_dir: Path) -> list:
@@ -815,8 +815,8 @@ def create_post(activity: dict, draft: bool, use_miles: bool, token: str, dl_pho
         print(f"Fetching {photo_count} photo(s)...")
         photos = get_activity_photos(token, activity_id)
         if photos:
-            banner_filename = download_banner(photos, post_dir)
-            non_banner = [p for p in photos if not p.get("default_photo")]
+            banner_filename, banner_photo = download_banner(photos, post_dir)
+            non_banner = [p for p in photos if p is not banner_photo]
             if dl_photos:
                 photo_items = download_photos(non_banner, post_dir)
             else:

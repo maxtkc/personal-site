@@ -42,8 +42,6 @@ Plus some complimentary photos of my company returning to the office after the f
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HWrHFwMxn0wH0Er6xXQ9ka3x7iiGOnYjjXvOeyNWnVo-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/TkUNq2HAXR7bSn4Fc_stm35-IoW7cLUlQLss0Y7Pgz0-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/GP89jw5a4FU4xKzxHuGp4epSh23EBzUCjl0Sc4JrBy4-2048x1363.jpg)

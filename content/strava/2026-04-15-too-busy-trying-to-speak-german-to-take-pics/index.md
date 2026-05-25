@@ -44,8 +44,6 @@ Interesting music suggestions you end up with when you turn off creepy data stuf
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/b0O92u4jLgx2wnuqE_XRfPq3DPnMRMKHZWh4WPNXAyM-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/8du7lRwC9Jm3VkuiTg8DdYsaxHyxCGgiwbdqml2A7W0-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/5TtG-lGHQz-Tmd_mbzKhdh-aOdERJ8RC_ccEIOdlagg-2048x1536.jpg)

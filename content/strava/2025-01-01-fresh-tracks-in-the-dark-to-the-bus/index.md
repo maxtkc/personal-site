@@ -41,8 +41,6 @@ Forgot how late in the day it was, so we hiked in the dark and were going to hik
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/tZjZQ8vy93Wny3zcP2dcHIqbyZ36Wam2ZSALMs6BoN8-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/PNsg2IJKCmt3B8D_QDk52I0HrAUWp8OYy0JnA3w1qrM-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/bZyP2CB-6mSh3N6hwDxiZA5pj3gTlRl65wXdo8_d7fg-1536x2048.jpg)

@@ -42,4 +42,3 @@ Took no pictures, but look at these nice swedish seats. They're comfy too
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HiUDQGkUdLLbSSIsIgXllm3JxhpFzwo4H0DA6jKXLMY-1536x2048.jpg)

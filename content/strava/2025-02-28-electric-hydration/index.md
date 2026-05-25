@@ -42,6 +42,4 @@ I'm not obsessed with my big water bottle, but boy is it fun to use! I do miss t
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/6HbFxBkVrj0LbfarrEoxqlKJQaNg_W8bSK0zYTtS1xM-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/C5bc2TKIYbKw10D-btMuxBib7cM1nAmwO-NqE7eMpp4-2048x1536.jpg)

@@ -41,8 +41,6 @@ Mass Central Rail Trail is less navigable than before due to additional construc
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/rikE2lanFfDNPWvs6K4fA4_YawpuTaRhceQ5BEfLuqc-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/oV_CiKoFH1NHJGtko6uz59waHPdao2LZt10c4OtJR64-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Xo0WdekIXdUmF-OjBbGI4un5t6akSEK1Wfefyw_UTFo-2048x1536.jpg)

@@ -41,8 +41,6 @@ And early Friendsgiving!
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ZPpe6o5Xn7buTvl7Z8KI_FVf-meQcw0n9w0jshJMp94-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/p3-I_uWSesTErpFndSxOUGiQEFn2crpFH2_7fuESSSE-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/eN8JHmU5z9p0k_1lACWP2zaaaTiJFOorcYrmN4wOg-o-2048x1363.jpg)

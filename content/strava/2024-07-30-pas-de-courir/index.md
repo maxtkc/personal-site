@@ -39,8 +39,6 @@ elevation_gain_fmt = "1247 m"
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/hU-iPF-AgW6Ub6ZckWpQhx4CIpcPuxuGZ2gtWCPjS0U-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7W3I9P7BY7QSPT4xBwww4Yu9mIxNx0NYibHaS5r_8lA-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/nzKuMW6j3RQXqxnbkUwucJveOpL_si-kFnVT-eWgjbQ-2048x1536.jpg)

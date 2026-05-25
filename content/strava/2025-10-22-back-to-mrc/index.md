@@ -44,4 +44,3 @@ I've attached an example lunch. I look forward to 11:28 every day.
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/whCw1vUk4sGlm0PJbbadajCvvDxrE5iBVzLGbx1B2uA-1536x2048.jpg)

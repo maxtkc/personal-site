@@ -17,7 +17,6 @@ elevation_gain_fmt = "91 m"
 
 My first SMS! Jackson Moore-Otto spotting.
 
-
 Also Garmin gritty score is funny
 
 ## Stats

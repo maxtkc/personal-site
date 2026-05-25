@@ -41,8 +41,6 @@ Come visit soon! Lots of forest to explore
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2VtLEkrQuqYaL2IfAdv1rqkhxyBrTR2uYl8_HpF03yc-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/QjLzF7iCEUYdj40bJqjtce61Rs6WjmpibrIVDr2VKBw-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ncZj_QSRW87cQKzuCKJ84K57z4hBXfSV1db_6CX-4gI-2048x1536.jpg)

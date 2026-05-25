@@ -40,8 +40,6 @@ Who has a flat. We fixed the flat. He got another flat. Apparently he thought ri
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/iIyve5Ana0IJ2nFctNp_RQgaYP3cQpcZb2OA5U_p03U-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/_D_tLE94bPOISoO1X3dr3TrRhusy89RVcHEGbK_unKU-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/dylg-TVaMOdQoN_Fj6gdK0AxcVAu6aeN1LWNVD8J_Hc-2048x1536.jpg)

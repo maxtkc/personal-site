@@ -41,8 +41,6 @@ All in the spirit of Seth Massey 's wedding!
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/JgxsmKhdSvltKzVoRLsF0eIERr9Us5PvFuVBlaNbNqY-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/hm2odYO9VNHk4WUmflsHVTqZHXkJ9SJCO0go5H-q2UI-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ijywH8BCeHbFuRJXlVJgJhwkE0IVBHiA4vSOq6RT2qA-2048x1536.jpg)

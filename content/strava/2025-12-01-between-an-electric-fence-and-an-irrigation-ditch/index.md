@@ -41,8 +41,6 @@ On off camber wet grass with big holes. Pretty though!
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/NPhmbZTD1sEfTnbXKtzs4Bj_gFhm4ckwY6SWJlnoWdo-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ucQueGrqN2eIcPo_FLdYrTQm8ZJAHi7UKaf1qsonzy8-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/elNNxoELFpsDJUtse46kq4BC_PBkYiY3rtYghhWmLqE-2048x1536.jpg)

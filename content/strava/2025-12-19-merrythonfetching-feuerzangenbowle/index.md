@@ -43,8 +43,6 @@ Listening to Abundance, the audiobook
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/IZOQOK0FECn4LQGTFuURuLhsmzcS7NZPqGT4TcR9s28-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ZHo-t1htaF0cRNRzXhUmKyFBMU5YxESvuXywvD_I_lI-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ywA7XRQsDZwUfBu9kwH0hTW223bggUEQy4Aiww0T4gU-1536x2048.jpg)

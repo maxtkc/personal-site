@@ -43,6 +43,4 @@ Also free ginger shots and bars after! Helping balance my "Asian fusion" too goo
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ToIG7peuqd6s5MLacsZBBcEzrwvHnKH53ygPxqtA7NY-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/UsmYlK9a-mXwVVugg44sao1dezCq9MexOFhfO0fATIg-1536x2048.jpg)

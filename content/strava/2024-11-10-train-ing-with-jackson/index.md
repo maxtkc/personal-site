@@ -41,8 +41,6 @@ Left my fellow two Max's at the Boston eccc group ride but found Jordan Kalman o
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/z-z5rt8WGZKEkI6HiFIQiuhRBfmD4GcRxqn5m43MCyg-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/SpdNCmfq-fuZfINuubEdBoqoFqIBnjIQXu6xKBzE2lY-1536x2048.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HO9SMajgLXo-TAwg7r3-8UoMGwBlQMsJKrmt14HzMcc-1536x2048.jpg)

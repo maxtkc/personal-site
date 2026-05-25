@@ -41,6 +41,4 @@ https://www.urbandirt.org/routes/multi-meadow
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/13GSBpFOOyOlycMnDCTh__fA4dDMRqLPchHR9IJUXQI-2048x1152.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/e-UYOAmu8Mz3xodTk5MP9FeD26Kl038QiQVqEWpJdlY-2048x1152.jpg)

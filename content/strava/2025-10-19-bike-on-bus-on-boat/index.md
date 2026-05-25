@@ -42,8 +42,6 @@ The ferry is electric and free. Such a quiet and smooth ride.
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/TJ-X41ZuH32fnIeMwH1KNuulHg5xBbnanh7k54tnIXA-2048x1363.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/3HiUe3Ue-bPfXFJjEK4Wf72x8OKp1-MKyxDcKEKRA3c-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/uEO1AyiUFP9Oss5gwdoQM_3y59kUma9FEFONhYk9S3Q-2048x1363.jpg)

@@ -41,8 +41,6 @@ Sitting on the top marker. The Australians are everywhere. And the Dutch
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/CBYcXOw89REJubw76sWQtFSwZ_Vz8YtmvKQFRnDNvEQ-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/KitRMNuirKz1dTHQdIkvUMTy_6hdrzesELPW7T8dw6Q-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/rt4wyVNbFdGuKy_YHsh89vTiBePYws9l2k0s2jXsFfE-2048x1536.jpg)

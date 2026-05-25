@@ -40,4 +40,3 @@ It'll be nice on the train though
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/2vx3nSdWobgiVpMt_4KAxMlaYeUP_62WqUp3A77UDQ8-1536x2048.jpg)

@@ -41,4 +41,3 @@ Super fun
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/jUwrz1MU1ESFr4fC9eB02sUfUa_g5XW-rWsf6z3jHCk-2048x1422.jpg)

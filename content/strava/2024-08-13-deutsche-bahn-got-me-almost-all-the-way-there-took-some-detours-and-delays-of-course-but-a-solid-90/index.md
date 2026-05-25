@@ -40,8 +40,6 @@ Ended up on a bus in the middle of the night. Then a cancelled train. Got some T
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Hd3zb_mVtnVoXm7rKijZNq-tBDYyNLFtiQJx-buGzkQ-427x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/j9haRAxDDRaR0xznwCeKMlB5guD-OmtSbDbznsm_PNs-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Rv1Jr89vKvCseeuHHh2GHfdlIPV5R3W2d8FwsLnb0sE-1536x2048.jpg)

@@ -40,6 +40,4 @@ Also no flamingos allowed
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/EDZ5u-QoJ7D1JDJH8UUS-F1oicyaCHTvG-wNlCfBMx0-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/HNuqR603Qgcmhc3ivjE3OkaXQ2qai6XGCTVB2TD8JY4-2048x1536.jpg)

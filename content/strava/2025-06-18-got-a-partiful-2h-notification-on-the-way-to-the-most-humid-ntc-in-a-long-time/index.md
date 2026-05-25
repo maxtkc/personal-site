@@ -44,6 +44,4 @@ Still made it, very fashionably late
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/N2eDov2ZSktAQ1shsrK61-mfAIN9VSkMw_iuBCqr0PU-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/osUmCfT1gCETzsbql6h5PyYORCeAmhmEzm_k-kO3e4o-1536x2048.jpg)

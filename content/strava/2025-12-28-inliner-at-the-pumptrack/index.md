@@ -40,8 +40,6 @@ They even had a bigger dirt one... I sorta stumbled down it in front of many sma
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/X6BpZQxw6l-7VVDLe1B_WDO-ygm6crIhiO1tGwZe4xI-2048x1363.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Y9z773yVLfPWGwTkw45qH8OQz_POk66GYj1sqUGn5rY-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/7eUG8Kt896oTFo7eQmUq3iUawgbOxCLgYg4Iclnpzu4-2048x1363.jpg)

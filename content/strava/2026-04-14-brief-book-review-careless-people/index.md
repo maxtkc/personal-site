@@ -52,8 +52,6 @@ All this said, I did find the book educational and I will be recommending it to 
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/nmlGu-qADHzGUeNfviyJfHIMzWvL1NjgcbFGQ_KGECo-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/nHFpzDr_TPGzKXYqU94GaY19IvwzttSSSphlmNBlaZY-2048x1363.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/ylAEkXxHPRZB5KJfSofr5OSMH9E1SsBANps7I2hr0_Q-2048x1363.jpg)

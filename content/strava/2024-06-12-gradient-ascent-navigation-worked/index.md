@@ -38,8 +38,6 @@ elevation_gain_fmt = "900 m"
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/v-6zoFNcB_fNdn9dII0q-BbM2RTEi2YHB4Ez98BPYc4-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/I8MJSVcDWrYl3tLSd20loBX5cSSY4mvnllVcOcBEGOE-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/Ahr4LbiOnx5dT2E9jlHZWI0mrbtxkMQ3uDBprH4eAMI-2048x1536.jpg)

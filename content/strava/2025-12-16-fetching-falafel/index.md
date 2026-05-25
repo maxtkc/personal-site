@@ -43,8 +43,6 @@ After some nice warm falafel, I couldn't help grabbing a nearby tgtg to get me o
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/PNWywsmfEDB_1Hrbh8r8x1XdjbvMMsa98QA_0PqZd_4-1536x2048.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/iPESg1M0OtfYlO9AcZsahp_9OpLrcbhJZ-0hm55bp4s-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/qlmm1Z9pJhhbsLTty4s6rMej8pxMPQwB59dJx4SEyVs-1536x2048.jpg)

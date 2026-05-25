@@ -43,8 +43,6 @@ Go pats! I guess the new englanders are better than the Coloradans at handling s
 
 ![Activity photo](banner.jpg)
 
-![Activity photo](https://dgtzuqphqg23d.cloudfront.net/rGKxPbp9Aekst7AChP6Kd7lWoFbW0kuYaKwAzAiFSlc-2048x1536.jpg)
-
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/fwYNgGobfYxx7gDc4xEGqjsu8CvEljCf2hKnPribjzU-2048x1536.jpg)
 
 ![Activity photo](https://dgtzuqphqg23d.cloudfront.net/xYxEMLw0gIDIuG6mTi3BbweqPDR1jrrBkFH3D9DDbRA-2048x1536.jpg)
