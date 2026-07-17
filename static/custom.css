@@ -1,0 +1,39 @@
+/* Show actual banner images on article-list cards instead of a heavily
+   blurred color wash, with a gradient overlay so title/details stay readable. */
+#article-list article {
+	background-image:
+		linear-gradient(to top, rgb(0 0 0 / 75%) 0%, rgb(0 0 0 / 25%) 55%, rgb(0 0 0 / 0%) 100%),
+		var(--blurnail);
+}
+
+#article-list article[style*="--blurnail"] {
+	h2,
+	.details,
+	.details time {
+		color: #fff;
+		text-shadow: 0 1px 3px rgb(0 0 0 / 60%);
+	}
+
+	.details {
+		border-block-start-color: rgb(255 255 255 / 30%);
+	}
+}
+
+/* Previous/Next post navigation: same banner-background treatment as the article cards */
+#post-nav .post-nav-item[style*="--nav-banner"] {
+	background-image:
+		linear-gradient(to top, rgb(0 0 0 / 75%) 0%, rgb(0 0 0 / 25%) 55%, rgb(0 0 0 / 0%) 100%),
+		var(--nav-banner);
+	background-position: center;
+	background-size: cover;
+}
+
+#post-nav .post-nav-item[style*="--nav-banner"] .nav-arrow,
+#post-nav .post-nav-item[style*="--nav-banner"] .post-title {
+	color: #fff;
+	text-shadow: 0 1px 3px rgb(0 0 0 / 60%);
+}
+
+#post-nav .post-nav-item[style*="--nav-banner"]:hover .post-title {
+	color: #fff;
+}

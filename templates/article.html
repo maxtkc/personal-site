@@ -144,13 +144,19 @@
 	<hr />
 	<nav id="post-nav">
 		{%- if page.higher -%}
-			<a class="post-nav-item post-nav-prev" href="{{ page.higher.permalink }}">
+			{%- if page.higher.extra.banner -%}
+				{%- set higher_banner = resize_image(path=page.higher.colocated_path ~ page.higher.extra.banner, width=800, height=450, op="fill", format="webp") -%}
+			{%- endif -%}
+			<a class="post-nav-item post-nav-prev" href="{{ page.higher.permalink }}" {% if higher_banner %}style="--nav-banner: url('{{ higher_banner.url }}')"{% endif %}>
 				<div class="nav-arrow">{{ macros_translate::translate(key="previous", default="Previous", language_strings=language_strings) }}</div>
 				<span class="post-title">{{ page.higher.title }}</span>
 			</a>
 		{%- endif -%}
 		{%- if page.lower -%}
-			<a class="post-nav-item post-nav-next" href="{{ page.lower.permalink }}">
+			{%- if page.lower.extra.banner -%}
+				{%- set lower_banner = resize_image(path=page.lower.colocated_path ~ page.lower.extra.banner, width=800, height=450, op="fill", format="webp") -%}
+			{%- endif -%}
+			<a class="post-nav-item post-nav-next" href="{{ page.lower.permalink }}" {% if lower_banner %}style="--nav-banner: url('{{ lower_banner.url }}')"{% endif %}>
 				<div class="nav-arrow">{{ macros_translate::translate(key="next", default="Next", language_strings=language_strings) }}</div>
 				<span class="post-title">{{ page.lower.title }}</span>
 			</a>

@@ -1,5 +1,5 @@
 +++
-title = "Mittagsradfahrt"
+title = "Nervous Nellie's"
 description = "Ride — 2026-07-08"
 date = 2026-07-08
 authors = ["Max Katz-Christy"]
@@ -14,6 +14,8 @@ distance_fmt = "9.11 mi"
 moving_time_fmt = "55m 08s"
 elevation_gain_fmt = "600 ft"
 +++
+
+Gotta see it to understand... I need to go back to keep exploring this place.
 
 ## Stats
 
