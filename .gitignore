@@ -6,3 +6,4 @@ scripts/.strava_config.json
 scripts/.strava_web_config.json
 scripts/.wanderer_config.json
 scripts/.wanderer_uploaded.json
+scripts/__pycache__/
