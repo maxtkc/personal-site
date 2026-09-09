@@ -86,12 +86,20 @@
 
 <script>
 (function () {
-  function sportColor(sportType) {
+  function sportHue(sportType) {
     var h = 5381;
     for (var i = 0; i < sportType.length; i++) {
       h = ((h << 5) + h + sportType.charCodeAt(i)) & 0x7FFFFFFF;
     }
-    return 'hsl(' + (h % 360) + ',70%,60%)';
+    return h % 360;
+  }
+
+  function sportColor(sportType) {
+    return 'hsl(' + sportHue(sportType) + ',70%,60%)';
+  }
+
+  function sportCasingColor(sportType) {
+    return 'hsl(' + sportHue(sportType) + ',70%,33%)';
   }
 
   var panel = document.getElementById('strava-hover-panel');
@@ -131,17 +139,29 @@
     // preferCanvas avoids the SVG-precision drift that offsets routes at low zoom
     // when many long paths share one transform, and is faster with this many features.
     var map = L.map('strava-routes-map', { zoomControl: true, preferCanvas: true });
-    var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    var tileUrl = dark
-      ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png'
-      : 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
-    L.tileLayer(tileUrl, {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; Esri',
       maxZoom: 19
     }).addTo(map);
 
     var allLayers = L.featureGroup();
     var realLayers = {};
+    var casingLayers = {};
+
+    // Casing layer (darker, wider) painted underneath the colored route lines
+    L.geoJSON(routeData, {
+      style: function (feature) {
+        return {
+          color: sportCasingColor(feature.properties.sport_type || ''),
+          weight: 6,
+          opacity: 1,
+          interactive: false
+        };
+      },
+      onEachFeature: function (feature, layer) {
+        casingLayers[feature.properties.name] = layer;
+      }
+    }).addTo(map);
 
     // Visible route layer
     L.geoJSON(routeData, {
@@ -149,7 +169,7 @@
         return {
           color: sportColor(feature.properties.sport_type || ''),
           weight: 3,
-          opacity: 0.85,
+          opacity: 1,
           interactive: false
         };
       },
@@ -171,12 +191,16 @@
 
         ghost.on('mouseover', function () {
           var real = realLayers[key];
-          if (real) real.setStyle({ weight: 6 });
+          var casing = casingLayers[key];
+          if (real) real.setStyle({ weight: 5 });
+          if (casing) casing.setStyle({ weight: 9 });
           showPanel(p);
         });
         ghost.on('mouseout', function () {
           var real = realLayers[key];
+          var casing = casingLayers[key];
           if (real) real.setStyle({ weight: 3 });
+          if (casing) casing.setStyle({ weight: 6 });
           hidePanel();
         });
         ghost.on('click', function () { window.location.href = p.url; });

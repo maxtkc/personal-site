@@ -89,9 +89,8 @@
     lmap = L.map(mapDiv, { zoomControl: false, preferCanvas: true });
     lmap.fitBounds(L.latLngBounds(sorted.map(p => [p.lat, p.lon])), { padding: [28, 28], animate: false });
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
-      attribution: '© <a href="https://carto.com/attributions">CARTO</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      subdomains: 'abcd',
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; Esri',
       maxZoom: 19,
     }).addTo(lmap);
 
@@ -145,18 +144,24 @@
       const ctx = routeCanvas.getContext('2d');
       ctx.clearRect(0, 0, routeCanvas.width, routeCanvas.height);
       if (routeCoords.length < 2) return;
-      ctx.beginPath();
+      ctx.lineCap  = 'round';
+      ctx.lineJoin = 'round';
+      const points = routeCoords.map(c => lmap.latLngToContainerPoint(c));
+      function tracePath() {
+        ctx.beginPath();
+        ctx.moveTo(points[0].x, points[0].y);
+        for (let i = 1; i < points.length; i++) ctx.lineTo(points[i].x, points[i].y);
+      }
+      // casing (darker, wider) underneath the colored line
+      tracePath();
+      ctx.strokeStyle = '#14532d';
+      ctx.lineWidth   = 3;
+      ctx.globalAlpha = 0.55;
+      ctx.stroke();
+      tracePath();
       ctx.strokeStyle = '#22c55e';
       ctx.lineWidth   = 1.5;
       ctx.globalAlpha = 0.55;
-      ctx.lineCap     = 'round';
-      ctx.lineJoin    = 'round';
-      const p0 = lmap.latLngToContainerPoint(routeCoords[0]);
-      ctx.moveTo(p0.x, p0.y);
-      for (let i = 1; i < routeCoords.length; i++) {
-        const p = lmap.latLngToContainerPoint(routeCoords[i]);
-        ctx.lineTo(p.x, p.y);
-      }
       ctx.stroke();
     }
 
