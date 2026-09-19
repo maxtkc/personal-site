@@ -3,7 +3,7 @@ authors = ["Max Katz-Christy"]
 title = "How I became a freelance rural bus Google Mapsifier"
 description = "How a bike tour to Canada led me to building software for some bus services in the boonies"
 date = 2026-04-03
-updated = "2026-05-02"
+updated = "2026-09-19"
 [taxonomies]
 tags = ["GTFS", "Data"]
 [extra]
@@ -117,15 +117,16 @@ joining a couple days later:
 I know, I should start a trip planning agency with these incredible design
 skills 😬.
 
-You may not realize that finding out that West Bus even existed was a very
-difficult task. Since the time of writing, the state of Maine improved their
-list of services on this page:
+Finding West Bus online is an incredibly easy task because they are operated by
+a bunch of tech bros who just LOVE search engine optimization 🙄. When I first
+went to this page, it was, somehow, worse than it is today:
 <https://www.maine.gov/dot/programs-services/transit/public-transit>
 
 If you've memorized your Maine region numbers and the name of every town
 inhabited by at least ten beavers, you will have no trouble finding your
-desired bus. So, after opening basically every website, I found the West's
-Coastal Connection route run by West Bus: <https://westbusservice.com/>
+desired bus. So, after opening every agency website and trying to figure out if
+it wen't vaguely in my direction, I found the West's Coastal Connection route
+run by West Bus: <https://westbusservice.com/>
 
 Every other time I wanted to find their website, I would try to find it on
 Google, but that would only provide me some old PDF from the state of Maine
@@ -140,7 +141,8 @@ New Brunswick, Canada.
 
 <figure>
 
-  ![bike_on_cc.webp](bike_on_cc.webp)
+  <img src="bike_on_cc.webp" alt="bike_on_cc.webp" style="width: 50%;">
+
   <figcaption>My bike on top of the wheelchair lift on the prior Concord Coach bus</figcaption>
 </figure>
 
@@ -347,7 +349,7 @@ including Apple, do not have an independent submission process. They use lists
 to which you submit a url, and honestly I have no clue if they do any vetting
 at all.
 
-### A Regulah: Round Zwei
+### Mission 4: To Columbia County and Beyond! 🚀
 
 > Hey, how much fun was it to make the GTFS feeds for West Bus and Concord?
 > Would you be interested in making a feed for another small New England
@@ -474,11 +476,11 @@ so he won't face justice for his actions. Corrupt little bugger.
 No, buses are never late! Late is simply a social construct, anyway; it's all
 just based on expectations. You just gotta chill out, dude.
 
-After taking a beautiful high speed train to Florence, I had to wait an hour
-for my bus to the suburb of Greve. I decided to do some tourism and wander
-through the city to another point further along the route. I arrived five
-minutes before the bus's scheduled departure, but there was no stop to be seen.
-This rural bus only runs every couple hours, so I quickly installed the
+After taking a beautiful high speed train to Florence, I had an hour wait
+before my bus to the (very nice) boonies, so I decided to do some tourism and
+wander through the city to another point further along the route. I arrived
+five minutes before the bus's scheduled departure, but there was no stop to be
+seen. This rural bus only runs every couple hours, so I quickly installed the
 official app to verify the stop location. As I was doing this, I noticed a more
 official looking stop with a real time display on a post one block away.
 However, the app confirmed with Google that the stop location was on this
@@ -518,10 +520,10 @@ here: <https://git.kcfam.us/gtfs.zone/deploy-gtfs-rt/>
 I dunno. Can ya juggle?
 
 - You can play with the editor: <https://edit.gtfs.zone>
-- You can try the GTFS realtime: <https://gtfs.zone/realtime-setup/>
+- You can play with the realtime viewer: <https://viz.rt.gtfs.zone>
 - You can write some issues, or just send them to me!
     - For the editor: <https://git.kcfam.us/gtfs.zone/coloring-book/issues>
-    - And for the realtime: <https://git.kcfam.us/gtfs.zone/deploy-gtfs-rt/issues>
+    - And for the realtime: <https://git.kcfam.us/gtfs.zone/test-track/issues>
 - You can probably do a lot of better things than read all to the end of this
   blog post. However, I'm impressed you made it here (and a bit concerned), but
   maybe that means you have already solved all the other problems in your life
