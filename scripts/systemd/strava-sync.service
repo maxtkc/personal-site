@@ -1,0 +1,7 @@
+[Unit]
+Description=Sync new Strava activities into blog posts
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/max/Documents/personal-site
+ExecStart=/home/max/Documents/personal-site/scripts/strava-sync.sh
