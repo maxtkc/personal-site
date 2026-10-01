@@ -513,7 +513,7 @@ a transit agency supports GTFS realtime if an upcoming trip reads "on time/x
 mins delayed" instead of "scheduled". I will discuss this more in the future,
 but you can demo/test the tool I am building for GTFS realtime here:
 <https://gtfs.zone/realtime-setup/> and read more about the system behind it
-here: <https://git.kcfam.us/gtfs.zone/deploy-gtfs-rt/>
+here: <https://github.com/gtfs-zone/gtfs-zone-infra>
 
 ### What can you do?
 
@@ -522,8 +522,8 @@ I dunno. Can ya juggle?
 - You can play with the editor: <https://edit.gtfs.zone>
 - You can play with the realtime viewer: <https://viz.rt.gtfs.zone>
 - You can write some issues, or just send them to me!
-    - For the editor: <https://git.kcfam.us/gtfs.zone/coloring-book/issues>
-    - And for the realtime: <https://git.kcfam.us/gtfs.zone/test-track/issues>
+    - For the editor: <https://github.com/gtfs-zone/gtfs-zone-editor/issues>
+    - And for the realtime: <https://github.com/gtfs-zone/gtfs-zone-rt-viewer/issues>
 - You can probably do a lot of better things than read all to the end of this
   blog post. However, I'm impressed you made it here (and a bit concerned), but
   maybe that means you have already solved all the other problems in your life
