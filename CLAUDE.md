@@ -10,7 +10,7 @@ zola build    # Build static site to public/
 zola check    # Validate content and links
 ```
 
-CI/CD (Forgejo) runs `zola build` on push to `main` and deploys to `/sites/max.kcfam.us/`.
+CI/CD (GitHub Actions) runs `zola build` on push to `main` and deploys to GitHub Pages at `max.kcfam.us`.
 
 ## Architecture
 

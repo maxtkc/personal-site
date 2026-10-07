@@ -42,12 +42,8 @@ See my [repo here for more](https://github.com/maxtkc/home-docker)
 
 ### Git Hosting/CI/CD
 
-I use [Forgejo](https://forgejo.org/)! I really like it. I host my own Forgejo
-instance [here](https://git.kcfam.us/).
-
-It uses the docker based runners so it compiles and deploys via a docker volume
-much faster than github. It's not even a custom runner... It installs zola and
-then deploys the site.
+This site's source is [on GitHub](https://github.com/maxtkc/personal-site).
+GitHub Actions installs zola, builds the site and deploys it to GitHub Pages.
 
 ### Static Site Generation
 
