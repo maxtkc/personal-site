@@ -16,6 +16,9 @@ title = "Home"
 
 # Max Katz-Christy
 
+Hi!
+
+Do you also like trains
 Hello! Welcome to my website. I finally have one. I've made a number for other
 people, and a few for myself a while ago. Maybe this is "the one". Maybe not.
 We'll see in a few weeks.
@@ -36,9 +39,9 @@ to get it up and running.
 
 ### Containerization
 
-[Docker](https://www.docker.com/)! Deployed via [OpenTofu](https://opentofu.org/)
+[k3s](https://k3s.io/)! Deployed via [ArgoCD](https://argoproj.github.io/cd/)
 
-See my [repo here for more](https://github.com/maxtkc/home-docker)
+See my [repo here for more](https://github.com/maxtkc/kcfam-infra)
 
 ### Git Hosting/CI/CD
 
