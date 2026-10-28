@@ -5869,6 +5869,1731 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-04-01T16:18:27+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8484919,
+          47.9943825
+        ]
+      },
+      "properties": {
+        "name": "mamahe",
+        "item_id": "846302",
+        "time": "2026-04-02T12:51:50+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-04-02T14:49:28+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0773768,
+          45.7731162
+        ]
+      },
+      "properties": {
+        "name": "Appart'City - Clermont Ferrand Centre",
+        "item_id": "601250",
+        "time": "2026-04-04T10:33:16+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3408613,
+          48.8680623
+        ]
+      },
+      "properties": {
+        "name": "\ud83c\udfaf Ameia",
+        "item_id": "1104316",
+        "time": "2026-04-07T12:58:06+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.346624,
+          48.8690998
+        ]
+      },
+      "properties": {
+        "name": "Kiosque Frichti - Je\u00fbneurs",
+        "item_id": "210183743960943968",
+        "time": "2026-04-07T13:05:51+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-04-08T14:48:52+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-04-08T16:24:35+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-04-09T16:29:45+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3180744,
+          52.0764252
+        ]
+      },
+      "properties": {
+        "name": "TRIBE Den Haag Centraal",
+        "item_id": "8675",
+        "time": "2026-04-11T09:15:02+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.314058,
+          52.075898
+        ]
+      },
+      "properties": {
+        "name": "Pazze e Pizze",
+        "item_id": "10138",
+        "time": "2026-04-11T19:57:53+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9586017,
+          50.9432141
+        ]
+      },
+      "properties": {
+        "name": "Slice It",
+        "item_id": "136170183542222656",
+        "time": "2026-04-12T15:36:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-04-13T15:46:19+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-04-14T14:49:05+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-04-14T16:20:04+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-04-16T16:16:22+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8496743,
+          47.9954551
+        ]
+      },
+      "properties": {
+        "name": "Hotel am Rathaus",
+        "item_id": "154750950227082048",
+        "time": "2026-04-17T10:39:33+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8414333,
+          47.9973495
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "800098",
+        "time": "2026-04-18T18:00:01+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8491267,
+          47.9937222
+        ]
+      },
+      "properties": {
+        "name": "Kolben Kaffee Freiburg ",
+        "item_id": "824100",
+        "time": "2026-04-20T15:01:37+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8541318,
+          47.9831457
+        ]
+      },
+      "properties": {
+        "name": "L\u00e4ckerei ",
+        "item_id": "173825225043115136",
+        "time": "2026-04-22T11:12:27+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8617574,
+          48.0120026
+        ]
+      },
+      "properties": {
+        "name": "B\u00e4ckerei Weber",
+        "item_id": "49332",
+        "time": "2026-04-22T13:06:50+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8505397,
+          47.9969823
+        ]
+      },
+      "properties": {
+        "name": "vomFASS",
+        "item_id": "898220",
+        "time": "2026-04-22T13:21:58+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8537037,
+          47.9852227
+        ]
+      },
+      "properties": {
+        "name": "Omas K\u00fcche ",
+        "item_id": "872840",
+        "time": "2026-04-22T19:35:59+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-04-23T14:50:14+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-04-27T15:29:23+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-04-28T14:41:10+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-04-28T18:01:36+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8403394,
+          47.9911005
+        ]
+      },
+      "properties": {
+        "name": "Khatib & Verneau Catering",
+        "item_id": "232706887447966592",
+        "time": "2026-04-29T12:56:34+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-04-29T15:38:59+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8529823,
+          47.9959259
+        ]
+      },
+      "properties": {
+        "name": "Gem\u00fcsebau Roland Lay",
+        "item_id": "121673318134503200",
+        "time": "2026-05-02T09:17:36+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8543139,
+          47.9876484
+        ]
+      },
+      "properties": {
+        "name": "B\u00e4ckerei Grossmann ",
+        "item_id": "54105061792560672",
+        "time": "2026-05-02T10:54:55+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-05-04T15:57:11+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-05-04T16:07:44+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8387866,
+          48.0006514
+        ]
+      },
+      "properties": {
+        "name": "Siam Square ",
+        "item_id": "1103321",
+        "time": "2026-05-04T16:39:05+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.853222,
+          47.9986047
+        ]
+      },
+      "properties": {
+        "name": "Mibo sushi",
+        "item_id": "118845874197258592",
+        "time": "2026-05-04T20:08:15+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8496743,
+          47.9954551
+        ]
+      },
+      "properties": {
+        "name": "Hotel am Rathaus",
+        "item_id": "154750950227082048",
+        "time": "2026-05-06T11:04:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8469613,
+          47.9846858
+        ]
+      },
+      "properties": {
+        "name": "EDEKA Strecker",
+        "item_id": "43800063748853792",
+        "time": "2026-05-10T08:49:09+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-05-10T15:59:40+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8484919,
+          47.9943825
+        ]
+      },
+      "properties": {
+        "name": "mamahe",
+        "item_id": "846302",
+        "time": "2026-05-11T12:30:16+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-05-11T14:58:11+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1102817,
+          51.5215474
+        ]
+      },
+      "properties": {
+        "name": "Yummy Yummy London",
+        "item_id": "237152477181586720",
+        "time": "2026-05-15T10:47:53+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1114879,
+          51.5181496
+        ]
+      },
+      "properties": {
+        "name": "Pure",
+        "item_id": "929376",
+        "time": "2026-05-15T10:59:16+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8926119,
+          52.4787219
+        ]
+      },
+      "properties": {
+        "name": "Espresso Station - Moor Street",
+        "item_id": "39801",
+        "time": "2026-05-17T12:07:59+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2649757,
+          51.7592459
+        ]
+      },
+      "properties": {
+        "name": "Midcounties Co-op",
+        "item_id": "1141434",
+        "time": "2026-05-17T18:52:08+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.257008,
+          51.7523237
+        ]
+      },
+      "properties": {
+        "name": "Caff\u00e8 Nero",
+        "item_id": "1216283",
+        "time": "2026-05-18T17:30:27+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1882105,
+          51.4954833
+        ]
+      },
+      "properties": {
+        "name": "Sushi Gourmet",
+        "item_id": "931019",
+        "time": "2026-05-19T09:42:22+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3512933,
+          48.8751241
+        ]
+      },
+      "properties": {
+        "name": "Dawan",
+        "item_id": "170127010815302208",
+        "time": "2026-05-19T14:13:42+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-05-20T16:17:07+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-05-21T14:26:24+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-05-22T18:15:08+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-05-23T16:27:20+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-05-23T19:44:07+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-05-23T19:45:28+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.853222,
+          47.9986047
+        ]
+      },
+      "properties": {
+        "name": "Mibo sushi",
+        "item_id": "118845874197258592",
+        "time": "2026-05-23T19:59:08+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-05-26T14:48:28+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-05-26T15:54:41+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8496743,
+          47.9954551
+        ]
+      },
+      "properties": {
+        "name": "Hotel am Rathaus",
+        "item_id": "154750950227082048",
+        "time": "2026-05-27T10:57:05+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8505397,
+          47.9969823
+        ]
+      },
+      "properties": {
+        "name": "vomFASS",
+        "item_id": "898220",
+        "time": "2026-05-27T15:44:14+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-06-01T14:50:23+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-06-02T15:45:12+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8541318,
+          47.9831457
+        ]
+      },
+      "properties": {
+        "name": "L\u00e4ckerei ",
+        "item_id": "173825225043115136",
+        "time": "2026-06-03T11:01:34+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8430481,
+          48.0016165
+        ]
+      },
+      "properties": {
+        "name": "Balkan B\u00e4ckerei LUMI",
+        "item_id": "243194060794437664",
+        "time": "2026-07-14T17:57:52+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8511138,
+          47.9930854
+        ]
+      },
+      "properties": {
+        "name": "Adelhaus Bio- Restaurant - Cafe",
+        "item_id": "1000380",
+        "time": "2026-07-14T18:45:02+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-07-16T18:03:55+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-07-18T18:07:17+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8414333,
+          47.9973495
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "800098",
+        "time": "2026-07-19T18:17:22+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8496743,
+          47.9954551
+        ]
+      },
+      "properties": {
+        "name": "Hotel am Rathaus",
+        "item_id": "154750950227082048",
+        "time": "2026-07-21T10:55:05+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-07-27T16:15:08+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-07-27T18:02:50+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8543139,
+          47.9876484
+        ]
+      },
+      "properties": {
+        "name": "B\u00e4ckerei Grossmann ",
+        "item_id": "54105061792560672",
+        "time": "2026-07-30T11:56:52+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8537037,
+          47.9852227
+        ]
+      },
+      "properties": {
+        "name": "Omas K\u00fcche ",
+        "item_id": "1041400",
+        "time": "2026-07-30T12:42:05+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8537037,
+          47.9852227
+        ]
+      },
+      "properties": {
+        "name": "Omas K\u00fcche ",
+        "item_id": "1041400",
+        "time": "2026-07-30T12:42:11+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.848594,
+          47.9931216
+        ]
+      },
+      "properties": {
+        "name": "Fili Caf\u00e9",
+        "item_id": "744524",
+        "time": "2026-07-30T17:01:23+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8488016,
+          47.9948601
+        ]
+      },
+      "properties": {
+        "name": "Caf\u00e9 Journal",
+        "item_id": "22045",
+        "time": "2026-08-03T16:39:10+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-08-04T16:32:53+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8534911,
+          47.9939512
+        ]
+      },
+      "properties": {
+        "name": "1001macarons GmbH",
+        "item_id": "1240827",
+        "time": "2026-08-05T16:20:58+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0976538,
+          57.1444731
+        ]
+      },
+      "properties": {
+        "name": "Leonardo Hotel Aberdeen",
+        "item_id": "1165773",
+        "time": "2026-08-10T08:43:29+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2095453,
+          55.9438546
+        ]
+      },
+      "properties": {
+        "name": "Mercure Edinburgh Haymarket Hotel",
+        "item_id": "20535222385899328",
+        "time": "2026-08-12T09:56:47+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2053609,
+          55.9459855
+        ]
+      },
+      "properties": {
+        "name": "FreshMex",
+        "item_id": "689023",
+        "time": "2026-08-12T10:09:44+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2053609,
+          55.9459855
+        ]
+      },
+      "properties": {
+        "name": "FreshMex",
+        "item_id": "1832753",
+        "time": "2026-08-12T10:09:57+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.20955,
+          55.9609447
+        ]
+      },
+      "properties": {
+        "name": "Cafe at Glenogle ",
+        "item_id": "22889758969564736",
+        "time": "2026-08-13T12:22:03+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.188492,
+          55.9563259
+        ]
+      },
+      "properties": {
+        "name": "Hotel Indigo - York Place ",
+        "item_id": "113597796052398592",
+        "time": "2026-08-13T12:49:51+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1247128,
+          51.5345202
+        ]
+      },
+      "properties": {
+        "name": "The After School Cookie Club",
+        "item_id": "97609049694638912",
+        "time": "2026-08-16T10:41:47+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-08-17T16:30:43+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-08-21T18:13:00+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.853222,
+          47.9986047
+        ]
+      },
+      "properties": {
+        "name": "Mibo sushi",
+        "item_id": "118845874197258592",
+        "time": "2026-08-21T20:01:32+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8484919,
+          47.9943825
+        ]
+      },
+      "properties": {
+        "name": "mamahe",
+        "item_id": "846302",
+        "time": "2026-08-22T17:05:21+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4442694,
+          47.0669796
+        ]
+      },
+      "properties": {
+        "name": "Panda Asia Markt",
+        "item_id": "249226815941604288",
+        "time": "2026-08-28T16:53:38+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4395299,
+          47.0676942
+        ]
+      },
+      "properties": {
+        "name": "Cafe Bar eleven Restaurant",
+        "item_id": "108892566574270176",
+        "time": "2026-08-28T19:21:57+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-09-09T18:30:15+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8541318,
+          47.9831457
+        ]
+      },
+      "properties": {
+        "name": "L\u00e4ckerei ",
+        "item_id": "173856070235952352",
+        "time": "2026-09-11T10:32:21+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8496743,
+          47.9954551
+        ]
+      },
+      "properties": {
+        "name": "Hotel am Rathaus",
+        "item_id": "154750950227082048",
+        "time": "2026-09-14T10:45:10+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8403394,
+          47.9911005
+        ]
+      },
+      "properties": {
+        "name": "Khatib & Verneau Catering",
+        "item_id": "232706887447966592",
+        "time": "2026-09-16T11:50:21+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8543139,
+          47.9876484
+        ]
+      },
+      "properties": {
+        "name": "B\u00e4ckerei Grossmann ",
+        "item_id": "54105061792560672",
+        "time": "2026-09-16T12:00:05+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-09-18T18:11:02+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4597757,
+          52.4945262
+        ]
+      },
+      "properties": {
+        "name": "Muca",
+        "item_id": "18149",
+        "time": "2026-09-21T15:54:09+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4158602,
+          52.5407146
+        ]
+      },
+      "properties": {
+        "name": "Feinkost Asmen",
+        "item_id": "123117392191665696",
+        "time": "2026-09-26T09:14:07+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3487897,
+          52.5244891
+        ]
+      },
+      "properties": {
+        "name": "Backshop Caf\u00e9 und Kiosk",
+        "item_id": "546439",
+        "time": "2026-09-26T20:58:04+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.35052,
+          52.48962
+        ]
+      },
+      "properties": {
+        "name": "Bizzy\u2018m Back",
+        "item_id": "83461021305694688",
+        "time": "2026-09-27T11:46:20+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8267205,
+          48.0054442
+        ]
+      },
+      "properties": {
+        "name": "Oishii Sushi und Grill",
+        "item_id": "56762",
+        "time": "2026-09-29T20:38:03+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-09-30T18:20:07+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8543139,
+          47.9876484
+        ]
+      },
+      "properties": {
+        "name": "B\u00e4ckerei Grossmann ",
+        "item_id": "54105061792560672",
+        "time": "2026-10-02T11:52:02+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8488016,
+          47.9948601
+        ]
+      },
+      "properties": {
+        "name": "Caf\u00e9 Journal",
+        "item_id": "22045",
+        "time": "2026-10-05T16:42:29+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-10-07T18:13:11+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-10-08T16:10:26+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.136962,
+          52.1901631
+        ]
+      },
+      "properties": {
+        "name": "Nines Global Buffet",
+        "item_id": "451771",
+        "time": "2026-10-11T14:16:20+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9586002,
+          50.9432159
+        ]
+      },
+      "properties": {
+        "name": "Segafredo ",
+        "item_id": "86608207055943968",
+        "time": "2026-10-14T10:43:20+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8541318,
+          47.9831457
+        ]
+      },
+      "properties": {
+        "name": "L\u00e4ckerei ",
+        "item_id": "173856070235952352",
+        "time": "2026-10-15T15:47:21+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8484633,
+          48.0001734
+        ]
+      },
+      "properties": {
+        "name": "Buon Caf\u00e9 & Backshop\u200c",
+        "item_id": "858797",
+        "time": "2026-10-16T14:36:54+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8484919,
+          47.9943825
+        ]
+      },
+      "properties": {
+        "name": "mamahe",
+        "item_id": "846302",
+        "time": "2026-10-19T15:20:57+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8448649,
+          47.9958139
+        ]
+      },
+      "properties": {
+        "name": "backWERK",
+        "item_id": "795113",
+        "time": "2026-10-19T18:08:37+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8496743,
+          47.9954551
+        ]
+      },
+      "properties": {
+        "name": "Hotel am Rathaus",
+        "item_id": "154750950227082048",
+        "time": "2026-10-20T10:32:14+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8484633,
+          48.0001734
+        ]
+      },
+      "properties": {
+        "name": "Buon Caf\u00e9 & Backshop\u200c",
+        "item_id": "858797",
+        "time": "2026-10-26T16:00:19+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8455732,
+          47.991008
+        ]
+      },
+      "properties": {
+        "name": "Back- und Stehcaf\u00e9 Kronenhaus",
+        "item_id": "1131596",
+        "time": "2026-10-26T17:15:27+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8119468,
+          47.9980178
+        ]
+      },
+      "properties": {
+        "name": "BM Beirut Markt",
+        "item_id": "275100786162069952",
+        "time": "2026-10-27T18:09:41+00:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -7434,6 +9159,466 @@
           [
             9.1992633,
             45.4824623
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8484919,
+            47.9943825
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            3.0773768,
+            45.7731162
+          ],
+          [
+            2.3408613,
+            48.8680623
+          ],
+          [
+            2.346624,
+            48.8690998
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            4.3180744,
+            52.0764252
+          ],
+          [
+            4.314058,
+            52.075898
+          ],
+          [
+            6.9586017,
+            50.9432141
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8496743,
+            47.9954551
+          ],
+          [
+            7.8414333,
+            47.9973495
+          ],
+          [
+            7.8491267,
+            47.9937222
+          ],
+          [
+            7.8541318,
+            47.9831457
+          ],
+          [
+            7.8617574,
+            48.0120026
+          ],
+          [
+            7.8505397,
+            47.9969823
+          ],
+          [
+            7.8537037,
+            47.9852227
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8403394,
+            47.9911005
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            7.8529823,
+            47.9959259
+          ],
+          [
+            7.8543139,
+            47.9876484
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            7.8387866,
+            48.0006514
+          ],
+          [
+            7.853222,
+            47.9986047
+          ],
+          [
+            7.8496743,
+            47.9954551
+          ],
+          [
+            7.8469613,
+            47.9846858
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            7.8484919,
+            47.9943825
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            -0.1102817,
+            51.5215474
+          ],
+          [
+            -0.1114879,
+            51.5181496
+          ],
+          [
+            -1.8926119,
+            52.4787219
+          ],
+          [
+            -1.2649757,
+            51.7592459
+          ],
+          [
+            -1.257008,
+            51.7523237
+          ],
+          [
+            -0.1882105,
+            51.4954833
+          ],
+          [
+            2.3512933,
+            48.8751241
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.853222,
+            47.9986047
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8496743,
+            47.9954551
+          ],
+          [
+            7.8505397,
+            47.9969823
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            7.8541318,
+            47.9831457
+          ],
+          [
+            7.8430481,
+            48.0016165
+          ],
+          [
+            7.8511138,
+            47.9930854
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8414333,
+            47.9973495
+          ],
+          [
+            7.8496743,
+            47.9954551
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8543139,
+            47.9876484
+          ],
+          [
+            7.8537037,
+            47.9852227
+          ],
+          [
+            7.8537037,
+            47.9852227
+          ],
+          [
+            7.848594,
+            47.9931216
+          ],
+          [
+            7.8488016,
+            47.9948601
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8534911,
+            47.9939512
+          ],
+          [
+            -2.0976538,
+            57.1444731
+          ],
+          [
+            -3.2095453,
+            55.9438546
+          ],
+          [
+            -3.2053609,
+            55.9459855
+          ],
+          [
+            -3.2053609,
+            55.9459855
+          ],
+          [
+            -3.20955,
+            55.9609447
+          ],
+          [
+            -3.188492,
+            55.9563259
+          ],
+          [
+            -0.1247128,
+            51.5345202
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.853222,
+            47.9986047
+          ],
+          [
+            7.8484919,
+            47.9943825
+          ],
+          [
+            15.4442694,
+            47.0669796
+          ],
+          [
+            15.4395299,
+            47.0676942
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8541318,
+            47.9831457
+          ],
+          [
+            7.8496743,
+            47.9954551
+          ],
+          [
+            7.8403394,
+            47.9911005
+          ],
+          [
+            7.8543139,
+            47.9876484
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            13.4597757,
+            52.4945262
+          ],
+          [
+            13.4158602,
+            52.5407146
+          ],
+          [
+            13.3487897,
+            52.5244891
+          ],
+          [
+            13.35052,
+            52.48962
+          ],
+          [
+            7.8267205,
+            48.0054442
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8543139,
+            47.9876484
+          ],
+          [
+            7.8488016,
+            47.9948601
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            0.136962,
+            52.1901631
+          ],
+          [
+            6.9586002,
+            50.9432159
+          ],
+          [
+            7.8541318,
+            47.9831457
+          ],
+          [
+            7.8484633,
+            48.0001734
+          ],
+          [
+            7.8484919,
+            47.9943825
+          ],
+          [
+            7.8448649,
+            47.9958139
+          ],
+          [
+            7.8496743,
+            47.9954551
+          ],
+          [
+            7.8484633,
+            48.0001734
+          ],
+          [
+            7.8455732,
+            47.991008
+          ],
+          [
+            7.8119468,
+            47.9980178
           ]
         ]
       },
