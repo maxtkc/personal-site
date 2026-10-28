@@ -1,0 +1,14 @@
+<script>
+(function () {
+  function injectLink(href, id) {
+    if (document.getElementById(id)) return;
+    var link = document.createElement('link');
+    link.rel = 'stylesheet'; link.href = href; link.id = id;
+    document.head.appendChild(link);
+  }
+  injectLink('https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css', 'maplibre-css');
+  injectLink('/strava-map.css', 'strava-map-css');
+})();
+</script>
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js" crossorigin=""></script>
+<script src="/strava-map.js"></script>

@@ -16,117 +16,61 @@
 
 {{ section.content | safe }}
 
-<!-- Routes map — loaded client-side from static/strava/routes.geojson -->
-{% include "partials/leaflet_deps.html" %}
+<!-- Routes map, loaded client-side from static/strava/routes.geojson -->
+{% include "partials/maplibre_deps.html" %}
 
-<style>
-  #strava-routes-map .leaflet-tile { border-radius: 0 !important; }
-  #strava-routes-map .leaflet-overlay-pane svg path { transition: stroke-width var(--transition-longer); }
-
-  #strava-routes-map.loading::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 500;
-    background: linear-gradient(110deg,
-      rgba(127,127,127,0.08) 25%,
-      rgba(127,127,127,0.22) 50%,
-      rgba(127,127,127,0.08) 75%);
-    background-size: 200% 100%;
-    animation: strava-map-shimmer 1.3s linear infinite;
-    pointer-events: none;
-  }
-  @keyframes strava-map-shimmer {
-    0%   { background-position: 100% 0; }
-    100% { background-position: -100% 0; }
-  }
-
-  #strava-hover-panel {
-    position: absolute;
-    bottom: 24px;
-    right: 10px;
-    z-index: 1000;
-    width: 240px;
-    background: var(--glass-bg, rgba(0,0,0,0.75));
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.35);
-    border: 1px solid rgba(255,255,255,0.08);
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.15s ease;
-    color: var(--fg-color, #eee);
-    font-family: var(--font-system-ui, sans-serif);
-    font-size: 0.85rem;
-    line-height: 1.4;
-  }
-  #strava-hover-panel.visible { opacity: 1; }
-  #strava-hover-panel img {
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
-    display: block;
-  }
-  #strava-hover-panel-body { padding: 8px 12px 10px; }
-  #strava-hover-panel-name { font-weight: bold; margin-bottom: 4px; }
-  #strava-hover-panel-stats { font-size: 0.78rem; opacity: 0.8; }
-</style>
-<div style="position:relative;height:500px;width:100%;border-radius:8px;margin:1rem 0 2rem;overflow:hidden;">
-  <div id="strava-routes-map" class="loading" style="height:100%;width:100%;"></div>
-  <div id="strava-hover-panel">
+<div id="strava-legend" class="strava-legend" role="group" aria-label="Filter routes by sport"></div>
+<div class="strava-map-box loading" style="height:520px;margin-bottom:2rem;">
+  <div id="strava-routes-map" class="strava-map-gl"></div>
+  <div id="strava-hover-panel" class="strava-hover-panel">
     <img id="strava-hover-panel-img" src="" alt="" style="display:none;">
-    <div id="strava-hover-panel-body">
-      <div id="strava-hover-panel-name"></div>
-      <div id="strava-hover-panel-stats"></div>
+    <div class="strava-hover-panel-body">
+      <div id="strava-hover-panel-name" class="strava-hover-panel-name"></div>
+      <div id="strava-hover-panel-meta" class="strava-hover-panel-meta"></div>
+      <div id="strava-hover-panel-stats" class="strava-hover-panel-stats"></div>
     </div>
   </div>
 </div>
 
+{% raw %}
 <script>
 (function () {
-  function sportHue(sportType) {
-    var h = 5381;
-    for (var i = 0; i < sportType.length; i++) {
-      h = ((h << 5) + h + sportType.charCodeAt(i)) & 0x7FFFFFFF;
-    }
-    return h % 360;
-  }
+  const SM = StravaMap;
+  const emptyFC = { type: 'FeatureCollection', features: [] };
 
-  function sportColor(sportType) {
-    return 'hsl(' + sportHue(sportType) + ',70%,60%)';
-  }
+  const panel      = document.getElementById('strava-hover-panel');
+  const panelImg   = document.getElementById('strava-hover-panel-img');
+  const panelName  = document.getElementById('strava-hover-panel-name');
+  const panelMeta  = document.getElementById('strava-hover-panel-meta');
+  const panelStats = document.getElementById('strava-hover-panel-stats');
 
-  function sportCasingColor(sportType) {
-    return 'hsl(' + sportHue(sportType) + ',70%,33%)';
-  }
+  let mapTheme = 'dark';
 
-  var panel = document.getElementById('strava-hover-panel');
-  var panelImg = document.getElementById('strava-hover-panel-img');
-  var panelName = document.getElementById('strava-hover-panel-name');
-  var panelStats = document.getElementById('strava-hover-panel-stats');
+  function catColor(cat) {
+    const c = SM.CATEGORIES.find(x => x.id === cat) || SM.CATEGORIES[SM.CATEGORIES.length - 1];
+    return c[mapTheme];
+  }
 
   function showPanel(p) {
     if (p.banner_url) {
-      // Hide until the new image is decoded to avoid flashing the previous route's photo.
-      panelImg.style.visibility = 'hidden';
+      // Hide until the new image loads to avoid flashing the previous route's photo
       panelImg.style.display = 'block';
-      if (panelImg.src !== p.banner_url) {
-        panelImg.onload = function () { panelImg.style.visibility = 'visible'; };
+      if (panelImg.getAttribute('src') !== p.banner_url) {
+        panelImg.style.visibility = 'hidden';
+        panelImg.onload = () => { panelImg.style.visibility = 'visible'; };
         panelImg.src = p.banner_url;
-      } else {
-        panelImg.style.visibility = 'visible';
       }
     } else {
       panelImg.style.display = 'none';
     }
     panelName.textContent = p.name;
-    var stats = '';
-    if (p.distance)    stats += p.distance + '\u2003';
-    if (p.moving_time) stats += p.moving_time + '\u2003';
-    if (p.elevation)   stats += '\u2197\u202f' + p.elevation;
-    panelStats.textContent = stats.trim();
+    panelMeta.innerHTML = '';
+    const sw = document.createElement('span');
+    sw.className = 'swatch';
+    sw.style.setProperty('--swatch', catColor(p.cat));
+    panelMeta.append(sw, (p.sport_type || '').replace(/([a-z])([A-Z])/g, '$1 $2') + (p.date ? ' - ' + p.date : ''));
+    panelStats.textContent = [p.distance, p.moving_time, p.elevation ? '↗ ' + p.elevation : '']
+      .filter(Boolean).join(' ');
     panel.classList.add('visible');
   }
 
@@ -135,89 +79,127 @@
   }
 
   function init(routeData) {
-    document.getElementById('strava-routes-map').classList.remove('loading');
-    // preferCanvas avoids the SVG-precision drift that offsets routes at low zoom
-    // when many long paths share one transform, and is faster with this many features.
-    var map = L.map('strava-routes-map', { zoomControl: true, preferCanvas: true });
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri',
-      maxZoom: 19
-    }).addTo(map);
+    const el = document.getElementById('strava-routes-map');
+    routeData.features.forEach((f, i) => {
+      f.properties.cat = SM.categoryOf(f.properties.sport_type || '');
+      f.properties.idx = i;
+    });
 
-    var allLayers = L.featureGroup();
-    var realLayers = {};
-    var casingLayers = {};
+    // Legend with per-category counts; toggling a chip filters the map
+    const counts = {};
+    routeData.features.forEach(f => { counts[f.properties.cat] = (counts[f.properties.cat] || 0) + 1; });
+    const active = new Set(SM.CATEGORIES.filter(c => counts[c.id]).map(c => c.id));
+    const legend = document.getElementById('strava-legend');
+    SM.CATEGORIES.filter(c => counts[c.id]).forEach(c => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.setAttribute('aria-pressed', 'true');
+      btn.title = c.types.join(', ') || 'Everything else';
+      btn.innerHTML = '<span class="swatch"></span><span></span><span class="count"></span>';
+      btn.dataset.cat = c.id;
+      btn.children[1].textContent = c.label;
+      btn.children[2].textContent = counts[c.id];
+      btn.addEventListener('click', () => {
+        if (active.has(c.id)) active.delete(c.id); else active.add(c.id);
+        btn.setAttribute('aria-pressed', String(active.has(c.id)));
+        applyFilter();
+      });
+      legend.appendChild(btn);
+    });
 
-    // Casing layer (darker, wider) painted underneath the colored route lines
-    L.geoJSON(routeData, {
-      style: function (feature) {
-        return {
-          color: sportCasingColor(feature.properties.sport_type || ''),
-          weight: 6,
-          opacity: 1,
-          interactive: false
-        };
-      },
-      onEachFeature: function (feature, layer) {
-        casingLayers[feature.properties.name] = layer;
-      }
-    }).addTo(map);
+    let hovered = null;
 
-    // Visible route layer
-    L.geoJSON(routeData, {
-      style: function (feature) {
-        return {
-          color: sportColor(feature.properties.sport_type || ''),
-          weight: 3,
-          opacity: 1,
-          interactive: false
-        };
-      },
-      onEachFeature: function (feature, layer) {
-        var key = feature.properties.name;
-        realLayers[key] = layer;
-        allLayers.addLayer(layer);
-      }
-    }).addTo(map);
+    const map = SM.createMap(el, {
+      bounds: SM.boundsOf(routeData),
+      fitBoundsOptions: { padding: 30 },
+    }, theme => {
+      mapTheme = theme;
+      legend.querySelectorAll('button').forEach(b => {
+        b.querySelector('.swatch').style.setProperty('--swatch', catColor(b.dataset.cat));
+      });
+      el.parentElement.classList.remove('loading');
+      map.addSource('routes', { type: 'geojson', data: routeData });
+      map.addSource('highlight', { type: 'geojson', data: emptyFC });
+      const lineLayout = { 'line-cap': 'round', 'line-join': 'round' };
+      const width = (lo, hi) => ['interpolate', ['linear'], ['zoom'], 2, lo, 12, hi];
 
-    // Wide invisible ghost layer for lenient hit detection
-    L.geoJSON(routeData, {
-      style: function () {
-        return { weight: 20, opacity: 0, fillOpacity: 0 };
-      },
-      onEachFeature: function (feature, ghost) {
-        var p = feature.properties;
-        var key = p.name;
+      map.addLayer({
+        id: 'routes-casing', type: 'line', source: 'routes', layout: lineLayout,
+        paint: { 'line-color': SM.casingColor(theme), 'line-width': width(2.5, 6), 'line-opacity': 0.8 },
+      });
+      map.addLayer({
+        id: 'routes', type: 'line', source: 'routes', layout: lineLayout,
+        paint: { 'line-color': SM.colorExpr(theme), 'line-width': width(1.2, 3), 'line-opacity': 0.9 },
+      });
+      // Wide transparent line for lenient hit detection
+      map.addLayer({
+        id: 'routes-hit', type: 'line', source: 'routes', layout: lineLayout,
+        paint: { 'line-color': '#000', 'line-width': 16, 'line-opacity': 0 },
+      });
+      map.addLayer({
+        id: 'highlight-casing', type: 'line', source: 'highlight', layout: lineLayout,
+        paint: { 'line-color': SM.casingColor(theme), 'line-width': width(5, 10) },
+      });
+      map.addLayer({
+        id: 'highlight', type: 'line', source: 'highlight', layout: lineLayout,
+        paint: { 'line-color': SM.colorExpr(theme), 'line-width': width(3, 5.5) },
+      });
 
-        ghost.on('mouseover', function () {
-          var real = realLayers[key];
-          var casing = casingLayers[key];
-          if (real) real.setStyle({ weight: 5 });
-          if (casing) casing.setStyle({ weight: 9 });
-          showPanel(p);
-        });
-        ghost.on('mouseout', function () {
-          var real = realLayers[key];
-          var casing = casingLayers[key];
-          if (real) real.setStyle({ weight: 3 });
-          if (casing) casing.setStyle({ weight: 6 });
-          hidePanel();
-        });
-        ghost.on('click', function () { window.location.href = p.url; });
-      }
-    }).addTo(map);
+      applyFilter();
+      if (hovered) { setHighlight(hovered); showPanel(hovered.properties); }
+    });
 
-    if (allLayers.getLayers().length > 0) {
-      map.fitBounds(allLayers.getBounds(), { padding: [20, 20] });
-    } else {
-      map.setView([20, 0], 2);
+    function applyFilter() {
+      if (!map.getLayer('routes')) return;
+      const f = ['in', ['get', 'cat'], ['literal', Array.from(active)]];
+      ['routes-casing', 'routes', 'routes-hit'].forEach(id => map.setFilter(id, f));
+      if (hovered && !active.has(hovered.properties.cat)) clearHover();
     }
 
-    // Warm the browser cache for hover thumbnails so the panel image appears instantly.
-    var preloadIdle = window.requestIdleCallback || function (cb) { return setTimeout(cb, 0); };
-    preloadIdle(function () {
-      (routeData.features || []).forEach(function (f) {
-        var u = f.properties && f.properties.banner_url;
+    function setHighlight(feature) {
+      const src = map.getSource('highlight');
+      if (src) src.setData(feature ? routeData.features[feature.properties.idx] : emptyFC);
+    }
+
+    function setHover(feature) {
+      if (hovered && hovered.properties.idx === feature.properties.idx) return;
+      hovered = feature;
+      setHighlight(feature);
+      showPanel(feature.properties);
+    }
+
+    function clearHover() {
+      hovered = null;
+      setHighlight(null);
+      hidePanel();
+    }
+
+    map.on('mousemove', 'routes-hit', e => {
+      map.getCanvas().style.cursor = 'pointer';
+      setHover(e.features[0]);
+    });
+    map.on('mouseleave', 'routes-hit', () => {
+      map.getCanvas().style.cursor = '';
+      clearHover();
+    });
+    // On touch, the first tap previews a route and a second tap opens it
+    map.on('click', 'routes-hit', e => {
+      const f = e.features[0];
+      if (hovered && hovered.properties.idx === f.properties.idx) {
+        window.location.href = f.properties.url;
+      } else {
+        setHover(f);
+      }
+    });
+    map.on('click', e => {
+      if (!map.queryRenderedFeatures(e.point, { layers: ['routes-hit'] }).length) clearHover();
+    });
+
+    // Warm the browser cache for hover thumbnails so the panel image appears instantly
+    const preloadIdle = window.requestIdleCallback || (cb => setTimeout(cb, 0));
+    preloadIdle(() => {
+      routeData.features.forEach(f => {
+        const u = f.properties.banner_url;
         if (u) (new Image()).src = u;
       });
     });
@@ -225,7 +207,7 @@
 
   function loadAndInit() {
     fetch('/strava/routes.geojson')
-      .then(function (r) { return r.json(); })
+      .then(r => r.json())
       .then(init);
   }
 
@@ -236,6 +218,7 @@
   }
 })();
 </script>
+{% endraw %}
 
 <p>
 	<small>

@@ -1,23 +1,58 @@
-{% include "partials/leaflet_deps.html" %}
+{% include "partials/maplibre_deps.html" %}
 
-<style>#strava-map .leaflet-tile { border-radius: 0 !important; }</style>
-<div id="strava-map" style="height:400px;width:100%;border-radius:8px;margin:1rem 0;"></div>
+{%- set sport = "" -%}
+{%- if page.taxonomies.tags -%}{%- set sport = page.taxonomies.tags | first -%}{%- endif %}
+<div class="strava-map-box loading" style="height:420px;">
+  <div id="strava-map" class="strava-map-gl" data-sport="{{ sport }}"></div>
+</div>
 
+{% raw %}
 <script>
 (function () {
   function init() {
-    var map = L.map('strava-map', { zoomControl: true });
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri',
-      maxZoom: 19
-    }).addTo(map);
+    const el = document.getElementById('strava-map');
+    const cat = StravaMap.categoryOf(el.dataset.sport || '');
 
     fetch('./route.geojson')
-      .then(function (r) { return r.json(); })
-      .then(function (data) {
-        L.geoJSON(data, { style: { color: '#14532d', weight: 6, opacity: 1 } }).addTo(map);
-        var routeLayer = L.geoJSON(data, { style: { color: '#22c55e', weight: 3, opacity: 1 } }).addTo(map);
-        map.fitBounds(routeLayer.getBounds(), { padding: [20, 20] });
+      .then(r => r.json())
+      .then(data => {
+        data.features.forEach(f => { f.properties = Object.assign({}, f.properties, { cat }); });
+        const line = data.features[0] && data.features[0].geometry.coordinates;
+        const ends = {
+          type: 'FeatureCollection',
+          features: line && line.length > 1 ? [
+            { type: 'Feature', properties: { end: 0 }, geometry: { type: 'Point', coordinates: line[0] } },
+            { type: 'Feature', properties: { end: 1 }, geometry: { type: 'Point', coordinates: line[line.length - 1] } },
+          ] : [],
+        };
+
+        const map = StravaMap.createMap(el, {
+          bounds: StravaMap.boundsOf(data),
+          fitBoundsOptions: { padding: 30 },
+        }, theme => {
+          el.parentElement.classList.remove('loading');
+          map.addSource('route', { type: 'geojson', data });
+          map.addSource('ends', { type: 'geojson', data: ends });
+          map.addLayer({
+            id: 'route-casing', type: 'line', source: 'route',
+            layout: { 'line-cap': 'round', 'line-join': 'round' },
+            paint: { 'line-color': StravaMap.casingColor(theme), 'line-width': 7 },
+          });
+          map.addLayer({
+            id: 'route', type: 'line', source: 'route',
+            layout: { 'line-cap': 'round', 'line-join': 'round' },
+            paint: { 'line-color': StravaMap.colorExpr(theme), 'line-width': 3.5 },
+          });
+          map.addLayer({
+            id: 'ends', type: 'circle', source: 'ends',
+            paint: {
+              'circle-radius': 5,
+              'circle-color': ['match', ['get', 'end'], 0, '#22c55e', '#ef4444'],
+              'circle-stroke-width': 2,
+              'circle-stroke-color': StravaMap.casingColor(theme),
+            },
+          });
+        });
       });
   }
 
@@ -28,3 +63,4 @@
   }
 })();
 </script>
+{% endraw %}
