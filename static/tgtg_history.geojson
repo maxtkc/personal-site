@@ -13,7 +13,8 @@
       "properties": {
         "name": "Area Four",
         "item_id": "230230",
-        "time": "2020-11-06T19:00:00+00:00"
+        "time": "2020-11-06T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2067e765-5fe4-4b55-8667-282b58ed9a5e.jpg"
       }
     },
     {
@@ -28,7 +29,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2020-11-07T03:00:00+00:00"
+        "time": "2020-11-07T03:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -43,7 +45,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2020-11-07T03:00:00+00:00"
+        "time": "2020-11-07T03:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -58,7 +61,8 @@
       "properties": {
         "name": "Harvard Market",
         "item_id": "235420",
-        "time": "2020-11-07T15:00:00+00:00"
+        "time": "2020-11-07T15:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/cd7da039-3796-45b6-8bc1-99320c7feadc.png"
       }
     },
     {
@@ -73,7 +77,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2020-11-11T02:00:00+00:00"
+        "time": "2020-11-11T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -88,7 +93,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2020-11-12T18:15:00+00:00"
+        "time": "2020-11-12T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -103,7 +109,8 @@
       "properties": {
         "name": "Aceituna Grill",
         "item_id": "236290",
-        "time": "2020-11-13T00:15:00+00:00"
+        "time": "2020-11-13T00:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/75e6daef-57df-4fad-b6ce-be4d04decef1.png"
       }
     },
     {
@@ -118,7 +125,8 @@
       "properties": {
         "name": "Beantown Taqueria",
         "item_id": "231300",
-        "time": "2020-11-13T19:00:00+00:00"
+        "time": "2020-11-13T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d41db82f-cd8a-41b9-a0a0-c38d57a91265.png"
       }
     },
     {
@@ -133,7 +141,8 @@
       "properties": {
         "name": "Shawarma Falafel",
         "item_id": "235316",
-        "time": "2020-11-14T20:00:00+00:00"
+        "time": "2020-11-14T20:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/eeb07b4d-0741-4318-a84a-6b9539eb50ee.png"
       }
     },
     {
@@ -148,7 +157,8 @@
       "properties": {
         "name": "Red Apple Farm @ Boston Public Market",
         "item_id": "230540",
-        "time": "2020-11-14T21:00:00+00:00"
+        "time": "2020-11-14T21:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1e24129b-f0c4-436c-95c2-7a997c09680f.png"
       }
     },
     {
@@ -163,7 +173,8 @@
       "properties": {
         "name": "Alfredo's Italian Kitchen Cambridge",
         "item_id": "231463",
-        "time": "2020-11-15T03:00:00+00:00"
+        "time": "2020-11-15T03:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/02a357f0-41fa-4720-a3d7-ddbc203fb69e.png"
       }
     },
     {
@@ -178,7 +189,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2020-11-16T18:15:00+00:00"
+        "time": "2020-11-16T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -193,7 +205,8 @@
       "properties": {
         "name": "Pacific Street Cafe",
         "item_id": "230752",
-        "time": "2020-11-16T22:00:00+00:00"
+        "time": "2020-11-16T22:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/e12c054a-ba61-4805-9b71-ac1301c24abd.png"
       }
     },
     {
@@ -208,7 +221,8 @@
       "properties": {
         "name": "Pacific Street Cafe",
         "item_id": "230752",
-        "time": "2020-11-18T22:00:00+00:00"
+        "time": "2020-11-18T22:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/e12c054a-ba61-4805-9b71-ac1301c24abd.png"
       }
     },
     {
@@ -223,7 +237,8 @@
       "properties": {
         "name": "Aceituna Grill",
         "item_id": "236290",
-        "time": "2020-11-19T00:15:00+00:00"
+        "time": "2020-11-19T00:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/75e6daef-57df-4fad-b6ce-be4d04decef1.png"
       }
     },
     {
@@ -238,7 +253,8 @@
       "properties": {
         "name": "Beantown Taqueria",
         "item_id": "231300",
-        "time": "2020-11-19T19:00:00+00:00"
+        "time": "2020-11-19T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d41db82f-cd8a-41b9-a0a0-c38d57a91265.png"
       }
     },
     {
@@ -253,7 +269,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2020-11-23T18:15:00+00:00"
+        "time": "2020-11-23T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -268,7 +285,8 @@
       "properties": {
         "name": "Pacific Street Cafe",
         "item_id": "230752",
-        "time": "2020-11-23T22:00:00+00:00"
+        "time": "2020-11-23T22:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/e12c054a-ba61-4805-9b71-ac1301c24abd.png"
       }
     },
     {
@@ -283,7 +301,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2020-11-30T18:15:00+00:00"
+        "time": "2020-11-30T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -298,7 +317,8 @@
       "properties": {
         "name": "Beantown Taqueria Cafe",
         "item_id": "236122",
-        "time": "2020-12-02T01:00:00+00:00"
+        "time": "2020-12-02T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/04281d95-773d-4d3f-9b05-eacf6273e63c.png"
       }
     },
     {
@@ -313,7 +333,8 @@
       "properties": {
         "name": "Newtowne Grille",
         "item_id": "231893",
-        "time": "2020-12-02T01:30:00+00:00"
+        "time": "2020-12-02T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/604594ec-2184-4940-adf4-8a0ddbb92bf3.png"
       }
     },
     {
@@ -328,7 +349,8 @@
       "properties": {
         "name": "Mr. Crepe",
         "item_id": "235484",
-        "time": "2020-12-02T01:30:00+00:00"
+        "time": "2020-12-02T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/37ff928d-75a9-4fd8-aae5-ecf52b043f0f.png"
       }
     },
     {
@@ -343,7 +365,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2020-12-04T18:15:00+00:00"
+        "time": "2020-12-04T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -358,7 +381,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2020-12-09T18:15:00+00:00"
+        "time": "2020-12-09T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -373,7 +397,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2020-12-16T18:15:00+00:00"
+        "time": "2020-12-16T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -388,7 +413,8 @@
       "properties": {
         "name": "Beantown Taqueria",
         "item_id": "231300",
-        "time": "2020-12-17T19:00:00+00:00"
+        "time": "2020-12-17T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d41db82f-cd8a-41b9-a0a0-c38d57a91265.png"
       }
     },
     {
@@ -403,7 +429,8 @@
       "properties": {
         "name": "Area Four",
         "item_id": "230230",
-        "time": "2020-12-17T19:00:00+00:00"
+        "time": "2020-12-17T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2067e765-5fe4-4b55-8667-282b58ed9a5e.jpg"
       }
     },
     {
@@ -418,7 +445,8 @@
       "properties": {
         "name": "All Star Sandwich Bar",
         "item_id": "236974",
-        "time": "2020-12-18T01:00:00+00:00"
+        "time": "2020-12-18T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/108b2acc-8187-4ecc-81c1-98a02f587c0b.jpg"
       }
     },
     {
@@ -433,7 +461,8 @@
       "properties": {
         "name": "Broadway Marketplace",
         "item_id": "236961",
-        "time": "2020-12-19T15:00:00+00:00"
+        "time": "2020-12-19T15:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c5a4f19d-8791-49bc-b9e2-4f82d136bb89.png"
       }
     },
     {
@@ -448,7 +477,8 @@
       "properties": {
         "name": "Pemberton Farms",
         "item_id": "231456",
-        "time": "2020-12-20T16:00:00+00:00"
+        "time": "2020-12-20T16:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/16a947a1-113e-4d31-a608-c62548c99ccd.png"
       }
     },
     {
@@ -463,7 +493,8 @@
       "properties": {
         "name": "Gauchao Brazilian Cuisine",
         "item_id": "232092",
-        "time": "2021-01-04T01:45:00+00:00"
+        "time": "2021-01-04T01:45:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/29578216-08f1-4f21-bc87-fc2187811f9e.jpg"
       }
     },
     {
@@ -478,7 +509,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2021-01-07T18:15:00+00:00"
+        "time": "2021-01-07T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -493,7 +525,8 @@
       "properties": {
         "name": "Ajeen",
         "item_id": "232194",
-        "time": "2021-01-08T03:00:00+00:00"
+        "time": "2021-01-08T03:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c3b19ed1-e9b5-4b12-9e18-717cf515f1cb.jpg"
       }
     },
     {
@@ -508,7 +541,8 @@
       "properties": {
         "name": "Felcaro Pizza",
         "item_id": "236022",
-        "time": "2021-01-09T02:30:00+00:00"
+        "time": "2021-01-09T02:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/25106643-79ee-4fd0-b207-527dc4ef83e2.png"
       }
     },
     {
@@ -523,7 +557,8 @@
       "properties": {
         "name": "El Jefe's Taqueria - Boston Common",
         "item_id": "231552",
-        "time": "2021-01-10T04:00:00+00:00"
+        "time": "2021-01-10T04:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/501f8763-e56d-4e9e-bf78-9e41f77477e2.png"
       }
     },
     {
@@ -538,7 +573,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2021-01-14T18:15:00+00:00"
+        "time": "2021-01-14T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -553,7 +589,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2021-01-21T18:15:00+00:00"
+        "time": "2021-01-21T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -568,7 +605,8 @@
       "properties": {
         "name": "CAVA - Back Bay",
         "item_id": "237132",
-        "time": "2021-01-22T02:00:00+00:00"
+        "time": "2021-01-22T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2e2f4bb7-5ec5-418e-9e95-3a9a064eff53.png"
       }
     },
     {
@@ -583,7 +621,8 @@
       "properties": {
         "name": "Penguin Pizza",
         "item_id": "230534",
-        "time": "2021-01-22T02:15:00+00:00"
+        "time": "2021-01-22T02:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d5201135-b9d8-4d15-be55-cc3e421c3bb1.png"
       }
     },
     {
@@ -598,7 +637,8 @@
       "properties": {
         "name": "Oliveira's Deli Market",
         "item_id": "232257",
-        "time": "2021-01-24T19:30:00+00:00"
+        "time": "2021-01-24T19:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/89a8efea-fe15-41e7-bbe6-7368fc8a4e5e.jpg"
       }
     },
     {
@@ -613,7 +653,8 @@
       "properties": {
         "name": "Beantown Taqueria",
         "item_id": "231300",
-        "time": "2021-01-29T19:00:00+00:00"
+        "time": "2021-01-29T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d41db82f-cd8a-41b9-a0a0-c38d57a91265.png"
       }
     },
     {
@@ -628,7 +669,8 @@
       "properties": {
         "name": "Beantown Taqueria",
         "item_id": "231300",
-        "time": "2021-01-29T19:00:00+00:00"
+        "time": "2021-01-29T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d41db82f-cd8a-41b9-a0a0-c38d57a91265.png"
       }
     },
     {
@@ -643,7 +685,8 @@
       "properties": {
         "name": "La Fogata Colombiana",
         "item_id": "237464",
-        "time": "2021-01-30T00:00:00+00:00"
+        "time": "2021-01-30T00:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8bb49bb-c430-46f8-9cd1-745fcb808374.png"
       }
     },
     {
@@ -658,7 +701,8 @@
       "properties": {
         "name": "OTTO",
         "item_id": "237093",
-        "time": "2021-02-04T02:00:00+00:00"
+        "time": "2021-02-04T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/39a3f24d-6f71-4d88-80bc-33fb37017cc4.png"
       }
     },
     {
@@ -673,7 +717,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2021-02-04T18:15:00+00:00"
+        "time": "2021-02-04T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -688,7 +733,8 @@
       "properties": {
         "name": "CAVA - Back Bay",
         "item_id": "237132",
-        "time": "2021-02-05T02:00:00+00:00"
+        "time": "2021-02-05T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2e2f4bb7-5ec5-418e-9e95-3a9a064eff53.png"
       }
     },
     {
@@ -703,7 +749,8 @@
       "properties": {
         "name": "CAVA - Back Bay",
         "item_id": "237132",
-        "time": "2021-02-05T02:00:00+00:00"
+        "time": "2021-02-05T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2e2f4bb7-5ec5-418e-9e95-3a9a064eff53.png"
       }
     },
     {
@@ -718,7 +765,8 @@
       "properties": {
         "name": "Liam's Market",
         "item_id": "232736",
-        "time": "2021-02-06T18:00:00+00:00"
+        "time": "2021-02-06T18:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9bd4742f-b977-4ad7-a296-27d331844503.png"
       }
     },
     {
@@ -733,7 +781,8 @@
       "properties": {
         "name": "OTTO",
         "item_id": "237093",
-        "time": "2021-02-07T03:00:00+00:00"
+        "time": "2021-02-07T03:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/39a3f24d-6f71-4d88-80bc-33fb37017cc4.png"
       }
     },
     {
@@ -748,7 +797,8 @@
       "properties": {
         "name": "Pizzeria Dante",
         "item_id": "231091",
-        "time": "2021-02-07T03:00:00+00:00"
+        "time": "2021-02-07T03:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/0fcebeaa-92cf-4009-8f03-7c7d8e9ba5e2.png"
       }
     },
     {
@@ -763,7 +813,8 @@
       "properties": {
         "name": "OTTO",
         "item_id": "237093",
-        "time": "2021-02-10T02:00:00+00:00"
+        "time": "2021-02-10T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/39a3f24d-6f71-4d88-80bc-33fb37017cc4.png"
       }
     },
     {
@@ -778,7 +829,8 @@
       "properties": {
         "name": "OTTO",
         "item_id": "237093",
-        "time": "2021-02-10T02:00:00+00:00"
+        "time": "2021-02-10T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/39a3f24d-6f71-4d88-80bc-33fb37017cc4.png"
       }
     },
     {
@@ -793,7 +845,8 @@
       "properties": {
         "name": "CAVA - Back Bay",
         "item_id": "237132",
-        "time": "2021-02-18T02:00:00+00:00"
+        "time": "2021-02-18T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2e2f4bb7-5ec5-418e-9e95-3a9a064eff53.png"
       }
     },
     {
@@ -808,7 +861,8 @@
       "properties": {
         "name": "CAVA - Fenway",
         "item_id": "236831",
-        "time": "2021-02-18T02:00:00+00:00"
+        "time": "2021-02-18T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7def311b-ae96-412c-940a-c272a8c96c72.png"
       }
     },
     {
@@ -823,7 +877,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2021-02-20T03:30:00+00:00"
+        "time": "2021-02-20T03:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -838,7 +893,8 @@
       "properties": {
         "name": "Bonchon Cambridge",
         "item_id": "232114",
-        "time": "2021-02-25T02:30:00+00:00"
+        "time": "2021-02-25T02:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1fd878e5-cb92-41c4-af95-ab47ae3b179a.png"
       }
     },
     {
@@ -853,7 +909,8 @@
       "properties": {
         "name": "Discovery Cafe",
         "item_id": "237983",
-        "time": "2021-02-26T17:15:00+00:00"
+        "time": "2021-02-26T17:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7695027a-8ae5-4fbb-a252-a1d8f4886161.jpg"
       }
     },
     {
@@ -868,7 +925,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2021-02-26T18:15:00+00:00"
+        "time": "2021-02-26T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -883,7 +941,8 @@
       "properties": {
         "name": "Columbia Market",
         "item_id": "238123",
-        "time": "2021-03-11T18:00:00+00:00"
+        "time": "2021-03-11T18:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ed6e418d-2cba-4240-9dc1-d730f6d66516.png"
       }
     },
     {
@@ -898,7 +957,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2021-03-11T18:15:00+00:00"
+        "time": "2021-03-11T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -913,7 +973,8 @@
       "properties": {
         "name": "Mariposa Bakery",
         "item_id": "232231",
-        "time": "2021-03-12T16:00:00+00:00"
+        "time": "2021-03-12T16:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/95339145-e6a1-4d11-9163-38c8a94a5323.png"
       }
     },
     {
@@ -928,7 +989,8 @@
       "properties": {
         "name": "Brookline Lunch",
         "item_id": "238263",
-        "time": "2021-03-12T19:45:00+00:00"
+        "time": "2021-03-12T19:45:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3d5a1d4d-e6a5-42fb-bfe3-0bf38c1cb12f.png"
       }
     },
     {
@@ -943,7 +1005,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2021-03-13T02:00:00+00:00"
+        "time": "2021-03-13T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -958,7 +1021,8 @@
       "properties": {
         "name": "Area Four",
         "item_id": "230230",
-        "time": "2021-03-13T19:00:00+00:00"
+        "time": "2021-03-13T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2067e765-5fe4-4b55-8667-282b58ed9a5e.jpg"
       }
     },
     {
@@ -973,7 +1037,8 @@
       "properties": {
         "name": "All Star Pizza Bar",
         "item_id": "230811",
-        "time": "2021-03-16T00:00:00+00:00"
+        "time": "2021-03-16T00:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/58ef086e-1ba7-4f2f-bcf0-8feb6ac2c76c.jpg"
       }
     },
     {
@@ -988,7 +1053,8 @@
       "properties": {
         "name": "Bonchon Cambridge",
         "item_id": "232114",
-        "time": "2021-03-16T01:45:00+00:00"
+        "time": "2021-03-16T01:45:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1fd878e5-cb92-41c4-af95-ab47ae3b179a.png"
       }
     },
     {
@@ -1003,7 +1069,8 @@
       "properties": {
         "name": "Aceituna Grill",
         "item_id": "236290",
-        "time": "2021-03-16T22:00:00+00:00"
+        "time": "2021-03-16T22:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/75e6daef-57df-4fad-b6ce-be4d04decef1.png"
       }
     },
     {
@@ -1018,7 +1085,8 @@
       "properties": {
         "name": "Brookline Lunch",
         "item_id": "238263",
-        "time": "2021-03-17T18:45:00+00:00"
+        "time": "2021-03-17T18:45:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3d5a1d4d-e6a5-42fb-bfe3-0bf38c1cb12f.png"
       }
     },
     {
@@ -1033,7 +1101,8 @@
       "properties": {
         "name": "Area Four",
         "item_id": "230230",
-        "time": "2021-03-19T18:00:00+00:00"
+        "time": "2021-03-19T18:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2067e765-5fe4-4b55-8667-282b58ed9a5e.jpg"
       }
     },
     {
@@ -1048,7 +1117,8 @@
       "properties": {
         "name": "All Star Pizza Bar",
         "item_id": "230811",
-        "time": "2021-03-23T00:00:00+00:00"
+        "time": "2021-03-23T00:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/58ef086e-1ba7-4f2f-bcf0-8feb6ac2c76c.jpg"
       }
     },
     {
@@ -1063,7 +1133,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2021-03-25T01:00:00+00:00"
+        "time": "2021-03-25T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1078,7 +1149,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2021-03-26T01:00:00+00:00"
+        "time": "2021-03-26T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1093,7 +1165,8 @@
       "properties": {
         "name": "All Star Pizza Bar",
         "item_id": "230811",
-        "time": "2021-03-27T01:00:00+00:00"
+        "time": "2021-03-27T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/58ef086e-1ba7-4f2f-bcf0-8feb6ac2c76c.jpg"
       }
     },
     {
@@ -1108,7 +1181,8 @@
       "properties": {
         "name": "Aleppo Palace",
         "item_id": "233569",
-        "time": "2021-03-30T02:15:00+00:00"
+        "time": "2021-03-30T02:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b184f2c4-0c6a-4f6d-bf0a-bdd90d22ea05.png"
       }
     },
     {
@@ -1123,7 +1197,8 @@
       "properties": {
         "name": "Luigi's Variety",
         "item_id": "238434",
-        "time": "2021-03-30T19:00:00+00:00"
+        "time": "2021-03-30T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a025929f-1478-4080-ac04-1246db71055d.png"
       }
     },
     {
@@ -1138,7 +1213,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2021-03-31T01:00:00+00:00"
+        "time": "2021-03-31T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1153,7 +1229,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2021-04-01T01:00:00+00:00"
+        "time": "2021-04-01T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1168,7 +1245,8 @@
       "properties": {
         "name": "Area Four",
         "item_id": "230230",
-        "time": "2021-04-02T18:00:00+00:00"
+        "time": "2021-04-02T18:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2067e765-5fe4-4b55-8667-282b58ed9a5e.jpg"
       }
     },
     {
@@ -1183,7 +1261,8 @@
       "properties": {
         "name": "Brookline Lunch",
         "item_id": "238263",
-        "time": "2021-04-02T18:45:00+00:00"
+        "time": "2021-04-02T18:45:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3d5a1d4d-e6a5-42fb-bfe3-0bf38c1cb12f.png"
       }
     },
     {
@@ -1198,7 +1277,8 @@
       "properties": {
         "name": "Area Four",
         "item_id": "230230",
-        "time": "2021-04-03T18:00:00+00:00"
+        "time": "2021-04-03T18:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2067e765-5fe4-4b55-8667-282b58ed9a5e.jpg"
       }
     },
     {
@@ -1213,7 +1293,8 @@
       "properties": {
         "name": "Bonchon Cambridge",
         "item_id": "236842",
-        "time": "2021-04-07T02:00:00+00:00"
+        "time": "2021-04-07T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1fd878e5-cb92-41c4-af95-ab47ae3b179a.png"
       }
     },
     {
@@ -1228,7 +1309,8 @@
       "properties": {
         "name": "Mariposa Bakery",
         "item_id": "232231",
-        "time": "2021-04-08T15:00:00+00:00"
+        "time": "2021-04-08T15:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/95339145-e6a1-4d11-9163-38c8a94a5323.png"
       }
     },
     {
@@ -1243,7 +1325,8 @@
       "properties": {
         "name": "Area Four",
         "item_id": "230230",
-        "time": "2021-04-08T18:00:00+00:00"
+        "time": "2021-04-08T18:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2067e765-5fe4-4b55-8667-282b58ed9a5e.jpg"
       }
     },
     {
@@ -1258,7 +1341,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2021-04-13T01:00:00+00:00"
+        "time": "2021-04-13T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1273,7 +1357,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2021-04-23T17:15:00+00:00"
+        "time": "2021-04-23T17:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -1288,7 +1373,8 @@
       "properties": {
         "name": "All Star Pizza Bar",
         "item_id": "230811",
-        "time": "2021-04-24T01:00:00+00:00"
+        "time": "2021-04-24T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/58ef086e-1ba7-4f2f-bcf0-8feb6ac2c76c.jpg"
       }
     },
     {
@@ -1303,7 +1389,8 @@
       "properties": {
         "name": "Bonchon Cambridge",
         "item_id": "236842",
-        "time": "2021-04-24T20:30:00+00:00"
+        "time": "2021-04-24T20:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1fd878e5-cb92-41c4-af95-ab47ae3b179a.png"
       }
     },
     {
@@ -1318,7 +1405,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2021-04-27T01:00:00+00:00"
+        "time": "2021-04-27T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1333,7 +1421,8 @@
       "properties": {
         "name": "Savenors Market",
         "item_id": "238351",
-        "time": "2021-04-28T19:00:00+00:00"
+        "time": "2021-04-28T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9f3537bb-0c2b-425f-bd42-d73ca8a91cb1.png"
       }
     },
     {
@@ -1348,7 +1437,8 @@
       "properties": {
         "name": "Oggi Gourmet",
         "item_id": "233967",
-        "time": "2021-04-28T20:00:00+00:00"
+        "time": "2021-04-28T20:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f46c317d-57e4-428c-978b-96a998acf345.png"
       }
     },
     {
@@ -1363,7 +1453,8 @@
       "properties": {
         "name": "All Star Pizza Bar",
         "item_id": "230811",
-        "time": "2021-05-01T01:00:00+00:00"
+        "time": "2021-05-01T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/58ef086e-1ba7-4f2f-bcf0-8feb6ac2c76c.jpg"
       }
     },
     {
@@ -1378,7 +1469,8 @@
       "properties": {
         "name": "Bonchon Cambridge",
         "item_id": "236842",
-        "time": "2021-05-12T18:00:00+00:00"
+        "time": "2021-05-12T18:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1fd878e5-cb92-41c4-af95-ab47ae3b179a.png"
       }
     },
     {
@@ -1393,7 +1485,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2021-05-14T01:00:00+00:00"
+        "time": "2021-05-14T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1408,7 +1501,8 @@
       "properties": {
         "name": "West End Market",
         "item_id": "231230",
-        "time": "2021-05-20T23:00:00+00:00"
+        "time": "2021-05-20T23:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f1952f6c-ce11-4db3-98e6-e15ad734b626.png"
       }
     },
     {
@@ -1423,7 +1517,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2021-05-25T01:00:00+00:00"
+        "time": "2021-05-25T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1438,7 +1533,8 @@
       "properties": {
         "name": "Bonchon Cambridge",
         "item_id": "232114",
-        "time": "2021-05-29T01:00:00+00:00"
+        "time": "2021-05-29T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1fd878e5-cb92-41c4-af95-ab47ae3b179a.png"
       }
     },
     {
@@ -1453,7 +1549,8 @@
       "properties": {
         "name": "Gauchao Brazilian Cuisine",
         "item_id": "232092",
-        "time": "2021-06-03T01:00:00+00:00"
+        "time": "2021-06-03T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/29578216-08f1-4f21-bc87-fc2187811f9e.jpg"
       }
     },
     {
@@ -1468,7 +1565,8 @@
       "properties": {
         "name": "Alfredo's Italian Kitchen",
         "item_id": "237103",
-        "time": "2021-06-03T01:30:00+00:00"
+        "time": "2021-06-03T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bafa5ab2-98dd-4dc3-aad1-1b6a1d3bad7d.png"
       }
     },
     {
@@ -1483,7 +1581,8 @@
       "properties": {
         "name": "Garbanzo",
         "item_id": "237151",
-        "time": "2021-08-21T01:00:00+00:00"
+        "time": "2021-08-21T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/137c731a-2e30-46ca-9705-67433192fb47.png"
       }
     },
     {
@@ -1498,7 +1597,8 @@
       "properties": {
         "name": "CAVA - Back Bay",
         "item_id": "237132",
-        "time": "2021-08-22T01:00:00+00:00"
+        "time": "2021-08-22T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2e2f4bb7-5ec5-418e-9e95-3a9a064eff53.png"
       }
     },
     {
@@ -1513,7 +1613,8 @@
       "properties": {
         "name": "Finagle A Bagel ",
         "item_id": "375356",
-        "time": "2021-08-22T18:45:00+00:00"
+        "time": "2021-08-22T18:45:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b74508fb-458e-4ff7-9234-f3a677136c32.png"
       }
     },
     {
@@ -1528,7 +1629,8 @@
       "properties": {
         "name": "OTTO",
         "item_id": "231612",
-        "time": "2021-08-23T01:30:00+00:00"
+        "time": "2021-08-23T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/5f054686-4ef8-4a64-8731-d974991410ff.png"
       }
     },
     {
@@ -1543,7 +1645,8 @@
       "properties": {
         "name": "Pemberton Farms",
         "item_id": "231456",
-        "time": "2021-08-23T22:00:00+00:00"
+        "time": "2021-08-23T22:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/16a947a1-113e-4d31-a608-c62548c99ccd.png"
       }
     },
     {
@@ -1558,7 +1661,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2021-08-28T02:30:00+00:00"
+        "time": "2021-08-28T02:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -1573,7 +1677,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2021-08-29T02:30:00+00:00"
+        "time": "2021-08-29T02:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -1588,7 +1693,8 @@
       "properties": {
         "name": "El Jefe's Taqueria - Boston Common",
         "item_id": "231552",
-        "time": "2021-09-12T03:00:00+00:00"
+        "time": "2021-09-12T03:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/501f8763-e56d-4e9e-bf78-9e41f77477e2.png"
       }
     },
     {
@@ -1603,7 +1709,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2021-09-19T02:30:00+00:00"
+        "time": "2021-09-19T02:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -1618,7 +1725,8 @@
       "properties": {
         "name": "India Pavilion",
         "item_id": "375033",
-        "time": "2021-10-22T19:30:00+00:00"
+        "time": "2021-10-22T19:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3377a32b-50dd-4b57-881e-0f961b73e8bf.png"
       }
     },
     {
@@ -1633,7 +1741,8 @@
       "properties": {
         "name": "Bonchon Cambridge",
         "item_id": "232114",
-        "time": "2021-10-26T18:00:00+00:00"
+        "time": "2021-10-26T18:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1fd878e5-cb92-41c4-af95-ab47ae3b179a.png"
       }
     },
     {
@@ -1648,7 +1757,8 @@
       "properties": {
         "name": "Commonwealth",
         "item_id": "375113",
-        "time": "2021-11-04T18:00:00+00:00"
+        "time": "2021-11-04T18:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8e6a801c-30f2-4669-859d-1ac21e78a9df.png"
       }
     },
     {
@@ -1663,7 +1773,8 @@
       "properties": {
         "name": "India Pavilion",
         "item_id": "375033",
-        "time": "2021-11-06T19:30:00+00:00"
+        "time": "2021-11-06T19:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3377a32b-50dd-4b57-881e-0f961b73e8bf.png"
       }
     },
     {
@@ -1678,7 +1789,8 @@
       "properties": {
         "name": "DeliWorks & Pizzeria",
         "item_id": "233010",
-        "time": "2021-12-16T19:00:00+00:00"
+        "time": "2021-12-16T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1a0c69b3-ce32-4c40-8924-d91824434aeb.jpg"
       }
     },
     {
@@ -1693,7 +1805,8 @@
       "properties": {
         "name": "Laced Quality Kitchen ",
         "item_id": "232953",
-        "time": "2022-01-18T23:00:00+00:00"
+        "time": "2022-01-18T23:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/e44c39d0-7fa1-49f0-8106-c9778d62ebd8.png"
       }
     },
     {
@@ -1708,7 +1821,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2022-01-19T02:00:00+00:00"
+        "time": "2022-01-19T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1723,7 +1837,8 @@
       "properties": {
         "name": "Beantown Taqueria",
         "item_id": "231300",
-        "time": "2022-01-20T19:00:00+00:00"
+        "time": "2022-01-20T19:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d41db82f-cd8a-41b9-a0a0-c38d57a91265.png"
       }
     },
     {
@@ -1738,7 +1853,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2022-01-21T18:15:00+00:00"
+        "time": "2022-01-21T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -1753,7 +1869,8 @@
       "properties": {
         "name": "Laced Quality Kitchen ",
         "item_id": "232953",
-        "time": "2022-01-21T23:00:00+00:00"
+        "time": "2022-01-21T23:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/e44c39d0-7fa1-49f0-8106-c9778d62ebd8.png"
       }
     },
     {
@@ -1768,7 +1885,8 @@
       "properties": {
         "name": "CAVA - Kendall Square",
         "item_id": "233442",
-        "time": "2022-01-25T02:00:00+00:00"
+        "time": "2022-01-25T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1783,7 +1901,8 @@
       "properties": {
         "name": "Taco Loco Mexican Grill",
         "item_id": "234170",
-        "time": "2022-05-01T02:15:00+00:00"
+        "time": "2022-05-01T02:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a58522aa-6588-4b75-95c1-6932d056d690.jpg"
       }
     },
     {
@@ -1798,7 +1917,8 @@
       "properties": {
         "name": "APM Coffee",
         "item_id": "235273",
-        "time": "2022-05-21T16:00:00+00:00"
+        "time": "2022-05-21T16:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/4e9c1330-5a98-4924-8841-055c2956f5f8.jpg"
       }
     },
     {
@@ -1813,7 +1933,8 @@
       "properties": {
         "name": "El T\u00edpico Restaurant",
         "item_id": "378492",
-        "time": "2022-05-21T21:00:00+00:00"
+        "time": "2022-05-21T21:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2bd17f9a-4e7e-4569-b345-7c83ecd16025.png"
       }
     },
     {
@@ -1828,7 +1949,8 @@
       "properties": {
         "name": "El Jefe's Taqueria - Boston Common",
         "item_id": "231552",
-        "time": "2022-06-08T03:30:00+00:00"
+        "time": "2022-06-08T03:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/501f8763-e56d-4e9e-bf78-9e41f77477e2.png"
       }
     },
     {
@@ -1843,7 +1965,8 @@
       "properties": {
         "name": "Little Bake",
         "item_id": "515703",
-        "time": "2022-07-30T22:30:00+00:00"
+        "time": "2022-07-30T22:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9fcb5125-008a-45cf-a0a5-78545410e989.jpg"
       }
     },
     {
@@ -1858,7 +1981,8 @@
       "properties": {
         "name": "CAVA",
         "item_id": "233442",
-        "time": "2022-08-02T01:00:00+00:00"
+        "time": "2022-08-02T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1873,7 +1997,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2022-08-02T02:25:00+00:00"
+        "time": "2022-08-02T02:25:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -1888,7 +2013,8 @@
       "properties": {
         "name": "CAVA",
         "item_id": "233442",
-        "time": "2022-09-25T01:00:00+00:00"
+        "time": "2022-09-25T01:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1903,7 +2029,8 @@
       "properties": {
         "name": "Kendall Kitchen",
         "item_id": "230711",
-        "time": "2022-11-01T17:15:00+00:00"
+        "time": "2022-11-01T17:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba9de7cf-25c1-4f8c-9439-48030e13a255.jpg"
       }
     },
     {
@@ -1918,7 +2045,8 @@
       "properties": {
         "name": "Mariposa Bakery",
         "item_id": "232231",
-        "time": "2022-11-17T16:00:00+00:00"
+        "time": "2022-11-17T16:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/95339145-e6a1-4d11-9163-38c8a94a5323.png"
       }
     },
     {
@@ -1933,7 +2061,8 @@
       "properties": {
         "name": "CAVA",
         "item_id": "233442",
-        "time": "2022-11-24T02:00:00+00:00"
+        "time": "2022-11-24T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1948,7 +2077,8 @@
       "properties": {
         "name": "India Pavilion",
         "item_id": "375033",
-        "time": "2022-11-29T20:30:00+00:00"
+        "time": "2022-11-29T20:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3377a32b-50dd-4b57-881e-0f961b73e8bf.png"
       }
     },
     {
@@ -1963,7 +2093,8 @@
       "properties": {
         "name": "CAVA",
         "item_id": "233442",
-        "time": "2022-12-29T02:00:00+00:00"
+        "time": "2022-12-29T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1dd958c0-21b1-4ffb-bcbd-e2d39898454c.png"
       }
     },
     {
@@ -1978,7 +2109,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2022-12-30T03:15:00+00:00"
+        "time": "2022-12-30T03:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -1993,7 +2125,8 @@
       "properties": {
         "name": "India Pavilion",
         "item_id": "375033",
-        "time": "2022-12-30T20:30:00+00:00"
+        "time": "2022-12-30T20:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3377a32b-50dd-4b57-881e-0f961b73e8bf.png"
       }
     },
     {
@@ -2008,7 +2141,8 @@
       "properties": {
         "name": "Bom Dough",
         "item_id": "790699",
-        "time": "2022-12-30T21:00:00+00:00"
+        "time": "2022-12-30T21:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/97f74279-825e-4b12-81ad-630a168a02c3.png"
       }
     },
     {
@@ -2023,7 +2157,8 @@
       "properties": {
         "name": "India Pavilion",
         "item_id": "375033",
-        "time": "2023-01-01T20:30:00+00:00"
+        "time": "2023-01-01T20:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3377a32b-50dd-4b57-881e-0f961b73e8bf.png"
       }
     },
     {
@@ -2038,7 +2173,8 @@
       "properties": {
         "name": "Sweet Touch Cafe",
         "item_id": "235259",
-        "time": "2023-01-03T17:00:00+00:00"
+        "time": "2023-01-03T17:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3b186158-e2dd-41d3-a0d7-2849aa54b24b.png"
       }
     },
     {
@@ -2053,7 +2189,8 @@
       "properties": {
         "name": "India Pavilion",
         "item_id": "375033",
-        "time": "2023-01-03T20:30:00+00:00"
+        "time": "2023-01-03T20:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3377a32b-50dd-4b57-881e-0f961b73e8bf.png"
       }
     },
     {
@@ -2068,7 +2205,8 @@
       "properties": {
         "name": "DIG",
         "item_id": "791026",
-        "time": "2023-01-05T01:30:00+00:00"
+        "time": "2023-01-05T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/53201/aba88cfa-712d-4680-8c53-49c8d50a71f0.png"
       }
     },
     {
@@ -2083,7 +2221,8 @@
       "properties": {
         "name": "India Pavilion",
         "item_id": "375033",
-        "time": "2023-01-05T20:30:00+00:00"
+        "time": "2023-01-05T20:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3377a32b-50dd-4b57-881e-0f961b73e8bf.png"
       }
     },
     {
@@ -2098,7 +2237,8 @@
       "properties": {
         "name": "Eataly ",
         "item_id": "633935",
-        "time": "2023-01-06T15:00:00+00:00"
+        "time": "2023-01-06T15:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9c187482-0a63-4f9c-9c0d-7d38931378c8.png"
       }
     },
     {
@@ -2113,7 +2253,8 @@
       "properties": {
         "name": "All Star Pizza Bar",
         "item_id": "230811",
-        "time": "2023-01-07T02:00:00+00:00"
+        "time": "2023-01-07T02:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/58ef086e-1ba7-4f2f-bcf0-8feb6ac2c76c.jpg"
       }
     },
     {
@@ -2128,7 +2269,8 @@
       "properties": {
         "name": "India Pavilion",
         "item_id": "375033",
-        "time": "2023-01-07T20:30:00+00:00"
+        "time": "2023-01-07T20:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3377a32b-50dd-4b57-881e-0f961b73e8bf.png"
       }
     },
     {
@@ -2143,7 +2285,8 @@
       "properties": {
         "name": "DIG",
         "item_id": "791026",
-        "time": "2023-01-09T01:30:00+00:00"
+        "time": "2023-01-09T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/53201/aba88cfa-712d-4680-8c53-49c8d50a71f0.png"
       }
     },
     {
@@ -2158,7 +2301,8 @@
       "properties": {
         "name": "Donut Villa Diner",
         "item_id": "375408",
-        "time": "2023-01-09T19:30:00+00:00"
+        "time": "2023-01-09T19:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/0e880ff3-07a5-4b22-8afc-e78f922523cd.jpg"
       }
     },
     {
@@ -2173,7 +2317,8 @@
       "properties": {
         "name": "Cafe Beatrice",
         "item_id": "236550",
-        "time": "2023-01-09T21:00:00+00:00"
+        "time": "2023-01-09T21:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/93e75b2c-0125-444d-8ca7-113b3fdea983.png"
       }
     },
     {
@@ -2188,7 +2333,8 @@
       "properties": {
         "name": "India Pavilion",
         "item_id": "375033",
-        "time": "2023-01-11T20:30:00+00:00"
+        "time": "2023-01-11T20:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3377a32b-50dd-4b57-881e-0f961b73e8bf.png"
       }
     },
     {
@@ -2203,7 +2349,8 @@
       "properties": {
         "name": "DIG",
         "item_id": "791026",
-        "time": "2023-01-12T01:30:00+00:00"
+        "time": "2023-01-12T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/53201/aba88cfa-712d-4680-8c53-49c8d50a71f0.png"
       }
     },
     {
@@ -2218,7 +2365,8 @@
       "properties": {
         "name": "DIG",
         "item_id": "791026",
-        "time": "2023-01-17T01:30:00+00:00"
+        "time": "2023-01-17T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/53201/aba88cfa-712d-4680-8c53-49c8d50a71f0.png"
       }
     },
     {
@@ -2233,7 +2381,8 @@
       "properties": {
         "name": "Pacific Street Cafe",
         "item_id": "230752",
-        "time": "2023-05-22T21:45:00+00:00"
+        "time": "2023-05-22T21:45:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/e12c054a-ba61-4805-9b71-ac1301c24abd.png"
       }
     },
     {
@@ -2248,7 +2397,8 @@
       "properties": {
         "name": "Peet's Coffee",
         "item_id": "517570",
-        "time": "2023-06-16T20:20:00+00:00"
+        "time": "2023-06-16T20:20:00+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/20281/7eaf4325-5fc9-4c33-b8c1-60761e67a2d7.jpg"
       }
     },
     {
@@ -2263,7 +2413,8 @@
       "properties": {
         "name": "DIG",
         "item_id": "791026",
-        "time": "2023-06-17T00:30:00+00:00"
+        "time": "2023-06-17T00:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/53201/aba88cfa-712d-4680-8c53-49c8d50a71f0.png"
       }
     },
     {
@@ -2278,7 +2429,8 @@
       "properties": {
         "name": "Davis Square Hand Crafted Donuts & Bagels",
         "item_id": "941937",
-        "time": "2023-07-08T18:15:00+00:00"
+        "time": "2023-07-08T18:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ba486408-0a7e-4694-938c-eff7627e09c2.png"
       }
     },
     {
@@ -2293,7 +2445,8 @@
       "properties": {
         "name": "Pemberton Farms",
         "item_id": "231456",
-        "time": "2023-07-08T22:00:00+00:00"
+        "time": "2023-07-08T22:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/16a947a1-113e-4d31-a608-c62548c99ccd.png"
       }
     },
     {
@@ -2308,7 +2461,8 @@
       "properties": {
         "name": "Little Bake",
         "item_id": "515703",
-        "time": "2023-07-08T22:30:00+00:00"
+        "time": "2023-07-08T22:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9fcb5125-008a-45cf-a0a5-78545410e989.jpg"
       }
     },
     {
@@ -2323,7 +2477,8 @@
       "properties": {
         "name": "Little Bake",
         "item_id": "515703",
-        "time": "2023-07-08T22:30:00+00:00"
+        "time": "2023-07-08T22:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9fcb5125-008a-45cf-a0a5-78545410e989.jpg"
       }
     },
     {
@@ -2338,7 +2493,8 @@
       "properties": {
         "name": "Mr. Crepe",
         "item_id": "235484",
-        "time": "2023-07-09T01:30:00+00:00"
+        "time": "2023-07-09T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/37ff928d-75a9-4fd8-aae5-ecf52b043f0f.png"
       }
     },
     {
@@ -2353,7 +2509,8 @@
       "properties": {
         "name": "Mr. Crepe",
         "item_id": "235484",
-        "time": "2023-07-14T01:30:00+00:00"
+        "time": "2023-07-14T01:30:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/37ff928d-75a9-4fd8-aae5-ecf52b043f0f.png"
       }
     },
     {
@@ -2368,7 +2525,8 @@
       "properties": {
         "name": "Pemberton Farms",
         "item_id": "231456",
-        "time": "2023-07-15T22:00:00+00:00"
+        "time": "2023-07-15T22:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/16a947a1-113e-4d31-a608-c62548c99ccd.png"
       }
     },
     {
@@ -2383,7 +2541,8 @@
       "properties": {
         "name": "Pemberton Farms",
         "item_id": "231456",
-        "time": "2023-07-16T22:00:00+00:00"
+        "time": "2023-07-16T22:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/16a947a1-113e-4d31-a608-c62548c99ccd.png"
       }
     },
     {
@@ -2398,7 +2557,8 @@
       "properties": {
         "name": "Captain Cookie",
         "item_id": "372328",
-        "time": "2023-07-20T15:00:00+00:00"
+        "time": "2023-07-20T15:00:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bbd4e028-ddd7-408a-961b-5b295f2cdbc5.png"
       }
     },
     {
@@ -2413,7 +2573,8 @@
       "properties": {
         "name": "Pitango Gelato",
         "item_id": "943229",
-        "time": "2023-07-25T02:15:00+00:00"
+        "time": "2023-07-25T02:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/83d73093-e498-49c0-9f44-453abbe8f217.png"
       }
     },
     {
@@ -2428,7 +2589,8 @@
       "properties": {
         "name": "Shy Bird",
         "item_id": "235202",
-        "time": "2023-08-02T02:15:00+00:00"
+        "time": "2023-08-02T02:15:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8be3cca-a08f-4ec0-a81f-a10070011835.jpg"
       }
     },
     {
@@ -2443,7 +2605,8 @@
       "properties": {
         "name": "citizenM",
         "item_id": "794975",
-        "time": "2023-08-12T15:48:00+00:00"
+        "time": "2023-08-12T15:48:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8532848d-ce5d-433e-ac9a-cbd470acf0f2.png"
       }
     },
     {
@@ -2458,7 +2621,8 @@
       "properties": {
         "name": "Blue Bottle Coffee",
         "item_id": "505097",
-        "time": "2024-01-10T21:36:44+00:00"
+        "time": "2024-01-10T21:36:44+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/23212/94a513b6-829c-488d-a56e-68b7ca6b3d6d.jpg"
       }
     },
     {
@@ -2473,7 +2637,8 @@
       "properties": {
         "name": "Mexican Fruits ",
         "item_id": "233890",
-        "time": "2024-01-10T21:55:33+00:00"
+        "time": "2024-01-10T21:55:33+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b7b296c8-1c71-44a7-862d-755963564299.png"
       }
     },
     {
@@ -2488,7 +2653,8 @@
       "properties": {
         "name": "La Colombe Coffee Roasters ",
         "item_id": "906916",
-        "time": "2024-01-10T22:23:30+00:00"
+        "time": "2024-01-10T22:23:30+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1220fab1-ab05-4565-a134-4ae8dae27569.png"
       }
     },
     {
@@ -2503,7 +2669,8 @@
       "properties": {
         "name": "Greggs, London Liverpool Street Station",
         "item_id": "833301",
-        "time": "2024-06-30T22:30:28+00:00"
+        "time": "2024-06-30T22:30:28+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/81200/7664f099-3fe9-4b4a-861a-99428988e4d3.jpg"
       }
     },
     {
@@ -2518,7 +2685,8 @@
       "properties": {
         "name": "Charles Artisan Bread   ",
         "item_id": "19909558728688064",
-        "time": "2024-07-01T08:48:20+00:00"
+        "time": "2024-07-01T08:48:20+00:00",
+        "logo": "https://images.toogoodtogo.com/store/dacf0d58-818a-45ce-9243-296ac47960cc.png"
       }
     },
     {
@@ -2533,7 +2701,8 @@
       "properties": {
         "name": "Pret",
         "item_id": "523781",
-        "time": "2024-07-01T09:15:13+00:00"
+        "time": "2024-07-01T09:15:13+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/12fab393-2d73-439e-a9e8-f5bfbeeb1bbd.png"
       }
     },
     {
@@ -2548,7 +2717,8 @@
       "properties": {
         "name": "Leonardo Royal London St Pauls",
         "item_id": "33837723918367040",
-        "time": "2024-07-01T09:29:23+00:00"
+        "time": "2024-07-01T09:29:23+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/144630/83fa4e0a-a92e-4038-94dc-6a83edb736fe.png"
       }
     },
     {
@@ -2563,7 +2733,8 @@
       "properties": {
         "name": "Boulangerie Ben Messaoud ",
         "item_id": "1547320",
-        "time": "2024-07-02T18:49:39+00:00"
+        "time": "2024-07-02T18:49:39+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c19642c1-e178-4d71-9c00-1284345ff519.jpg"
       }
     },
     {
@@ -2578,7 +2749,8 @@
       "properties": {
         "name": "Edelweiss Market",
         "item_id": "1606923",
-        "time": "2024-07-08T15:31:17+00:00"
+        "time": "2024-07-08T15:31:17+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/122990/d3f1e763-4135-433f-a995-40a960fbf870.jpg"
       }
     },
     {
@@ -2593,7 +2765,8 @@
       "properties": {
         "name": "Gesundheitszentrum f\u00fcr das Alter Langgr\u00fct",
         "item_id": "409680",
-        "time": "2024-07-09T12:24:25+00:00"
+        "time": "2024-07-09T12:24:25+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9a912bf5-31a7-4079-ba57-a4ae2ffce7b7.png"
       }
     },
     {
@@ -2608,7 +2781,8 @@
       "properties": {
         "name": "Meskerem",
         "item_id": "37655059396863040",
-        "time": "2024-07-09T19:35:28+00:00"
+        "time": "2024-07-09T19:35:28+00:00",
+        "logo": "https://images.toogoodtogo.com/store/82518e88-4d57-48f9-8db9-40a13ab21146.png"
       }
     },
     {
@@ -2623,7 +2797,8 @@
       "properties": {
         "name": "Deliveroo Hop | Milano",
         "item_id": "1012161",
-        "time": "2024-07-10T10:38:05+00:00"
+        "time": "2024-07-10T10:38:05+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1100d6ac-c073-45da-af0e-c6f20d4b1f2e.png"
       }
     },
     {
@@ -2638,7 +2813,8 @@
       "properties": {
         "name": "Ruetz",
         "item_id": "86529",
-        "time": "2024-07-13T15:08:42+00:00"
+        "time": "2024-07-13T15:08:42+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a20bc017-2088-4d63-910a-c5d409240a7b.jpg"
       }
     },
     {
@@ -2653,7 +2829,8 @@
       "properties": {
         "name": "Warszawa",
         "item_id": "962790",
-        "time": "2024-07-15T14:13:17+00:00"
+        "time": "2024-07-15T14:13:17+00:00",
+        "logo": "https://images.toogoodtogo.com/store/4aa6cd1b-110e-4487-9e48-93ddb902e87b.png"
       }
     },
     {
@@ -2668,7 +2845,8 @@
       "properties": {
         "name": "Zaytoena Restaurant",
         "item_id": "30669784991007808",
-        "time": "2024-07-17T17:10:47+00:00"
+        "time": "2024-07-17T17:10:47+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9f58e809-80a0-4698-8d80-a7d9ea0fc431.jpg"
       }
     },
     {
@@ -2683,7 +2861,8 @@
       "properties": {
         "name": "De Lekkere Dingen Bakker",
         "item_id": "8559",
-        "time": "2024-07-18T10:30:48+00:00"
+        "time": "2024-07-18T10:30:48+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1523881140_rUGtbGjeYFAjA5zWLnMHakG9cQyKX5dX_scale.jpg"
       }
     },
     {
@@ -2698,7 +2877,8 @@
       "properties": {
         "name": "Taste of Samarkand",
         "item_id": "1023296",
-        "time": "2024-07-18T20:00:19+00:00"
+        "time": "2024-07-18T20:00:19+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a110d37a-6939-423c-b765-357256d8f94e.png"
       }
     },
     {
@@ -2713,7 +2893,8 @@
       "properties": {
         "name": "Leylak B\u00f6rek ve Lahmacun Salonu",
         "item_id": "1158644",
-        "time": "2024-07-18T20:08:49+00:00"
+        "time": "2024-07-18T20:08:49+00:00",
+        "logo": "https://images.toogoodtogo.com/store/5698e340-a321-4714-b293-1f6e0c86e17c.jpg"
       }
     },
     {
@@ -2728,7 +2909,8 @@
       "properties": {
         "name": "Lindner Hotel ",
         "item_id": "548126",
-        "time": "2024-07-19T09:40:38+00:00"
+        "time": "2024-07-19T09:40:38+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a6cc0da6-62c7-4aa6-a01e-cc47d762a140.png"
       }
     },
     {
@@ -2743,7 +2925,8 @@
       "properties": {
         "name": "Tantuni Berlin",
         "item_id": "37914509055217216",
-        "time": "2024-07-19T19:47:20+00:00"
+        "time": "2024-07-19T19:47:20+00:00",
+        "logo": "https://images.toogoodtogo.com/store/756fabd8-e025-4fdb-9b87-46e3e01f4734.png"
       }
     },
     {
@@ -2758,7 +2941,8 @@
       "properties": {
         "name": "Aldimashqi",
         "item_id": "928815",
-        "time": "2024-07-19T19:54:39+00:00"
+        "time": "2024-07-19T19:54:39+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d93eb4c9-a05c-416a-bf2d-b36d478b281d.png"
       }
     },
     {
@@ -2773,7 +2957,8 @@
       "properties": {
         "name": "Zrno Zrnko",
         "item_id": "31913118565761760",
-        "time": "2024-07-20T15:46:47+00:00"
+        "time": "2024-07-20T15:46:47+00:00",
+        "logo": "https://images.toogoodtogo.com/store/90607c66-9e59-42c1-967c-c9ba08f565ee.png"
       }
     },
     {
@@ -2788,7 +2973,8 @@
       "properties": {
         "name": "Starbucks",
         "item_id": "83934",
-        "time": "2024-07-21T17:47:33+00:00"
+        "time": "2024-07-21T17:47:33+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a3ba00b1-679f-4c1d-a8cf-5b0b9da5dc11.png"
       }
     },
     {
@@ -2803,7 +2989,8 @@
       "properties": {
         "name": "Restaurant Z.",
         "item_id": "12916",
-        "time": "2024-07-22T14:15:06+00:00"
+        "time": "2024-07-22T14:15:06+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1558690916_2KOCI3DXpMNu3o1khgl7kuSadmaNB5sY.png"
       }
     },
     {
@@ -2818,7 +3005,8 @@
       "properties": {
         "name": "Terra Verde \u2013 Biologische Lebensmittel und Weine aus Italien",
         "item_id": "37930877303973248",
-        "time": "2024-07-22T15:25:23+00:00"
+        "time": "2024-07-22T15:25:23+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2208dad-7460-42fc-9de3-9660b26f4af4.png"
       }
     },
     {
@@ -2833,7 +3021,8 @@
       "properties": {
         "name": "TINYFISH",
         "item_id": "249630",
-        "time": "2024-07-22T16:04:33+00:00"
+        "time": "2024-07-22T16:04:33+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/44dc0b40-b534-4060-a44b-d4434c8cd15d.png"
       }
     },
     {
@@ -2848,7 +3037,8 @@
       "properties": {
         "name": "Caff\u00e8 Spettacolo",
         "item_id": "11987",
-        "time": "2024-07-23T17:59:46+00:00"
+        "time": "2024-07-23T17:59:46+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1534834777_7t3uS027vULVzfw2QNE046l5YgnxT8al_scale.jpg"
       }
     },
     {
@@ -2863,7 +3053,8 @@
       "properties": {
         "name": "Zurich Swiss Chocolate by Fassbind ***",
         "item_id": "68455",
-        "time": "2024-07-24T09:00:09+00:00"
+        "time": "2024-07-24T09:00:09+00:00",
+        "logo": "https://images.toogoodtogo.com/store/abc7fa63-beb6-46bb-9bbf-07202d0d7bd5.png"
       }
     },
     {
@@ -2878,7 +3069,8 @@
       "properties": {
         "name": "C\u00f4t\u00e9 Sushi - Lyon",
         "item_id": "402541",
-        "time": "2024-07-24T20:17:27+00:00"
+        "time": "2024-07-24T20:17:27+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1542899889_4W5KMnWYt1nYmFlmC8XfxZ7wjMRweozj.png"
       }
     },
     {
@@ -2893,7 +3085,8 @@
       "properties": {
         "name": "Oh Activ Avignon ",
         "item_id": "27693486170433568",
-        "time": "2024-07-25T13:12:06+00:00"
+        "time": "2024-07-25T13:12:06+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8d513c3b-ae69-4fe4-9eff-a4c5350d6b08.png"
       }
     },
     {
@@ -2908,7 +3101,8 @@
       "properties": {
         "name": "Avignon Grand H\u00f4tel",
         "item_id": "1063417",
-        "time": "2024-07-25T13:18:19+00:00"
+        "time": "2024-07-25T13:18:19+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3af8b5bc-34d5-41d8-9cc5-ea7be7780a09.jpg"
       }
     },
     {
@@ -2923,7 +3117,8 @@
       "properties": {
         "name": "Cr\u00e8me de la Cr\u00e8me - Herberie",
         "item_id": "278391",
-        "time": "2024-07-27T08:01:30+00:00"
+        "time": "2024-07-27T08:01:30+00:00",
+        "logo": "https://images.toogoodtogo.com/store/63e65819-c941-4b53-a0b9-41c4f48cd0f2.png"
       }
     },
     {
@@ -2938,7 +3133,8 @@
       "properties": {
         "name": "The Originals Boutique - H\u00f4tel Neptune - Montpellier Sud",
         "item_id": "817492",
-        "time": "2024-07-27T14:58:26+00:00"
+        "time": "2024-07-27T14:58:26+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a629cf73-193f-450d-b592-cc44730e98a3.png"
       }
     },
     {
@@ -2953,7 +3149,8 @@
       "properties": {
         "name": "Novotel - Grenoble Centre",
         "item_id": "42744",
-        "time": "2024-08-01T09:17:31+00:00"
+        "time": "2024-08-01T09:17:31+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1547142784_fBzkLFLiQtvACwy5C2Qh56g0xxOl1FMb.jpg"
       }
     },
     {
@@ -2968,7 +3165,8 @@
       "properties": {
         "name": "k kiosk",
         "item_id": "1006508",
-        "time": "2024-08-02T18:14:24+00:00"
+        "time": "2024-08-02T18:14:24+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/115124/02d7a0e3-45ad-415f-9e31-017c265a7fe2.png"
       }
     },
     {
@@ -2983,7 +3181,8 @@
       "properties": {
         "name": "Sushi Palace Wien9",
         "item_id": "1216814",
-        "time": "2024-08-03T09:58:30+00:00"
+        "time": "2024-08-03T09:58:30+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b5320fa0-cdf1-45bf-9f84-eaebcc6f3fb6.png"
       }
     },
     {
@@ -2998,7 +3197,8 @@
       "properties": {
         "name": "Denns BioMarkt",
         "item_id": "782264",
-        "time": "2024-08-03T15:50:28+00:00"
+        "time": "2024-08-03T15:50:28+00:00",
+        "logo": "https://images.toogoodtogo.com/store/aa8bb957-d9e2-4702-b86d-c618e4b50bd9.png"
       }
     },
     {
@@ -3013,7 +3213,8 @@
       "properties": {
         "name": "Biedronka",
         "item_id": "702397",
-        "time": "2024-08-05T15:28:08+00:00"
+        "time": "2024-08-05T15:28:08+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/56594/3ab043a1-c2ed-41a3-a8ca-97f01a31332e.png"
       }
     },
     {
@@ -3028,7 +3229,8 @@
       "properties": {
         "name": "Cafe Luis",
         "item_id": "39113420377936640",
-        "time": "2024-08-06T08:08:40+00:00"
+        "time": "2024-08-06T08:08:40+00:00",
+        "logo": "https://images.toogoodtogo.com/store/24d4352b-2a7b-41c8-b30d-3e14d45df587.png"
       }
     },
     {
@@ -3043,7 +3245,8 @@
       "properties": {
         "name": "Lilla Mamsens Bageri",
         "item_id": "89511",
-        "time": "2024-08-07T12:48:18+00:00"
+        "time": "2024-08-07T12:48:18+00:00",
+        "logo": "https://images.toogoodtogo.com/store/6b8a5636-1646-4cde-9577-22f33729af6a.png"
       }
     },
     {
@@ -3058,7 +3261,8 @@
       "properties": {
         "name": "Robin Delselius Bageri",
         "item_id": "627806",
-        "time": "2024-08-07T16:08:29+00:00"
+        "time": "2024-08-07T16:08:29+00:00",
+        "logo": "https://images.toogoodtogo.com/store/0ef30e0e-410e-4755-9c8d-b19d5c909b14.png"
       }
     },
     {
@@ -3073,7 +3277,8 @@
       "properties": {
         "name": "Copenhagen Admiral Hotel",
         "item_id": "17868742417890784",
-        "time": "2024-08-10T10:02:25+00:00"
+        "time": "2024-08-10T10:02:25+00:00",
+        "logo": "https://api.toogoodtogo.com/public-cache/logo/v1/1/ch-0"
       }
     },
     {
@@ -3088,7 +3293,8 @@
       "properties": {
         "name": "REINH. van HAUEN",
         "item_id": "1443",
-        "time": "2024-08-11T15:26:54+00:00"
+        "time": "2024-08-11T15:26:54+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1511854759_C898P3bU6g2uyCO2FQohPAxxfvaM1lHF.jpg"
       }
     },
     {
@@ -3103,7 +3309,8 @@
       "properties": {
         "name": "Yaya sushi - K\u00f8benhavn",
         "item_id": "64609",
-        "time": "2024-08-11T20:02:15+00:00"
+        "time": "2024-08-11T20:02:15+00:00",
+        "logo": "https://images.toogoodtogo.com/store/80bc6692-bd57-45c7-90f8-fb145e61fb3c.png"
       }
     },
     {
@@ -3118,7 +3325,8 @@
       "properties": {
         "name": "Diamond Slice - Bl\u00e5g\u00e5rdsgade",
         "item_id": "946530",
-        "time": "2024-08-11T20:17:29+00:00"
+        "time": "2024-08-11T20:17:29+00:00",
+        "logo": "https://images.toogoodtogo.com/store/74af6bb2-4e8a-43a5-a80a-7ad0af75ccad.png"
       }
     },
     {
@@ -3133,7 +3341,8 @@
       "properties": {
         "name": "B\u00e4ckerei Merhaba Firin",
         "item_id": "1364565",
-        "time": "2024-08-13T11:52:24+00:00"
+        "time": "2024-08-13T11:52:24+00:00",
+        "logo": "https://images.toogoodtogo.com/store/795616f1-a58d-4dbe-b3e6-6356947d5787.png"
       }
     },
     {
@@ -3148,7 +3357,8 @@
       "properties": {
         "name": "Stadsbakker Jongejans",
         "item_id": "8532",
-        "time": "2024-08-15T06:01:26+00:00"
+        "time": "2024-08-15T06:01:26+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1523363568_ThvtISUz6ZseUjGEuC8lOu61sLalckqf_scale.jpg"
       }
     },
     {
@@ -3163,7 +3373,8 @@
       "properties": {
         "name": "Goose",
         "item_id": "637880",
-        "time": "2024-08-15T19:33:49+00:00"
+        "time": "2024-08-15T19:33:49+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/45350/2100b6e1-a70b-4dbd-84de-5edf7c103060.jpg"
       }
     },
     {
@@ -3178,7 +3389,8 @@
       "properties": {
         "name": "YO! Sushi",
         "item_id": "22755",
-        "time": "2024-08-15T21:04:27+00:00"
+        "time": "2024-08-15T21:04:27+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1499794241_FzTIvLyaCM_scale.jpg"
       }
     },
     {
@@ -3193,7 +3405,8 @@
       "properties": {
         "name": "Ibis Styles - St Andrews Square - Edinburgh ",
         "item_id": "24668",
-        "time": "2024-08-16T09:18:12+00:00"
+        "time": "2024-08-16T09:18:12+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1551955454_PpyvcwmoWH8NxFG7ZevlPmD8nnkjJSqt.png"
       }
     },
     {
@@ -3208,7 +3421,8 @@
       "properties": {
         "name": "Moxy Edinburgh",
         "item_id": "21617136240378048",
-        "time": "2024-08-18T09:31:25+00:00"
+        "time": "2024-08-18T09:31:25+00:00",
+        "logo": "https://images.toogoodtogo.com/store/33bac4e9-fcc3-4593-b60e-95650d706f2f.png"
       }
     },
     {
@@ -3223,7 +3437,8 @@
       "properties": {
         "name": "Leonardo Hotel Edinburgh Haymarket",
         "item_id": "1165769",
-        "time": "2024-08-18T09:51:31+00:00"
+        "time": "2024-08-18T09:51:31+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/144630/83fa4e0a-a92e-4038-94dc-6a83edb736fe.png"
       }
     },
     {
@@ -3238,7 +3453,8 @@
       "properties": {
         "name": "FreshMex",
         "item_id": "689023",
-        "time": "2024-08-18T10:16:55+00:00"
+        "time": "2024-08-18T10:16:55+00:00",
+        "logo": "https://images.toogoodtogo.com/store/de880ee0-13f7-4d58-a81d-383400e4ee4e.png"
       }
     },
     {
@@ -3253,7 +3469,8 @@
       "properties": {
         "name": "Upper Crust",
         "item_id": "589696",
-        "time": "2024-08-19T07:51:24+00:00"
+        "time": "2024-08-19T07:51:24+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/32430/fe1de9ce-1fb7-431c-9a71-9cae22bed699.png"
       }
     },
     {
@@ -3268,7 +3485,8 @@
       "properties": {
         "name": "Marmadukes Norfolk Row",
         "item_id": "534172",
-        "time": "2024-08-19T15:13:44+00:00"
+        "time": "2024-08-19T15:13:44+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f1281b12-1c2d-4848-9723-c808bfdc61d3.png"
       }
     },
     {
@@ -3283,7 +3501,8 @@
       "properties": {
         "name": "Sakushi Japanese - Sheffield",
         "item_id": "1831621",
-        "time": "2024-08-19T15:18:23+00:00"
+        "time": "2024-08-19T15:18:23+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ff3c89fc-eddd-420f-8d5c-45af7b64fae7.png"
       }
     },
     {
@@ -3298,7 +3517,8 @@
       "properties": {
         "name": "Caff\u00e8 Nero - Moorgate NE",
         "item_id": "456030",
-        "time": "2024-08-19T18:56:39+00:00"
+        "time": "2024-08-19T18:56:39+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/8669/abc9da8b-acfb-4927-8cd5-4e5de4e77f29.png"
       }
     },
     {
@@ -3313,7 +3533,8 @@
       "properties": {
         "name": "Pret",
         "item_id": "548387",
-        "time": "2024-08-19T19:22:09+00:00"
+        "time": "2024-08-19T19:22:09+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/29180/90cd75e1-dfb6-44cd-a519-6b1ec0800173.png"
       }
     },
     {
@@ -3328,7 +3549,8 @@
       "properties": {
         "name": "Katsuma - Clerkenwell - Evening",
         "item_id": "23901",
-        "time": "2024-08-19T19:48:42+00:00"
+        "time": "2024-08-19T19:48:42+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1536064427_lrxJfSku0Ghz0qjMaphp7OfEcjhi4c79_scale.jpg"
       }
     },
     {
@@ -3343,7 +3565,8 @@
       "properties": {
         "name": "Kismet Bagels ",
         "item_id": "66378321650664481",
-        "time": "2024-12-19T16:17:54+00:00"
+        "time": "2024-12-19T16:17:54+00:00",
+        "logo": "https://images.toogoodtogo.com/store/db660703-d396-44d8-a388-2b2a66be9a3f.png"
       }
     },
     {
@@ -3358,7 +3581,8 @@
       "properties": {
         "name": "Gryphon Cafe ",
         "item_id": "373995",
-        "time": "2024-12-19T16:28:21+00:00"
+        "time": "2024-12-19T16:28:21+00:00",
+        "logo": "https://images.toogoodtogo.com/store/68e88c94-f2de-4364-8036-eec605a2896f.png"
       }
     },
     {
@@ -3373,7 +3597,8 @@
       "properties": {
         "name": "Forin Cafe",
         "item_id": "377285",
-        "time": "2024-12-19T16:38:21+00:00"
+        "time": "2024-12-19T16:38:21+00:00",
+        "logo": "https://images.toogoodtogo.com/store/826f48d5-8685-4467-8571-2d3a846ae373.png"
       }
     },
     {
@@ -3388,7 +3613,8 @@
       "properties": {
         "name": "Le Pain Quotidien",
         "item_id": "379034",
-        "time": "2024-12-19T22:52:22+00:00"
+        "time": "2024-12-19T22:52:22+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/23151/6066a4a4-f1cf-45ff-bf35-2b344c5486cf.png"
       }
     },
     {
@@ -3403,7 +3629,8 @@
       "properties": {
         "name": "Lamberti Pizza & Market",
         "item_id": "377642",
-        "time": "2024-12-19T22:58:53+00:00"
+        "time": "2024-12-19T22:58:53+00:00",
+        "logo": "https://images.toogoodtogo.com/store/4c9c56ce-6cef-4151-a9ec-df62c01cb919.png"
       }
     },
     {
@@ -3418,7 +3645,8 @@
       "properties": {
         "name": "Viva Pizzas",
         "item_id": "375690",
-        "time": "2024-12-20T02:31:11+00:00"
+        "time": "2024-12-20T02:31:11+00:00",
+        "logo": "https://images.toogoodtogo.com/store/4981471e-d297-469f-ae4b-06183d76c7fb.png"
       }
     },
     {
@@ -3433,7 +3661,8 @@
       "properties": {
         "name": "The Sweet Life Bakeshop",
         "item_id": "516080",
-        "time": "2024-12-21T17:34:30+00:00"
+        "time": "2024-12-21T17:34:30+00:00",
+        "logo": "https://images.toogoodtogo.com/store/821d6707-7618-4796-9d63-b419e324b02d.png"
       }
     },
     {
@@ -3448,7 +3677,8 @@
       "properties": {
         "name": "Butternut Bakehouse & Cafe",
         "item_id": "230386",
-        "time": "2025-03-05T21:33:11+00:00"
+        "time": "2025-03-05T21:33:11+00:00",
+        "logo": "https://images.toogoodtogo.com/store/20d8d5fa-1d4e-4ade-9808-16810eafa6e9.png"
       }
     },
     {
@@ -3463,7 +3693,8 @@
       "properties": {
         "name": "Chip City",
         "item_id": "112642927108684129",
-        "time": "2025-04-12T15:40:04+00:00"
+        "time": "2025-04-12T15:40:04+00:00",
+        "logo": "https://images.toogoodtogo.com/store/aba34ecf-6871-4b50-89dd-6112297ebb4c.png"
       }
     },
     {
@@ -3478,7 +3709,8 @@
       "properties": {
         "name": "Whole Foods - MA",
         "item_id": "70701583589306369",
-        "time": "2025-06-10T01:03:54+00:00"
+        "time": "2025-06-10T01:03:54+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/cebdba3a-397a-45a8-9e33-5d0c48ca0d0b.png"
       }
     },
     {
@@ -3493,7 +3725,8 @@
       "properties": {
         "name": "Gauchao Brazilian Cuisine",
         "item_id": "232092",
-        "time": "2025-06-11T02:32:40+00:00"
+        "time": "2025-06-11T02:32:40+00:00",
+        "logo": "https://images.toogoodtogo.com/store/29578216-08f1-4f21-bc87-fc2187811f9e.jpg"
       }
     },
     {
@@ -3508,7 +3741,8 @@
       "properties": {
         "name": "Gauchao Brazilian Cuisine",
         "item_id": "232092",
-        "time": "2025-06-16T02:48:36+00:00"
+        "time": "2025-06-16T02:48:36+00:00",
+        "logo": "https://images.toogoodtogo.com/store/29578216-08f1-4f21-bc87-fc2187811f9e.jpg"
       }
     },
     {
@@ -3523,7 +3757,8 @@
       "properties": {
         "name": "Taco Loco Mexican Grill",
         "item_id": "234170",
-        "time": "2025-06-16T02:55:00+00:00"
+        "time": "2025-06-16T02:55:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a58522aa-6588-4b75-95c1-6932d056d690.jpg"
       }
     },
     {
@@ -3538,7 +3773,8 @@
       "properties": {
         "name": "NU Kitchen",
         "item_id": "375837",
-        "time": "2025-06-16T18:08:37+00:00"
+        "time": "2025-06-16T18:08:37+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baa84cb3-3838-4f7b-a72e-37e215e4e35c.png"
       }
     },
     {
@@ -3553,7 +3789,8 @@
       "properties": {
         "name": "Whole Foods - MA",
         "item_id": "70699940395199137",
-        "time": "2025-07-01T00:56:57+00:00"
+        "time": "2025-07-01T00:56:57+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/cebdba3a-397a-45a8-9e33-5d0c48ca0d0b.png"
       }
     },
     {
@@ -3568,7 +3805,8 @@
       "properties": {
         "name": "Whole Foods - MA",
         "item_id": "70701483936500129",
-        "time": "2025-07-01T00:58:16+00:00"
+        "time": "2025-07-01T00:58:16+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/cebdba3a-397a-45a8-9e33-5d0c48ca0d0b.png"
       }
     },
     {
@@ -3583,7 +3821,8 @@
       "properties": {
         "name": "Sweetbee Cafe & Bar",
         "item_id": "909425",
-        "time": "2025-07-05T12:50:23+00:00"
+        "time": "2025-07-05T12:50:23+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2b2641dd-29fb-40b8-a5dd-30ad6d8be3be.jpg"
       }
     },
     {
@@ -3598,7 +3837,8 @@
       "properties": {
         "name": "Sweetbee Cafe & Bar",
         "item_id": "909425",
-        "time": "2025-07-05T12:51:11+00:00"
+        "time": "2025-07-05T12:51:11+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2b2641dd-29fb-40b8-a5dd-30ad6d8be3be.jpg"
       }
     },
     {
@@ -3613,7 +3853,8 @@
       "properties": {
         "name": "Little Bee by Sweetbee",
         "item_id": "1560521",
-        "time": "2025-07-05T12:59:32+00:00"
+        "time": "2025-07-05T12:59:32+00:00",
+        "logo": "https://images.toogoodtogo.com/store/26166939-6509-4e17-9183-6c35cf88d9fd.png"
       }
     },
     {
@@ -3628,7 +3869,8 @@
       "properties": {
         "name": "El Toro Mexican Grill",
         "item_id": "506615",
-        "time": "2025-07-05T23:29:33+00:00"
+        "time": "2025-07-05T23:29:33+00:00",
+        "logo": "https://images.toogoodtogo.com/store/64e94fb3-9b3a-4295-afbb-40a712c10fdf.jpg"
       }
     },
     {
@@ -3643,7 +3885,8 @@
       "properties": {
         "name": "Oliveira's Steak House",
         "item_id": "1026841",
-        "time": "2025-07-10T03:08:13+00:00"
+        "time": "2025-07-10T03:08:13+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9f093df2-2ace-4bd7-bc01-54e0234de228.png"
       }
     },
     {
@@ -3658,7 +3901,8 @@
       "properties": {
         "name": "Mah Ze Dahr",
         "item_id": "791746",
-        "time": "2025-07-27T00:01:02+00:00"
+        "time": "2025-07-27T00:01:02+00:00",
+        "logo": "https://images.toogoodtogo.com/store/5cd03214-a5e8-4b19-b964-60da71933993.jpg"
       }
     },
     {
@@ -3673,7 +3917,8 @@
       "properties": {
         "name": "Angelina Bakery",
         "item_id": "508575",
-        "time": "2025-08-02T03:28:54+00:00"
+        "time": "2025-08-02T03:28:54+00:00",
+        "logo": "https://images.toogoodtogo.com/store/38eadb1d-b903-499b-ae01-239a7a719e48.png"
       }
     },
     {
@@ -3688,7 +3933,8 @@
       "properties": {
         "name": "Holey Cream",
         "item_id": "144375503541867969",
-        "time": "2025-08-02T03:43:16+00:00"
+        "time": "2025-08-02T03:43:16+00:00",
+        "logo": "https://api.toogoodtogo.com/public-cache/logo/v1/1/hc-1"
       }
     },
     {
@@ -3703,7 +3949,8 @@
       "properties": {
         "name": "Champion Pizza - Times Square",
         "item_id": "121309639344453569",
-        "time": "2025-08-02T03:49:14+00:00"
+        "time": "2025-08-02T03:49:14+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7507bdb5-0ddd-498d-8f91-bd7020f87e60.png"
       }
     },
     {
@@ -3718,7 +3965,8 @@
       "properties": {
         "name": "Champion Pizza - Times Square",
         "item_id": "121309639344453569",
-        "time": "2025-08-02T03:49:22+00:00"
+        "time": "2025-08-02T03:49:22+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7507bdb5-0ddd-498d-8f91-bd7020f87e60.png"
       }
     },
     {
@@ -3733,7 +3981,8 @@
       "properties": {
         "name": "$1.50 NYC Hand Tossed Pizza",
         "item_id": "141328220494837665",
-        "time": "2025-08-02T14:01:15+00:00"
+        "time": "2025-08-02T14:01:15+00:00",
+        "logo": "https://api.toogoodtogo.com/public-cache/logo/v1/1/1p-1"
       }
     },
     {
@@ -3748,7 +3997,8 @@
       "properties": {
         "name": "Oliveira's Steak House",
         "item_id": "1026841",
-        "time": "2025-08-06T03:11:53+00:00"
+        "time": "2025-08-06T03:11:53+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9f093df2-2ace-4bd7-bc01-54e0234de228.png"
       }
     },
     {
@@ -3763,7 +4013,8 @@
       "properties": {
         "name": "Caff\u00e8 Nero",
         "item_id": "1296277",
-        "time": "2025-08-07T21:37:04+00:00"
+        "time": "2025-08-07T21:37:04+00:00",
+        "logo": "https://images.toogoodtogo.com/store/fb701f89-b562-4808-a669-6eaa0e2dd920.png"
       }
     },
     {
@@ -3778,7 +4029,8 @@
       "properties": {
         "name": "Just Salad",
         "item_id": "1171845",
-        "time": "2025-08-13T23:27:21+00:00"
+        "time": "2025-08-13T23:27:21+00:00",
+        "logo": "https://images.toogoodtogo.com/store/5a0912e3-376e-4d35-8783-e878800479b3.jpg"
       }
     },
     {
@@ -3793,7 +4045,8 @@
       "properties": {
         "name": "New York Shawarma Guys",
         "item_id": "232685",
-        "time": "2025-08-13T23:38:17+00:00"
+        "time": "2025-08-13T23:38:17+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bfa25062-27d6-49ec-a8f4-850cbcf400d5.png"
       }
     },
     {
@@ -3808,7 +4061,8 @@
       "properties": {
         "name": "Peppa\u2019s Jerk Chicken",
         "item_id": "1170616",
-        "time": "2025-09-01T01:31:12+00:00"
+        "time": "2025-09-01T01:31:12+00:00",
+        "logo": "https://images.toogoodtogo.com/store/6c38f03b-1f2b-4c50-8d4c-bd9060066c53.png"
       }
     },
     {
@@ -3823,7 +4077,8 @@
       "properties": {
         "name": "Gooey on The Inside Cookies",
         "item_id": "70164001176961985",
-        "time": "2025-09-01T01:52:24+00:00"
+        "time": "2025-09-01T01:52:24+00:00",
+        "logo": "https://images.toogoodtogo.com/store/068d2f48-b5ac-456c-8237-285c549567fb.jpg"
       }
     },
     {
@@ -3838,7 +4093,8 @@
       "properties": {
         "name": "7-Eleven",
         "item_id": "28314725751130848",
-        "time": "2025-09-03T07:56:56+00:00"
+        "time": "2025-09-03T07:56:56+00:00",
+        "logo": "https://images.toogoodtogo.com/store/27ca97da-7f53-47cf-9c23-2840224945d6.jpg"
       }
     },
     {
@@ -3853,7 +4109,8 @@
       "properties": {
         "name": "MaMeMi Pizzeria - K\u00f8benhavn V",
         "item_id": "4982",
-        "time": "2025-09-05T19:44:58+00:00"
+        "time": "2025-09-05T19:44:58+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c68df784-2eb8-4637-84b0-0ca63369c15a.jpg"
       }
     },
     {
@@ -3868,7 +4125,8 @@
       "properties": {
         "name": "Teppan House - Frederiksberg",
         "item_id": "46318995972006592",
-        "time": "2025-09-06T19:52:13+00:00"
+        "time": "2025-09-06T19:52:13+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1544434934_GiifIAXiXGcrUZu0X5AjfT3Yx8jqJ42A.png"
       }
     },
     {
@@ -3883,7 +4141,8 @@
       "properties": {
         "name": "DEJ - Magasin",
         "item_id": "912530",
-        "time": "2025-09-07T12:26:55+00:00"
+        "time": "2025-09-07T12:26:55+00:00",
+        "logo": "https://images.toogoodtogo.com/store/637377f6-8edf-4e4e-9ce6-e67002d3684a.png"
       }
     },
     {
@@ -3898,7 +4157,8 @@
       "properties": {
         "name": "Bagerdygtigt",
         "item_id": "845184",
-        "time": "2025-09-09T15:06:14+00:00"
+        "time": "2025-09-09T15:06:14+00:00",
+        "logo": "https://images.toogoodtogo.com/store/4dd3bca2-87ab-49e7-a659-122e8f22b79d.png"
       }
     },
     {
@@ -3913,7 +4173,8 @@
       "properties": {
         "name": "Nyu Sakura - Frederiksberg C",
         "item_id": "2932",
-        "time": "2025-09-10T19:55:56+00:00"
+        "time": "2025-09-10T19:55:56+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1542642275_2HBTgtMd6GmB0PP1rhTfXJz6hcwoi1Lq.png"
       }
     },
     {
@@ -3928,7 +4189,8 @@
       "properties": {
         "name": "Teppan House - Frederiksberg",
         "item_id": "46318995972006592",
-        "time": "2025-09-13T19:47:26+00:00"
+        "time": "2025-09-13T19:47:26+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1544434934_GiifIAXiXGcrUZu0X5AjfT3Yx8jqJ42A.png"
       }
     },
     {
@@ -3943,7 +4205,8 @@
       "properties": {
         "name": "IKEA",
         "item_id": "17909600097578048",
-        "time": "2025-09-14T17:58:13+00:00"
+        "time": "2025-09-14T17:58:13+00:00",
+        "logo": "https://images.toogoodtogo.com/store/642ec9ae-8070-41b2-8dab-aa564ee6cc64.jpg"
       }
     },
     {
@@ -3958,7 +4221,8 @@
       "properties": {
         "name": "D'let - Det Gr\u00f8nne K\u00f8kken",
         "item_id": "3937",
-        "time": "2025-09-17T18:10:22+00:00"
+        "time": "2025-09-17T18:10:22+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1533885940_M7kcDptVIGhfTSJ8Lq8BcrlH0KUgjbWk_scale.jpg"
       }
     },
     {
@@ -3973,7 +4237,8 @@
       "properties": {
         "name": "Holy Greens Saluhallen",
         "item_id": "96805663329738368",
-        "time": "2025-09-20T14:37:36+00:00"
+        "time": "2025-09-20T14:37:36+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/3c673589-effd-43ce-965d-d56f01824eeb.png"
       }
     },
     {
@@ -3988,7 +4253,8 @@
       "properties": {
         "name": "For You Burritos",
         "item_id": "135634225998142336",
-        "time": "2025-09-20T18:14:55+00:00"
+        "time": "2025-09-20T18:14:55+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c4fc8066-2c06-48b2-b788-f5060085c32c.jpg"
       }
     },
     {
@@ -4003,7 +4269,8 @@
       "properties": {
         "name": "Fuji Sushi - Frederiksberg",
         "item_id": "1015",
-        "time": "2025-09-23T19:36:12+00:00"
+        "time": "2025-09-23T19:36:12+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1480597483_qcQi7GDwHJ_scale.jpg"
       }
     },
     {
@@ -4018,7 +4285,8 @@
       "properties": {
         "name": "Viet Restaurant - Fisketorvet",
         "item_id": "21485554705902752",
-        "time": "2025-09-27T19:18:38+00:00"
+        "time": "2025-09-27T19:18:38+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b15bb646-4616-4e87-9588-f846beb18ac7.png"
       }
     },
     {
@@ -4033,7 +4301,8 @@
       "properties": {
         "name": "Restaurant Flammen",
         "item_id": "50228",
-        "time": "2025-09-27T20:09:14+00:00"
+        "time": "2025-09-27T20:09:14+00:00",
+        "logo": "https://images.toogoodtogo.com/store/10f50ff4-3590-4ece-bc3e-c2483ea9750b.png"
       }
     },
     {
@@ -4048,7 +4317,8 @@
       "properties": {
         "name": "Bagerdygtigt",
         "item_id": "850012",
-        "time": "2025-09-28T15:06:32+00:00"
+        "time": "2025-09-28T15:06:32+00:00",
+        "logo": "https://images.toogoodtogo.com/store/4dd3bca2-87ab-49e7-a659-122e8f22b79d.png"
       }
     },
     {
@@ -4063,7 +4333,8 @@
       "properties": {
         "name": "Teppan House - Frederiksberg",
         "item_id": "46318995972006592",
-        "time": "2025-10-07T19:43:24+00:00"
+        "time": "2025-10-07T19:43:24+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1544434934_GiifIAXiXGcrUZu0X5AjfT3Yx8jqJ42A.png"
       }
     },
     {
@@ -4078,7 +4349,8 @@
       "properties": {
         "name": "Bagerdygtigt",
         "item_id": "850012",
-        "time": "2025-10-08T14:43:40+00:00"
+        "time": "2025-10-08T14:43:40+00:00",
+        "logo": "https://images.toogoodtogo.com/store/4dd3bca2-87ab-49e7-a659-122e8f22b79d.png"
       }
     },
     {
@@ -4093,7 +4365,8 @@
       "properties": {
         "name": "Scandic Klara",
         "item_id": "100518261161391968",
-        "time": "2025-10-20T09:48:33+00:00"
+        "time": "2025-10-20T09:48:33+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/4f25adfb-21f0-48c1-9404-14b14a493d16.png"
       }
     },
     {
@@ -4108,7 +4381,8 @@
       "properties": {
         "name": "Cafe G (brunch) - K\u00f8benhavn K",
         "item_id": "3897",
-        "time": "2025-10-25T12:01:00+00:00"
+        "time": "2025-10-25T12:01:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1533128429_xaNkNO8tccT7485QkWTARJJI0y2THod7_scale.jpg"
       }
     },
     {
@@ -4123,7 +4397,8 @@
       "properties": {
         "name": "Rene's Croissanterie",
         "item_id": "8469",
-        "time": "2025-11-01T13:24:12+00:00"
+        "time": "2025-11-01T13:24:12+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1516533219_cyclNueJ4SnkFlQfYMLvf5OHT2WCqIoD_scale.jpg"
       }
     },
     {
@@ -4138,7 +4413,8 @@
       "properties": {
         "name": "Kamps My Deli",
         "item_id": "135583978710082720",
-        "time": "2025-11-08T16:01:28+00:00"
+        "time": "2025-11-08T16:01:28+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/3abe138a-78c1-4b48-b97e-b1473ef40cab.png"
       }
     },
     {
@@ -4153,7 +4429,8 @@
       "properties": {
         "name": "Courtyard by Marriott",
         "item_id": "110976821493458912",
-        "time": "2025-11-10T08:51:35+00:00"
+        "time": "2025-11-10T08:51:35+00:00",
+        "logo": "https://images.toogoodtogo.com/store/54a58b67-9077-4d5b-a4dd-1d0d9b4c12b8.jpg"
       }
     },
     {
@@ -4168,7 +4445,8 @@
       "properties": {
         "name": "Pages Coffee House",
         "item_id": "1498904",
-        "time": "2025-11-10T15:36:19+00:00"
+        "time": "2025-11-10T15:36:19+00:00",
+        "logo": "https://images.toogoodtogo.com/store/86bfe399-3354-43d1-895e-3e4d75cacdfa.png"
       }
     },
     {
@@ -4183,7 +4461,8 @@
       "properties": {
         "name": "Dulcis Gelato & Pasticcini",
         "item_id": "1493869",
-        "time": "2025-11-22T12:43:58+00:00"
+        "time": "2025-11-22T12:43:58+00:00",
+        "logo": "https://images.toogoodtogo.com/store/6495870a-bb9d-46ba-8c09-94cd228c9b60.jpg"
       }
     },
     {
@@ -4198,7 +4477,8 @@
       "properties": {
         "name": "Nyu Sakura - Frederiksberg C",
         "item_id": "2932",
-        "time": "2025-11-27T20:51:05+00:00"
+        "time": "2025-11-27T20:51:05+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1542642275_2HBTgtMd6GmB0PP1rhTfXJz6hcwoi1Lq.png"
       }
     },
     {
@@ -4213,7 +4493,8 @@
       "properties": {
         "name": "Teppan House - Frederiksberg",
         "item_id": "46318995972006592",
-        "time": "2025-12-09T20:53:31+00:00"
+        "time": "2025-12-09T20:53:31+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1544434934_GiifIAXiXGcrUZu0X5AjfT3Yx8jqJ42A.png"
       }
     },
     {
@@ -4228,7 +4509,8 @@
       "properties": {
         "name": "Erdkorn Bio-Supermarkt",
         "item_id": "1531557",
-        "time": "2025-12-10T07:17:16+00:00"
+        "time": "2025-12-10T07:17:16+00:00",
+        "logo": "https://images.toogoodtogo.com/store/e727a6cb-7262-4184-a21b-68d1f15d7f1a.png"
       }
     },
     {
@@ -4243,7 +4525,8 @@
       "properties": {
         "name": "Sevgin B\u00e4ckerei & Konditorei",
         "item_id": "19843",
-        "time": "2025-12-11T17:50:27+00:00"
+        "time": "2025-12-11T17:50:27+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1532954707_DU4FD2WTWuF7snT2hDxaxD3ZvtUA4Rh4_scale.jpg"
       }
     },
     {
@@ -4258,7 +4541,8 @@
       "properties": {
         "name": "Gardenia Caf\u00e9",
         "item_id": "137658276309400480",
-        "time": "2025-12-11T19:42:18+00:00"
+        "time": "2025-12-11T19:42:18+00:00",
+        "logo": "https://images.toogoodtogo.com/store/fc93f430-605f-44d8-bb6b-767753941381.jpg"
       }
     },
     {
@@ -4273,7 +4557,8 @@
       "properties": {
         "name": "Bagerdygtigt",
         "item_id": "850012",
-        "time": "2025-12-13T16:11:19+00:00"
+        "time": "2025-12-13T16:11:19+00:00",
+        "logo": "https://images.toogoodtogo.com/store/4dd3bca2-87ab-49e7-a659-122e8f22b79d.png"
       }
     },
     {
@@ -4288,7 +4573,8 @@
       "properties": {
         "name": "Scandic Falkoner",
         "item_id": "4947",
-        "time": "2025-12-14T10:04:50+00:00"
+        "time": "2025-12-14T10:04:50+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1507717927_pMbAJd9dpYwjvB1XkWYUnIVwkLdt7UuK_scale.jpg"
       }
     },
     {
@@ -4303,7 +4589,8 @@
       "properties": {
         "name": "IKEA",
         "item_id": "88356896741784576",
-        "time": "2025-12-14T18:23:48+00:00"
+        "time": "2025-12-14T18:23:48+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bb36a927-3be8-4e2a-bf0d-c03e975067c9.jpg"
       }
     },
     {
@@ -4318,7 +4605,8 @@
       "properties": {
         "name": "Kitchen 961 V\u00e4rnhem",
         "item_id": "14132486751576064",
-        "time": "2025-12-16T15:14:57+00:00"
+        "time": "2025-12-16T15:14:57+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3e852fec-dd48-4ce2-8a78-a9eec85a13aa.png"
       }
     },
     {
@@ -4333,7 +4621,8 @@
       "properties": {
         "name": "BackWerk",
         "item_id": "640180",
-        "time": "2025-12-17T14:09:19+00:00"
+        "time": "2025-12-17T14:09:19+00:00",
+        "logo": "https://images.toogoodtogo.com/store/61ab5c19-cf66-408e-961a-ae51f6712bf9.jpg"
       }
     },
     {
@@ -4348,7 +4637,8 @@
       "properties": {
         "name": "Kamps Backstube",
         "item_id": "961250",
-        "time": "2025-12-17T18:24:46+00:00"
+        "time": "2025-12-17T18:24:46+00:00",
+        "logo": "https://images.toogoodtogo.com/store/683b5e51-8216-4441-92ee-a2904b1641a8.png"
       }
     },
     {
@@ -4363,7 +4653,8 @@
       "properties": {
         "name": "REWE Center Markus Mauz",
         "item_id": "162265763456852768",
-        "time": "2025-12-22T21:06:13+00:00"
+        "time": "2025-12-22T21:06:13+00:00",
+        "logo": "https://images.toogoodtogo.com/store/0f361cad-f58a-462e-96ca-0954909424f0.png"
       }
     },
     {
@@ -4378,7 +4669,8 @@
       "properties": {
         "name": "Carrefour Express ",
         "item_id": "13533578441228288",
-        "time": "2025-12-29T09:03:30+00:00"
+        "time": "2025-12-29T09:03:30+00:00",
+        "logo": "https://images.toogoodtogo.com/store/24fcb65f-1a3b-49fd-8151-6c3a4eccbd3c.png"
       }
     },
     {
@@ -4393,7 +4685,8 @@
       "properties": {
         "name": "Hotel nhow ",
         "item_id": "664443",
-        "time": "2025-12-29T09:30:17+00:00"
+        "time": "2025-12-29T09:30:17+00:00",
+        "logo": "https://images.toogoodtogo.com/store/5e8c8b9f-3185-4740-8088-e80fdc8cbac3.png"
       }
     },
     {
@@ -4408,7 +4701,8 @@
       "properties": {
         "name": "Bavet",
         "item_id": "5402",
-        "time": "2025-12-29T18:53:13+00:00"
+        "time": "2025-12-29T18:53:13+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c20f4b8b-e10d-4f2c-bc9e-be10b53aa7de.jpg"
       }
     },
     {
@@ -4423,7 +4717,8 @@
       "properties": {
         "name": "18 Sushi",
         "item_id": "58617731754854240",
-        "time": "2025-12-29T19:37:19+00:00"
+        "time": "2025-12-29T19:37:19+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b1171b8f-dc96-49d5-8270-e468eba70477.png"
       }
     },
     {
@@ -4438,7 +4733,8 @@
       "properties": {
         "name": "Holiday Inn Express",
         "item_id": "1291058",
-        "time": "2025-12-31T09:20:27+00:00"
+        "time": "2025-12-31T09:20:27+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/163421/45c8795c-9dec-4ea1-811c-8f58e2470707.png"
       }
     },
     {
@@ -4453,7 +4749,8 @@
       "properties": {
         "name": "Slice It",
         "item_id": "136170183542222656",
-        "time": "2025-12-31T14:22:54+00:00"
+        "time": "2025-12-31T14:22:54+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d83001d1-d9c6-4325-8787-137478a7b9fc.png"
       }
     },
     {
@@ -4468,7 +4765,8 @@
       "properties": {
         "name": "dean&david",
         "item_id": "147242760669589760",
-        "time": "2025-12-31T14:30:55+00:00"
+        "time": "2025-12-31T14:30:55+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9a86936c-e149-488b-8879-c06d6cdab8c7.png"
       }
     },
     {
@@ -4483,7 +4781,8 @@
       "properties": {
         "name": "Holiday Inn Express",
         "item_id": "1177642",
-        "time": "2026-01-04T10:02:54+00:00"
+        "time": "2026-01-04T10:02:54+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c99e6f56-b6d4-4460-9b66-ece5b0b614eb.png"
       }
     },
     {
@@ -4498,7 +4797,8 @@
       "properties": {
         "name": "Scandic Hotel",
         "item_id": "20623",
-        "time": "2026-01-05T09:09:52+00:00"
+        "time": "2026-01-05T09:09:52+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1546861835_6S2V2VhktCXfGsuPLCEvSrXOtW6pvzIr.jpg"
       }
     },
     {
@@ -4513,7 +4813,8 @@
       "properties": {
         "name": "Austria Trend Hotel Europa Salzburg",
         "item_id": "576011",
-        "time": "2026-01-13T10:51:45+00:00"
+        "time": "2026-01-13T10:51:45+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1cc85f16-a87a-4657-9f63-5ce93946ad21.jpg"
       }
     },
     {
@@ -4528,7 +4829,8 @@
       "properties": {
         "name": "Hotel DIE SONNE",
         "item_id": "798684",
-        "time": "2026-01-14T19:11:50+00:00"
+        "time": "2026-01-14T19:11:50+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b13ecc10-9623-4380-82cb-231e7bc436ae.jpg"
       }
     },
     {
@@ -4543,7 +4845,8 @@
       "properties": {
         "name": "JUFA Alpenhotel",
         "item_id": "831768",
-        "time": "2026-01-14T19:48:18+00:00"
+        "time": "2026-01-14T19:48:18+00:00",
+        "logo": "https://images.toogoodtogo.com/store/5e81db2b-659e-49c1-9f8a-dfad86ea4b54.jpg"
       }
     },
     {
@@ -4558,7 +4861,8 @@
       "properties": {
         "name": "Haferkater",
         "item_id": "121726519771668416",
-        "time": "2026-01-18T18:37:52+00:00"
+        "time": "2026-01-18T18:37:52+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b5596d9d-eebf-4490-b22d-2a14821f53c8.png"
       }
     },
     {
@@ -4573,7 +4877,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "800098",
-        "time": "2026-01-18T18:57:11+00:00"
+        "time": "2026-01-18T18:57:11+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -4588,7 +4893,8 @@
       "properties": {
         "name": "Omas K\u00fcche ",
         "item_id": "872840",
-        "time": "2026-01-18T20:13:46+00:00"
+        "time": "2026-01-18T20:13:46+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8fc9d7c9-eb1f-42b5-92f2-172caa5b5ed8.png"
       }
     },
     {
@@ -4603,7 +4909,8 @@
       "properties": {
         "name": "Thai Hunters Restaurant & Take Away",
         "item_id": "198201331520772576",
-        "time": "2026-01-19T17:04:31+00:00"
+        "time": "2026-01-19T17:04:31+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d69e9501-a2c5-4c40-8f14-539709d31069.png"
       }
     },
     {
@@ -4618,7 +4925,8 @@
       "properties": {
         "name": "Thai Hunters Restaurant & Take Away",
         "item_id": "198201331520772576",
-        "time": "2026-01-19T17:05:35+00:00"
+        "time": "2026-01-19T17:05:35+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d69e9501-a2c5-4c40-8f14-539709d31069.png"
       }
     },
     {
@@ -4633,7 +4941,8 @@
       "properties": {
         "name": "Duran Sandwiches",
         "item_id": "269573",
-        "time": "2026-01-20T08:44:32+00:00"
+        "time": "2026-01-20T08:44:32+00:00",
+        "logo": "https://images.toogoodtogo.com/store/4551975c-e318-4d86-895a-8566600f2c01.jpg"
       }
     },
     {
@@ -4648,7 +4957,8 @@
       "properties": {
         "name": "Dunkin'",
         "item_id": "170665080070408576",
-        "time": "2026-01-20T08:49:07+00:00"
+        "time": "2026-01-20T08:49:07+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/137651/6909df0e-3031-4a3e-803d-23f7e5d93698.jpg"
       }
     },
     {
@@ -4663,7 +4973,8 @@
       "properties": {
         "name": "Restaurant Prinz Ferdinand",
         "item_id": "109572334592611328",
-        "time": "2026-01-21T18:19:53+00:00"
+        "time": "2026-01-21T18:19:53+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bbef7f3b-0a27-4414-8989-eed2eb991d07.png"
       }
     },
     {
@@ -4678,7 +4989,8 @@
       "properties": {
         "name": "Halis B\u00f6rek",
         "item_id": "181681510297998624",
-        "time": "2026-01-21T18:34:35+00:00"
+        "time": "2026-01-21T18:34:35+00:00",
+        "logo": "https://images.toogoodtogo.com/store/74474c1b-a2a1-4240-87d9-b27e9b712f9a.png"
       }
     },
     {
@@ -4693,7 +5005,8 @@
       "properties": {
         "name": "Cabinn Copenhagen",
         "item_id": "28655591067103680",
-        "time": "2026-01-22T17:05:56+00:00"
+        "time": "2026-01-22T17:05:56+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d8d096d2-a1b8-4154-90bc-13b5f8563a0f.png"
       }
     },
     {
@@ -4708,7 +5021,8 @@
       "properties": {
         "name": "Narvesen Bergen Storsenter",
         "item_id": "129188386684473920",
-        "time": "2026-01-27T12:59:30+00:00"
+        "time": "2026-01-27T12:59:30+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/81820/2a0b7273-b0a3-49ef-ac3d-1d5123a39273.png"
       }
     },
     {
@@ -4723,7 +5037,8 @@
       "properties": {
         "name": "Fly Chicken Galleriet",
         "item_id": "209984",
-        "time": "2026-01-28T21:01:14+00:00"
+        "time": "2026-01-28T21:01:14+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3d32a0be-2e41-4c59-a0e6-7c5abfffd85c.png"
       }
     },
     {
@@ -4738,7 +5053,8 @@
       "properties": {
         "name": "Milla - Kaffe, Br\u00f6d & Sallad",
         "item_id": "132173996206716256",
-        "time": "2026-01-29T13:51:29+00:00"
+        "time": "2026-01-29T13:51:29+00:00",
+        "logo": "https://images.toogoodtogo.com/store/5659a6b5-868d-423a-9b02-72da2ac44f3e.jpg"
       }
     },
     {
@@ -4753,7 +5069,8 @@
       "properties": {
         "name": "Holy Greens Kungsholmen",
         "item_id": "96797078412815968",
-        "time": "2026-01-29T19:47:56+00:00"
+        "time": "2026-01-29T19:47:56+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/3c673589-effd-43ce-965d-d56f01824eeb.png"
       }
     },
     {
@@ -4768,7 +5085,8 @@
       "properties": {
         "name": "Brasserie Sabis",
         "item_id": "190671890909347040",
-        "time": "2026-01-30T14:07:42+00:00"
+        "time": "2026-01-30T14:07:42+00:00",
+        "logo": "https://images.toogoodtogo.com/store/67b68128-c270-49b0-871b-451e01a4e176.jpg"
       }
     },
     {
@@ -4783,7 +5101,8 @@
       "properties": {
         "name": "Mr Churros Gamlastan",
         "item_id": "101384045913063232",
-        "time": "2026-01-31T11:23:20+00:00"
+        "time": "2026-01-31T11:23:20+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8d08a9eb-5a29-4fe7-a3dc-408b912f5b4a.png"
       }
     },
     {
@@ -4798,7 +5117,8 @@
       "properties": {
         "name": "Pesso bageri & cafe",
         "item_id": "187262797789313120",
-        "time": "2026-02-01T14:28:03+00:00"
+        "time": "2026-02-01T14:28:03+00:00",
+        "logo": "https://images.toogoodtogo.com/store/86836fa7-69c8-41dd-ade2-a317d702b25f.png"
       }
     },
     {
@@ -4813,7 +5133,8 @@
       "properties": {
         "name": "Ritazza Centralen (centralplan)",
         "item_id": "720442",
-        "time": "2026-02-01T16:54:33+00:00"
+        "time": "2026-02-01T16:54:33+00:00",
+        "logo": "https://images.toogoodtogo.com/store/642ca222-4331-410f-8677-780a6592d8bf.jpg"
       }
     },
     {
@@ -4828,7 +5149,8 @@
       "properties": {
         "name": "Caff\u00e8 Nero - Drottningatan 86",
         "item_id": "1156085",
-        "time": "2026-02-01T18:55:11+00:00"
+        "time": "2026-02-01T18:55:11+00:00",
+        "logo": "https://images.toogoodtogo.com/store/59978ca2-5e14-4e8c-85fe-99b466ee1928.png"
       }
     },
     {
@@ -4843,7 +5165,8 @@
       "properties": {
         "name": "Eataly Stockholm",
         "item_id": "486404",
-        "time": "2026-02-06T10:35:26+00:00"
+        "time": "2026-02-06T10:35:26+00:00",
+        "logo": "https://images.toogoodtogo.com/store/77122ff0-9067-44d8-8fbc-c9bf50db7e7b.png"
       }
     },
     {
@@ -4858,7 +5181,8 @@
       "properties": {
         "name": "Best Western Hotel Bentleys",
         "item_id": "178766661454003840",
-        "time": "2026-02-06T11:05:03+00:00"
+        "time": "2026-02-06T11:05:03+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/a61d169d-3254-4045-b88b-614645aec620.png"
       }
     },
     {
@@ -4873,7 +5197,8 @@
       "properties": {
         "name": "NORDSEE",
         "item_id": "18960",
-        "time": "2026-02-07T18:27:58+00:00"
+        "time": "2026-02-07T18:27:58+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1522242705_rO3XoQMpKHgCiW82ZVTfEXk0ks0kGibG_scale.jpg"
       }
     },
     {
@@ -4888,7 +5213,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-02-07T19:01:16+00:00"
+        "time": "2026-02-07T19:01:16+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -4903,7 +5229,8 @@
       "properties": {
         "name": "Kabul",
         "item_id": "155584717378484672",
-        "time": "2026-02-07T20:10:49+00:00"
+        "time": "2026-02-07T20:10:49+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7519c4a9-502c-4120-a8bf-b5243deda212.jpg"
       }
     },
     {
@@ -4918,7 +5245,8 @@
       "properties": {
         "name": "Baydar's Dorfl\u00e4dele",
         "item_id": "995029",
-        "time": "2026-02-09T09:01:02+00:00"
+        "time": "2026-02-09T09:01:02+00:00",
+        "logo": "https://images.toogoodtogo.com/store/23830a7d-a387-432b-8ed1-7aeb234763d5.jpg"
       }
     },
     {
@@ -4933,7 +5261,8 @@
       "properties": {
         "name": "Buon Caf\u00e9 & Backshop\u200c",
         "item_id": "858797",
-        "time": "2026-02-09T16:05:00+00:00"
+        "time": "2026-02-09T16:05:00+00:00",
+        "logo": "https://apptoogoodtogo.com/public-cache/logo/v1/1/bb-1"
       }
     },
     {
@@ -4948,7 +5277,8 @@
       "properties": {
         "name": "Caf\u00e9 Gigi",
         "item_id": "192424443188690688",
-        "time": "2026-02-09T16:13:43+00:00"
+        "time": "2026-02-09T16:13:43+00:00",
+        "logo": "https://images.toogoodtogo.com/store/65348586-eb9a-4814-baf5-4d4d6b2db37d.png"
       }
     },
     {
@@ -4963,7 +5293,8 @@
       "properties": {
         "name": "Buon Caf\u00e9 & Backshop\u200c",
         "item_id": "858797",
-        "time": "2026-02-11T16:23:19+00:00"
+        "time": "2026-02-11T16:23:19+00:00",
+        "logo": "https://apptoogoodtogo.com/public-cache/logo/v1/1/bb-1"
       }
     },
     {
@@ -4978,7 +5309,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-02-11T19:14:05+00:00"
+        "time": "2026-02-11T19:14:05+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -4993,7 +5325,8 @@
       "properties": {
         "name": "Hotel am Rathaus",
         "item_id": "154750950227082048",
-        "time": "2026-02-12T11:41:47+00:00"
+        "time": "2026-02-12T11:41:47+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1b26c29f-c94f-4a33-a14b-dd498edd6fd9.png"
       }
     },
     {
@@ -5008,7 +5341,8 @@
       "properties": {
         "name": "Kolben Kaffee Freiburg ",
         "item_id": "824100",
-        "time": "2026-02-13T15:32:06+00:00"
+        "time": "2026-02-13T15:32:06+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7c076703-05e9-4886-818b-e164d1b558fd.jpg"
       }
     },
     {
@@ -5023,7 +5357,8 @@
       "properties": {
         "name": "Kolben Kaffee Freiburg ",
         "item_id": "824100",
-        "time": "2026-02-16T16:04:50+00:00"
+        "time": "2026-02-16T16:04:50+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7c076703-05e9-4886-818b-e164d1b558fd.jpg"
       }
     },
     {
@@ -5038,7 +5373,8 @@
       "properties": {
         "name": "Caf\u00e9 Journal",
         "item_id": "22045",
-        "time": "2026-02-16T17:54:59+00:00"
+        "time": "2026-02-16T17:54:59+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1561015958_jShE5gXg0LVdfqWtetfFBAI7rT3VfBIv.jpg"
       }
     },
     {
@@ -5053,7 +5389,8 @@
       "properties": {
         "name": "Kabul",
         "item_id": "155584717378484672",
-        "time": "2026-02-16T17:59:31+00:00"
+        "time": "2026-02-16T17:59:31+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7519c4a9-502c-4120-a8bf-b5243deda212.jpg"
       }
     },
     {
@@ -5068,7 +5405,8 @@
       "properties": {
         "name": "Oishii Sushi und Grill",
         "item_id": "56762",
-        "time": "2026-02-17T21:25:49+00:00"
+        "time": "2026-02-17T21:25:49+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1508757163_431adIPr2MEPeGq5Oh3FOY3l86d3qSRd_scale.jpg"
       }
     },
     {
@@ -5083,7 +5421,8 @@
       "properties": {
         "name": "Hotel am Rathaus",
         "item_id": "154750950227082048",
-        "time": "2026-02-18T11:38:49+00:00"
+        "time": "2026-02-18T11:38:49+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1b26c29f-c94f-4a33-a14b-dd498edd6fd9.png"
       }
     },
     {
@@ -5098,7 +5437,8 @@
       "properties": {
         "name": "Caf\u00e9 Journal",
         "item_id": "22045",
-        "time": "2026-02-18T17:57:53+00:00"
+        "time": "2026-02-18T17:57:53+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1561015958_jShE5gXg0LVdfqWtetfFBAI7rT3VfBIv.jpg"
       }
     },
     {
@@ -5113,7 +5453,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-02-18T19:32:44+00:00"
+        "time": "2026-02-18T19:32:44+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -5128,7 +5469,8 @@
       "properties": {
         "name": "Fischstand Markthalle",
         "item_id": "86306419066461984",
-        "time": "2026-02-19T14:49:03+00:00"
+        "time": "2026-02-19T14:49:03+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a63b3fc7-dd7d-4736-b557-04043e117d93.png"
       }
     },
     {
@@ -5143,7 +5485,8 @@
       "properties": {
         "name": "Backstube im Karlsbau",
         "item_id": "1039637",
-        "time": "2026-02-20T14:54:23+00:00"
+        "time": "2026-02-20T14:54:23+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d86a53c3-633d-4dfb-afc8-c42c6de94bcb.jpg"
       }
     },
     {
@@ -5158,7 +5501,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-02-20T15:04:46+00:00"
+        "time": "2026-02-20T15:04:46+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5173,7 +5517,8 @@
       "properties": {
         "name": "St. Ferment Kombucha",
         "item_id": "961127",
-        "time": "2026-02-21T12:30:25+00:00"
+        "time": "2026-02-21T12:30:25+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bfbfa13d-d920-4aa4-ac26-260103d6bbdb.png"
       }
     },
     {
@@ -5188,7 +5533,8 @@
       "properties": {
         "name": "Fischstand Markthalle",
         "item_id": "86306419066461984",
-        "time": "2026-02-23T15:23:17+00:00"
+        "time": "2026-02-23T15:23:17+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a63b3fc7-dd7d-4736-b557-04043e117d93.png"
       }
     },
     {
@@ -5203,7 +5549,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-02-23T15:27:09+00:00"
+        "time": "2026-02-23T15:27:09+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5218,7 +5565,8 @@
       "properties": {
         "name": "Croust'y Pain - 39 Avenue Arstide Briand",
         "item_id": "1015250",
-        "time": "2026-02-23T18:57:45+00:00"
+        "time": "2026-02-23T18:57:45+00:00",
+        "logo": "https://images.toogoodtogo.com/store/ab71eb02-19f9-45e1-a51f-de2b3b4901b0.png"
       }
     },
     {
@@ -5233,7 +5581,8 @@
       "properties": {
         "name": "Fili Caf\u00e9 ",
         "item_id": "829324",
-        "time": "2026-02-24T14:55:39+00:00"
+        "time": "2026-02-24T14:55:39+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c1b79bf1-e81e-4c3d-b1ab-65096b32334d.png"
       }
     },
     {
@@ -5248,7 +5597,8 @@
       "properties": {
         "name": "Oishii Sushi und Grill",
         "item_id": "56767",
-        "time": "2026-02-27T13:42:29+00:00"
+        "time": "2026-02-27T13:42:29+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1508757163_431adIPr2MEPeGq5Oh3FOY3l86d3qSRd_scale.jpg"
       }
     },
     {
@@ -5263,7 +5613,8 @@
       "properties": {
         "name": "St. Ferment Kombucha",
         "item_id": "864412",
-        "time": "2026-02-28T10:28:26+00:00"
+        "time": "2026-02-28T10:28:26+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bfbfa13d-d920-4aa4-ac26-260103d6bbdb.png"
       }
     },
     {
@@ -5278,7 +5629,8 @@
       "properties": {
         "name": "St. Ferment Kombucha",
         "item_id": "961127",
-        "time": "2026-02-28T10:28:34+00:00"
+        "time": "2026-02-28T10:28:34+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bfbfa13d-d920-4aa4-ac26-260103d6bbdb.png"
       }
     },
     {
@@ -5293,7 +5645,8 @@
       "properties": {
         "name": "Kolben Kaffee Freiburg ",
         "item_id": "824100",
-        "time": "2026-02-28T14:24:10+00:00"
+        "time": "2026-02-28T14:24:10+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7c076703-05e9-4886-818b-e164d1b558fd.jpg"
       }
     },
     {
@@ -5308,7 +5661,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-02-28T20:25:54+00:00"
+        "time": "2026-02-28T20:25:54+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5323,7 +5677,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-03-02T15:39:03+00:00"
+        "time": "2026-03-02T15:39:03+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5338,7 +5693,8 @@
       "properties": {
         "name": "Kolben Kaffee Freiburg ",
         "item_id": "824100",
-        "time": "2026-03-02T15:42:04+00:00"
+        "time": "2026-03-02T15:42:04+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7c076703-05e9-4886-818b-e164d1b558fd.jpg"
       }
     },
     {
@@ -5353,7 +5709,8 @@
       "properties": {
         "name": "Walter und Conny Schwaab Obstbau",
         "item_id": "208928404492922112",
-        "time": "2026-03-03T11:58:31+00:00"
+        "time": "2026-03-03T11:58:31+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8cfa06a8-cfdb-4171-bf78-42eab5fd2d4c.png"
       }
     },
     {
@@ -5368,7 +5725,8 @@
       "properties": {
         "name": "Backstube im Karlsbau",
         "item_id": "1039637",
-        "time": "2026-03-03T14:46:08+00:00"
+        "time": "2026-03-03T14:46:08+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d86a53c3-633d-4dfb-afc8-c42c6de94bcb.jpg"
       }
     },
     {
@@ -5383,7 +5741,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-03-04T17:12:50+00:00"
+        "time": "2026-03-04T17:12:50+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -5398,7 +5757,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-03-05T15:49:37+00:00"
+        "time": "2026-03-05T15:49:37+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5413,7 +5773,8 @@
       "properties": {
         "name": "Kolben Kaffee Freiburg ",
         "item_id": "824100",
-        "time": "2026-03-06T16:01:10+00:00"
+        "time": "2026-03-06T16:01:10+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7c076703-05e9-4886-818b-e164d1b558fd.jpg"
       }
     },
     {
@@ -5428,7 +5789,8 @@
       "properties": {
         "name": "Little Marrakesh",
         "item_id": "218828122264380320",
-        "time": "2026-03-07T19:17:20+00:00"
+        "time": "2026-03-07T19:17:20+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7aa382e5-1caa-45b6-a4a8-09679b785caf.png"
       }
     },
     {
@@ -5443,7 +5805,8 @@
       "properties": {
         "name": "Little Marrakesh",
         "item_id": "214523658954212832",
-        "time": "2026-03-08T12:00:20+00:00"
+        "time": "2026-03-08T12:00:20+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7aa382e5-1caa-45b6-a4a8-09679b785caf.png"
       }
     },
     {
@@ -5458,7 +5821,8 @@
       "properties": {
         "name": "Kolben Kaffee Freiburg ",
         "item_id": "824100",
-        "time": "2026-03-08T15:10:26+00:00"
+        "time": "2026-03-08T15:10:26+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7c076703-05e9-4886-818b-e164d1b558fd.jpg"
       }
     },
     {
@@ -5473,7 +5837,8 @@
       "properties": {
         "name": "Caf\u00e9 Journal",
         "item_id": "22045",
-        "time": "2026-03-08T17:43:48+00:00"
+        "time": "2026-03-08T17:43:48+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1561015958_jShE5gXg0LVdfqWtetfFBAI7rT3VfBIv.jpg"
       }
     },
     {
@@ -5488,7 +5853,8 @@
       "properties": {
         "name": "mamahe",
         "item_id": "846302",
-        "time": "2026-03-09T13:52:51+00:00"
+        "time": "2026-03-09T13:52:51+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a504e793-cba4-4af4-8c2d-3eceb39dbbcb.jpg"
       }
     },
     {
@@ -5503,7 +5869,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-03-09T15:42:58+00:00"
+        "time": "2026-03-09T15:42:58+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5518,7 +5885,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-03-10T19:22:37+00:00"
+        "time": "2026-03-10T19:22:37+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -5533,7 +5901,8 @@
       "properties": {
         "name": "Kolben Kaffee Freiburg ",
         "item_id": "824080",
-        "time": "2026-03-11T15:15:51+00:00"
+        "time": "2026-03-11T15:15:51+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7c076703-05e9-4886-818b-e164d1b558fd.jpg"
       }
     },
     {
@@ -5548,7 +5917,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-03-11T15:18:59+00:00"
+        "time": "2026-03-11T15:18:59+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5563,7 +5933,8 @@
       "properties": {
         "name": "Ruetz",
         "item_id": "86454",
-        "time": "2026-03-14T17:40:24+00:00"
+        "time": "2026-03-14T17:40:24+00:00",
+        "logo": "https://images.toogoodtogo.com/store/410ff2c0-6556-4043-aced-371b7a66d109.jpg"
       }
     },
     {
@@ -5578,7 +5949,8 @@
       "properties": {
         "name": "Tingting Asiamarkt Innsbruck",
         "item_id": "131612637229425280",
-        "time": "2026-03-14T17:57:14+00:00"
+        "time": "2026-03-14T17:57:14+00:00",
+        "logo": "https://images.toogoodtogo.com/store/dc94dee4-c41d-497f-a266-fd7eeef93d9e.png"
       }
     },
     {
@@ -5593,7 +5965,8 @@
       "properties": {
         "name": "Sushi SEN",
         "item_id": "172179965996643008",
-        "time": "2026-03-14T20:46:38+00:00"
+        "time": "2026-03-14T20:46:38+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b9309b60-90b8-46d3-bbaa-55ab85e556c6.png"
       }
     },
     {
@@ -5608,7 +5981,8 @@
       "properties": {
         "name": "Caf\u00e9 Schmidt",
         "item_id": "19844",
-        "time": "2026-03-18T16:48:08+00:00"
+        "time": "2026-03-18T16:48:08+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1532433575_fnBhIoL8vMVahVKqRoIAzUfvXXuG35xA_scale.jpg"
       }
     },
     {
@@ -5623,7 +5997,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-03-18T17:23:53+00:00"
+        "time": "2026-03-18T17:23:53+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -5638,7 +6013,8 @@
       "properties": {
         "name": "Badische Bar in der Markthalle",
         "item_id": "59996107978676960",
-        "time": "2026-03-18T17:31:13+00:00"
+        "time": "2026-03-18T17:31:13+00:00",
+        "logo": "https://images.toogoodtogo.com/store/b5703ee1-a173-4f7d-9ca1-45566d88f9b5.png"
       }
     },
     {
@@ -5653,7 +6029,8 @@
       "properties": {
         "name": "Avesta - Cuisine Traditionnelle Kurde",
         "item_id": "1573252",
-        "time": "2026-03-20T22:11:13+00:00"
+        "time": "2026-03-20T22:11:13+00:00",
+        "logo": "https://images.toogoodtogo.com/store/cfd7e160-f2ae-477c-96f7-90ff642445df.png"
       }
     },
     {
@@ -5668,7 +6045,8 @@
       "properties": {
         "name": "Traiteur cuisine Tib\u00e9taine- Pr\u00e9sident Wilson",
         "item_id": "1251184",
-        "time": "2026-03-21T12:27:51+00:00"
+        "time": "2026-03-21T12:27:51+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8420f9b8-5f46-4918-bb9e-257fb77a8077.jpg"
       }
     },
     {
@@ -5683,7 +6061,8 @@
       "properties": {
         "name": "Novotel - Paris Gare Montparnasse",
         "item_id": "311421",
-        "time": "2026-03-21T13:54:56+00:00"
+        "time": "2026-03-21T13:54:56+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f47d1fa5-a5e1-47be-8f0d-70bebbb1b7bd.png"
       }
     },
     {
@@ -5698,7 +6077,8 @@
       "properties": {
         "name": "Ibis - Paris Italie Tolbiac",
         "item_id": "66011",
-        "time": "2026-03-22T11:24:46+00:00"
+        "time": "2026-03-22T11:24:46+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9947a76f-4123-478b-ab10-73d2310f0e2d.png"
       }
     },
     {
@@ -5713,7 +6093,8 @@
       "properties": {
         "name": "Meurette - Mirosmenil",
         "item_id": "80588610039347552",
-        "time": "2026-03-22T21:44:13+00:00"
+        "time": "2026-03-22T21:44:13+00:00",
+        "logo": "https://images.toogoodtogo.com/store/79bae71b-3fa8-4e19-b2f4-632138b67779.jpg"
       }
     },
     {
@@ -5728,7 +6109,8 @@
       "properties": {
         "name": "Timhotel - Op\u00e9ra Madeleine",
         "item_id": "639573",
-        "time": "2026-03-23T10:54:21+00:00"
+        "time": "2026-03-23T10:54:21+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8f6a3df1-f5b6-4623-bb70-f67f7c3ce36a.png"
       }
     },
     {
@@ -5743,7 +6125,8 @@
       "properties": {
         "name": "Loyal Caf\u00e9-Cantine - Amsterdam",
         "item_id": "25542",
-        "time": "2026-03-23T14:21:03+00:00"
+        "time": "2026-03-23T14:21:03+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7e3e94a0-a276-4869-b53d-450884fa8243.jpg"
       }
     },
     {
@@ -5758,7 +6141,8 @@
       "properties": {
         "name": "Dawan",
         "item_id": "170127010815302208",
-        "time": "2026-03-23T16:04:55+00:00"
+        "time": "2026-03-23T16:04:55+00:00",
+        "logo": "https://images.toogoodtogo.com/store/6398d3f7-378e-4aee-af5d-4e6dcf255d0f.jpg"
       }
     },
     {
@@ -5773,7 +6157,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-03-24T15:47:44+00:00"
+        "time": "2026-03-24T15:47:44+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5788,7 +6173,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-03-26T15:50:09+00:00"
+        "time": "2026-03-26T15:50:09+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5803,7 +6189,8 @@
       "properties": {
         "name": "CASTANEA CAF\u00c9",
         "item_id": "225527423090202880",
-        "time": "2026-03-27T16:56:16+00:00"
+        "time": "2026-03-27T16:56:16+00:00",
+        "logo": "https://images.toogoodtogo.com/store/875e2567-ef54-48ba-a005-0b3703d14bac.png"
       }
     },
     {
@@ -5818,7 +6205,8 @@
       "properties": {
         "name": "iH Hotels Milano Centrale",
         "item_id": "115581054736049920",
-        "time": "2026-03-28T11:29:55+00:00"
+        "time": "2026-03-28T11:29:55+00:00",
+        "logo": "https://images.toogoodtogo.com/store/844f3703-0d1b-42c3-afc6-cdaffe453680.png"
       }
     },
     {
@@ -5833,7 +6221,8 @@
       "properties": {
         "name": "Mancuso Gelati Italiani 1920 | Via de' Gucciardini",
         "item_id": "714109",
-        "time": "2026-03-28T15:00:36+00:00"
+        "time": "2026-03-28T15:00:36+00:00",
+        "logo": "https://images.toogoodtogo.com/store/efd11558-3310-4d27-af6f-5618b32cb6bb.jpg"
       }
     },
     {
@@ -5848,7 +6237,8 @@
       "properties": {
         "name": "Erbert | Pirelli",
         "item_id": "173638044603633408",
-        "time": "2026-03-31T17:24:50+00:00"
+        "time": "2026-03-31T17:24:50+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8f4a20ec-f54f-4091-b070-eedaa07b50e9.png"
       }
     },
     {
@@ -5863,7 +6253,8 @@
       "properties": {
         "name": "Lune Storte - Restaurant & Caf\u00e8",
         "item_id": "172742874497846400",
-        "time": "2026-03-31T17:29:03+00:00"
+        "time": "2026-03-31T17:29:03+00:00",
+        "logo": "https://images.toogoodtogo.com/store/de3174e8-8835-428f-ad59-d89ff218f4e6.png"
       }
     },
     {
@@ -5878,7 +6269,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-04-01T16:18:27+00:00"
+        "time": "2026-04-01T16:18:27+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -5893,7 +6285,8 @@
       "properties": {
         "name": "mamahe",
         "item_id": "846302",
-        "time": "2026-04-02T12:51:50+00:00"
+        "time": "2026-04-02T12:51:50+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a504e793-cba4-4af4-8c2d-3eceb39dbbcb.jpg"
       }
     },
     {
@@ -5908,7 +6301,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-04-02T14:49:28+00:00"
+        "time": "2026-04-02T14:49:28+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5923,7 +6317,8 @@
       "properties": {
         "name": "Appart'City - Clermont Ferrand Centre",
         "item_id": "601250",
-        "time": "2026-04-04T10:33:16+00:00"
+        "time": "2026-04-04T10:33:16+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da126677-fc1c-4163-8f66-7c7c0cbf28cd.png"
       }
     },
     {
@@ -5938,7 +6333,8 @@
       "properties": {
         "name": "\ud83c\udfaf Ameia",
         "item_id": "1104316",
-        "time": "2026-04-07T12:58:06+00:00"
+        "time": "2026-04-07T12:58:06+00:00",
+        "logo": "https://images.toogoodtogo.com/store/353b0b09-ed2b-4bb5-a242-8283bd3724e8.jpg"
       }
     },
     {
@@ -5953,7 +6349,8 @@
       "properties": {
         "name": "Kiosque Frichti - Je\u00fbneurs",
         "item_id": "210183743960943968",
-        "time": "2026-04-07T13:05:51+00:00"
+        "time": "2026-04-07T13:05:51+00:00",
+        "logo": "https://images.toogoodtogo.com/store/903a3864-40b3-4eb4-8a1a-9818a1b1b64f.png"
       }
     },
     {
@@ -5968,7 +6365,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-04-08T14:48:52+00:00"
+        "time": "2026-04-08T14:48:52+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -5983,7 +6381,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-04-08T16:24:35+00:00"
+        "time": "2026-04-08T16:24:35+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -5998,7 +6397,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-04-09T16:29:45+00:00"
+        "time": "2026-04-09T16:29:45+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -6013,7 +6413,8 @@
       "properties": {
         "name": "TRIBE Den Haag Centraal",
         "item_id": "8675",
-        "time": "2026-04-11T09:15:02+00:00"
+        "time": "2026-04-11T09:15:02+00:00",
+        "logo": "https://images.toogoodtogo.com/store/2d572fde-fbe7-4f46-b125-3a20c84d78ff.png"
       }
     },
     {
@@ -6028,7 +6429,8 @@
       "properties": {
         "name": "Pazze e Pizze",
         "item_id": "10138",
-        "time": "2026-04-11T19:57:53+00:00"
+        "time": "2026-04-11T19:57:53+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1552680481_zRmkwPsEqlQ0H753wG3eJqCJqP1xdmMc.png"
       }
     },
     {
@@ -6043,7 +6445,8 @@
       "properties": {
         "name": "Slice It",
         "item_id": "136170183542222656",
-        "time": "2026-04-12T15:36:00+00:00"
+        "time": "2026-04-12T15:36:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/d83001d1-d9c6-4325-8787-137478a7b9fc.png"
       }
     },
     {
@@ -6058,7 +6461,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-04-13T15:46:19+00:00"
+        "time": "2026-04-13T15:46:19+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -6073,7 +6477,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-04-14T14:49:05+00:00"
+        "time": "2026-04-14T14:49:05+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6088,7 +6493,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-04-14T16:20:04+00:00"
+        "time": "2026-04-14T16:20:04+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -6103,7 +6509,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-04-16T16:16:22+00:00"
+        "time": "2026-04-16T16:16:22+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -6118,7 +6525,8 @@
       "properties": {
         "name": "Hotel am Rathaus",
         "item_id": "154750950227082048",
-        "time": "2026-04-17T10:39:33+00:00"
+        "time": "2026-04-17T10:39:33+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1b26c29f-c94f-4a33-a14b-dd498edd6fd9.png"
       }
     },
     {
@@ -6133,7 +6541,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "800098",
-        "time": "2026-04-18T18:00:01+00:00"
+        "time": "2026-04-18T18:00:01+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -6148,7 +6557,8 @@
       "properties": {
         "name": "Kolben Kaffee Freiburg ",
         "item_id": "824100",
-        "time": "2026-04-20T15:01:37+00:00"
+        "time": "2026-04-20T15:01:37+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7c076703-05e9-4886-818b-e164d1b558fd.jpg"
       }
     },
     {
@@ -6163,7 +6573,8 @@
       "properties": {
         "name": "L\u00e4ckerei ",
         "item_id": "173825225043115136",
-        "time": "2026-04-22T11:12:27+00:00"
+        "time": "2026-04-22T11:12:27+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7b200107-5c70-4063-a3d0-024ecaa742dd.png"
       }
     },
     {
@@ -6178,7 +6589,8 @@
       "properties": {
         "name": "B\u00e4ckerei Weber",
         "item_id": "49332",
-        "time": "2026-04-22T13:06:50+00:00"
+        "time": "2026-04-22T13:06:50+00:00",
+        "logo": "https://images.toogoodtogo.com/store/20a4f833-c1d2-4abd-8b9d-1dde8bc3d519.jpg"
       }
     },
     {
@@ -6193,7 +6605,8 @@
       "properties": {
         "name": "vomFASS",
         "item_id": "898220",
-        "time": "2026-04-22T13:21:58+00:00"
+        "time": "2026-04-22T13:21:58+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a9db91a4-da21-4661-b660-69640cca8b8e.png"
       }
     },
     {
@@ -6208,7 +6621,8 @@
       "properties": {
         "name": "Omas K\u00fcche ",
         "item_id": "872840",
-        "time": "2026-04-22T19:35:59+00:00"
+        "time": "2026-04-22T19:35:59+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8fc9d7c9-eb1f-42b5-92f2-172caa5b5ed8.png"
       }
     },
     {
@@ -6223,7 +6637,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-04-23T14:50:14+00:00"
+        "time": "2026-04-23T14:50:14+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6238,7 +6653,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-04-27T15:29:23+00:00"
+        "time": "2026-04-27T15:29:23+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -6253,7 +6669,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-04-28T14:41:10+00:00"
+        "time": "2026-04-28T14:41:10+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6268,7 +6685,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-04-28T18:01:36+00:00"
+        "time": "2026-04-28T18:01:36+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -6283,7 +6701,8 @@
       "properties": {
         "name": "Khatib & Verneau Catering",
         "item_id": "232706887447966592",
-        "time": "2026-04-29T12:56:34+00:00"
+        "time": "2026-04-29T12:56:34+00:00",
+        "logo": "https://images.toogoodtogo.com/store/86570e67-39a8-4cea-b934-17f960112430.png"
       }
     },
     {
@@ -6298,7 +6717,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-04-29T15:38:59+00:00"
+        "time": "2026-04-29T15:38:59+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -6313,7 +6733,8 @@
       "properties": {
         "name": "Gem\u00fcsebau Roland Lay",
         "item_id": "121673318134503200",
-        "time": "2026-05-02T09:17:36+00:00"
+        "time": "2026-05-02T09:17:36+00:00",
+        "logo": "https://images.toogoodtogo.com/store/5a136854-60a6-40a7-a4d3-aa0b8a5199f8.png"
       }
     },
     {
@@ -6328,7 +6749,8 @@
       "properties": {
         "name": "B\u00e4ckerei Grossmann ",
         "item_id": "54105061792560672",
-        "time": "2026-05-02T10:54:55+00:00"
+        "time": "2026-05-02T10:54:55+00:00",
+        "logo": "https://images.toogoodtogo.com/store/0a886cb8-1558-4a2b-a1e3-bc8cc2eb574a.jpg"
       }
     },
     {
@@ -6343,7 +6765,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-05-04T15:57:11+00:00"
+        "time": "2026-05-04T15:57:11+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -6358,7 +6781,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-05-04T16:07:44+00:00"
+        "time": "2026-05-04T16:07:44+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -6373,7 +6797,8 @@
       "properties": {
         "name": "Siam Square ",
         "item_id": "1103321",
-        "time": "2026-05-04T16:39:05+00:00"
+        "time": "2026-05-04T16:39:05+00:00",
+        "logo": "https://apptoogoodtogo.com/public-cache/logo/v1/1/sr-2"
       }
     },
     {
@@ -6388,7 +6813,8 @@
       "properties": {
         "name": "Mibo sushi",
         "item_id": "118845874197258592",
-        "time": "2026-05-04T20:08:15+00:00"
+        "time": "2026-05-04T20:08:15+00:00",
+        "logo": "https://images.toogoodtogo.com/store/aadba5f8-d73a-48f9-8709-9a5f8af02f39.png"
       }
     },
     {
@@ -6403,7 +6829,8 @@
       "properties": {
         "name": "Hotel am Rathaus",
         "item_id": "154750950227082048",
-        "time": "2026-05-06T11:04:00+00:00"
+        "time": "2026-05-06T11:04:00+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1b26c29f-c94f-4a33-a14b-dd498edd6fd9.png"
       }
     },
     {
@@ -6418,7 +6845,8 @@
       "properties": {
         "name": "EDEKA Strecker",
         "item_id": "43800063748853792",
-        "time": "2026-05-10T08:49:09+00:00"
+        "time": "2026-05-10T08:49:09+00:00",
+        "logo": "https://images.toogoodtogo.com/store/808f4fbf-4b68-4b5f-8fe8-1fc061badc1b.jpg"
       }
     },
     {
@@ -6433,7 +6861,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-05-10T15:59:40+00:00"
+        "time": "2026-05-10T15:59:40+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -6448,7 +6877,8 @@
       "properties": {
         "name": "mamahe",
         "item_id": "846302",
-        "time": "2026-05-11T12:30:16+00:00"
+        "time": "2026-05-11T12:30:16+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a504e793-cba4-4af4-8c2d-3eceb39dbbcb.jpg"
       }
     },
     {
@@ -6463,7 +6893,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-05-11T14:58:11+00:00"
+        "time": "2026-05-11T14:58:11+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6478,7 +6909,8 @@
       "properties": {
         "name": "Yummy Yummy London",
         "item_id": "237152477181586720",
-        "time": "2026-05-15T10:47:53+00:00"
+        "time": "2026-05-15T10:47:53+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9501a629-2797-4115-8288-72f6d97fc988.png"
       }
     },
     {
@@ -6493,7 +6925,8 @@
       "properties": {
         "name": "Pure",
         "item_id": "929376",
-        "time": "2026-05-15T10:59:16+00:00"
+        "time": "2026-05-15T10:59:16+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3161379f-be39-4e33-9526-16129a4385a0.jpg"
       }
     },
     {
@@ -6508,7 +6941,8 @@
       "properties": {
         "name": "Espresso Station - Moor Street",
         "item_id": "39801",
-        "time": "2026-05-17T12:07:59+00:00"
+        "time": "2026-05-17T12:07:59+00:00",
+        "logo": "https://images.toogoodtogo.com/store/099e6ea3-5306-4747-a308-203f57505726.png"
       }
     },
     {
@@ -6523,7 +6957,8 @@
       "properties": {
         "name": "Midcounties Co-op",
         "item_id": "1141434",
-        "time": "2026-05-17T18:52:08+00:00"
+        "time": "2026-05-17T18:52:08+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/29280/6466b3ba-1769-4c97-a926-2d54eb65b22f.png"
       }
     },
     {
@@ -6538,7 +6973,8 @@
       "properties": {
         "name": "Caff\u00e8 Nero",
         "item_id": "1216283",
-        "time": "2026-05-18T17:30:27+00:00"
+        "time": "2026-05-18T17:30:27+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f3cc754c-8850-4c61-b90b-89781777e10f.png"
       }
     },
     {
@@ -6553,7 +6989,8 @@
       "properties": {
         "name": "Sushi Gourmet",
         "item_id": "931019",
-        "time": "2026-05-19T09:42:22+00:00"
+        "time": "2026-05-19T09:42:22+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/99480/a4e5f2e0-5be8-47a0-854f-f0bc50300ff6.png"
       }
     },
     {
@@ -6568,7 +7005,8 @@
       "properties": {
         "name": "Dawan",
         "item_id": "170127010815302208",
-        "time": "2026-05-19T14:13:42+00:00"
+        "time": "2026-05-19T14:13:42+00:00",
+        "logo": "https://images.toogoodtogo.com/store/6398d3f7-378e-4aee-af5d-4e6dcf255d0f.jpg"
       }
     },
     {
@@ -6583,7 +7021,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-05-20T16:17:07+00:00"
+        "time": "2026-05-20T16:17:07+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -6598,7 +7037,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-05-21T14:26:24+00:00"
+        "time": "2026-05-21T14:26:24+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6613,7 +7053,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-05-22T18:15:08+00:00"
+        "time": "2026-05-22T18:15:08+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -6628,7 +7069,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-05-23T16:27:20+00:00"
+        "time": "2026-05-23T16:27:20+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -6643,7 +7085,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-05-23T19:44:07+00:00"
+        "time": "2026-05-23T19:44:07+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6658,7 +7101,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-05-23T19:45:28+00:00"
+        "time": "2026-05-23T19:45:28+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6673,7 +7117,8 @@
       "properties": {
         "name": "Mibo sushi",
         "item_id": "118845874197258592",
-        "time": "2026-05-23T19:59:08+00:00"
+        "time": "2026-05-23T19:59:08+00:00",
+        "logo": "https://images.toogoodtogo.com/store/aadba5f8-d73a-48f9-8709-9a5f8af02f39.png"
       }
     },
     {
@@ -6688,7 +7133,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-05-26T14:48:28+00:00"
+        "time": "2026-05-26T14:48:28+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6703,7 +7149,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-05-26T15:54:41+00:00"
+        "time": "2026-05-26T15:54:41+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -6718,7 +7165,8 @@
       "properties": {
         "name": "Hotel am Rathaus",
         "item_id": "154750950227082048",
-        "time": "2026-05-27T10:57:05+00:00"
+        "time": "2026-05-27T10:57:05+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1b26c29f-c94f-4a33-a14b-dd498edd6fd9.png"
       }
     },
     {
@@ -6733,7 +7181,8 @@
       "properties": {
         "name": "vomFASS",
         "item_id": "898220",
-        "time": "2026-05-27T15:44:14+00:00"
+        "time": "2026-05-27T15:44:14+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a9db91a4-da21-4661-b660-69640cca8b8e.png"
       }
     },
     {
@@ -6748,7 +7197,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-06-01T14:50:23+00:00"
+        "time": "2026-06-01T14:50:23+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6763,7 +7213,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-06-02T15:45:12+00:00"
+        "time": "2026-06-02T15:45:12+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -6778,7 +7229,8 @@
       "properties": {
         "name": "L\u00e4ckerei ",
         "item_id": "173825225043115136",
-        "time": "2026-06-03T11:01:34+00:00"
+        "time": "2026-06-03T11:01:34+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7b200107-5c70-4063-a3d0-024ecaa742dd.png"
       }
     },
     {
@@ -6793,7 +7245,8 @@
       "properties": {
         "name": "Balkan B\u00e4ckerei LUMI",
         "item_id": "243194060794437664",
-        "time": "2026-07-14T17:57:52+00:00"
+        "time": "2026-07-14T17:57:52+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c4d88829-93e1-444e-853a-5b071dc20316.png"
       }
     },
     {
@@ -6808,7 +7261,8 @@
       "properties": {
         "name": "Adelhaus Bio- Restaurant - Cafe",
         "item_id": "1000380",
-        "time": "2026-07-14T18:45:02+00:00"
+        "time": "2026-07-14T18:45:02+00:00",
+        "logo": "https://images.toogoodtogo.com/store/da5908a7-289d-4569-a3a9-4fc09505912b.jpg"
       }
     },
     {
@@ -6823,7 +7277,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-07-16T18:03:55+00:00"
+        "time": "2026-07-16T18:03:55+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -6838,7 +7293,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-07-18T18:07:17+00:00"
+        "time": "2026-07-18T18:07:17+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -6853,7 +7309,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "800098",
-        "time": "2026-07-19T18:17:22+00:00"
+        "time": "2026-07-19T18:17:22+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -6868,7 +7325,8 @@
       "properties": {
         "name": "Hotel am Rathaus",
         "item_id": "154750950227082048",
-        "time": "2026-07-21T10:55:05+00:00"
+        "time": "2026-07-21T10:55:05+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1b26c29f-c94f-4a33-a14b-dd498edd6fd9.png"
       }
     },
     {
@@ -6883,7 +7341,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-07-27T16:15:08+00:00"
+        "time": "2026-07-27T16:15:08+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -6898,7 +7357,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-07-27T18:02:50+00:00"
+        "time": "2026-07-27T18:02:50+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -6913,7 +7373,8 @@
       "properties": {
         "name": "B\u00e4ckerei Grossmann ",
         "item_id": "54105061792560672",
-        "time": "2026-07-30T11:56:52+00:00"
+        "time": "2026-07-30T11:56:52+00:00",
+        "logo": "https://images.toogoodtogo.com/store/0a886cb8-1558-4a2b-a1e3-bc8cc2eb574a.jpg"
       }
     },
     {
@@ -6928,7 +7389,8 @@
       "properties": {
         "name": "Omas K\u00fcche ",
         "item_id": "1041400",
-        "time": "2026-07-30T12:42:05+00:00"
+        "time": "2026-07-30T12:42:05+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8fc9d7c9-eb1f-42b5-92f2-172caa5b5ed8.png"
       }
     },
     {
@@ -6943,7 +7405,8 @@
       "properties": {
         "name": "Omas K\u00fcche ",
         "item_id": "1041400",
-        "time": "2026-07-30T12:42:11+00:00"
+        "time": "2026-07-30T12:42:11+00:00",
+        "logo": "https://images.toogoodtogo.com/store/8fc9d7c9-eb1f-42b5-92f2-172caa5b5ed8.png"
       }
     },
     {
@@ -6958,7 +7421,8 @@
       "properties": {
         "name": "Fili Caf\u00e9",
         "item_id": "744524",
-        "time": "2026-07-30T17:01:23+00:00"
+        "time": "2026-07-30T17:01:23+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c1b79bf1-e81e-4c3d-b1ab-65096b32334d.png"
       }
     },
     {
@@ -6973,7 +7437,8 @@
       "properties": {
         "name": "Caf\u00e9 Journal",
         "item_id": "22045",
-        "time": "2026-08-03T16:39:10+00:00"
+        "time": "2026-08-03T16:39:10+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1561015958_jShE5gXg0LVdfqWtetfFBAI7rT3VfBIv.jpg"
       }
     },
     {
@@ -6988,7 +7453,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-08-04T16:32:53+00:00"
+        "time": "2026-08-04T16:32:53+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -7003,7 +7469,8 @@
       "properties": {
         "name": "1001macarons GmbH",
         "item_id": "1240827",
-        "time": "2026-08-05T16:20:58+00:00"
+        "time": "2026-08-05T16:20:58+00:00",
+        "logo": "https://images.toogoodtogo.com/store/baaeaac1-4b1f-4adf-94bd-6a60f3148c71.png"
       }
     },
     {
@@ -7018,7 +7485,8 @@
       "properties": {
         "name": "Leonardo Hotel Aberdeen",
         "item_id": "1165773",
-        "time": "2026-08-10T08:43:29+00:00"
+        "time": "2026-08-10T08:43:29+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/144630/83fa4e0a-a92e-4038-94dc-6a83edb736fe.png"
       }
     },
     {
@@ -7033,7 +7501,8 @@
       "properties": {
         "name": "Mercure Edinburgh Haymarket Hotel",
         "item_id": "20535222385899328",
-        "time": "2026-08-12T09:56:47+00:00"
+        "time": "2026-08-12T09:56:47+00:00",
+        "logo": "https://images.toogoodtogo.com/store/202451c5-4246-4564-9bf4-41f1f73159f5.png"
       }
     },
     {
@@ -7048,7 +7517,8 @@
       "properties": {
         "name": "FreshMex",
         "item_id": "689023",
-        "time": "2026-08-12T10:09:44+00:00"
+        "time": "2026-08-12T10:09:44+00:00",
+        "logo": "https://images.toogoodtogo.com/store/de880ee0-13f7-4d58-a81d-383400e4ee4e.png"
       }
     },
     {
@@ -7063,7 +7533,8 @@
       "properties": {
         "name": "FreshMex",
         "item_id": "1832753",
-        "time": "2026-08-12T10:09:57+00:00"
+        "time": "2026-08-12T10:09:57+00:00",
+        "logo": "https://images.toogoodtogo.com/store/de880ee0-13f7-4d58-a81d-383400e4ee4e.png"
       }
     },
     {
@@ -7078,7 +7549,8 @@
       "properties": {
         "name": "Cafe at Glenogle ",
         "item_id": "22889758969564736",
-        "time": "2026-08-13T12:22:03+00:00"
+        "time": "2026-08-13T12:22:03+00:00",
+        "logo": "https://images.toogoodtogo.com/store/3fb8837f-f640-41c5-8578-31acab774d47.jpg"
       }
     },
     {
@@ -7093,7 +7565,8 @@
       "properties": {
         "name": "Hotel Indigo - York Place ",
         "item_id": "113597796052398592",
-        "time": "2026-08-13T12:49:51+00:00"
+        "time": "2026-08-13T12:49:51+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c9f02aa7-6d2e-477f-8773-9d45811fe10a.jpg"
       }
     },
     {
@@ -7108,7 +7581,8 @@
       "properties": {
         "name": "The After School Cookie Club",
         "item_id": "97609049694638912",
-        "time": "2026-08-16T10:41:47+00:00"
+        "time": "2026-08-16T10:41:47+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bd680da9-64e0-446d-b6c1-d84d6dee01a1.png"
       }
     },
     {
@@ -7123,7 +7597,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-08-17T16:30:43+00:00"
+        "time": "2026-08-17T16:30:43+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -7138,7 +7613,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-08-21T18:13:00+00:00"
+        "time": "2026-08-21T18:13:00+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -7153,7 +7629,8 @@
       "properties": {
         "name": "Mibo sushi",
         "item_id": "118845874197258592",
-        "time": "2026-08-21T20:01:32+00:00"
+        "time": "2026-08-21T20:01:32+00:00",
+        "logo": "https://images.toogoodtogo.com/store/aadba5f8-d73a-48f9-8709-9a5f8af02f39.png"
       }
     },
     {
@@ -7168,7 +7645,8 @@
       "properties": {
         "name": "mamahe",
         "item_id": "846302",
-        "time": "2026-08-22T17:05:21+00:00"
+        "time": "2026-08-22T17:05:21+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a504e793-cba4-4af4-8c2d-3eceb39dbbcb.jpg"
       }
     },
     {
@@ -7183,7 +7661,8 @@
       "properties": {
         "name": "Panda Asia Markt",
         "item_id": "249226815941604288",
-        "time": "2026-08-28T16:53:38+00:00"
+        "time": "2026-08-28T16:53:38+00:00",
+        "logo": "https://images.toogoodtogo.com/store/c62eb0e0-f7ac-47e4-baa9-ca7ba24c2c42.png"
       }
     },
     {
@@ -7198,7 +7677,8 @@
       "properties": {
         "name": "Cafe Bar eleven Restaurant",
         "item_id": "108892566574270176",
-        "time": "2026-08-28T19:21:57+00:00"
+        "time": "2026-08-28T19:21:57+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bc65e1b2-11c1-4d8d-a39a-e6da0cd835b2.png"
       }
     },
     {
@@ -7213,7 +7693,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-09-09T18:30:15+00:00"
+        "time": "2026-09-09T18:30:15+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -7228,7 +7709,8 @@
       "properties": {
         "name": "L\u00e4ckerei ",
         "item_id": "173856070235952352",
-        "time": "2026-09-11T10:32:21+00:00"
+        "time": "2026-09-11T10:32:21+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7b200107-5c70-4063-a3d0-024ecaa742dd.png"
       }
     },
     {
@@ -7243,7 +7725,8 @@
       "properties": {
         "name": "Hotel am Rathaus",
         "item_id": "154750950227082048",
-        "time": "2026-09-14T10:45:10+00:00"
+        "time": "2026-09-14T10:45:10+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1b26c29f-c94f-4a33-a14b-dd498edd6fd9.png"
       }
     },
     {
@@ -7258,7 +7741,8 @@
       "properties": {
         "name": "Khatib & Verneau Catering",
         "item_id": "232706887447966592",
-        "time": "2026-09-16T11:50:21+00:00"
+        "time": "2026-09-16T11:50:21+00:00",
+        "logo": "https://images.toogoodtogo.com/store/86570e67-39a8-4cea-b934-17f960112430.png"
       }
     },
     {
@@ -7273,7 +7757,8 @@
       "properties": {
         "name": "B\u00e4ckerei Grossmann ",
         "item_id": "54105061792560672",
-        "time": "2026-09-16T12:00:05+00:00"
+        "time": "2026-09-16T12:00:05+00:00",
+        "logo": "https://images.toogoodtogo.com/store/0a886cb8-1558-4a2b-a1e3-bc8cc2eb574a.jpg"
       }
     },
     {
@@ -7288,7 +7773,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-09-18T18:11:02+00:00"
+        "time": "2026-09-18T18:11:02+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -7303,7 +7789,8 @@
       "properties": {
         "name": "Muca",
         "item_id": "18149",
-        "time": "2026-09-21T15:54:09+00:00"
+        "time": "2026-09-21T15:54:09+00:00",
+        "logo": "https://images.toogoodtogo.com/store/fc71f3f6-0ad2-470e-bdc1-746dbc5ee87b.jpg"
       }
     },
     {
@@ -7318,7 +7805,8 @@
       "properties": {
         "name": "Feinkost Asmen",
         "item_id": "123117392191665696",
-        "time": "2026-09-26T09:14:07+00:00"
+        "time": "2026-09-26T09:14:07+00:00",
+        "logo": "https://images.toogoodtogo.com/store/59249d3f-8591-4a05-8c1d-fc1042983659.jpg"
       }
     },
     {
@@ -7333,7 +7821,8 @@
       "properties": {
         "name": "Backshop Caf\u00e9 und Kiosk",
         "item_id": "546439",
-        "time": "2026-09-26T20:58:04+00:00"
+        "time": "2026-09-26T20:58:04+00:00",
+        "logo": "https://apptoogoodtogo.com/public-cache/logo/v1/1/bk-3"
       }
     },
     {
@@ -7348,7 +7837,8 @@
       "properties": {
         "name": "Bizzy\u2018m Back",
         "item_id": "83461021305694688",
-        "time": "2026-09-27T11:46:20+00:00"
+        "time": "2026-09-27T11:46:20+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9a92f626-66d8-4272-b420-ea65ffd9bb4a.png"
       }
     },
     {
@@ -7363,7 +7853,8 @@
       "properties": {
         "name": "Oishii Sushi und Grill",
         "item_id": "56762",
-        "time": "2026-09-29T20:38:03+00:00"
+        "time": "2026-09-29T20:38:03+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1508757163_431adIPr2MEPeGq5Oh3FOY3l86d3qSRd_scale.jpg"
       }
     },
     {
@@ -7378,7 +7869,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-09-30T18:20:07+00:00"
+        "time": "2026-09-30T18:20:07+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -7393,7 +7885,8 @@
       "properties": {
         "name": "B\u00e4ckerei Grossmann ",
         "item_id": "54105061792560672",
-        "time": "2026-10-02T11:52:02+00:00"
+        "time": "2026-10-02T11:52:02+00:00",
+        "logo": "https://images.toogoodtogo.com/store/0a886cb8-1558-4a2b-a1e3-bc8cc2eb574a.jpg"
       }
     },
     {
@@ -7408,7 +7901,8 @@
       "properties": {
         "name": "Caf\u00e9 Journal",
         "item_id": "22045",
-        "time": "2026-10-05T16:42:29+00:00"
+        "time": "2026-10-05T16:42:29+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1561015958_jShE5gXg0LVdfqWtetfFBAI7rT3VfBIv.jpg"
       }
     },
     {
@@ -7423,7 +7917,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-10-07T18:13:11+00:00"
+        "time": "2026-10-07T18:13:11+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -7438,7 +7933,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-10-08T16:10:26+00:00"
+        "time": "2026-10-08T16:10:26+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -7453,7 +7949,8 @@
       "properties": {
         "name": "Nines Global Buffet",
         "item_id": "451771",
-        "time": "2026-10-11T14:16:20+00:00"
+        "time": "2026-10-11T14:16:20+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1544013520_vZyHDQLucIDbhueKoidIjIPJadKJ2LCM.png"
       }
     },
     {
@@ -7468,7 +7965,8 @@
       "properties": {
         "name": "Segafredo ",
         "item_id": "86608207055943968",
-        "time": "2026-10-14T10:43:20+00:00"
+        "time": "2026-10-14T10:43:20+00:00",
+        "logo": "https://images.toogoodtogo.com/store/bf43e7a1-54ba-4b11-86bd-b3a26a007472.png"
       }
     },
     {
@@ -7483,7 +7981,8 @@
       "properties": {
         "name": "L\u00e4ckerei ",
         "item_id": "173856070235952352",
-        "time": "2026-10-15T15:47:21+00:00"
+        "time": "2026-10-15T15:47:21+00:00",
+        "logo": "https://images.toogoodtogo.com/store/7b200107-5c70-4063-a3d0-024ecaa742dd.png"
       }
     },
     {
@@ -7498,7 +7997,8 @@
       "properties": {
         "name": "Buon Caf\u00e9 & Backshop\u200c",
         "item_id": "858797",
-        "time": "2026-10-16T14:36:54+00:00"
+        "time": "2026-10-16T14:36:54+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f78f4c4c-014f-4832-aa7f-c95c64648ad0.jpg"
       }
     },
     {
@@ -7513,7 +8013,8 @@
       "properties": {
         "name": "mamahe",
         "item_id": "846302",
-        "time": "2026-10-19T15:20:57+00:00"
+        "time": "2026-10-19T15:20:57+00:00",
+        "logo": "https://images.toogoodtogo.com/store/a504e793-cba4-4af4-8c2d-3eceb39dbbcb.jpg"
       }
     },
     {
@@ -7528,7 +8029,8 @@
       "properties": {
         "name": "backWERK",
         "item_id": "795113",
-        "time": "2026-10-19T18:08:37+00:00"
+        "time": "2026-10-19T18:08:37+00:00",
+        "logo": "https://images.toogoodtogo.com/storebulkimport/logo/78670/75c550ea-057c-4845-ae53-265efeb2e490.png"
       }
     },
     {
@@ -7543,7 +8045,8 @@
       "properties": {
         "name": "Hotel am Rathaus",
         "item_id": "154750950227082048",
-        "time": "2026-10-20T10:32:14+00:00"
+        "time": "2026-10-20T10:32:14+00:00",
+        "logo": "https://images.toogoodtogo.com/store/1b26c29f-c94f-4a33-a14b-dd498edd6fd9.png"
       }
     },
     {
@@ -7558,7 +8061,8 @@
       "properties": {
         "name": "Buon Caf\u00e9 & Backshop\u200c",
         "item_id": "858797",
-        "time": "2026-10-26T16:00:19+00:00"
+        "time": "2026-10-26T16:00:19+00:00",
+        "logo": "https://images.toogoodtogo.com/store/9c1c3be3-796b-4bf8-a224-5cc10970b22a.jpg"
       }
     },
     {
@@ -7573,7 +8077,8 @@
       "properties": {
         "name": "Back- und Stehcaf\u00e9 Kronenhaus",
         "item_id": "1131596",
-        "time": "2026-10-26T17:15:27+00:00"
+        "time": "2026-10-26T17:15:27+00:00",
+        "logo": "https://images.toogoodtogo.com/store/f2da88fb-0873-4457-804f-f8511830e6f9.jpg"
       }
     },
     {
@@ -7588,7 +8093,8 @@
       "properties": {
         "name": "BM Beirut Markt",
         "item_id": "275100786162069952",
-        "time": "2026-10-27T18:09:41+00:00"
+        "time": "2026-10-27T18:09:41+00:00",
+        "logo": "https://images.toogoodtogo.com/store/218c1310-c493-4819-a01a-8626a7fad713.jpg"
       }
     },
     {

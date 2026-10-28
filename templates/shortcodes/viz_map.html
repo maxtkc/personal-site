@@ -1,5 +1,5 @@
 <!-- ════════════════════════════════════════════════════════
-     VIZ 1 · PICKUP JOURNEY MAP (Leaflet + CartoDB tiles)
+     VIZ 1 - PICKUP JOURNEY MAP (MapLibre GL globe + OpenFreeMap tiles)
 ════════════════════════════════════════════════════════ -->
 <section id="map">
   <div class="inner fadein">
@@ -29,12 +29,12 @@
     <!-- Time controls -->
     <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
       <button id="map-play-btn" class="mode-btn" style="flex-shrink:0;min-width:5.5rem">▶ Play</button>
-      <span class="range-val" id="map-time-label">—</span>
+      <span class="range-val" id="map-time-label">-</span>
       <span class="range-count" id="map-count-label"></span>
     </div>
     <div id="map-histogram" style="width:100%; cursor:crosshair; user-select:none;"></div>
     <div class="viz-box">
-      <div id="map-leaflet"></div>
+      <div id="map-gl"></div>
     </div>
   </div>
 </section>
@@ -42,15 +42,88 @@
 {% raw %}
 <script>
 (function () {
-  let lmap = null, playTimer = null, lineAnimId = null, mapSizeObserver = null;
+  let map = null, playTimer = null, legAnimId = null, themeObserver = null, themeMedia = null, themeMediaFn = null;
+
+  const STYLES = {
+    dark:  'https://tiles.openfreemap.org/styles/dark',
+    light: 'https://tiles.openfreemap.org/styles/positron',
+  };
+  const THEME_COLORS = {
+    dark:  { key: 'c',  text: '#cbd5e1', halo: '#0b0f14', head: '#ffffff', bg: '#0a111c' },
+    light: { key: 'cl', text: '#334155', halo: '#ffffff', head: '#0f172a', bg: '#dfe6ee' },
+  };
+  const DEFAULT_SPEED = 1;
+  const EARTH_KM      = 6371;
+
+  function currentTheme() {
+    const attr = document.documentElement.getAttribute('data-theme');
+    if (attr === 'dark' || attr === 'light') return attr;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  }
+
+  // ── Sphere math for great-circle arcs ──
+  const RAD = Math.PI / 180;
+  function toVec(lon, lat) {
+    const cl = Math.cos(lat * RAD);
+    return [cl * Math.cos(lon * RAD), cl * Math.sin(lon * RAD), Math.sin(lat * RAD)];
+  }
+  function toLonLat(v) {
+    return [Math.atan2(v[1], v[0]) / RAD, Math.atan2(v[2], Math.hypot(v[0], v[1])) / RAD];
+  }
+  function norm(v) { const l = Math.hypot(v[0], v[1], v[2]); return [v[0] / l, v[1] / l, v[2] / l]; }
+  function cross(a, b) { return [a[1]*b[2] - a[2]*b[1], a[2]*b[0] - a[0]*b[2], a[0]*b[1] - a[1]*b[0]]; }
+  function angleBetween(a, b) { const c = cross(a, b); return Math.atan2(Math.hypot(c[0], c[1], c[2]), a[0]*b[0] + a[1]*b[1] + a[2]*b[2]); }
+
+  // Great-circle path from a to b, bowed sideways along normal n by `bow` (fraction of leg length)
+  function buildArc(a, b, n, bow) {
+    const omega = angleBetween(a, b);
+    const segs  = omega > 0.01 ? 96 : 40;
+    const sinO  = Math.sin(omega);
+    const coords = [];
+    let prevLon = null;
+    for (let s = 0; s <= segs; s++) {
+      const t  = s / segs;
+      const ka = Math.sin((1 - t) * omega) / sinO;
+      const kb = Math.sin(t * omega) / sinO;
+      const h  = bow * omega * Math.sin(Math.PI * t);
+      const v  = norm([
+        ka * a[0] + kb * b[0] + h * n[0],
+        ka * a[1] + kb * b[1] + h * n[1],
+        ka * a[2] + kb * b[2] + h * n[2],
+      ]);
+      const ll = toLonLat(v);
+      // Keep longitudes continuous across the antimeridian
+      if (prevLon !== null) {
+        while (ll[0] - prevLon > 180) ll[0] -= 360;
+        while (ll[0] - prevLon < -180) ll[0] += 360;
+      }
+      prevLon = ll[0];
+      coords.push(ll);
+    }
+    return coords;
+  }
+
+  // Point and partial path at fraction f along an arc
+  function sliceArc(coords, f) {
+    const pos = f * (coords.length - 1);
+    const i   = Math.floor(pos);
+    const r   = pos - i;
+    const out = coords.slice(0, i + 1);
+    if (i < coords.length - 1) {
+      const p = coords[i], q = coords[i + 1];
+      out.push([p[0] + r * (q[0] - p[0]), p[1] + r * (q[1] - p[1])]);
+    }
+    return out;
+  }
 
   function init({ pts }) {
     // ── Teardown ──
-    if (playTimer)        { clearTimeout(playTimer); playTimer = null; }
-    if (lineAnimId)       { cancelAnimationFrame(lineAnimId); lineAnimId = null; }
-    if (mapSizeObserver)  { mapSizeObserver.disconnect(); mapSizeObserver = null; }
-    if (lmap)             { lmap.remove(); lmap = null; }
-    document.getElementById('map-leaflet').innerHTML   = '';
+    if (playTimer)     { clearTimeout(playTimer); playTimer = null; }
+    if (legAnimId)     { cancelAnimationFrame(legAnimId); legAnimId = null; }
+    if (themeObserver) { themeObserver.disconnect(); themeObserver = null; }
+    if (themeMedia)    { themeMedia.removeEventListener('change', themeMediaFn); themeMedia = null; }
+    if (map)           { map.remove(); map = null; }
+    document.getElementById('map-gl').innerHTML        = '';
     document.getElementById('map-histogram').innerHTML = '';
 
     const playBtn = document.getElementById('map-play-btn');
@@ -59,23 +132,26 @@
 
     // Reset button active states
     document.querySelectorAll('#map-zoom-btns .mode-btn').forEach((b, i) => b.classList.toggle('active', i === 0));
-    document.querySelectorAll('#map-speed-btns .mode-btn').forEach((b, i) => b.classList.toggle('active', i === 0));
+    document.querySelectorAll('#map-speed-btns .mode-btn').forEach(b => b.classList.toggle('active', +b.dataset.speed === DEFAULT_SPEED));
 
     // ── Setup ──
     const sorted = pts.slice().sort((a, b) => a.time - b.time);
+    const N      = sorted.length;
 
     const yearMin = d3.min(sorted, d => d.year);
     const yearMax = d3.max(sorted, d => d.year);
     const cYear   = d3.scaleSequential()
-      .domain([yearMin, yearMax])
+      .domain([yearMin, Math.max(yearMax, yearMin + 1)])
       .interpolator(d3.interpolateRgbBasis(['#22c55e','#38bdf8','#a78bfa','#f472b6','#fb923c','#fbbf24']));
+    const colors      = sorted.map(p => cYear(p.year));
+    const colorsLight = colors.map(c => d3.color(c).darker(0.7).formatHex());
 
     const firstTime = sorted[0].time.getTime();
-    const lastTime  = sorted[sorted.length - 1].time.getTime();
-    const timeSpan  = lastTime - firstTime;
+    const lastTime  = sorted[N - 1].time.getTime();
+    const timeSpan  = Math.max(1, lastTime - firstTime);
 
     function timeToIdx(t) {
-      let lo = 0, hi = sorted.length - 1, best = 0;
+      let lo = 0, hi = N - 1, best = 0;
       while (lo <= hi) {
         const mid = (lo + hi) >> 1;
         if (sorted[mid].time.getTime() <= t) { best = mid; lo = mid + 1; }
@@ -84,99 +160,70 @@
       return best;
     }
 
-    // ── Init Leaflet ──
-    const mapDiv = document.getElementById('map-leaflet');
-    lmap = L.map(mapDiv, { zoomControl: false, preferCanvas: true });
-    lmap.fitBounds(L.latLngBounds(sorted.map(p => [p.lat, p.lon])), { padding: [28, 28], animate: false });
-
-    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-      attribution: '&copy; Esri',
-      maxZoom: 19,
-    }).addTo(lmap);
-
-    L.control.zoom({ position: 'bottomright' }).addTo(lmap);
-
-    // ── Info overlay ──
-    const InfoCtrl = L.Control.extend({
-      onAdd() {
-        const div = L.DomUtil.create('div', 'map-info-ctrl');
-        div.innerHTML =
-          '<div class="map-info-store" id="map-info-store">—</div>' +
-          '<div class="map-info-date"  id="map-info-date"></div>' +
-          '<div class="map-info-count" id="map-info-count"></div>';
-        return div;
-      }
-    });
-    new InfoCtrl({ position: 'topleft' }).addTo(lmap);
-
-    // ── Markers ──
-    const colors  = sorted.map(pt => cYear(pt.year));
-    const markers = sorted.map((pt, i) => {
-      return L.circleMarker([pt.lat, pt.lon], {
-        radius: 4.5,
-        fillColor: colors[i],
-        color: colors[i],
-        weight: 1,
-        fillOpacity: 0.08,
-        opacity: 0.12,
-      }).addTo(lmap)
-        .bindPopup(
-          `<strong>${pt.name}</strong><br>` +
-          pt.time.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric', year:'numeric' })
-        );
-    });
-
-    // ── Route canvas ──
-    const routeCanvas = document.createElement('canvas');
-    routeCanvas.style.cssText = 'position:absolute;top:0;left:0;pointer-events:none;z-index:500;';
-    mapDiv.appendChild(routeCanvas);
-    let routeCoords = [];
-
-    function resizeRouteCanvas() {
-      routeCanvas.width  = mapDiv.offsetWidth;
-      routeCanvas.height = mapDiv.offsetHeight;
-      routeCanvas.style.width  = mapDiv.offsetWidth  + 'px';
-      routeCanvas.style.height = mapDiv.offsetHeight + 'px';
-    }
-    resizeRouteCanvas();
-
-    function drawRoute() {
-      const ctx = routeCanvas.getContext('2d');
-      ctx.clearRect(0, 0, routeCanvas.width, routeCanvas.height);
-      if (routeCoords.length < 2) return;
-      ctx.lineCap  = 'round';
-      ctx.lineJoin = 'round';
-      const points = routeCoords.map(c => lmap.latLngToContainerPoint(c));
-      function tracePath() {
-        ctx.beginPath();
-        ctx.moveTo(points[0].x, points[0].y);
-        for (let i = 1; i < points.length; i++) ctx.lineTo(points[i].x, points[i].y);
-      }
-      // casing (darker, wider) underneath the colored line
-      tracePath();
-      ctx.strokeStyle = '#14532d';
-      ctx.lineWidth   = 3;
-      ctx.globalAlpha = 0.55;
-      ctx.stroke();
-      tracePath();
-      ctx.strokeStyle = '#22c55e';
-      ctx.lineWidth   = 1.5;
-      ctx.globalAlpha = 0.55;
-      ctx.stroke();
+    // ── Legs: legs[k] flies from sorted[k-1] to sorted[k] ──
+    const locKey   = p => `${p.lon.toFixed(5)},${p.lat.toFixed(5)}`;
+    const pairSeen = new Map();
+    const legs     = [null];
+    for (let k = 1; k < N; k++) {
+      const A = sorted[k - 1], B = sorted[k];
+      const a = toVec(A.lon, A.lat), b = toVec(B.lon, B.lat);
+      const omega = angleBetween(a, b);
+      const km    = omega * EARTH_KM;
+      if (omega < 1e-7) { legs.push({ km: 0, coords: null }); continue; }
+      // Repeat trips between the same two stores fan out on alternating sides
+      const ka = locKey(A), kb = locKey(B);
+      const pair = ka < kb ? ka + '|' + kb : kb + '|' + ka;
+      const n    = pairSeen.get(pair) || 0;
+      pairSeen.set(pair, n + 1);
+      const side  = n % 2 === 0 ? 1 : -1;
+      const level = Math.floor(n / 2) % 6;
+      const bow   = side * (0.15 + 0.12 * level);
+      const normal = norm(ka < kb ? cross(a, b) : cross(b, a));
+      legs.push({ km, coords: buildArc(a, b, normal, bow) });
     }
 
-    lmap.on('move zoom', drawRoute);
-    lmap.on('resize', () => { resizeRouteCanvas(); drawRoute(); });
+    // Leg duration at 1x, longer for bigger jumps so flights read as flights
+    function legDuration(k) {
+      const km = legs[k].km;
+      let ms = Math.min(3200, 700 + 450 * Math.log10(1 + km));
+      if (km > 300) ms += 1500;
+      return ms;
+    }
+    const PAUSE_AFTER = 400;
+
+    // ── Static GeoJSON ──
+    const arcsFC = {
+      type: 'FeatureCollection',
+      features: legs.flatMap((leg, k) => leg && leg.coords ? [{
+        type: 'Feature',
+        properties: { i: k, c: colors[k], cl: colorsLight[k] },
+        geometry: { type: 'LineString', coordinates: leg.coords },
+      }] : []),
+    };
+
+    const storeByLoc = new Map();
+    sorted.forEach((p, i) => {
+      const key = locKey(p);
+      const s = storeByLoc.get(key);
+      if (s) { s.properties.visits++; return; }
+      storeByLoc.set(key, {
+        type: 'Feature',
+        properties: { first: i, name: p.name, visits: 1, firstDate: p.dateStr, c: colors[i], cl: colorsLight[i] },
+        geometry: { type: 'Point', coordinates: [p.lon, p.lat] },
+      });
+    });
+    const storesFC = { type: 'FeatureCollection', features: [...storeByLoc.values()] };
+    const emptyFC  = { type: 'FeatureCollection', features: [] };
 
     // ── State ──
-    let currentIdx  = 0;
-    let playing     = false;
-    let playSpeed   = 1;
-    const BASE_INTERVAL    = 1200;
-    const PAUSE_AFTER      = 500;
-    const STORE_NAME_LIMIT = 40;
+    let currentIdx = 0;
+    let playing    = false;
+    let playSpeed  = DEFAULT_SPEED;
+    let theme      = currentTheme();
+    let activeLeg  = null;   // { k, frac } while a leg is partially drawn
 
-    const ZOOM_LEVELS = { world: null, '50mi': 10, '1mi': 14, '500ft': 17 };
+    const ZOOM_LEVELS = { '50mi': 9, '1mi': 13, '500ft': 16 };
+    const ROUTE_PADDING = { top: 110, bottom: 50, left: 60, right: 60 };
 
     const timeLabel  = document.getElementById('map-time-label');
     const countLabel = document.getElementById('map-count-label');
@@ -184,6 +231,207 @@
     function getZoomKey() {
       const btn = document.querySelector('#map-zoom-btns .mode-btn.active');
       return btn ? btn.dataset.zoom : 'world';
+    }
+
+    // ── Map ──
+    const mapDiv = document.getElementById('map-gl');
+    mapDiv.style.background = THEME_COLORS[theme].bg;
+    const allBounds = new maplibregl.LngLatBounds();
+    sorted.forEach(p => allBounds.extend([p.lon, p.lat]));
+
+    map = new maplibregl.Map({
+      container: mapDiv,
+      style: STYLES[theme],
+      bounds: allBounds,
+      fitBoundsOptions: { padding: 40 },
+      attributionControl: { compact: true },
+    });
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
+    map.scrollZoom.setWheelZoomRate(1 / 300);
+
+    function arcOpacity() {
+      return ['interpolate', ['linear'], ['-', currentIdx, ['get', 'i']],
+        0, 0.95, 8, 0.7, 40, 0.4, 150, 0.22, 500, 0.12];
+    }
+
+    function addJourneyLayers() {
+      const tc = THEME_COLORS[theme];
+      map.setProjection({ type: 'globe' });
+      map.setSky({
+        'sky-color':     tc.bg,
+        'horizon-color': theme === 'dark' ? '#1e293b' : '#ffffff',
+        'fog-color':     tc.bg,
+        'atmosphere-blend': ['interpolate', ['linear'], ['zoom'], 0, 1, 5, 1, 7, 0],
+      });
+
+      map.addSource('pj-arcs',   { type: 'geojson', data: arcsFC });
+      map.addSource('pj-stores', { type: 'geojson', data: storesFC });
+      map.addSource('pj-active', { type: 'geojson', data: emptyFC, lineMetrics: true });
+      map.addSource('pj-head',   { type: 'geojson', data: emptyFC });
+
+      map.addLayer({
+        id: 'pj-arcs', type: 'line', source: 'pj-arcs',
+        filter: ['<=', ['get', 'i'], currentIdx],
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: {
+          'line-color': ['get', tc.key],
+          'line-width': ['interpolate', ['linear'], ['zoom'], 2, 1, 12, 1.8],
+          'line-opacity': arcOpacity(),
+        },
+      });
+      map.addLayer({
+        id: 'pj-active', type: 'line', source: 'pj-active',
+        layout: { 'line-cap': 'round', 'line-join': 'round' },
+        paint: { 'line-width': 3.5, 'line-color': colors[0] },
+      });
+      map.addLayer({
+        id: 'pj-stores', type: 'circle', source: 'pj-stores',
+        filter: ['<=', ['get', 'first'], currentIdx],
+        paint: {
+          'circle-radius': ['interpolate', ['linear'], ['zoom'], 2, 2.5, 10, 4, 15, 6],
+          'circle-color': ['get', tc.key],
+          'circle-stroke-width': 1,
+          'circle-stroke-color': tc.halo,
+          'circle-opacity': 0.9,
+        },
+      });
+      map.addLayer({
+        id: 'pj-labels', type: 'symbol', source: 'pj-stores', minzoom: 10,
+        filter: ['<=', ['get', 'first'], currentIdx],
+        layout: {
+          'text-field': ['get', 'name'],
+          'text-font': ['Noto Sans Regular'],
+          'text-size': 11,
+          'text-offset': [0, 0.9],
+          'text-anchor': 'top',
+          'text-max-width': 9,
+          'symbol-sort-key': ['-', ['get', 'visits']],
+        },
+        paint: { 'text-color': tc.text, 'text-halo-color': tc.halo, 'text-halo-width': 1.4 },
+      });
+      map.addLayer({
+        id: 'pj-head', type: 'circle', source: 'pj-head',
+        paint: {
+          'circle-radius': 4,
+          'circle-color': tc.head,
+          'circle-stroke-width': 2.5,
+          'circle-stroke-color': ['get', 'c'],
+        },
+      });
+
+      applyState();
+    }
+
+    function setActiveGradient(k) {
+      const c = theme === 'dark' ? colors[k] : colorsLight[k];
+      map.setPaintProperty('pj-active', 'line-gradient', ['interpolate', ['linear'], ['line-progress'],
+        0, d3.color(c).copy({ opacity: 0 }).formatRgb(), 1, c]);
+    }
+
+    // Draw completed legs up to currentIdx plus the partial active leg
+    function applyState() {
+      if (!map || !map.getLayer('pj-arcs')) return;
+      map.setFilter('pj-arcs',   ['<=', ['get', 'i'], currentIdx]);
+      map.setFilter('pj-stores', ['<=', ['get', 'first'], currentIdx]);
+      map.setFilter('pj-labels', ['<=', ['get', 'first'], currentIdx]);
+      map.setPaintProperty('pj-arcs', 'line-opacity', arcOpacity());
+      if (activeLeg) {
+        setActiveGradient(activeLeg.k);
+        drawActive(activeLeg.k, activeLeg.frac);
+      } else {
+        map.getSource('pj-active').setData(emptyFC);
+        map.getSource('pj-head').setData(emptyFC);
+      }
+    }
+
+    function drawActive(k, frac) {
+      const leg = legs[k];
+      if (!leg || !leg.coords || frac <= 0) {
+        map.getSource('pj-active').setData(emptyFC);
+        map.getSource('pj-head').setData(emptyFC);
+        return;
+      }
+      const part = sliceArc(leg.coords, frac);
+      map.getSource('pj-active').setData({
+        type: 'Feature', properties: {},
+        geometry: { type: 'LineString', coordinates: part },
+      });
+      map.getSource('pj-head').setData({
+        type: 'Feature', properties: { c: theme === 'dark' ? colors[k] : colorsLight[k] },
+        geometry: { type: 'Point', coordinates: part[part.length - 1] },
+      });
+    }
+
+    map.on('style.load', addJourneyLayers);
+
+    // ── Theme switching ──
+    function onThemeChange() {
+      const t = currentTheme();
+      if (t === theme) return;
+      theme = t;
+      mapDiv.style.background = THEME_COLORS[theme].bg;
+      map.setStyle(STYLES[theme], { diff: false });
+      updateCard(currentIdx);
+    }
+    themeObserver = new MutationObserver(onThemeChange);
+    themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    themeMedia   = window.matchMedia('(prefers-color-scheme: dark)');
+    themeMediaFn = onThemeChange;
+    themeMedia.addEventListener('change', themeMediaFn);
+
+    // ── Store hover tooltip ──
+    map.on('mousemove', 'pj-stores', e => {
+      const f = e.features[0];
+      if (!f) return;
+      map.getCanvas().style.cursor = 'pointer';
+      const pr = f.properties;
+      tip(`<strong>${pr.name}</strong><br>${pr.visits} pickup${pr.visits === 1 ? '' : 's'}<br>First: ${pr.firstDate}`, e.originalEvent);
+    });
+    map.on('mouseleave', 'pj-stores', () => { map.getCanvas().style.cursor = ''; hideTip(); });
+
+    // ── Current store card ──
+    const pinEl = document.createElement('div');
+    pinEl.className = 'map-store-pin';
+    pinEl.innerHTML =
+      '<div class="map-store-card">' +
+        '<img class="map-store-logo" alt="">' +
+        '<span class="map-store-swatch"></span>' +
+        '<div class="map-store-text"><div class="map-store-name"></div><div class="map-store-date"></div></div>' +
+      '</div>' +
+      '<div class="map-store-dot"></div>';
+    const cardEl   = pinEl.querySelector('.map-store-card');
+    const logoEl   = pinEl.querySelector('.map-store-logo');
+    const swatchEl = pinEl.querySelector('.map-store-swatch');
+    const dotEl    = pinEl.querySelector('.map-store-dot');
+    logoEl.onerror = () => { logoEl.style.display = 'none'; swatchEl.style.display = ''; };
+    const pin = new maplibregl.Marker({ element: pinEl, anchor: 'bottom', offset: [0, 7] })
+      .setLngLat([sorted[0].lon, sorted[0].lat])
+      .addTo(map);
+
+    let cardIdx = -1;
+    function updateCard(idx) {
+      const pt = sorted[idx];
+      const c  = theme === 'dark' ? colors[idx] : colorsLight[idx];
+      pin.setLngLat([pt.lon, pt.lat]);
+      dotEl.style.background    = c;
+      swatchEl.style.background = c;
+      if (idx === cardIdx) return;
+      cardIdx = idx;
+      pinEl.querySelector('.map-store-name').textContent = pt.name;
+      pinEl.querySelector('.map-store-date').textContent =
+        pt.time.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+      if (pt.logo) {
+        logoEl.style.display = '';
+        swatchEl.style.display = 'none';
+        if (logoEl.getAttribute('src') !== pt.logo) logoEl.src = pt.logo;
+      } else {
+        logoEl.style.display = 'none';
+        swatchEl.style.display = '';
+      }
+      cardEl.animate(
+        [{ opacity: 0.3, transform: 'translateY(4px) scale(0.96)' }, { opacity: 1, transform: 'none' }],
+        { duration: 220, easing: 'ease-out' }
+      );
     }
 
     // ── SVG Histogram ──
@@ -282,177 +530,127 @@
 
     svgNode.addEventListener('pointerdown', e => {
       dragging = true;
+      if (playing) stopPlay();
       svgNode.setPointerCapture(e.pointerId);
-      const t = svgClientXToTime(e.clientX);
-      goTo(timeToIdx(t), false, t);
+      scrubTo(svgClientXToTime(e.clientX));
       e.preventDefault();
     });
     svgNode.addEventListener('pointermove', e => {
       if (!dragging) return;
-      const t = svgClientXToTime(e.clientX);
-      goTo(timeToIdx(t), false, t);
+      scrubTo(svgClientXToTime(e.clientX));
     });
     svgNode.addEventListener('pointerup', () => { dragging = false; });
 
-    // ── Update info overlay ──
-    function updateInfo(idx) {
-      const pt = sorted[idx];
-      const store = pt.name.length > STORE_NAME_LIMIT ? pt.name.slice(0, STORE_NAME_LIMIT - 1) + '…' : pt.name;
-      document.getElementById('map-info-store').textContent = store;
-      document.getElementById('map-info-date').textContent  =
-        pt.time.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric', year:'numeric' });
-      document.getElementById('map-info-count').textContent = `Pickup #${idx + 1} of ${sorted.length}`;
-
-      timeLabel.textContent  = pt.time.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
-      countLabel.textContent = `#${idx + 1} / ${sorted.length}`;
+    // ── Labels above the map ──
+    function updateInfo(idx, ms) {
+      const t = ms === undefined ? sorted[idx].time : new Date(ms);
+      timeLabel.textContent  = t.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+      countLabel.textContent = `#${idx + 1} / ${N}`;
     }
 
-    function updateMarkers(idx) {
-      markers.forEach((m, i) => {
-        const c = colors[i];
-        if (i < idx) {
-          m.setStyle({ fillOpacity: 0.65, opacity: 0.85, weight: 1,   radius: 5.5, fillColor: c, color: c });
-        } else if (i === idx) {
-          m.setStyle({ fillOpacity: 1,    opacity: 1,    weight: 2.5, radius: 10,  fillColor: c, color: '#ffffff' });
-          m.bringToFront();
-        } else {
-          m.setStyle({ fillOpacity: 0.04, opacity: 0.08, weight: 0.5, radius: 4,   fillColor: c, color: c });
-        }
-      });
+    // ── Camera ──
+    function legBounds(k) {
+      const b = new maplibregl.LngLatBounds();
+      const leg = legs[k];
+      if (leg && leg.coords) leg.coords.forEach(c => b.extend(c));
+      else b.extend([sorted[k].lon, sorted[k].lat]);
+      if (k > 0) b.extend([sorted[k - 1].lon, sorted[k - 1].lat]);
+      return b;
     }
 
-    function setRouteTo(idx, currentTime) {
-      if (lineAnimId) { cancelAnimationFrame(lineAnimId); lineAnimId = null; }
-      routeCoords = sorted.slice(0, idx + 1).map(p => [p.lat, p.lon]);
-      const next = sorted[idx + 1];
-      if (next && currentTime !== undefined) {
-        const t0   = sorted[idx].time.getTime();
-        const t1   = next.time.getTime();
-        const frac = Math.max(0, Math.min(1, (currentTime - t0) / (t1 - t0)));
-        if (frac > 0) {
-          routeCoords.push([
-            sorted[idx].lat + frac * (next.lat - sorted[idx].lat),
-            sorted[idx].lon + frac * (next.lon - sorted[idx].lon),
-          ]);
-        }
-      }
-      drawRoute();
-    }
-
-    function animateRouteExtend(idx, durationMs, onComplete) {
-      if (lineAnimId) { cancelAnimationFrame(lineAnimId); lineAnimId = null; }
-      const base = sorted.slice(0, idx).map(p => [p.lat, p.lon]);
-      const from = sorted[Math.max(0, idx - 1)];
-      const to   = sorted[idx];
-      const t0   = performance.now();
-      function frame(now) {
-        const frac = Math.min(1, (now - t0) / durationMs);
-        routeCoords = [...base, [
-          from.lat + frac * (to.lat - from.lat),
-          from.lon + frac * (to.lon - from.lon),
-        ]];
-        drawRoute();
-        if (frac < 1) {
-          lineAnimId = requestAnimationFrame(frame);
-        } else {
-          lineAnimId = null;
-          if (onComplete) onComplete();
-        }
-      }
-      lineAnimId = requestAnimationFrame(frame);
-    }
-
-    function goTo(idx, animate, currentTime) {
-      if (currentTime === undefined) currentTime = sorted[idx].time.getTime();
-      updateInfo(idx);
-      if (currentTime !== sorted[idx].time.getTime()) {
-        timeLabel.textContent = new Date(currentTime)
-          .toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
-      }
-      updatePlayhead(currentTime);
-
+    function moveCamera(k, duration) {
       const zk = getZoomKey();
-      const pt  = sorted[idx];
-
-      if (animate) {
-        animateRouteExtend(idx, BASE_INTERVAL / playSpeed, () => {
-          currentIdx = idx;
-          updateMarkers(idx);
-          if (playing) {
-            playTimer = setTimeout(advance, PAUSE_AFTER / playSpeed);
-          }
-        });
-      } else {
-        currentIdx = idx;
-        setRouteTo(idx, currentTime);
-        updateMarkers(idx);
-      }
-
+      const pt = sorted[k];
       if (zk === 'world') return;
-
       if (zk === 'route') {
-        const prev = sorted[Math.max(0, idx - 1)];
-        const bounds = L.latLngBounds([[prev.lat, prev.lon], [pt.lat, pt.lon]]);
-        const opts   = { padding: [60, 60], maxZoom: 15 };
-        if (animate) {
-          const dur = (BASE_INTERVAL / playSpeed / 1000) * 0.95;
-          lmap.flyToBounds(bounds, { ...opts, duration: dur });
+        const b = legBounds(k);
+        // Zero-size bounds (repeat pickup at the same store) can't be fitted
+        if (b.getWest() === b.getEast() && b.getSouth() === b.getNorth()) {
+          map.easeTo({ center: [pt.lon, pt.lat], zoom: Math.max(map.getZoom(), 12), duration });
         } else {
-          lmap.fitBounds(bounds, { ...opts, animate: false });
+          map.fitBounds(b, { padding: ROUTE_PADDING, maxZoom: 14, duration });
         }
         return;
       }
-
-      const zl = ZOOM_LEVELS[zk];
-      if (animate) {
-        const panDur  = (BASE_INTERVAL / playSpeed / 1000) * 0.95;
-        const panEase = Math.min(1, 0.25 + (playSpeed - 1) * 0.08);
-        requestAnimationFrame(() => {
-          lmap.panTo([pt.lat, pt.lon], { animate: true, duration: panDur, easeLinearity: panEase });
-        });
-      } else {
-        lmap.setView([pt.lat, pt.lon], zl, { animate: false });
-      }
+      const opts = { center: [pt.lon, pt.lat], zoom: ZOOM_LEVELS[zk], duration };
+      if (duration && legs[k] && legs[k].km > 50) map.flyTo(opts);
+      else map.easeTo({ ...opts, easing: d3.easeCubicInOut });
     }
 
-    function fitWorld(animate) {
-      const bounds = L.latLngBounds(sorted.map(p => [p.lat, p.lon]));
-      if (animate) {
-        lmap.flyToBounds(bounds, { padding: [28, 28], duration: 1.0 });
-      } else {
-        lmap.fitBounds(bounds, { padding: [28, 28], animate: false });
-      }
+    function fitWorld(duration) {
+      map.fitBounds(allBounds, { padding: 40, duration });
     }
 
-    // Use onclick to avoid duplicate listeners across re-renders
-    document.querySelectorAll('#map-zoom-btns .mode-btn').forEach(btn => {
-      btn.onclick = () => {
-        document.querySelectorAll('#map-zoom-btns .mode-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
+    // ── Navigation ──
+    function settleAt(idx) {
+      currentIdx = idx;
+      activeLeg  = null;
+      applyState();
+      updateCard(idx);
+    }
 
-        if (btn.dataset.zoom === 'world') {
-          fitWorld(true);
-        } else if (btn.dataset.zoom === 'route') {
-          const prev = sorted[Math.max(0, currentIdx - 1)];
-          const curr = sorted[currentIdx];
-          lmap.flyToBounds(
-            L.latLngBounds([[prev.lat, prev.lon], [curr.lat, curr.lon]]),
-            { padding: [60, 60], maxZoom: 15, duration: 0.8 }
-          );
-        } else {
-          const pt = sorted[currentIdx];
-          lmap.flyTo([pt.lat, pt.lon], ZOOM_LEVELS[btn.dataset.zoom], { duration: 0.8 });
+    function scrubTo(t) {
+      cancelLeg();
+      const idx  = timeToIdx(t);
+      currentIdx = idx;
+      const next = idx + 1;
+      if (next < N) {
+        const t0 = sorted[idx].time.getTime(), t1 = sorted[next].time.getTime();
+        const frac = t1 > t0 ? Math.max(0, Math.min(1, (t - t0) / (t1 - t0))) : 0;
+        activeLeg = frac > 0 ? { k: next, frac } : null;
+      } else {
+        activeLeg = null;
+      }
+      applyState();
+      updateCard(idx);
+      updateInfo(idx, t);
+      updatePlayhead(t);
+      moveCamera(idx, 0);
+    }
+
+    function cancelLeg() {
+      if (legAnimId) { cancelAnimationFrame(legAnimId); legAnimId = null; }
+      if (playTimer) { clearTimeout(playTimer); playTimer = null; }
+    }
+
+    function flyLeg(k) {
+      const dur = legDuration(k) / playSpeed;
+      const t0  = sorted[k - 1].time.getTime();
+      const t1  = sorted[k].time.getTime();
+      const start = performance.now();
+      activeLeg = { k, frac: 0 };
+      if (map.getLayer('pj-active')) setActiveGradient(k);
+      moveCamera(k, dur);
+
+      function frame(now) {
+        const raw  = Math.min(1, (now - start) / dur);
+        const frac = d3.easeCubicInOut(raw);
+        activeLeg.frac = frac;
+        if (map.getLayer('pj-active')) drawActive(k, frac);
+        updatePlayhead(t0 + raw * (t1 - t0));
+        if (raw < 1) {
+          legAnimId = requestAnimationFrame(frame);
+          return;
         }
-      };
-    });
+        legAnimId = null;
+        settleAt(k);
+        updateInfo(k);
+        if (playing) playTimer = setTimeout(advance, PAUSE_AFTER / playSpeed);
+      }
+      legAnimId = requestAnimationFrame(frame);
+    }
 
-    // ── Play / Pause ──
     function advance() {
-      if (currentIdx >= sorted.length - 1) { stopPlay(); return; }
-      goTo(currentIdx + 1, true);
+      if (currentIdx >= N - 1) { stopPlay(); return; }
+      flyLeg(currentIdx + 1);
     }
 
     function startPlay() {
+      if (currentIdx >= N - 1) {
+        settleAt(0);
+        updateInfo(0);
+        updatePlayhead(firstTime);
+      }
       playing = true;
       playBtn.textContent = '⏸ Pause';
       playBtn.classList.add('active');
@@ -463,13 +661,29 @@
       playing = false;
       playBtn.textContent = '▶ Play';
       playBtn.classList.remove('active');
-      if (playTimer)  { clearTimeout(playTimer); playTimer = null; }
-      if (lineAnimId) { cancelAnimationFrame(lineAnimId); lineAnimId = null; }
-      setRouteTo(currentIdx, undefined);
-      updateMarkers(currentIdx);
+      // Finish the in-flight leg instantly so the map rests on a store
+      if (legAnimId && activeLeg) {
+        const k = activeLeg.k;
+        cancelLeg();
+        settleAt(k);
+        updateInfo(k);
+        updatePlayhead(sorted[k].time.getTime());
+      } else {
+        cancelLeg();
+      }
     }
 
     playBtn.onclick = () => { if (playing) stopPlay(); else startPlay(); };
+
+    // Use onclick to avoid duplicate listeners across re-renders
+    document.querySelectorAll('#map-zoom-btns .mode-btn').forEach(btn => {
+      btn.onclick = () => {
+        document.querySelectorAll('#map-zoom-btns .mode-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        if (btn.dataset.zoom === 'world') fitWorld(1000);
+        else moveCamera(currentIdx, 1000);
+      };
+    });
 
     document.querySelectorAll('#map-speed-btns .mode-btn').forEach(btn => {
       btn.onclick = () => {
@@ -479,18 +693,10 @@
       };
     });
 
-    goTo(0, false);
-    fitWorld(false);
-
-    mapSizeObserver = new IntersectionObserver(entries => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          lmap.invalidateSize();
-          if (getZoomKey() === 'world') fitWorld(false);
-        }
-      });
-    }, { threshold: 0.1 });
-    mapSizeObserver.observe(document.getElementById('map'));
+    // Start on the full history, zoomed out to every pickup; Play restarts from the first
+    settleAt(N - 1);
+    updateInfo(N - 1);
+    updatePlayhead(lastTime);
   }
 
   window.tgtgDataPromise.then(init).catch(err => console.error('Map viz error:', err));

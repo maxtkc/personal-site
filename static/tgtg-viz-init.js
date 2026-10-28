@@ -57,6 +57,7 @@ window.tgtgDataPromise = (async () => {
       lon:  f.geometry.coordinates[0],
       lat:  f.geometry.coordinates[1],
       name: f.properties.name,
+      logo: f.properties.logo || null,
       time: new Date(f.properties.time),
     }))
     .sort((a, b) => a.time - b.time);

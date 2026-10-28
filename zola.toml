@@ -123,8 +123,9 @@ show_backlinks = true
 # it can break some stuff, in which case you will need to set custom policy.
 csp = [
 	{ directive = "font-src", domains = ["'self'"] },
-	{ directive = "img-src", domains = ["'self'", "https:", "data:"] },
+	{ directive = "img-src", domains = ["'self'", "https:", "data:", "blob:"] },
 	{ directive = "media-src", domains = ["'self'", "https:"] },
+	{ directive = "worker-src", domains = ["'self'", "blob:"] },
 	{ directive = "script-src", domains = ["'self'", "https:", "'unsafe-inline'"] },
 	{ directive = "style-src", domains = ["'self'", "'unsafe-inline'", "https:"] },
 	{ directive = "frame-src", domains = ["https://player.vimeo.com", "https://www.youtube-nocookie.com", "https://toot.community"] },

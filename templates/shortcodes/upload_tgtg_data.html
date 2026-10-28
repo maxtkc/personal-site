@@ -77,6 +77,7 @@
         lon:  f.geometry.coordinates[0],
         lat:  f.geometry.coordinates[1],
         name: f.properties.name || 'Unknown',
+        logo: f.properties.logo || null,
         time: new Date(f.properties.time),
       }))
       .filter(p => !isNaN(p.time));

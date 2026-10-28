@@ -12,17 +12,21 @@
 
 <div id="tooltip"></div>
 
-{% include "partials/leaflet_deps.html" %}
-
 <script>
-// Inject tgtg-viz stylesheet into <head> to avoid body placement issues.
+// Inject stylesheets into <head> to avoid body placement issues.
 (function () {
-  if (document.getElementById('tgtg-viz-css')) return;
-  var link = document.createElement('link');
-  link.rel = 'stylesheet'; link.href = '/tgtg-viz.css'; link.id = 'tgtg-viz-css';
-  document.head.appendChild(link);
+  function injectLink(href, id) {
+    if (document.getElementById(id)) return;
+    var link = document.createElement('link');
+    link.rel = 'stylesheet'; link.href = href; link.id = id;
+    document.head.appendChild(link);
+  }
+  injectLink('https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css', 'maplibre-css');
+  injectLink('/tgtg-viz.css', 'tgtg-viz-css');
 })();
 </script>
+
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js" crossorigin=""></script>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>

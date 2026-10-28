@@ -83,7 +83,7 @@
 }
 
 /* ── MAP VIZ BOX ── */
-#map-leaflet {
+#map-gl {
   height: 540px;
   width: 100%;
   background: #0a111c;
@@ -158,42 +158,59 @@
 .mode-btn:hover { border-color: var(--accent-color, #22c55e); color: var(--accent-color, #22c55e); }
 .mode-btn.active { background: var(--accent-color, #22c55e); border-color: var(--accent-color, #22c55e); color: var(--contrast-color, #000); }
 
-/* ── LEAFLET DARK THEME OVERRIDES ── */
-.leaflet-container { background: #0a111c !important; font-family: inherit; }
-.leaflet-popup-content-wrapper {
-  background: var(--glass-bg, rgba(10,15,20,0.96)) !important;
-  border: 1px solid var(--accent-color, #22c55e) !important;
-  border-radius: 10px !important;
-  color: var(--fg-color, #e2e8f0) !important;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.6) !important;
+/* ── MAPLIBRE CONTROL OVERRIDES ── */
+#map-gl .maplibregl-ctrl-group {
+  background: var(--glass-bg, rgba(10,15,20,0.88));
+  border: 1px solid var(--fg-muted-2, #1a2a1a);
+  box-shadow: none;
 }
-.leaflet-popup-tip { background: var(--glass-bg, rgba(10,15,20,0.96)) !important; }
-.leaflet-popup-content { font-size: 0.83rem !important; line-height: 1.5 !important; margin: 0.7rem 1rem !important; }
-.leaflet-popup-content strong { color: var(--accent-color, #86efac); }
-.leaflet-popup-close-button { color: var(--fg-muted-4, #4b6070) !important; }
-.leaflet-control-zoom a {
-  background: var(--glass-bg, rgba(10,15,20,0.88)) !important;
-  color: var(--fg-muted-4, #4b6070) !important;
-  border-color: var(--fg-muted-2, #1a2a1a) !important;
+#map-gl .maplibregl-ctrl-group button + button { border-top-color: var(--fg-muted-2, #1a2a1a); }
+#map-gl .maplibregl-ctrl-attrib {
+  background: var(--glass-bg, rgba(8,12,16,0.7));
+  color: var(--fg-muted-4, #4b6070);
+  font-size: 0.7rem;
 }
-.leaflet-control-zoom a:hover { color: var(--accent-color, #22c55e) !important; }
-.leaflet-bar { border-color: var(--fg-muted-2, #1a2a1a) !important; }
-.leaflet-control-attribution {
-  background: var(--glass-bg, rgba(8,12,16,0.7)) !important;
-  color: var(--fg-muted-4, #4b6070) !important;
-}
-.leaflet-control-attribution a { color: var(--accent-color, #22c55e) !important; }
+#map-gl .maplibregl-ctrl-attrib a { color: var(--accent-color, #22c55e); }
 
-/* ── MAP INFO OVERLAY (Leaflet custom control) ── */
-.map-info-ctrl {
+/* ── CURRENT STORE PIN (MapLibre HTML marker) ── */
+.map-store-pin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: none;
+}
+.map-store-card {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  max-width: 240px;
+  padding: 0.35rem 0.7rem 0.35rem 0.35rem;
+  margin-bottom: 6px;
   background: var(--glass-bg, rgba(8,12,16,0.88));
   border: 1px solid var(--fg-muted-2, #1a2a1a);
-  border-radius: 10px;
-  padding: 0.6rem 0.9rem;
+  border-radius: 999px;
   backdrop-filter: blur(8px);
-  pointer-events: none;
-  min-width: 180px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.25);
 }
-.map-info-store { color: var(--fg-color, #e2e8f0); font-size: 0.85rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 240px; }
-.map-info-date  { color: var(--fg-muted-4, #4b6070); font-size: 0.74rem; margin-top: 0.15rem; }
-.map-info-count { color: var(--accent-color, #22c55e); font-size: 0.74rem; }
+.map-store-card img.map-store-logo {
+  width: 30px !important;
+  height: 30px !important;
+  flex-shrink: 0;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  object-fit: cover;
+  box-shadow: none !important;
+  transition: none !important;
+  background: #fff !important;
+}
+.map-store-swatch { width: 14px; height: 14px; margin: 0 0.25rem; border-radius: 50%; flex-shrink: 0; }
+.map-store-text { min-width: 0; line-height: 1.2; }
+.map-store-name { color: var(--fg-color, #e2e8f0); font-size: 0.8rem; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.map-store-date { color: var(--fg-muted-4, #4b6070); font-size: 0.7rem; }
+.map-store-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2.5px solid #fff;
+  box-shadow: 0 0 0 4px rgba(255,255,255,0.18), 0 1px 4px rgba(0,0,0,0.4);
+}
